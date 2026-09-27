@@ -1,0 +1,38 @@
+{
+  "_comment": "由 tools/zh/zh.py text-extract 生成；zh 为空表示未翻译（回退原文）。控制码沿用 <LINE>/<DONE>/<PLAYER> 等写法，{{n}} 为不可翻译的占位命令，必须原样保留。",
+  "source": "engine\\menus\\menu_2.asm",
+  "blocks": {
+    "PlaceBlueCardPointsTopRight.PointsString#0": {
+      "en": " Pts@",
+      "zh": "点数@"
+    },
+    "PlaceBattlePointsTopRight.BPString#0": {
+      "en": " BP@",
+      "zh": ""
+    },
+    "MoneyString#0": {
+      "en": "Money@",
+      "zh": "金钱@"
+    },
+    "CoinString#0": {
+      "en": "Coin@",
+      "zh": "代币@"
+    },
+    "StartMenu_PrintBugContestStatus.Caught#0": {
+      "en": "Caught@",
+      "zh": "已捕获@"
+    },
+    "StartMenu_PrintBugContestStatus.Balls#0": {
+      "en": "Balls:@",
+      "zh": "球：@"
+    },
+    "StartMenu_PrintBugContestStatus.None#0": {
+      "en": "None@",
+      "zh": "无@"
+    },
+    "StartMenu_PrintBugContestStatus.Level#0": {
+      "en": "Level@",
+      "zh": "等级@"
+    }
+  }
+}

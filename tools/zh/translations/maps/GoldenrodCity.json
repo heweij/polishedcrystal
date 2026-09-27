@@ -1,0 +1,166 @@
+{
+  "_comment": "由 tools/zh/zh.py text-extract 生成；zh 为空表示未翻译（回退原文）。控制码沿用 <LINE>/<DONE>/<PLAYER> 等写法，{{n}} 为不可翻译的占位命令，必须原样保留。",
+  "source": "maps\\GoldenrodCity.asm",
+  "blocks": {
+    "MoveTutor.MenuData2#0": {
+      "en": "Fire Punch@",
+      "zh": "火焰拳@"
+    },
+    "MoveTutor.MenuData2#1": {
+      "en": "ThunderPunch@",
+      "zh": "雷电拳@"
+    },
+    "MoveTutor.MenuData2#2": {
+      "en": "Ice Punch@",
+      "zh": "冰冻拳@"
+    },
+    "MoveTutor.MenuData2#3": {
+      "en": "Cancel@",
+      "zh": "取消@"
+    },
+    "GoldenrodCityPokefanMText": {
+      "en": "They built the new<LINE>Radio Tower to<PARA>replace the old,<LINE>creaky one.<PARA>Now it transmits<LINE>every #gear<PARA>broadcast in<LINE>Johto.<DONE>",
+      "zh": "新的广播塔<LINE>取代了<PARA>老旧的那座。<PARA>现在城都<LINE>的宝可梦装置<PARA>广播<LINE>都由它发出。<DONE>"
+    },
+    "GoldenrodCityYoungster1Text": {
+      "en": "I know there's a<LINE>new bike shop, but<PARA>I can't find it<LINE>anywhere.<DONE>",
+      "zh": "我知道<LINE>新开了自行车店，<PARA>可怎么<LINE>都找不到。<DONE>"
+    },
+    "GoldenrodCityCooltrainerF1Text_ClearedRadioTower": {
+      "en": "Was that man in<LINE>black really part<PARA>of Team Rocket? I<LINE>can't believe it!<DONE>",
+      "zh": "那个穿黑衣的<LINE>人真的是<PARA>火箭队的？<PARA>真不敢相信！<DONE>"
+    },
+    "GoldenrodCityCooltrainerF2Text": {
+      "en": "The Radio Tower in<LINE>Goldenrod City is<CONT>a landmark.<PARA>They're running a<LINE>promotional cam-<CONT>paign right now.<PARA>They'll modify<LINE>your #gear,<PARA>so it can also<LINE>serve as a radio.<DONE>",
+      "zh": "满金市的<LINE>广播塔<CONT>是地标。<PARA>现在正在<LINE>办宣传活动。<PARA>他们会改造<LINE>你的宝可梦装置，<PARA>让它也能<LINE>当收音机用。<DONE>"
+    },
+    "GoldenrodCityCooltrainerFOlivineText": {
+      "en": "I came here on<LINE>the S.S.Aqua.<PARA>It's slower than<LINE>the Magnet Train,<CONT>but more scenic.<DONE>",
+      "zh": "我坐<LINE>S.S.阿克亚号<CONT>来的。<PARA>比磁浮列车慢，<PARA>但沿途<LINE>风景更好。<DONE>"
+    },
+    "GoldenrodCityYoungster2Text": {
+      "en": "E-he-he-he…<PARA>I got in trouble<LINE>for playing in the<PARA>basement of the<LINE>Dept.Store.<DONE>",
+      "zh": "嘿嘿嘿……<PARA>我因为在<LINE>百货公司<CONT>的地下室<CONT>玩耍<PARA>被骂了。<DONE>"
+    },
+    "GoldenrodCityLassText": {
+      "en": "The man at that<LINE>house rates your<CONT>#mon names.<PARA>He can help rename<LINE>your #mon too.<PARA>He liked all of<LINE>my nicknames, even<CONT>the silly ones!<DONE>",
+      "zh": "那栋房子里的<LINE>大叔会<CONT>给你的宝可梦<CONT>名字打分。<PARA>他也能帮忙<LINE>改名。<PARA>我起的昵称<LINE>他都很喜欢，<PARA>连傻乎乎的<LINE>也不例外！<DONE>"
+    },
+    "GoldenrodCityGrampsText": {
+      "en": "Whew! This is one<LINE>big town. I don't<PARA>know where any-<LINE>thing is.<DONE>",
+      "zh": "呼！这城镇<LINE>真大。<PARA>我完全<LINE>摸不着方向。<DONE>"
+    },
+    "GoldenrodCityRocketScoutText1": {
+      "en": "So this is the<LINE>Radio Tower…<DONE>",
+      "zh": "原来这就是<LINE>广播塔……<DONE>"
+    },
+    "GoldenrodCityRocketScoutText2": {
+      "en": "What do you want,<LINE>you pest? Scram!<DONE>",
+      "zh": "你想干什么，<LINE>讨厌鬼？滚开！<DONE>"
+    },
+    "GoldenrodCityRocket1Text": {
+      "en": "Stay out of the<LINE>way! Beat it!<DONE>",
+      "zh": "别挡路！<LINE>滚开！<DONE>"
+    },
+    "GoldenrodCityRocket2Text": {
+      "en": "Take over the<LINE>Radio Tower…<PARA>What? It's none of<LINE>your business!<DONE>",
+      "zh": "占领<LINE>广播塔……<PARA>什么？<LINE>不关你的事！<DONE>"
+    },
+    "GoldenrodCityRocket3Text": {
+      "en": "#mon? They're<LINE>nothing more than<PARA>tools for making<LINE>money!<DONE>",
+      "zh": "宝可梦？<LINE>不过是<PARA>赚钱的工具！<DONE>"
+    },
+    "GoldenrodCityRocket4Text": {
+      "en": "Our dream will<LINE>soon come true…<PARA>It was such a long<LINE>struggle…<DONE>",
+      "zh": "我们的梦想<LINE>就要实现了……<PARA>这一路<LINE>真漫长……<DONE>"
+    },
+    "GoldenrodCityRocket5Text": {
+      "en": "Hey, brat! You<LINE>don't belong here!<CONT>Get lost!<DONE>",
+      "zh": "喂，小鬼！<LINE>这里不是你<CONT>该来的地方！<PARA>滚开！<DONE>"
+    },
+    "GoldenrodCityRocket6Text": {
+      "en": "Come taste the<LINE>true terror of<CONT>Team Rocket!<DONE>",
+      "zh": "来尝尝<LINE>火箭队的<CONT>真正恐怖！<DONE>"
+    },
+    "GoldenrodCityGymLassText": {
+      "en": "Whitney isn't here<LINE>right now.<PARA>She bolted out of<LINE>here and shouted,<PARA>“I have got to get<LINE>a Radio Card!”<DONE>",
+      "zh": "小茜现在<LINE>不在。<PARA>她冲出去时<LINE>还喊着：『我<PARA>一定要拿到<CONT>广播卡！』<DONE>"
+    },
+    "GoldenrodCityStationSignText": {
+      "en": "Goldenrod City<LINE>Station<DONE>",
+      "zh": "满金市<LINE>车站<DONE>"
+    },
+    "GoldenrodCityRadioTowerSignText": {
+      "en": "Goldenrod City<LINE>Radio Tower<DONE>",
+      "zh": "满金市<LINE>广播塔<DONE>"
+    },
+    "GoldenrodDeptStoreSignText": {
+      "en": "Full Selection of<LINE>#mon Goods!<PARA>Goldenrod City<LINE>Dept.Store<DONE>",
+      "zh": "宝可梦商品<LINE>一应俱全！<PARA>满金市<LINE>百货公司<DONE>"
+    },
+    "GoldenrodGymSignText": {
+      "en": "Goldenrod City<LINE>#mon Gym<CONT>Leader: Whitney<PARA>The Incredibly<LINE>Pretty Girl!<DONE>",
+      "zh": "满金市<LINE>宝可梦道馆<CONT>馆主：小茜<PARA>超级<LINE>可爱美少女！<DONE>"
+    },
+    "GoldenrodCitySignText": {
+      "en": "Goldenrod City<PARA>The Festive City<LINE>of Opulent Charm<DONE>",
+      "zh": "满金市<PARA>华丽迷人的<LINE>欢乐之城<DONE>"
+    },
+    "GoldenrodCityBikeShopSignText": {
+      "en": "The World is a<LINE>Cycle Path!<PARA>Miracle Cycle<DONE>",
+      "zh": "世界就是<LINE>自行车道！<PARA>神奇自行车<DONE>"
+    },
+    "GoldenrodCityGameCornerSignText": {
+      "en": "Your Playground!<PARA>Goldenrod City<LINE>Game Corner<DONE>",
+      "zh": "你的游乐场！<PARA>满金市<LINE>游戏城<DONE>"
+    },
+    "GoldenrodCityNameRaterSignText": {
+      "en": "Name Rater<PARA>Get Your #mon<LINE>Nicknames Rated<DONE>",
+      "zh": "姓名鉴定师<PARA>为你的宝可梦<LINE>昵称打分<DONE>"
+    },
+    "GoldenrodCityUndergroundSignText": {
+      "en": "Underground<LINE>Entrance<DONE>",
+      "zh": "地下通道<LINE>入口<DONE>"
+    },
+    "PokeComCenterSignText": {
+      "en": "Connect the World!<LINE>#Com Center<DONE>",
+      "zh": "连接世界！<LINE>宝可通讯中心<DONE>"
+    },
+    "GoldenrodCityFlowerShopSignText": {
+      "en": "Blooming Beautiful<LINE>Flower Shop<DONE>",
+      "zh": "鲜花盛开<LINE>的花店<DONE>"
+    },
+    "GoldenrodMuseumSignText": {
+      "en": "Goldenrod Museum<LINE>Grand Opening!<PARA>Explore the<LINE>history of Johto!<DONE>",
+      "zh": "满金博物馆<LINE>盛大开幕！<PARA>来探索<LINE>城都的历史！<DONE>"
+    },
+    "GoldenrodCityMoveTutorAskTeachAMoveText": {
+      "en": "I can teach your<LINE>#mon amazing<PARA>moves if you'd<LINE>like.<PARA>Should I teach a<LINE>new move?<DONE>",
+      "zh": "我可以让你的<LINE>宝可梦学会<PARA>惊人的招式。<PARA>要我教<LINE>新招式吗？<DONE>"
+    },
+    "GoldenrodCityMoveTutorAsk4000CoinsOkayText": {
+      "en": "It will cost you<LINE>200 coins. OK?<DONE>",
+      "zh": "要收<LINE>200枚游戏币。<PARA>可以吗？<DONE>"
+    },
+    "GoldenrodCityMoveTutorAwwButTheyreAmazingText": {
+      "en": "Aww… But they're<LINE>amazing…<DONE>",
+      "zh": "啊……<LINE>可那些<CONT>很厉害啊……<DONE>"
+    },
+    "GoldenrodCityMoveTutorWhichMoveShouldITeachText": {
+      "en": "Wahahah! You won't<LINE>regret it!<PARA>Which move should<LINE>I teach?<DONE>",
+      "zh": "哇哈哈！<LINE>你不会后悔的！<PARA>要我教<LINE>哪个招式？<DONE>"
+    },
+    "GoldenrodCityMoveTutorHmTooBadText": {
+      "en": "Hm, too bad. I'll<LINE>have to get some<CONT>cash from home…<DONE>",
+      "zh": "嗯，真遗憾。<LINE>我得<CONT>回家拿点钱……<DONE>"
+    },
+    "GoldenrodCityMoveTutorIfYouUnderstandYouveMadeItText": {
+      "en": "If you understand<LINE>what's so amazing<PARA>about this move,<LINE>you've made it as<CONT>a trainer.<DONE>",
+      "zh": "如果你能明白<LINE>这招的厉害之处，<PARA>那你作为<LINE>训练家<CONT>就出师了。<DONE>"
+    },
+    "GoldenrodCityMoveTutorBButText": {
+      "en": "B-but…<DONE>",
+      "zh": "可、可是……<DONE>"
+    }
+  }
+}

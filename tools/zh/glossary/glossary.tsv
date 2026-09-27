@@ -1,0 +1,429 @@
+category	english	chinese
+type	Normal	一般
+type	Fighting	格斗
+type	Flying	飞行
+type	Poison	毒
+type	Ground	地面
+type	Rock	岩石
+type	Bug	虫
+type	Ghost	幽灵
+type	Steel	钢
+type	Fire	火
+type	Water	水
+type	Grass	草
+type	Electric	电
+type	Psychic	超能力
+type	Ice	冰
+type	Dragon	龙
+type	Dark	恶
+pokemon	Bulbasaur	妙蛙种子
+pokemon	Ivysaur	妙蛙草
+pokemon	Venusaur	妙蛙花
+pokemon	Charmander	小火龙
+pokemon	Charmeleon	火恐龙
+pokemon	Charizard	喷火龙
+pokemon	Squirtle	杰尼龟
+pokemon	Wartortle	卡咪龟
+pokemon	Blastoise	水箭龟
+pokemon	Caterpie	绿毛虫
+pokemon	Metapod	铁甲蛹
+pokemon	Butterfree	巴大蝶
+pokemon	Weedle	独角虫
+pokemon	Kakuna	铁壳蛹
+pokemon	Beedrill	大针蜂
+pokemon	Pidgey	波波
+pokemon	Pidgeotto	比比鸟
+pokemon	Pidgeot	大比鸟
+pokemon	Rattata	小拉达
+pokemon	Raticate	拉达
+pokemon	Spearow	烈雀
+pokemon	Fearow	大嘴雀
+pokemon	Ekans	阿柏蛇
+pokemon	Arbok	阿柏怪
+pokemon	Pikachu	皮卡丘
+pokemon	Raichu	雷丘
+pokemon	Sandshrew	穿山鼠
+pokemon	Sandslash	穿山王
+pokemon	Nidoran♀	尼多兰
+pokemon	Nidorina	尼多娜
+pokemon	Nidoqueen	尼多后
+pokemon	Nidoran♂	尼多朗
+pokemon	Nidorino	尼多力诺
+pokemon	Nidoking	尼多王
+pokemon	Clefairy	皮皮
+pokemon	Clefable	皮可西
+pokemon	Vulpix	六尾
+pokemon	Ninetales	九尾
+pokemon	Jigglypuff	胖丁
+pokemon	Wigglytuff	胖可丁
+pokemon	Zubat	超音蝠
+pokemon	Golbat	大嘴蝠
+pokemon	Oddish	走路草
+pokemon	Gloom	臭臭花
+pokemon	Vileplume	霸王花
+pokemon	Paras	派拉斯
+pokemon	Parasect	派拉斯特
+pokemon	Venonat	毛球
+pokemon	Venomoth	摩鲁蛾
+pokemon	Diglett	地鼠
+pokemon	Dugtrio	三地鼠
+pokemon	Meowth	喵喵
+pokemon	Persian	猫老大
+pokemon	Psyduck	可达鸭
+pokemon	Golduck	哥达鸭
+pokemon	Mankey	猴怪
+pokemon	Primeape	火暴猴
+pokemon	Growlithe	卡蒂狗
+pokemon	Arcanine	风速狗
+pokemon	Poliwag	蚊香蝌蚪
+pokemon	Poliwhirl	蚊香君
+pokemon	Poliwrath	蚊香泳士
+pokemon	Abra	凯西
+pokemon	Kadabra	勇基拉
+pokemon	Alakazam	胡地
+pokemon	Machop	腕力
+pokemon	Machoke	豪力
+pokemon	Machamp	怪力
+pokemon	Bellsprout	喇叭芽
+pokemon	Weepinbell	口呆花
+pokemon	Victreebel	大食花
+pokemon	Tentacool	玛瑙水母
+pokemon	Tentacruel	毒刺水母
+pokemon	Geodude	小拳石
+pokemon	Graveler	隆隆石
+pokemon	Golem	隆隆岩
+pokemon	Ponyta	小火马
+pokemon	Rapidash	烈焰马
+pokemon	Slowpoke	呆呆兽
+pokemon	Slowbro	呆壳兽
+pokemon	Magnemite	小磁怪
+pokemon	Magneton	三合一磁怪
+pokemon	Farfetch'd	大葱鸭
+pokemon	Doduo	嘟嘟
+pokemon	Dodrio	嘟嘟利
+pokemon	Seel	小海狮
+pokemon	Dewgong	白海狮
+pokemon	Grimer	臭泥
+pokemon	Muk	臭臭泥
+pokemon	Shellder	大舌贝
+pokemon	Cloyster	刺甲贝
+pokemon	Gastly	鬼斯
+pokemon	Haunter	鬼斯通
+pokemon	Gengar	耿鬼
+pokemon	Onix	大岩蛇
+pokemon	Drowzee	催眠貘
+pokemon	Hypno	引梦貘人
+pokemon	Krabby	大钳蟹
+pokemon	Kingler	巨钳蟹
+pokemon	Voltorb	霹雳电球
+pokemon	Electrode	顽皮雷弹
+pokemon	Exeggcute	蛋蛋
+pokemon	Exeggutor	椰蛋树
+pokemon	Cubone	卡拉卡拉
+pokemon	Marowak	嘎啦嘎啦
+pokemon	Hitmonlee	飞腿郎
+pokemon	Hitmonchan	快拳郎
+pokemon	Lickitung	大舌头
+pokemon	Koffing	瓦斯弹
+pokemon	Weezing	双弹瓦斯
+pokemon	Rhyhorn	独角犀牛
+pokemon	Rhydon	钻角犀兽
+pokemon	Chansey	吉利蛋
+pokemon	Tangela	蔓藤怪
+pokemon	Kangaskhan	袋兽
+pokemon	Horsea	墨海马
+pokemon	Seadra	海刺龙
+pokemon	Goldeen	角金鱼
+pokemon	Seaking	金鱼王
+pokemon	Staryu	海星星
+pokemon	Starmie	宝石海星
+pokemon	Mr. Mime	魔墙人偶
+pokemon	Scyther	飞天螳螂
+pokemon	Jynx	迷唇姐
+pokemon	Electabuzz	电击兽
+pokemon	Magmar	鸭嘴火兽
+pokemon	Pinsir	凯罗斯
+pokemon	Tauros	肯泰罗
+pokemon	Magikarp	鲤鱼王
+pokemon	Gyarados	暴鲤龙
+pokemon	Lapras	拉普拉斯
+pokemon	Ditto	百变怪
+pokemon	Eevee	伊布
+pokemon	Vaporeon	水伊布
+pokemon	Jolteon	雷伊布
+pokemon	Flareon	火伊布
+pokemon	Porygon	多边兽
+pokemon	Omanyte	菊石兽
+pokemon	Omastar	多刺菊石兽
+pokemon	Kabuto	化石盔
+pokemon	Kabutops	镰刀盔
+pokemon	Aerodactyl	化石翼龙
+pokemon	Snorlax	卡比兽
+pokemon	Articuno	急冻鸟
+pokemon	Zapdos	闪电鸟
+pokemon	Moltres	火焰鸟
+pokemon	Dratini	迷你龙
+pokemon	Dragonair	哈克龙
+pokemon	Dragonite	快龙
+pokemon	Mewtwo	超梦
+pokemon	Mew	梦幻
+pokemon	Chikorita	菊草叶
+pokemon	Bayleef	月桂叶
+pokemon	Meganium	大竺葵
+pokemon	Cyndaquil	火球鼠
+pokemon	Quilava	火岩鼠
+pokemon	Typhlosion	火暴兽
+pokemon	Totodile	小锯鳄
+pokemon	Croconaw	蓝鳄
+pokemon	Feraligatr	大力鳄
+pokemon	Sentret	尾立
+pokemon	Furret	大尾立
+pokemon	Hoothoot	咕咕
+pokemon	Noctowl	猫头夜鹰
+pokemon	Ledyba	芭瓢虫
+pokemon	Ledian	安瓢虫
+pokemon	Spinarak	圆丝蛛
+pokemon	Ariados	阿利多斯
+pokemon	Crobat	叉字蝠
+pokemon	Chinchou	灯笼鱼
+pokemon	Lanturn	电灯怪
+pokemon	Pichu	皮丘
+pokemon	Cleffa	皮宝宝
+pokemon	Igglybuff	宝宝丁
+pokemon	Togepi	波克比
+pokemon	Togetic	波克基古
+pokemon	Natu	天然雀
+pokemon	Xatu	天然鸟
+pokemon	Mareep	咩利羊
+pokemon	Flaaffy	茸茸羊
+pokemon	Ampharos	电龙
+pokemon	Bellossom	美丽花
+pokemon	Marill	玛力露
+pokemon	Azumarill	玛力露丽
+pokemon	Sudowoodo	树才怪
+pokemon	Politoed	蚊香蛙皇
+pokemon	Hoppip	毽子草
+pokemon	Skiploom	毽子花
+pokemon	Jumpluff	毽子棉
+pokemon	Aipom	长尾怪手
+pokemon	Sunkern	向日种子
+pokemon	Sunflora	向日花怪
+pokemon	Yanma	蜻蜻蜓
+pokemon	Wooper	乌波
+pokemon	Quagsire	沼跃鱼
+pokemon	Espeon	太阳伊布
+pokemon	Umbreon	月亮伊布
+pokemon	Murkrow	黑暗鸦
+pokemon	Slowking	呆呆王
+pokemon	Misdreavus	梦妖
+pokemon	Unown	未知图腾
+pokemon	Wobbuffet	果然翁
+pokemon	Girafarig	麒麟奇
+pokemon	Pineco	榛果球
+pokemon	Forretress	佛烈托斯
+pokemon	Dunsparce	土龙弟弟
+pokemon	Gligar	天蝎
+pokemon	Steelix	大钢蛇
+pokemon	Snubbull	布鲁
+pokemon	Granbull	布鲁皇
+pokemon	Qwilfish	千针鱼
+pokemon	Scizor	巨钳螳螂
+pokemon	Shuckle	壶壶
+pokemon	Heracross	赫拉克罗斯
+pokemon	Sneasel	狃拉
+pokemon	Teddiursa	熊宝宝
+pokemon	Ursaring	圈圈熊
+pokemon	Slugma	熔岩虫
+pokemon	Magcargo	熔岩蜗牛
+pokemon	Swinub	小山猪
+pokemon	Piloswine	长毛猪
+pokemon	Corsola	太阳珊瑚
+pokemon	Remoraid	铁炮鱼
+pokemon	Octillery	章鱼桶
+pokemon	Delibird	信使鸟
+pokemon	Mantine	巨翅飞鱼
+pokemon	Skarmory	盔甲鸟
+pokemon	Houndour	戴鲁比
+pokemon	Houndoom	黑鲁加
+pokemon	Kingdra	刺龙王
+pokemon	Phanpy	小小象
+pokemon	Donphan	顿甲
+pokemon	Porygon2	多边兽2型
+pokemon	Stantler	惊角鹿
+pokemon	Smeargle	图图犬
+pokemon	Tyrogue	无畏小子
+pokemon	Hitmontop	战舞郎
+pokemon	Smoochum	迷唇娃
+pokemon	Elekid	电击怪
+pokemon	Magby	鸭嘴宝宝
+pokemon	Miltank	大奶罐
+pokemon	Blissey	幸福蛋
+pokemon	Raikou	雷公
+pokemon	Entei	炎帝
+pokemon	Suicune	水君
+pokemon	Larvitar	幼基拉斯
+pokemon	Pupitar	沙基拉斯
+pokemon	Tyranitar	班基拉斯
+pokemon	Lugia	洛奇亚
+pokemon	Ho-Oh	凤王
+pokemon	Celebi	时拉比
+item	Poké Ball	精灵球
+item	Great Ball	超级球
+item	Ultra Ball	高级球
+item	Master Ball	大师球
+item	Potion	伤药
+item	Super Potion	好伤药
+item	Hyper Potion	厉害伤药
+item	Max Potion	全满药
+item	Antidote	解毒药
+item	Burn Heal	灼伤药
+item	Ice Heal	解冻药
+item	Awakening	解眠药
+item	Parlyz Heal	麻痹药
+item	Full Heal	万灵药
+item	Revive	活力碎片
+item	Max Revive	活力块
+item	Repel	除虫喷雾
+item	Super Repel	白银喷雾
+item	Max Repel	黄金喷雾
+item	Escape Rope	离洞绳
+item	Rare Candy	神奇糖果
+item	Bicycle	自行车
+item	Old Rod	旧钓竿
+item	Good Rod	好钓竿
+item	Super Rod	厉害钓竿
+item	Exp. Share	学习装置
+item	Bicycle	自行车
+item	BERRY	果实
+item	Bitter Berry	苦味果实
+item	PRZCureBerry	麻痹果实
+item	PSNCureBerry	解毒果实
+item	Ice Berry	冰冻果实
+item	Berry Juice	果实汁
+item	Mint Berry	薄荷果实
+item	Gold Berry	黄金果实
+item	HM01	秘传学习器01
+item	HM02	秘传学习器02
+item	HM03	秘传学习器03
+item	TM01	招式学习器01
+misc	Pokédex	宝可梦图鉴
+misc	Pokémon	宝可梦
+misc	Trainer	训练家
+misc	Gym	道馆
+misc	Gym Leader	道馆馆主
+misc	Elite Four	四天王
+misc	Champion	冠军
+misc	Badge	徽章
+misc	Level	等级
+misc	HP	HP
+misc	PP	PP
+misc	PC	PC
+misc	Continue	继续
+misc	New Game	新游戏
+misc	Options	设置
+misc	Music Player	音乐播放器
+misc	Save	存档
+misc	save the game	保存游戏
+misc	save file	存档文件
+misc	overwrite	覆盖
+misc	corrupted	损坏
+misc	Warning!	注意！
+misc	Throw away	丢弃
+misc	Threw away	丢掉了
+misc	How many?	几个？
+misc	Where should this be moved to?	要移动到哪里？
+misc	Register	登录
+misc	Registered	已登录
+misc	Unregistered	已取消登录
+misc	Item	道具
+misc	Item storage	道具存放
+misc	Item storage space full	道具存放空间已满
+misc	Bag	背包
+misc	hold (an item)	携带
+misc	Switch items?	要交换道具吗？
+misc	isn't holding anything	没有携带任何道具
+misc	Mail	邮件
+misc	can't be held	无法携带
+misc	forget (a move)	忘记
+misc	HM move	秘传招式
+misc	This isn't the time to use that!	现在不是用这个的时候！
+misc	Trainer Card	训练家卡片
+misc	photo	照片
+misc	Prof.	博士
+misc	mystery	谜团
+misc	story	故事
+misc	Let's go!	我们出发吧！
+misc	Sorry to keep you waiting	让你久等了
+misc	Welcome to the world of Pokémon!	欢迎来到宝可梦的世界！
+misc	Yes	是
+misc	No	否
+misc	Reed	里德
+misc	Buena	布埃娜
+misc	Giovanni	坂木
+misc	Team Rocket	火箭队
+misc	Goldenrod	满金市
+misc	Radio Tower	广播塔
+misc	Lucky Number Show	幸运数字节目
+misc	Evolve	进化
+misc	Fishing Rod	钓竿
+misc	Mailbox	邮箱
+misc	Pokemon Center	宝可梦中心
+misc	Bill	正辉
+misc	Prof.Oak	大木博士
+misc	poison	中毒
+misc	burn	灼伤
+misc	friendship	亲密度
+misc	Mary	玛丽
+misc	DJ Lily	DJ莉莉
+misc	Game Link Cable	游戏连接线
+misc	Pokemon Talk	宝可梦讲座
+misc	Places and People	地点与人
+misc	Trade	交换
+misc	Ben	阿本
+misc	Fern	阿蕨
+misc	Mulch	树肥
+misc	Pokegear	宝可梦齿轮
+misc	Premier Ball	纪念球
+misc	nickname	昵称
+misc	move	招式
+misc	Exp.Points	经验值
+misc	Cut	居合斩
+misc	Surf	冲浪
+misc	Waterfall	攀瀑
+misc	Dig	挖洞
+misc	Strength	怪力
+misc	Whirlpool	潮旋
+misc	Headbutt	头锤
+misc	Brick Break	劈瓦
+misc	Rock Smash	碎岩
+misc	Sweet Honey	甜甜蜜
+misc	Coin Case	代币盒
+misc	coins	代币
+misc	Day-Care	饲育屋
+misc	Day-Care Man	饲育屋老爷爷
+misc	Day-Care Lady	饲育屋老奶奶
+misc	Box	箱子
+misc	Control Pad	十字键
+misc	Daylight Saving Time	夏令时
+misc	clock	时钟
+misc	ID number	ID编号
+misc	Announcer	广播
+misc	Name Rater	名字鉴定师
+misc	Flash	闪光
+misc	black out	眼前一黑
+misc	Bug-Catching Contest	捕虫大赛
+misc	Contest	大赛
+misc	herbal medicine	草药
+misc	Bargain Shop	廉价商店
+misc	Pharmacy	药店
+misc	Bike	自行车
+misc	whirlpool	漩涡
+misc	waterfall	瀑布
+misc	Squirtbottle	喷水壶
+misc	BP	对战点数
+misc	Wonder Trade	奇迹交换
+misc	Move Deleter	招式遗忘者
+misc	Spiky-eared Pichu	刺刺耳皮丘
+misc	Silph	西尔佛
+misc	Exchange Service Corner	交换服务角
+misc	Blue Card	蓝卡

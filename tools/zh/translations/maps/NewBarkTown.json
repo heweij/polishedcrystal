@@ -1,0 +1,82 @@
+{
+  "_comment": "由 tools/zh/zh.py text-extract 生成；zh 为空表示未翻译（回退原文）。控制码沿用 <LINE>/<DONE>/<PLAYER> 等写法，{{n}} 为不可翻译的占位命令，必须原样保留。",
+  "source": "maps\\NewBarkTown.asm",
+  "blocks": {
+    "Text_GearIsImpressive": {
+      "en": "Wow, your #gear<LINE>is impressive!<PARA>Did your mom get<LINE>it for you?<DONE>",
+      "zh": "你的宝可梦齿轮<LINE>真不错啊！<PARA>是妈妈买给<LINE>你的吗？<DONE>"
+    },
+    "Text_WaitPlayer": {
+      "en": "Wait, <PLAYER>!<DONE>",
+      "zh": "等下，<PLAYER>！<DONE>"
+    },
+    "Text_WhatDoYouThinkYoureDoing": {
+      "en": "What do you think<LINE>you're doing?<DONE>",
+      "zh": "你在<LINE>做什么呀？<DONE>"
+    },
+    "Text_ItsDangerousToGoAlone": {
+      "en": "It's dangerous to<LINE>go out without a<CONT>#mon!<PARA>Wild #mon<LINE>jump out of the<PARA>grass on the way<LINE>to the next town.<DONE>",
+      "zh": "没有宝可梦<LINE>就出门，<CONT>太危险啦！<PARA>野生宝可梦会<LINE>从草丛里<PARA>跳出来，一路<LINE>到下一座城镇。<DONE>"
+    },
+    "Text_YourMonIsAdorable": {
+      "en": "Oh! Your #mon<LINE>is adorable!<CONT>I wish I had one!<DONE>",
+      "zh": "哎呀！你的宝可梦<LINE>真可爱！<CONT>我也想有一只。<DONE>"
+    },
+    "Text_TellMomIfLeaving": {
+      "en": "Hi, <PLAYER>!<LINE>Leaving again?<PARA>You should tell<LINE>your mom if you<CONT>are leaving.<DONE>",
+      "zh": "<PLAYER>，<LINE>又要出门呀？<PARA>出门之前<LINE>要跟妈妈说<CONT>一声哦。<DONE>"
+    },
+    "Text_CallMomOnGear": {
+      "en": "Call your mom on<LINE>your #gear to<PARA>let her know how<LINE>you're doing.<DONE>",
+      "zh": "用宝可梦齿轮<LINE>给妈妈打个<CONT>电话吧。<PARA>让她知道<LINE>你过得好不好。<DONE>"
+    },
+    "Text_ElmDiscoveredNewMon": {
+      "en": "Yo, <PLAYER>!<PARA>I hear Prof.Elm<LINE>discovered some<CONT>new #mon.<DONE>",
+      "zh": "喂，<PLAYER>！<PARA>听说空木博士<LINE>发现了新的<CONT>宝可梦。<DONE>"
+    },
+    "NewBarkTownRivalText1": {
+      "en": "……<PARA>So this is the<LINE>famous Elm #mon<CONT>Lab…<DONE>",
+      "zh": "……<PARA>这就是那个<LINE>有名的空木<CONT>宝可梦研究所？<DONE>"
+    },
+    "NewBarkTownRivalText2": {
+      "en": "…What are you<LINE>staring at?<DONE>",
+      "zh": "……你一直<LINE>盯着我看<CONT>干什么？<DONE>"
+    },
+    "Text_LyraIntro": {
+      "en": "Lyra: Oh, hello,<LINE><PLAYER>!<PARA>I came by your<LINE>house earlier,<PARA>but you were<LINE>still sleeping.<PARA>You know how I<LINE>assist Prof.Elm<CONT>sometimes?<PARA>He's starting new<LINE>#mon research<PARA>and would like us<LINE>both to help.<PARA>Let's go and see<LINE>what he wants!<DONE>",
+      "zh": "琴音：啊，<LINE>你好，<PLAYER>！<PARA>我刚才去过<LINE>你家，<PARA>可你还在<LINE>睡懒觉呢。<PARA>你也知道，我<LINE>有时会帮<CONT>空木博士的忙。<PARA>他开始了新的<LINE>宝可梦研究，<PARA>想让我们俩<LINE>都去帮忙。<PARA>走吧，去看看<LINE>他找我们<CONT>做什么！<DONE>"
+    },
+    "Text_LyraGoodbye1": {
+      "en": "Lyra: <PLAYER>!<PARA>I heard that you<LINE>have all the Gym<CONT>Badges in Johto.<PARA>…You're really<LINE>something,<CONT><PLAYER>.<PARA>To think that we<LINE>both started our<PARA>journeys in this<LINE>town…<PARA>I do what I can<LINE>to help the Prof-<CONT>essor, but I could<PARA>never take on the<LINE>League Champion.<PARA>…Before you go…<PARA>How about one<LINE>more battle?<PARA>I want to see the<LINE>kind of trainer<CONT>you've become!<DONE>",
+      "zh": "琴音：<PLAYER>！<PARA>我听说你已经<LINE>集齐了城都<CONT>所有道馆徽章。<PARA>你真的很<LINE>厉害啊，<CONT><PLAYER>。<PARA>想想看，我们<LINE>都是从这座<PARA>小镇出发的<LINE>呢。<PARA>我尽力帮博士<LINE>的忙，可我<CONT>从来都没想过<PARA>去挑战<LINE>联盟冠军。<PARA>……在你出发前，<PARA>再和我对战<LINE>一场吧？<PARA>我想看看你<LINE>如今是<CONT>什么水平！<DONE>"
+    },
+    "Text_LyraGoodbyeWin": {
+      "en": "You're as talented<LINE>as I expected!<DONE>",
+      "zh": "你果真<LINE>有这本事！<DONE>"
+    },
+    "Text_LyraGoodbyeLoss": {
+      "en": "I hope you didn't<LINE>let me win…<DONE>",
+      "zh": "希望你没有<LINE>故意让我赢……<DONE>"
+    },
+    "Text_LyraGoodbye2": {
+      "en": "…Thanks, <PLAYER>.<PARA>I can tell how<LINE>much work and<PARA>love you put into<LINE>raising your<CONT>#mon.<PARA>…So, this is<LINE>goodbye.<PARA>I know you can win<LINE>at the #mon<CONT>League!<PARA>You're going to be<LINE>a great Champion!<DONE>",
+      "zh": "……谢谢你，<LINE><PLAYER>。<PARA>我能看出你<LINE>付出了多少<PARA>心血和爱去<CONT>培育宝可梦。<PARA>……那么，<LINE>就此告别。<PARA>我知道你一定<LINE>能拿下宝可梦<CONT>联盟！<PARA>你一定会成为<LINE>出色的冠军！<DONE>"
+    },
+    "NewBarkTownSignText": {
+      "en": "New Bark Town<PARA>The Town Where the<LINE>Winds of a New<CONT>Beginning Blow<DONE>",
+      "zh": "若叶镇<PARA>吹起全新开始<LINE>之风的小镇<DONE>"
+    },
+    "PlayersHouseSignText": {
+      "en": "<PLAYER>'s House<DONE>",
+      "zh": "<PLAYER>的家<DONE>"
+    },
+    "ElmsLabSignText": {
+      "en": "Elm #mon Lab<DONE>",
+      "zh": "空木宝可梦研究所<DONE>"
+    },
+    "LyrasHouseSignText": {
+      "en": "Lyra's House<DONE>",
+      "zh": "琴音的家<DONE>"
+    }
+  }
+}

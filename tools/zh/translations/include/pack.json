@@ -1,0 +1,126 @@
+{
+  "_comment": "由 tools/zh/zh.py text-extract 生成；zh 为空表示未翻译（回退原文）。控制码沿用 <LINE>/<DONE>/<PLAYER> 等写法，{{n}} 为不可翻译的占位命令，必须原样保留。",
+  "source": "engine\\items\\pack.asm",
+  "blocks": {
+    "MenuDataHeader_SortTMs.MenuData2#0": {
+      "en": "By Number@",
+      "zh": "按编号@"
+    },
+    "MenuDataHeader_SortTMs.MenuData2#1": {
+      "en": "By Name@",
+      "zh": "按名称@"
+    },
+    "MenuDataHeader_SortTMs.MenuData2#2": {
+      "en": "Quit@",
+      "zh": "退出@"
+    },
+    "MenuDataHeader_SortItems.MenuData2#0": {
+      "en": "By Type@",
+      "zh": "按类型@"
+    },
+    "MenuDataHeader_SortItems.MenuData2#1": {
+      "en": "By Name@",
+      "zh": "按名称@"
+    },
+    "MenuDataHeader_SortItems.MenuData2#2": {
+      "en": "Quit@",
+      "zh": "退出@"
+    },
+    "MenuDataHeader_UseGiveToss.MenuData2#0": {
+      "en": "Use@",
+      "zh": "使用@"
+    },
+    "MenuDataHeader_UseGiveToss.MenuData2#1": {
+      "en": "Give@",
+      "zh": "给予@"
+    },
+    "MenuDataHeader_UseGiveToss.MenuData2#2": {
+      "en": "Toss@",
+      "zh": "丢弃@"
+    },
+    "MenuDataHeader_UseGiveToss.MenuData2#3": {
+      "en": "Quit@",
+      "zh": "退出@"
+    },
+    "MenuDataHeader_Use.MenuData2#0": {
+      "en": "Use@",
+      "zh": "使用@"
+    },
+    "MenuDataHeader_Use.MenuData2#1": {
+      "en": "Quit@",
+      "zh": "退出@"
+    },
+    "MenuDataHeader_Quit.MenuData2#0": {
+      "en": "Quit@",
+      "zh": "退出@"
+    },
+    "MenuDataHeader_UseSel.MenuData2#0": {
+      "en": "Use@",
+      "zh": "使用@"
+    },
+    "MenuDataHeader_UseSel.MenuData2#1": {
+      "en": "Sel@",
+      "zh": "选择@"
+    },
+    "MenuDataHeader_UseSel.MenuData2#2": {
+      "en": "Quit@",
+      "zh": "退出@"
+    },
+    "MenuDataHeader_GiveToss.MenuData2#0": {
+      "en": "Give@",
+      "zh": "给予@"
+    },
+    "MenuDataHeader_GiveToss.MenuData2#1": {
+      "en": "Toss@",
+      "zh": "丢弃@"
+    },
+    "MenuDataHeader_GiveToss.MenuData2#2": {
+      "en": "Quit@",
+      "zh": "退出@"
+    },
+    "Text_SortItemsHow": {
+      "en": "How do you want<LINE>to sort items?<DONE>",
+      "zh": "你想如何<LINE>整理道具？<DONE>"
+    },
+    "Text_NoEmptySlot": {
+      "en": "There are no free<LINE>register slots.<PARA>Unregister another<LINE>item first.<PROMPT>",
+      "zh": "没有空的<LINE>登记栏位。<PARA>请先取消<LINE>其他道具的登记。<PROMPT>"
+    },
+    "Text_ThrowAwayHowMany": {
+      "en": "{{0}}",
+      "zh": ""
+    },
+    "Text_ConfirmThrowAway": {
+      "en": "{{0}}",
+      "zh": ""
+    },
+    "Text_ThrewAway": {
+      "en": "{{0}}",
+      "zh": ""
+    },
+    "Text_ThisIsntTheTime": {
+      "en": "{{0}}",
+      "zh": ""
+    },
+    "TextJump_YouDontHaveAPkmn": {
+      "en": "{{0}}",
+      "zh": ""
+    },
+    "Text_RegisteredItem": {
+      "en": "{{0}}",
+      "zh": ""
+    },
+    "Text_UnregisteredItem": {
+      "en": "{{0}}",
+      "zh": ""
+    },
+    "Text_CantRegister": {
+      "en": "{{0}}",
+      "zh": ""
+    },
+    "Text_MoveItemWhere": {
+      "en": "{{0}}",
+      "zh": ""
+    }
+  }
+}

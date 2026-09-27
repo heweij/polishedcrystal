@@ -1,0 +1,94 @@
+{
+  "_comment": "由 tools/zh/zh.py text-extract 生成；zh 为空表示未翻译（回退原文）。控制码沿用 <LINE>/<DONE>/<PLAYER> 等写法，{{n}} 为不可翻译的占位命令，必须原样保留。",
+  "source": "maps\\Route36.asm",
+  "blocks": {
+    "UseSquirtbottleText": {
+      "en": "It's a weird tree.<LINE>Use SquirtBottle?<DONE>",
+      "zh": "这是一棵<LINE>奇怪的树。<PARA>要用喷壶吗？<DONE>"
+    },
+    "UsedSquirtbottleText": {
+      "en": "<PLAYER> used the<LINE>SquirtBottle.<DONE>",
+      "zh": "<PLAYER>使用了<LINE>喷壶。<DONE>"
+    },
+    "SudowoodoAttackedText": {
+      "en": "The weird tree<LINE>doesn't like the<CONT>SquirtBottle!<PARA>The weird tree<LINE>attacked!<DONE>",
+      "zh": "奇怪的树<LINE>不喜欢喷壶！<PARA>奇怪的树<LINE>发动了攻击！<DONE>"
+    },
+    "FloriaTextAfterSquirtBottle": {
+      "en": "I'm the Flower<LINE>Shop's Floria!<PARA>When I told my sis<LINE>about the jiggly<PARA>tree, she said<LINE>it's dangerous.<PARA>Oh, she lent you<LINE>her water bottle?<PARA>You must be a good<LINE>trainer then!<PARA>I'll leave the<LINE>weird tree to you.<PARA>Ta-ta!<DONE>",
+      "zh": "我是花店的<LINE>芙萝拉！<PARA>我跟姐姐<LINE>说起那棵<CONT>摇摇晃晃的树，<PARA>她说很危险。<PARA>哦，她把<LINE>喷壶借给你了？<PARA>那你一定是<LINE>优秀的训练家！<PARA>那棵怪树<LINE>就交给你了。<PARA>拜拜！<DONE>"
+    },
+    "FloriaTextAfterSudowoodo": {
+      "en": "I just knew that<LINE>wiggly tree was a<CONT>#mon!<PARA>I was going to<LINE>shock it out of<PARA>its disguise, but<LINE>you beat me to it!<PARA>Oh well, I'll head<LINE>back to the Flower<CONT>Shop.<PARA>I'm Floria, by the<LINE>way.<PARA>Ta-ta!<DONE>",
+      "zh": "我就知道<LINE>那棵摇动的树<CONT>是宝可梦！<PARA>我本来想<LINE>吓它现形，<PARA>却被你<LINE>抢先了！<PARA>好吧，<LINE>我回花店去。<PARA>对了，<LINE>我叫芙萝拉。<PARA>拜拜！<DONE>"
+    },
+    "RockSmashGuyText2": {
+      "en": "Did you clear that<LINE>wretched tree?<PARA>I'm impressed!<LINE>I want you to<CONT>have this.<DONE>",
+      "zh": "你把那棵<LINE>讨厌的树<CONT>清理掉了？<PARA>真佩服你！<PARA>这个<LINE>给你。<DONE>"
+    },
+    "Route36LassText_ClearedSudowoodo": {
+      "en": "That odd tree dis-<LINE>appeared without a<CONT>trace.<PARA>Oh! That tree was<LINE>really a #mon?<DONE>",
+      "zh": "那棵怪树<LINE>消失得<CONT>无影无踪。<PARA>哦！那棵树<LINE>真的是<CONT>宝可梦？<DONE>"
+    },
+    "PsychicMarkSeenText": {
+      "en": "I'm going to read<LINE>your thoughts!<DONE>",
+      "zh": "我要<LINE>读出你的心思！<DONE>"
+    },
+    "PsychicMarkBeatenText": {
+      "en": "I misread you!<DONE>",
+      "zh": "我读错了！<DONE>"
+    },
+    "SchoolgirlMollySeenText": {
+      "en": "Mr.Earl taught me<LINE>how to battle with<CONT>#mon!<DONE>",
+      "zh": "阿鲁老师<LINE>教我怎么<CONT>用宝可梦对战！<DONE>"
+    },
+    "SchoolgirlMollyBeatenText": {
+      "en": "My studying…<DONE>",
+      "zh": "我的学习成果……<DONE>"
+    },
+    "SchoolboyAlan1SeenText": {
+      "en": "Thanks to my stud-<LINE>ies, I'm ready for<CONT>any #mon!<DONE>",
+      "zh": "多亏我<LINE>努力学习，<PARA>任何宝可梦<LINE>我都不怕！<DONE>"
+    },
+    "SchoolboyAlan1BeatenText": {
+      "en": "Oops! Computation<LINE>error?<DONE>",
+      "zh": "哎呀！<LINE>计算错误？<DONE>"
+    },
+    "SchoolboyAlanBooksText": {
+      "en": "Darn. I study five<LINE>hours a day too.<PARA>There's more to<LINE>learning than just<CONT>reading books.<DONE>",
+      "zh": "可恶。<LINE>我一天也<CONT>学五小时。<PARA>原来学习<LINE>不只是<CONT>读书。<DONE>"
+    },
+    "MeetArthurText": {
+      "en": "Arthur: Who are<LINE>you?<PARA>I'm Arthur of<LINE>Thursday.<DONE>",
+      "zh": "亚瑟：你是谁？<PARA>我是<LINE>星期四的亚瑟。<DONE>"
+    },
+    "ArthurGivesGiftText": {
+      "en": "Here. You can have<LINE>this.<DONE>",
+      "zh": "来，<LINE>这个给你。<DONE>"
+    },
+    "ArthurThursdayText": {
+      "en": "Arthur: I'm Arthur<LINE>of Thursday. I'm<PARA>the second son out<LINE>of seven children.<DONE>",
+      "zh": "亚瑟：我是<LINE>星期四的亚瑟。<PARA>在七个孩子中<LINE>排行老二。<DONE>"
+    },
+    "Route36SignText": {
+      "en": "Route 36<DONE>",
+      "zh": "36号道路<DONE>"
+    },
+    "RuinsOfAlphNorthSignText": {
+      "en": "Ruins of Alph<LINE>North Entrance<DONE>",
+      "zh": "阿尔夫遗迹<LINE>北入口<DONE>"
+    },
+    "Route36TrainerTips1Text": {
+      "en": "Trainer Tips<PARA>#mon stats<LINE>vary--even within<CONT>the same species.<PARA>Their stats may be<LINE>similar at first.<PARA>However, differ-<LINE>ences will become<PARA>pronounced as the<LINE>#mon grow.<DONE>",
+      "zh": "训练家提示<PARA>即使是<LINE>同一种宝可梦，<PARA>能力<LINE>也会有差异。<PARA>起初<LINE>可能差不多，<PARA>但随着成长，<PARA>差距<LINE>会逐渐明显。<DONE>"
+    },
+    "Route36TrainerTips2Text": {
+      "en": "Trainer Tips<PARA>Use Dig to return<LINE>to the entrance of<CONT>any place.<PARA>It is convenient<LINE>for exploring<PARA>caves and other<LINE>landmarks.<DONE>",
+      "zh": "训练家提示<PARA>用挖洞<LINE>可以回到<CONT>任何地方的<CONT>入口。<PARA>探索洞窟<LINE>和其他地点<PARA>时<LINE>很方便。<DONE>"
+    },
+    "Route36AdvancedTips2Text": {
+      "en": "Advanced Tips!<PARA>Treating your<LINE>#mon with hair-<CONT>cuts, blessings or<PARA>massages can make<LINE>them help you out<PARA>in battles due to<LINE>their affection!<DONE>",
+      "zh": "进阶提示！<PARA>给宝可梦<LINE>理发、<CONT>祝福<PARA>或按摩，<PARA>会因为亲密度<LINE>而在战斗中<CONT>帮你一把！<DONE>"
+    }
+  }
+}

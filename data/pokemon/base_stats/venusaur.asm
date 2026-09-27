@@ -1,0 +1,23 @@
+if DEF(FAITHFUL)
+	bst 525,  80,  82,  83, 100, 100,  80
+	;   bst   hp  atk  def  sat  sdf  spe
+else
+	bst 535,  80,  87,  85, 103, 100,  80
+	;   bst   hp  atk  def  sat  sdf  spe
+endc
+
+	db GRASS, POISON ; type
+	db 45 ; catch rate
+	db 208 ; base exp
+	db NO_ITEM, NO_ITEM ; held items
+	dn GENDER_F12_5, HATCH_MEDIUM_FAST ; gender ratio, step cycles to hatch
+
+	abilities_for VENUSAUR, OVERGROW, CHLOROPHYLL, THICK_FAT
+	db GROWTH_MEDIUM_SLOW ; growth rate
+	dn EGG_MONSTER, EGG_PLANT ; egg groups
+
+	ev_yield 2 SAt, 1 SDf
+
+	; tm/hm learnset
+	tmhm CURSE, ROAR, TOXIC, VENOSHOCK, HIDDEN_POWER, SUNNY_DAY, HYPER_BEAM, LIGHT_SCREEN, PROTECT, GIGA_DRAIN, SAFEGUARD, BULLDOZE, SOLAR_BEAM, EARTHQUAKE, RETURN, ROCK_SMASH, DOUBLE_TEAM, SLUDGE_BOMB, SUBSTITUTE, FACADE, REST, ATTRACT, ENERGY_BALL, GIGA_IMPACT, FLASH, SWORDS_DANCE, CUT, STRENGTH, BODY_SLAM, CHARM, DEFENSE_CURL, DOUBLE_EDGE, EARTH_POWER, ENDURE, HEADBUTT, KNOCK_OFF, SEED_BOMB, SLEEP_TALK, SWAGGER
+	; end

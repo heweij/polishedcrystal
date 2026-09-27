@@ -1,0 +1,42 @@
+{
+  "_comment": "由 tools/zh/zh.py text-extract 生成；zh 为空表示未翻译（回退原文）。控制码沿用 <LINE>/<DONE>/<PLAYER> 等写法，{{n}} 为不可翻译的占位命令，必须原样保留。",
+  "source": "maps\\GoldenrodMuseum1F.asm",
+  "blocks": {
+    "GoldenrodMuseumReceptionistText": {
+      "en": "Welcome to the<LINE>Goldenrod City<CONT>Museum.<PARA>In celebration of<LINE>our grand opening,<PARA>admission is free<LINE>of charge.<PARA>Please, feel free<LINE>to look around,<PARA>and we hope you<LINE>enjoy your visit.<DONE>",
+      "zh": "欢迎来到<LINE>满金市<CONT>博物馆。<PARA>为庆祝<LINE>盛大开幕，<PARA>现在<LINE>免费入场。<PARA>请随意<LINE>参观，<PARA>祝你<LINE>玩得愉快。<DONE>"
+    },
+    "GoldenrodMuseumOfficerText": {
+      "en": "I'm keeping my eye<LINE>on you kid!<PARA>Hahaha! I'm just<LINE>messing with ya!<PARA>I'm keeping an eye<LINE>on everyone…<DONE>",
+      "zh": "我在<LINE>盯着你呢，孩子！<PARA>哈哈！<LINE>开玩笑的！<PARA>我盯着<LINE>所有人……<DONE>"
+    },
+    "GoldenrodMuseum1FDrillText": {
+      "en": "It's a large drill<LINE>used to tunnel<PARA>through super<LINE>dense rock.<DONE>",
+      "zh": "这是用来<LINE>在超硬岩石中<PARA>挖隧道的<CONT>大型钻机。<DONE>"
+    },
+    "GoldenrodMuseum1FHikerText": {
+      "en": "I heard they had<LINE>to use equipment<PARA>like this drill<LINE>to excavate the<PARA>tunnel for the<LINE>Magnet Train.<DONE>",
+      "zh": "听说当初<LINE>就是用<PARA>这种钻机<LINE>挖掘磁浮列车<PARA>的隧道。<DONE>"
+    },
+    "GoldenrodMuseum1FRadioDishText": {
+      "en": "A metallic dish<LINE>used for trans-<PARA>mitting radio<LINE>waves.<DONE>",
+      "zh": "用来发射<LINE>无线电波的<PARA>金属圆盘。<DONE>"
+    },
+    "GoldenrodMuseum1FHarborText": {
+      "en": "An aquarium filled<LINE>with Magikarp!<DONE>",
+      "zh": "水族箱里<LINE>全是鲤鱼王！<DONE>"
+    },
+    "GoldenrodMuseum1FBigPearlText": {
+      "en": "It's a huge pearl<LINE>fished up from<CONT>Goldenrod Harbor.<DONE>",
+      "zh": "这是在<LINE>满金港口<CONT>捞到的<CONT>巨大珍珠。<DONE>"
+    },
+    "GoldenrodMuseum1FRocketScoutText1": {
+      "en": "Hmm… This would<LINE>fetch quite a<CONT>heavy price.<PARA>Now… how do I get<LINE>it out of here<PARA>without getting<LINE>caught?<DONE>",
+      "zh": "嗯……这个<LINE>能卖<CONT>不少钱。<PARA>那么……<LINE>要怎么<PARA>神不知鬼不觉地<CONT>运出去？<DONE>"
+    },
+    "GoldenrodMuseum1FRocketScoutText2": {
+      "en": "Don't you know it's<LINE>rude to stare?<CONT>Beat it kid!<DONE>",
+      "zh": "盯着别人看<LINE>很失礼，<PARA>你不知道吗？<PARA>滚开，小鬼！<DONE>"
+    }
+  }
+}

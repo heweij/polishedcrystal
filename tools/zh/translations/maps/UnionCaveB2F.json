@@ -1,0 +1,30 @@
+{
+  "_comment": "由 tools/zh/zh.py text-extract 生成；zh 为空表示未翻译（回退原文）。控制码沿用 <LINE>/<DONE>/<PLAYER> 等写法，{{n}} 为不可翻译的占位命令，必须原样保留。",
+  "source": "maps\\UnionCaveB2F.asm",
+  "blocks": {
+    "CooltrainermNickSeenText": {
+      "en": "There are two<LINE>kinds of people.<PARA>Those who have<LINE>style, and those<CONT>who don't.<PARA>What kind of<LINE>person are you?<DONE>",
+      "zh": "人分两种。<PARA>有风格的，<LINE>和没有的。<PARA>你是<LINE>哪一种？<DONE>"
+    },
+    "CooltrainermNickBeatenText": {
+      "en": "You've got<LINE>dazzling style!<DONE>",
+      "zh": "你的风格<LINE>真耀眼！<DONE>"
+    },
+    "CooltrainerfGwenSeenText": {
+      "en": "I'm in training.<LINE>Care for a round?<DONE>",
+      "zh": "我在练习。<LINE>来一局吗？<DONE>"
+    },
+    "CooltrainerfGwenBeatenText": {
+      "en": "Aww, no! You're<LINE>too good for me.<DONE>",
+      "zh": "啊，不要！<LINE>你太强了。<DONE>"
+    },
+    "CooltrainerfEmmaSeenText": {
+      "en": "If the #mon I<LINE>liked were there,<CONT>I'd go anywhere.<PARA>That's what a real<LINE>trainer does.<DONE>",
+      "zh": "只要我喜欢的<LINE>宝可梦在，<PARA>我哪儿都去。<PARA>这才是<LINE>真正的训练家。<DONE>"
+    },
+    "CooltrainerfEmmaBeatenText": {
+      "en": "I'd rather pet my<LINE>babies than this!<DONE>",
+      "zh": "我宁愿去<LINE>摸摸我的宝贝们！<DONE>"
+    }
+  }
+}

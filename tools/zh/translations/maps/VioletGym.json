@@ -1,0 +1,46 @@
+{
+  "_comment": "由 tools/zh/zh.py text-extract 生成；zh 为空表示未翻译（回退原文）。控制码沿用 <LINE>/<DONE>/<PLAYER> 等写法，{{n}} 为不可翻译的占位命令，必须原样保留。",
+  "source": "maps\\VioletGym.asm",
+  "blocks": {
+    "FalknerIntroText": {
+      "en": "I'm Falkner, the<LINE>Violet #mon Gym<CONT>Leader!<PARA>People say you can<LINE>clip Flying-type<PARA>#mon's wings<LINE>with a jolt of<CONT>electricity…<PARA>I won't allow such<LINE>insults to bird<CONT>#mon!<PARA>I'll show you the<LINE>real power of the<PARA>magnificent bird<LINE>#mon!<DONE>",
+      "zh": "我是阿速，<LINE>桔梗市<CONT>宝可梦道馆馆主！<PARA>有人说只要<LINE>放点电，就能<PARA>削去飞行属性<LINE>宝可梦的翅膀……<PARA>我绝不容忍<LINE>侮辱鸟类<CONT>宝可梦的话！<PARA>让你见识见识，<PARA>华丽飞鸟<LINE>宝可梦的<CONT>真正力量！<DONE>"
+    },
+    "FalknerWinLossText": {
+      "en": "…Darn! My dad's<LINE>cherished bird<CONT>#mon…<PARA>All right.<LINE>Take this.<PARA>It's the official<LINE>#mon League<CONT>Zephyr Badge.<DONE>",
+      "zh": "……可恶！<LINE>父亲的爱鸟<CONT>宝可梦……<PARA>好吧。<LINE>这个给你。<PARA>这是正式的<LINE>宝可梦联盟<CONT>飞翼徽章。<DONE>"
+    },
+    "FalknerZephyrBadgeText": {
+      "en": "The Zephyr Badge<LINE>enables you to<PARA>command #mon,<LINE>even traded ones,<CONT>up to <LV>20.<PARA>Here--take this<LINE>too.<DONE>",
+      "zh": "有了飞翼徽章，<PARA><LV>20以下的<LINE>宝可梦<CONT>都能听你指挥，<PARA>交换来的<LINE>也一样。<PARA>这个也<LINE>一并给你。<DONE>"
+    },
+    "FalknerFightDoneText": {
+      "en": "There are #mon<LINE>Gyms in cities and<CONT>towns ahead.<PARA>You should test<LINE>your skills at<CONT>these Gyms.<PARA>I'm going to train<LINE>harder to become<PARA>the greatest bird<LINE>master!<DONE>",
+      "zh": "前面的城镇<LINE>也有<CONT>宝可梦道馆。<PARA>去那里<LINE>试试你的<CONT>身手吧。<PARA>我要更努力<LINE>修炼，成为<PARA>最厉害的<LINE>飞鸟大师！<DONE>"
+    },
+    "Bird_keeperRodSeenText": {
+      "en": "The keyword is<LINE>guts!<PARA>Those here are<LINE>training night and<PARA>day to become bird<LINE>#mon masters.<PARA>Come on!<DONE>",
+      "zh": "关键在于<LINE>胆量！<PARA>这里的人<LINE>日夜苦练，<PARA>都想成为鸟类<LINE>宝可梦大师。<PARA>来吧！<DONE>"
+    },
+    "Bird_keeperRodBeatenText": {
+      "en": "Gaaah!<DONE>",
+      "zh": "啊啊啊！<DONE>"
+    },
+    "Bird_keeperAbeSeenText": {
+      "en": "Let me see if you<LINE>are good enough to<CONT>face Falkner!<DONE>",
+      "zh": "我来看看你<LINE>够不够格<CONT>挑战阿速！<DONE>"
+    },
+    "Bird_keeperAbeBeatenText": {
+      "en": "This can't be<LINE>true!<DONE>",
+      "zh": "怎么会<LINE>这样！<DONE>"
+    },
+    "VioletGymGuyWinText": {
+      "en": "Nice battle! Keep<LINE>it up, and you'll<PARA>be the Champ in no<LINE>time at all!<DONE>",
+      "zh": "打得漂亮！<LINE>再接再厉，<PARA>转眼之间，<LINE>你就是冠军！<DONE>"
+    },
+    "VioletGymGuyFalknerAwayText": {
+      "en": "Hey! You can't<LINE>challenge Falkner<CONT>right now.<PARA>He's in Dark Cave<LINE>taming an Ursa-<PARA>ring that attacked<LINE>a young trainer.<PARA>Come back later.<DONE>",
+      "zh": "嘿！现在不能<LINE>挑战阿速。<PARA>他在黑暗洞穴，<LINE>正在收服一只<CONT>袭击过年轻训练家<PARA>的圈圈熊。<PARA>你过会儿<LINE>再来吧。<DONE>"
+    }
+  }
+}

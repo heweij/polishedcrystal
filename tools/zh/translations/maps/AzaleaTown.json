@@ -1,0 +1,54 @@
+{
+  "_comment": "由 tools/zh/zh.py text-extract 生成；zh 为空表示未翻译（回退原文）。控制码沿用 <LINE>/<DONE>/<PLAYER> 等写法，{{n}} 为不可翻译的占位命令，必须原样保留。",
+  "source": "maps\\AzaleaTown.asm",
+  "blocks": {
+    "AzaleaTownSignText": {
+      "en": "Azalea Town<LINE>Where People and<PARA>#mon Live in<LINE>Happy Harmony<DONE>",
+      "zh": "桧皮镇<LINE>人与宝可梦<PARA>和谐共处<LINE>的城镇<DONE>"
+    },
+    "KurtsHouseSignText": {
+      "en": "Kurt's House<DONE>",
+      "zh": "钢铁的家<DONE>"
+    },
+    "AzaleaGymSignText": {
+      "en": "Azalea Town<LINE>#mon Gym<CONT>Leader: Bugsy<PARA>The Walking<LINE>Bug #mon<CONT>Encyclopedia<DONE>",
+      "zh": "桧皮镇<LINE>宝可梦道馆<CONT>馆主：阿笔<PARA>会走路的<LINE>虫宝可梦<CONT>百科全书<DONE>"
+    },
+    "SlowpokeWellSignText": {
+      "en": "Slowpoke Well<PARA>Also known as the<LINE>Rainmaker Well.<PARA>Locals believe<LINE>that a Slowpoke's<CONT>yawn summons rain.<PARA>Records show that<LINE>a Slowpoke's yawn<PARA>ended a drought<LINE>400 years ago.<DONE>",
+      "zh": "呆呆兽之井<PARA>又名<LINE>唤雨之井。<PARA>当地人相信<LINE>呆呆兽的哈欠<CONT>能唤来雨水。<PARA>据记载，<LINE>400年前，<PARA>呆呆兽的哈欠<PARA>终结了一场<CONT>大旱。<DONE>"
+    },
+    "CharcoalKilnSignText": {
+      "en": "Charcoal Kiln<DONE>",
+      "zh": "木炭窑<DONE>"
+    },
+    "AzaleaTownIlexForestSignText": {
+      "en": "Ilex Forest<PARA>Enter through the<LINE>gate.<DONE>",
+      "zh": "桐树林<PARA>请从<LINE>大门进入。<DONE>"
+    },
+    "AzaleaTownAdvancedTipsSignText": {
+      "en": "Advanced Tips!<PARA>The Switch battle<LINE>style lets you<PARA>know which #-<LINE>mon an opponent is<CONT>about to send out,<PARA>but the Predict<LINE>style does not!<DONE>",
+      "zh": "进阶提示！<PARA>切换式对战<LINE>能让你知道<PARA>对手接下来<LINE>要派出的<CONT>宝可梦，<PARA>但预知式<LINE>就不行！<DONE>"
+    },
+    "AzaleaTownWoosterText": {
+      "en": "Wooster: Gugyoo…<DONE>",
+      "zh": "伍斯特：咕咕……<DONE>"
+    },
+    "AzaleaTownYoungsterText": {
+      "en": "Cut through Azalea<LINE>and you'll be in<CONT>Ilex Forest.<PARA>But these skinny<LINE>trees make it<PARA>impossible to get<LINE>through.<PARA>The Charcoal Man's<LINE>#mon can Cut<CONT>down trees.<DONE>",
+      "zh": "穿过桧皮镇<LINE>就是<CONT>桐树林。<PARA>可这些细树<LINE>挡住了去路，<PARA>根本<LINE>过不去。<PARA>烧炭人的<LINE>宝可梦会<CONT>砍树。<DONE>"
+    },
+    "AzaleaTownRocket1Text": {
+      "en": "It's unsafe to go<LINE>in there, so I'm<CONT>standing guard.<PARA>Aren't I a good<LINE>Samaritan?<DONE>",
+      "zh": "里面很危险，<LINE>所以我在<CONT>这里站岗。<PARA>我是不是<LINE>很乐于助人？<DONE>"
+    },
+    "AzaleaTownRocket2Text": {
+      "en": "Do you know about<LINE>SlowpokeTail? I<CONT>heard it's tasty!<PARA>Aren't you glad I<LINE>told you that?<DONE>",
+      "zh": "你知道<LINE>呆呆兽的尾巴吗？<PARA>听说很好吃！<PARA>我告诉你，<LINE>是不是该<CONT>谢谢我？<DONE>"
+    },
+    "AzaleaTownKurtText": {
+      "en": "Could you go see<LINE>why Ilex Forest is<CONT>so restless?<DONE>",
+      "zh": "你能去看看<LINE>桐树林为什么<CONT>这么不安吗？<DONE>"
+    }
+  }
+}

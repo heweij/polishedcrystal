@@ -1,0 +1,42 @@
+{
+  "_comment": "由 tools/zh/zh.py text-extract 生成；zh 为空表示未翻译（回退原文）。控制码沿用 <LINE>/<DONE>/<PLAYER> 等写法，{{n}} 为不可翻译的占位命令，必须原样保留。",
+  "source": "maps\\GoldenrodUndergroundWarehouse.asm",
+  "blocks": {
+    "GruntM24SeenText": {
+      "en": "How did you get<LINE>this far?<PARA>I guess it can't<LINE>be helped. I'll<CONT>dispose of you.<DONE>",
+      "zh": "你怎么<LINE>到这里的？<PARA>看来<LINE>没办法了。<PARA>我来<LINE>解决你。<DONE>"
+    },
+    "GruntM24BeatenText": {
+      "en": "I got disposed of…<DONE>",
+      "zh": "我被人<LINE>解决了……<DONE>"
+    },
+    "GruntM14SeenText": {
+      "en": "You're not going<LINE>any farther!<PARA>I don't show mercy<LINE>to my enemies, not<CONT>even brats!<DONE>",
+      "zh": "你别想<LINE>再往前！<PARA>我对敌人<LINE>绝不手下留情，<PARA>小鬼<LINE>也一样！<DONE>"
+    },
+    "GruntM14BeatenText": {
+      "en": "Blast it!<DONE>",
+      "zh": "可恶！<DONE>"
+    },
+    "GruntM15SeenText": {
+      "en": "Hyuck-hyuck-hyuck!<LINE>I remember you!<PARA>You got me good<LINE>at our hideout!<DONE>",
+      "zh": "嘿嘿嘿！<LINE>我记得你！<PARA>你在我们的<CONT>基地<PARA>让我吃尽苦头！<DONE>"
+    },
+    "GruntM15BeatenText": {
+      "en": "Hyuck-hyuck-hyuck!<LINE>So, that's how?<DONE>",
+      "zh": "嘿嘿嘿！<LINE>又是这样？<DONE>"
+    },
+    "DirectorIntroText": {
+      "en": "Director: Who?<LINE>What? You came to<CONT>rescue me?<PARA>Thank you!<PARA>The Radio Tower!<PARA>What's happening<LINE>there?<PARA>Taken over by Team<LINE>Rocket?<PARA>Here. Take this<LINE>Card Key.<DONE>",
+      "zh": "台长：谁？<LINE>什么？<PARA>你是来<CONT>救我的？<PARA>谢谢你！<PARA>广播塔！<PARA>那里<LINE>怎么样了？<PARA>被火箭队<LINE>占领了？<PARA>给，<LINE>拿着钥匙卡。<DONE>"
+    },
+    "DirectorCardKeyText": {
+      "en": "Director: Use that<LINE>to open the shut-<CONT>ters on 3F.<DONE>",
+      "zh": "台长：用它<LINE>打开3楼的<CONT>闸门。<DONE>"
+    },
+    "DirectorAfterText": {
+      "en": "I'm begging you to<LINE>help.<PARA>There's no telling<LINE>what they'll do if<PARA>they control the<LINE>transmitter.<PARA>They may even be<LINE>able to control<PARA>#mon using a<LINE>special signal!<PARA>You're the only<LINE>one I can call on.<PARA>Please save the<LINE>Radio Tower…<PARA>And all the #-<LINE>mon nationwide!<DONE>",
+      "zh": "求你<LINE>帮帮忙。<PARA>要是他们<LINE>控制了<PARA>发射机，<PARA>不知道<LINE>会做出什么。<PARA>甚至可能<LINE>用特殊信号<CONT>操控宝可梦！<PARA>我能依靠的<LINE>只有你。<PARA>请救救<LINE>广播塔……<PARA>还有全国的<CONT>宝可梦！<DONE>"
+    }
+  }
+}

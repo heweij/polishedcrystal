@@ -1,0 +1,23 @@
+if DEF(FAITHFUL)
+	bst 470,  65,  75,  70,  95,  70,  95
+	;   bst   hp  atk  def  sat  sdf  spe
+else
+	bst 480,  65,  65,  70, 105,  80,  95
+	;   bst   hp  atk  def  sat  sdf  spe
+endc
+
+	db PSYCHIC, FLYING ; type
+	db 75 ; catch rate
+	db 171 ; base exp
+	db NO_ITEM, NO_ITEM ; held items
+	dn GENDER_F50, HATCH_MEDIUM_FAST ; gender ratio, step cycles to hatch
+
+	abilities_for XATU, SYNCHRONIZE, EARLY_BIRD, MAGIC_BOUNCE
+	db GROWTH_MEDIUM_FAST ; growth rate
+	dn EGG_FLYING, EGG_FLYING ; egg groups
+
+	ev_yield 1 Spe, 1 SAt
+
+	; tm/hm learnset
+	tmhm CURSE, CALM_MIND, TOXIC, HIDDEN_POWER, SUNNY_DAY, HYPER_BEAM, LIGHT_SCREEN, PROTECT, RAIN_DANCE, GIGA_DRAIN, SOLAR_BEAM, RETURN, PSYCHIC, SHADOW_BALL, DOUBLE_TEAM, REFLECT, SWIFT, AERIAL_ACE, SUBSTITUTE, FACADE, REST, ATTRACT, THIEF, STEEL_WING, DAZZLINGLEAM, ROOST, GIGA_IMPACT, U_TURN, FLASH, THUNDER_WAVE, FLY, BATON_PASS, DOUBLE_EDGE, DREAM_EATER, ENDURE, SKILL_SWAP, SLEEP_TALK, SUCKER_PUNCH, SWAGGER, TRICK, TRICK_ROOM, ZEN_HEADBUTT
+	; end

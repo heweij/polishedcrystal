@@ -1,0 +1,266 @@
+{
+  "_comment": "由 tools/zh/zh.py text-extract 生成；zh 为空表示未翻译（回退原文）。控制码沿用 <LINE>/<DONE>/<PLAYER> 等写法，{{n}} 为不可翻译的占位命令，必须原样保留。",
+  "source": "data\\text\\std_text.asm",
+  "blocks": {
+    "NurseMornText": {
+      "en": "Good morning!<LINE>Welcome to our<CONT>#mon Center.<DONE>",
+      "zh": "早上好！<LINE>欢迎来到<CONT>宝可梦中心。<DONE>"
+    },
+    "NurseDayText": {
+      "en": "Hello!<LINE>Welcome to our<CONT>#mon Center.<DONE>",
+      "zh": "你好！<LINE>欢迎来到<CONT>宝可梦中心。<DONE>"
+    },
+    "NurseEveText": {
+      "en": "Good evening!<LINE>Welcome to our<CONT>#mon Center.<DONE>",
+      "zh": "晚上好！<LINE>欢迎来到<CONT>宝可梦中心。<DONE>"
+    },
+    "NurseNiteText": {
+      "en": "Good evening!<LINE>You're out late.<PARA>Welcome to our<LINE>#mon Center.<DONE>",
+      "zh": "晚上好！<LINE>这么晚还在外面。<PARA>欢迎来到<LINE>宝可梦中心。<DONE>"
+    },
+    "PokeComNurseMornText": {
+      "en": "Good morning!<PARA>This is the #-<LINE>mon Communication<PARA>Center--or the<LINE>#Com Center.<DONE>",
+      "zh": "早上好！<PARA>这里是宝可梦<LINE>通信中心，<PARA>大家简称它<LINE>通信中心。<DONE>"
+    },
+    "PokeComNurseDayText": {
+      "en": "Hello!<PARA>This is the #-<LINE>mon Communication<PARA>Center--or the<LINE>#Com Center.<DONE>",
+      "zh": "你好！<PARA>这里是宝可梦<LINE>通信中心，<PARA>大家简称它<LINE>通信中心。<DONE>"
+    },
+    "PokeComNurseEveText": {
+      "en": "Good evening!<PARA>This is the #-<LINE>mon Communication<PARA>Center--or the<LINE>#Com Center.<DONE>",
+      "zh": "晚上好！<PARA>这里是宝可梦<LINE>通信中心，<PARA>大家简称它<LINE>通信中心。<DONE>"
+    },
+    "PokeComNurseNiteText": {
+      "en": "Good to see you<LINE>working so late.<PARA>This is the #-<LINE>mon Communication<PARA>Center--or the<LINE>#Com Center.<DONE>",
+      "zh": "这么晚还在<LINE>努力呀，真好。<PARA>这里是宝可梦<LINE>通信中心，<PARA>大家简称它<LINE>通信中心。<DONE>"
+    },
+    "NurseAskHealText": {
+      "en": "We can heal your<LINE>#mon to perfect<CONT>health.<PARA>Shall we heal your<LINE>#mon?<DONE>",
+      "zh": "我们可以把你的<LINE>宝可梦<CONT>完全治愈。<PARA>要治疗你的<LINE>宝可梦吗？<DONE>"
+    },
+    "NurseTrainerStarText": {
+      "en": "We can heal your<LINE>#mon to perfect<CONT>health.<PARA>Shall we…<PARA>Th-that Trainer<LINE>Card!<PARA>That wonderful<LINE>shade! And that<CONT>shiny star!<PARA>You're an impres-<LINE>sive Trainer.<PARA>Please, <PLAYER>,<LINE>may I heal your<CONT>#mon?<DONE>",
+      "zh": "我们可以把你的<LINE>宝可梦<CONT>完全治愈。<PARA>要治疗吗？<PARA>那、那张<LINE>训练家卡片！<PARA>多么漂亮的<LINE>配色！还有那<CONT>闪亮的星星！<PARA>你真是位<LINE>出色的训练家。<PARA><PLAYER>，<LINE>让我来治疗<CONT>你的宝可梦吧？<DONE>"
+    },
+    "NurseTheUsualText": {
+      "en": "Great to see you<LINE>again, <PLAYER>!<PARA>You want the<LINE>usual, right?<DONE>",
+      "zh": "又见到你了，<LINE><PLAYER>！<PARA>还是要<LINE>老样子，对吧？<DONE>"
+    },
+    "NurseTakePokemonText": {
+      "en": "OK, may I see your<LINE>#mon?<DONE>",
+      "zh": "好的，请把你的<LINE>宝可梦交给我。<DONE>"
+    },
+    "NurseReturnPokemonText": {
+      "en": "Thank you for<LINE>waiting.<PARA>Your #mon are<LINE>fully healed.<DONE>",
+      "zh": "感谢你的<LINE>等待。<PARA>你的宝可梦<LINE>都恢复健康了。<DONE>"
+    },
+    "NurseGoodbyeText": {
+      "en": "We hope to see you<LINE>again.<DONE>",
+      "zh": "欢迎<LINE>下次再来。<DONE>"
+    },
+    "NursePokerusText": {
+      "en": "Your #mon<LINE>appear to be<PARA>infected by tiny<LINE>life forms.<PARA>Your #mon are<LINE>healthy and seem<CONT>to be fine.<PARA>But we can't tell<LINE>you anything more<PARA>at a #mon<LINE>Center.<DONE>",
+      "zh": "你的宝可梦<LINE>似乎<PARA>感染了微小的<LINE>生命体。<PARA>不过它们很<LINE>健康，看起来<CONT>没有问题。<PARA>但更多的事<LINE>我们无法<PARA>在宝可梦<LINE>中心告诉你。<DONE>"
+    },
+    "PokeComNursePokerusText": {
+      "en": "Your #mon<LINE>appear to be<PARA>infected by tiny<LINE>life forms.<PARA>Your #mon are<LINE>healthy and seem<CONT>to be fine.<PARA>But we can't tell<LINE>you anything more.<DONE>",
+      "zh": "你的宝可梦<LINE>似乎<PARA>感染了微小的<LINE>生命体。<PARA>不过它们很<LINE>健康，看起来<CONT>没有问题。<PARA>更多的事<LINE>我们无法告诉你。<DONE>"
+    },
+    "DifficultBookshelfText": {
+      "en": "It's full of<LINE>difficult books.<DONE>",
+      "zh": "里面全是<LINE>很难的书。<DONE>"
+    },
+    "PictureBookshelfText": {
+      "en": "A whole collection<LINE>of #mon picture<CONT>books!<DONE>",
+      "zh": "收藏了一整套<LINE>宝可梦<CONT>绘本！<DONE>"
+    },
+    "MagazineBookshelfText": {
+      "en": "#mon magazines…<LINE>#mon Pal,<PARA>#mon Handbook,<LINE>#mon Graph…<DONE>",
+      "zh": "宝可梦杂志…<LINE>宝可梦之友、<PARA>宝可梦手册、<LINE>宝可梦画报…<DONE>"
+    },
+    "TeamRocketOathText": {
+      "en": "Team Rocket Oath<PARA>Steal #mon for<LINE>profit!<PARA>Exploit #mon<LINE>for profit!<PARA>All #mon exist<LINE>for the glory of<CONT>Team Rocket!<DONE>",
+      "zh": "火箭队誓言<PARA>为了利益<LINE>偷走宝可梦！<PARA>为了利益<LINE>利用宝可梦！<PARA>一切宝可梦<LINE>都是为了<CONT>火箭队的荣光！<DONE>"
+    },
+    "IncenseBurnerText": {
+      "en": "It's an incense<LINE>burner!<DONE>",
+      "zh": "这是一个<LINE>香炉！<DONE>"
+    },
+    "MerchandiseShelfText": {
+      "en": "Lots of #mon<LINE>merchandise!<DONE>",
+      "zh": "好多宝可梦<LINE>周边商品！<DONE>"
+    },
+    "TownMapText": {
+      "en": "It's the Town Map.<DONE>",
+      "zh": "这是城镇地图。<DONE>"
+    },
+    "DiplomaText": {
+      "en": "It's the Diploma.<DONE>",
+      "zh": "这是奖状。<DONE>"
+    },
+    "WindowText": {
+      "en": "My reflection!<LINE>Lookin' good!<DONE>",
+      "zh": "我的倒影！<LINE>看起来不错！<DONE>"
+    },
+    "TVText": {
+      "en": "It's a TV.<DONE>",
+      "zh": "这是一台电视。<DONE>"
+    },
+    "WrongSideText": {
+      "en": "Oops, wrong side.<DONE>",
+      "zh": "哎呀，搞错边了。<DONE>"
+    },
+    "RadioOffAirText": {
+      "en": "The radio is just<LINE>playing static…<DONE>",
+      "zh": "收音机只是<LINE>发出杂音…<DONE>"
+    },
+    "RefrigeratorText": {
+      "en": "It's a fridge.<DONE>",
+      "zh": "这是冰箱。<DONE>"
+    },
+    "SinkText": {
+      "en": "It's a sink.<DONE>",
+      "zh": "这是水槽。<DONE>"
+    },
+    "StoveText": {
+      "en": "It's a stove.<DONE>",
+      "zh": "这是炉灶。<DONE>"
+    },
+    "TrashCanText": {
+      "en": "There's nothing in<LINE>here…<DONE>",
+      "zh": "里面<LINE>什么都没有…<DONE>"
+    },
+    "PokeCenterSignText": {
+      "en": "Heal Your #mon!<LINE>#mon Center<DONE>",
+      "zh": "治愈你的宝可梦！<LINE>宝可梦中心<DONE>"
+    },
+    "MartSignText": {
+      "en": "For All Your<LINE>#mon Needs<PARA>#mon Mart<DONE>",
+      "zh": "满足你所有<LINE>宝可梦需求<PARA>宝可梦商店<DONE>"
+    },
+    "ContestResults_ReadyToJudgeText": {
+      "en": "We will now judge<LINE>the #mon you've<CONT>caught.<PARA>……<LINE>……<PARA>We have chosen the<LINE>winners!<PARA>Are you ready for<LINE>this?<DONE>",
+      "zh": "现在就来评审<LINE>你抓到的<CONT>宝可梦。<PARA>……<LINE>……<PARA>已经选出<LINE>获胜者！<PARA>准备好了<LINE>吗？<DONE>"
+    },
+    "ContestResults_PlayerWonAPrizeText": {
+      "en": "<PLAYER>, the No.{{0}}<LINE>finisher, wins<CONT>{{1}}!<DONE>",
+      "zh": "<PLAYER>获得了<LINE>第{{0}}名，<CONT>奖品是{{1}}！<DONE>"
+    },
+    "ContestResults_JoinUsNextTimeText": {
+      "en": "Please join us for<LINE>the next Contest!<DONE>",
+      "zh": "下届捕虫大赛<LINE>也请来参加！<DONE>"
+    },
+    "ContestResults_ConsolationPrizeText": {
+      "en": "Everyone else gets<LINE>a {{0}} as a<CONT>consolation prize!<DONE>",
+      "zh": "其他人可以<LINE>获得{{0}}作为<CONT>安慰奖！<DONE>"
+    },
+    "ContestResults_DidNotWinText": {
+      "en": "We hope you do<LINE>better next time.<DONE>",
+      "zh": "希望你下次<LINE>能有好成绩！<DONE>"
+    },
+    "ContestResults_ReturnPartyText": {
+      "en": "We'll return the<LINE>#mon we kept<PARA>for you.<LINE>Here you go!<DONE>",
+      "zh": "我们会把<LINE>代为保管的<PARA>宝可梦还给你。<LINE>来，拿着！<DONE>"
+    },
+    "ContestResults_PartyFullText": {
+      "en": "Your party's full,<LINE>so the #mon was<CONT>sent to Bill's PC.<DONE>",
+      "zh": "你的队伍满了，<LINE>所以宝可梦被<CONT>送到正辉的电脑。<DONE>"
+    },
+    "GymStatue_CityGymText": {
+      "en": "{{0}}<LINE>#mon Gym<PARA>Leader: {{1}}<DONE>",
+      "zh": "{{0}}<LINE>宝可梦道馆<PARA>馆主：{{1}}<DONE>"
+    },
+    "GymStatue_WinningTrainersText": {
+      "en": "Winning Trainers:<LINE><RIVAL><DONE>",
+      "zh": "获胜的训练家：<LINE><RIVAL><DONE>"
+    },
+    "GymStatue_TwoWinningTrainersText": {
+      "en": "Winning Trainers:<LINE><RIVAL><CONT><PLAYER><DONE>",
+      "zh": "获胜的训练家：<LINE><RIVAL><CONT><PLAYER><DONE>"
+    },
+    "GymStatue_ThreeWinningTrainersText": {
+      "en": "Winning Trainers:<LINE><RIVAL><CONT><PLAYER><CONT>Lyra<DONE>",
+      "zh": "获胜的训练家：<LINE><RIVAL><CONT><PLAYER><CONT>琴音<DONE>"
+    },
+    "CoinVendor_WelcomeText": {
+      "en": "Welcome to the<LINE>Game Corner.<DONE>",
+      "zh": "欢迎来到<LINE>游戏中心。<DONE>"
+    },
+    "CoinVendor_NoCoinCaseText": {
+      "en": "Do you need game<LINE>coins?<PARA>Oh, you don't have<LINE>a Coin Case for<CONT>your coins.<DONE>",
+      "zh": "你需要<LINE>代币吗？<PARA>哎呀，你没有<LINE>装代币的<CONT>金币盒呢。<DONE>"
+    },
+    "CoinVendor_IntroText": {
+      "en": "Do you need some<LINE>game coins?<PARA>It costs ¥1000 for<LINE>50 coins. Do you<CONT>want some?<DONE>",
+      "zh": "你需要<LINE>代币吗？<PARA>¥1000可以买<LINE>50枚代币。<CONT>要买吗？<DONE>"
+    },
+    "CoinVendor_Buy50CoinsText": {
+      "en": "Thank you!<LINE>Here are 50 coins.<DONE>",
+      "zh": "谢谢！<LINE>这是50枚代币。<DONE>"
+    },
+    "CoinVendor_Buy500CoinsText": {
+      "en": "Thank you! Here<LINE>are 500 coins.<DONE>",
+      "zh": "谢谢！这是<LINE>500枚代币。<DONE>"
+    },
+    "CoinVendor_NotEnoughMoneyText": {
+      "en": "You don't have<LINE>enough money.<DONE>",
+      "zh": "你的钱<LINE>不够呢。<DONE>"
+    },
+    "CoinVendor_CoinCaseFullText": {
+      "en": "Whoops! Your Coin<LINE>Case is full.<DONE>",
+      "zh": "哎呀！你的<LINE>金币盒满了。<DONE>"
+    },
+    "CoinVendor_CancelText": {
+      "en": "No coins for you?<LINE>Come again!<DONE>",
+      "zh": "不买代币吗？<LINE>欢迎再来！<DONE>"
+    },
+    "BugContestPrizeNoRoomText": {
+      "en": "Oh? Your Bag is<LINE>full.<PARA>We'll keep this<LINE>for you today, so<PARA>come back when you<LINE>make room for it.<DONE>",
+      "zh": "哦？你的<LINE>背包满了。<PARA>这个先由我们<LINE>替你保管，<PARA>等你有空位了<LINE>再来拿吧。<DONE>"
+    },
+    "HappinessText3": {
+      "en": "Wow! You and your<LINE>#mon are really<CONT>close!<DONE>",
+      "zh": "哇！你和你的<LINE>宝可梦<CONT>真亲密！<DONE>"
+    },
+    "HappinessText2": {
+      "en": "#mon get more<LINE>friendly if you<PARA>spend time with<LINE>them.<DONE>",
+      "zh": "只要多花时间<LINE>陪伴，宝可梦<PARA>就会变得<LINE>更亲近哦。<DONE>"
+    },
+    "HappinessText1": {
+      "en": "You haven't tamed<LINE>your #mon.<PARA>If you aren't<LINE>nice, it'll pout.<DONE>",
+      "zh": "你还没<LINE>驯服宝可梦呢。<PARA>对它不好，<LINE>它就会闹别扭。<DONE>"
+    },
+    "RegisteredNumber1Text": {
+      "en": "<PLAYER> registered<LINE>{{0}}'s number.<DONE>",
+      "zh": "<PLAYER>记下了<LINE>{{0}}的电话号码。<DONE>"
+    },
+    "RegisteredNumber2Text": {
+      "en": "<PLAYER> registered<LINE>{{0}}'s number.<DONE>",
+      "zh": "<PLAYER>记下了<LINE>{{0}}的电话号码。<DONE>"
+    },
+    "VendingMachineText": {
+      "en": "A vending machine!<LINE>Here's the menu.<DONE>",
+      "zh": "自动售货机！<LINE>这是菜单。<DONE>"
+    },
+    "VendingMachineClangText": {
+      "en": "Clang!<PARA>{{0}}<LINE>popped out.<DONE>",
+      "zh": "哐当！<PARA>{{0}}<LINE>掉了出来。<DONE>"
+    },
+    "VendingMachineScoreText": {
+      "en": "Score! An extra<LINE>{{0}}<CONT>popped out.<DONE>",
+      "zh": "赚到了！多出<LINE>{{0}}<CONT>也掉了出来。<DONE>"
+    },
+    "VendingMachineNoMoneyText": {
+      "en": "Oops, not enough<LINE>money…<DONE>",
+      "zh": "哎呀，钱<LINE>不够…<DONE>"
+    },
+    "VendingMachineNoSpaceText": {
+      "en": "There's no more<LINE>room for stuff…<DONE>",
+      "zh": "已经装不下<LINE>更多东西了…<DONE>"
+    },
+    "HiddenGrottoText": {
+      "en": "Look! You've found<LINE>a narrow path!<PARA>Will you follow<LINE>it?<DONE>",
+      "zh": "看！你发现了<LINE>一条窄路！<PARA>要沿着它<LINE>走过去吗？<DONE>"
+    }
+  }
+}

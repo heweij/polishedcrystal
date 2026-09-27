@@ -1,0 +1,34 @@
+{
+  "_comment": "由 tools/zh/zh.py text-extract 生成；zh 为空表示未翻译（回退原文）。控制码沿用 <LINE>/<DONE>/<PLAYER> 等写法，{{n}} 为不可翻译的占位命令，必须原样保留。",
+  "source": "maps\\DarkCaveVioletEntrance.asm",
+  "blocks": {
+    "DarkCaveVioletEntranceFalknerAttackText": {
+      "en": "Falkner: Use Wing<LINE>Attack, Pidgeotto!<DONE>",
+      "zh": "阿速：比比鸟，<LINE>用翅膀攻击！<DONE>"
+    },
+    "DarkCaveVioletEntranceFalknerReturnText": {
+      "en": "Good job,<LINE>Pidgeotto.<DONE>",
+      "zh": "干得好，<LINE>比比鸟。<DONE>"
+    },
+    "DarkCaveVioletEntranceFalknerIntroText": {
+      "en": "Oh! You must be<LINE>a trainer.<PROMPT>",
+      "zh": "哦！你一定是<LINE>训练家。<PROMPT>"
+    },
+    "DarkCaveVioletEntranceFalknerDarkIntroText": {
+      "en": "You must be brave<LINE>to come here in<CONT>pitch darkness.<PROMPT>",
+      "zh": "你敢在<LINE>漆黑一片中<CONT>来到这里，<PARA>真勇敢。<PROMPT>"
+    },
+    "DarkCaveVioletEntranceFalknerExplanationText": {
+      "en": "I'm Falkner, the<LINE>Violet #mon<CONT>Gym Leader.<PARA>I don't explore<LINE>caves for fun,<PARA>but that Ursaring<LINE>was attacking<PARA>trainers too weak<LINE>to defend them-<CONT>selves.<PARA>As a Gym Leader,<LINE>it's my job to<PARA>handle this sort<LINE>of situation.<PARA>So you're here to<LINE>earn a Badge?<PARA>Then meet me at<LINE>the Violet Gym.<DONE>",
+      "zh": "我是阿速，<LINE>桔梗市<CONT>宝可梦道馆<CONT>馆主。<PARA>我探索洞窟<LINE>可不是为了玩，<PARA>而是那只圈圈熊<PARA>在袭击<LINE>无力自保的<CONT>训练家。<PARA>身为馆主，<LINE>处理这种事<PARA>是我的职责。<PARA>你是来<LINE>拿徽章的？<PARA>那就在<LINE>桔梗道馆<CONT>等我。<DONE>"
+    },
+    "DarkCaveVioletEntranceFalknerDarknessText": {
+      "en": "Falkner: Is<LINE>someone there?<PARA>Don't come any<LINE>closer!<PARA>It's too dark, you<LINE>could get hurt.<DONE>",
+      "zh": "阿速：有人吗？<PARA>别再<LINE>靠近了！<PARA>太黑了，<LINE>你会受伤的。<DONE>"
+    },
+    "DarkCaveVioletEntranceFalknerProgressAnywayText": {
+      "en": "Falkner: Is<LINE>someone there?<PARA>It's reckless to<LINE>explore Dark Cave<CONT>without any light!<PARA>I'm in the middle<LINE>of a battle, so<CONT>stay back!<DONE>",
+      "zh": "阿速：有人吗？<PARA>没有光就<LINE>闯进黑暗洞穴，<PARA>太鲁莽了！<PARA>我正在<LINE>对战，<CONT>退后！<DONE>"
+    }
+  }
+}

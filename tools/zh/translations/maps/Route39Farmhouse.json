@@ -1,0 +1,34 @@
+{
+  "_comment": "由 tools/zh/zh.py text-extract 生成；zh 为空表示未翻译（回退原文）。控制码沿用 <LINE>/<DONE>/<PLAYER> 等写法，{{n}} 为不可翻译的占位命令，必须原样保留。",
+  "source": "maps\\Route39Farmhouse.asm",
+  "blocks": {
+    "FarmerMScript_SellMilk.MenuData2#0": {
+      "en": "× 1    ¥{d:ROUTE39FARMHOUSE_MILK_PRICE}@",
+      "zh": "× 1    ¥{d:ROUTE39FARMHOUSE_MILK_PRICE}@"
+    },
+    "FarmerMScript_SellMilk.MenuData2#1": {
+      "en": "×12   ¥{d:ROUTE39FARMHOUSE_DOZEN_MILK_PRICE}@",
+      "zh": "×12   ¥{d:ROUTE39FARMHOUSE_DOZEN_MILK_PRICE}@"
+    },
+    "FarmerMScript_SellMilk.MenuData2#2": {
+      "en": "Cancel@",
+      "zh": "取消@"
+    },
+    "FarmerMText_SickCow": {
+      "en": "My Miltank ain't<LINE>givin' me milk<CONT>n'more.<PARA>This here Farm's<LINE>got famous milk.<PARA>Most everyone<LINE>wants a drink.<PARA>It'll give me lots<LINE>o' milk if'n I<PARA>feed it lots o'<LINE>Berries, I reckon.<DONE>",
+      "zh": "我的大奶罐<CONT>不产奶啦。<PARA>咱农场的<LINE>牛奶<CONT>可是<CONT>很有名的。<PARA>大家都<LINE>想喝。<PARA>多喂些<LINE>树果，<PARA>它应该<LINE>就会<CONT>多产奶。<DONE>"
+    },
+    "FarmerMText_BuyMilk": {
+      "en": "How'd you like my<LINE>Moomoo Milk?<PARA>It's my pride and<LINE>joy, there.<PARA>Give it to #mon<LINE>to restore HP!<PARA>I'll give it to ya<LINE>fer just ¥500.<DONE>",
+      "zh": "我的<LINE>哞哞牛奶<PARA>味道如何？<PARA>这可是<LINE>我的骄傲。<PARA>给宝可梦<CONT>喝能<CONT>恢复体力！<PARA>算你<LINE>¥500<PARA>就行。<DONE>"
+    },
+    "FarmerMText_GotMilk": {
+      "en": "Here ya go!<LINE>Drink up'n enjoy!<DONE>",
+      "zh": "来，<LINE>拿去！<PARA>好好<CONT>享用吧！<DONE>"
+    },
+    "FarmerFText_HealedMiltank": {
+      "en": "You fixed our<LINE>Miltank, hon. Now<PARA>it gives Moomoo<LINE>Milk again.<PARA>Here's somethin'<LINE>fer your trouble.<DONE>",
+      "zh": "你治好了<LINE>咱家的大奶罐。<PARA>它又能<LINE>产哞哞牛奶了。<PARA>这点<LINE>心意<CONT>请收下。<DONE>"
+    }
+  }
+}

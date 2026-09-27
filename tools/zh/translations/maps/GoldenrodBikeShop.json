@@ -1,0 +1,30 @@
+{
+  "_comment": "由 tools/zh/zh.py text-extract 生成；zh 为空表示未翻译（回退原文）。控制码沿用 <LINE>/<DONE>/<PLAYER> 等写法，{{n}} 为不可翻译的占位命令，必须原样保留。",
+  "source": "maps\\GoldenrodBikeShop.asm",
+  "blocks": {
+    "GoldenrodBikeShopClerkFirstRateBikesText": {
+      "en": "My Bicycles are<LINE>first-rate! You<PARA>can ride them<LINE>anywhere.<DONE>",
+      "zh": "我的自行车<LINE>品质一流！<PARA>哪儿<LINE>都能骑。<DONE>"
+    },
+    "GoldenrodBikeShopClerkIntroText": {
+      "en": "…sigh… I opened<LINE>a branch here,<PARA>but I can't sell<LINE>my Bicycles.<CONT>Why is that?<PARA>Could you ride a<LINE>Bicycle and adver-<CONT>tise for me?<DONE>",
+      "zh": "……唉……<LINE>我在这里<CONT>开了分店，<PARA>可自行车<LINE>卖不出去。<PARA>为什么呢？<PARA>你能不能<LINE>骑着自行车<CONT>帮我宣传？<DONE>"
+    },
+    "GoldenrodBikeShopClerkAgreedText": {
+      "en": "Really? Great!<PARA>Give me your name<LINE>and phone number,<PARA>and I'll loan you<LINE>a Bicycle.<DONE>",
+      "zh": "真的？太好了！<PARA>给我你的<LINE>名字和<CONT>电话号码，<PARA>我就<LINE>借你自行车。<DONE>"
+    },
+    "GoldenrodBikeShopClerkRefusedText": {
+      "en": "…sigh… Oh, for<LINE>the kindness of<CONT>people…<DONE>",
+      "zh": "……唉……<LINE>唉，人情<CONT>冷暖啊……<DONE>"
+    },
+    "GoldenrodBikeShopBicycleText": {
+      "en": "It's a shiny new<LINE>Bicycle!<DONE>",
+      "zh": "是辆<LINE>崭新的自行车！<DONE>"
+    },
+    "GoldenrodBikeShopJustReleasedCompactBikeText": {
+      "en": "Just released!<PARA>First-rate compact<LINE>Bicycles!<DONE>",
+      "zh": "新上市！<PARA>品质一流的<LINE>折叠自行车！<DONE>"
+    }
+  }
+}

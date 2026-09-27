@@ -1,0 +1,10 @@
+{
+  "_comment": "由 tools/zh/zh.py text-extract 生成；zh 为空表示未翻译（回退原文）。控制码沿用 <LINE>/<DONE>/<PLAYER> 等写法，{{n}} 为不可翻译的占位命令，必须原样保留。",
+  "source": "maps\\GoldenrodNetBallHouse.asm",
+  "blocks": {
+    "GoldenrodNetBallHouseBugCatcherText": {
+      "en": "They hold Bug-<LINE>Catching Contests<PARA>in National Park<LINE>on Route 35.<PARA>Sometimes even<LINE>Bugsy competes.<DONE>",
+      "zh": "35号道路的<LINE>自然公园<PARA>会举办<LINE>捕虫大赛。<PARA>有时连<LINE>阿笔<CONT>都会参加。<DONE>"
+    }
+  }
+}

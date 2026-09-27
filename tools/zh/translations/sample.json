@@ -1,0 +1,34 @@
+{
+  "ZhText_Sample_Greeting": {
+    "en": "Hello!<LINE>Welcome to the world of #mon!@",
+    "zh": "你好！<LINE>欢迎来到宝可梦！@"
+  },
+  "ZhText_Sample_Wind": {
+    "en": "The wind is blowing gently.@",
+    "zh": "微风轻轻吹拂。@"
+  },
+  "ZhText_Sample_Obtained": {
+    "en": "<PLAYER> obtained a POTION!@",
+    "zh": "<PLAYER>获得药！@"
+  },
+  "ZhText_Sample_Ready": {
+    "en": "Are you ready?<NEXT>Let us go!@",
+    "zh": "准备好了吗？<NEXT>我们出发吧！@"
+  },
+  "ZhText_Sample_Route": {
+    "en": "ROUTE 29<LINE>West of New Bark@",
+    "zh": "29号道路<LINE>若叶镇以西@"
+  },
+  "ZhText_Sample_Demo": {
+    "en": "Chinese font test.<LINE>One two three four five Chinese test@",
+    "zh": "一二三四五<LINE>中文测试@",
+    "section": "VWF",
+    "fragment": true
+  },
+  "ZhText_Sample_Marker": {
+    "en": "ZH-DEMO BUILD OK@",
+    "zh": "中文演示@",
+    "section": "VWF",
+    "fragment": true
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "_comment": "由 tools/zh/zh.py text-extract 生成；zh 为空表示未翻译（回退原文）。控制码沿用 <LINE>/<DONE>/<PLAYER> 等写法，{{n}} 为不可翻译的占位命令，必须原样保留。",
+  "source": "maps\\Route33.asm",
+  "blocks": {
+    "HikerAnthony1SeenText": {
+      "en": "I came through the<LINE>tunnel, but I<PARA>still have plenty<LINE>of energy left.<DONE>",
+      "zh": "我穿过<LINE>隧道过来的，<PARA>可还是<LINE>精力充沛！<DONE>"
+    },
+    "HikerAnthony1BeatenText": {
+      "en": "Whoa! You've got<LINE>more zip than me!<DONE>",
+      "zh": "哇！你比<LINE>我还<CONT>有干劲！<DONE>"
+    },
+    "HikerAnthony1AfterText": {
+      "en": "We Hikers are at<LINE>our best in the<CONT>mountains.<DONE>",
+      "zh": "我们登山客<LINE>在山里<CONT>状态最好。<DONE>"
+    },
+    "HikerAnthonyDunsparceText": {
+      "en": "Hey, did you get a<LINE>Dunsparce?<PARA>I caught one too.<PARA>Take a look at it<LINE>in the light. It's<CONT>got a funny face!<DONE>",
+      "zh": "嘿，你抓到<LINE>土龙弟弟了吗？<PARA>我也抓到了。<PARA>在光下<LINE>仔细看看，<PARA>它的脸<LINE>很搞笑！<DONE>"
+    },
+    "SchoolgirlImogenSeenText": {
+      "en": "I'm the best in my<LINE>class at #mon.<DONE>",
+      "zh": "我们班上<LINE>我最懂宝可梦。<DONE>"
+    },
+    "SchoolgirlImogenBeatenText": {
+      "en": "So there are bet-<LINE>ter trainers…<DONE>",
+      "zh": "原来还有<LINE>更强的训练家……<DONE>"
+    },
+    "Route33SignText": {
+      "en": "Route 33<DONE>",
+      "zh": "33号道路<DONE>"
+    }
+  }
+}

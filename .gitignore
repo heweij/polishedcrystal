@@ -1,0 +1,82 @@
+# compiled objects
+*.o
+*.h.gch
+
+# compiled graphics
+*.1bpp
+*.2bpp
+*.2bpp.vram*
+*.lz
+*.lzp
+*.widths
+gfx/pokemon/*/*.dimensions
+gfx/pokemon/*/*.animated.tilemap
+gfx/pokemon/*/bitmask.asm
+gfx/pokemon/*/frames.asm
+gfx/pokedex/*.bin
+gfx/stats/*.bin
+gfx/title/suicune_unowns.tilemap
+
+# compiled tilesets
+data/tilesets/*_collision.bin
+
+# compiled roms
+*.gbc
+*.pocket
+*.patch
+
+# compiled patch
+*.bsp
+*.ips
+
+# rgbds extras
+*.map
+*.sym
+
+# tool binaries
+*.exe
+
+# tool output
+bank_ends.txt
+
+# precompiled python
+*.pyc
+*$py.class
+
+# save game files
+*.sgm
+*.sav
+*.rtc
+*.sn*
+*.sa*
+*.sg1
+
+# vim configuration
+# http://www.vim.org/scripts/script.php?script_id=441
+.lvimrc
+
+# swap files for vim and gedit
+.*.swp
+*~
+
+# macos files
+.DS_STORE
+
+# local tools
+rgbds/
+deploy.sh
+
+# --- 中文本地化：构建状态 / 生成物 / 调试输出 ---
+.build-variant
+.build-variant-en
+*.gbc.ram
+tools/zh/verify_out/
+tools/zh/__pycache__/
+data/text/zh/
+data/text/zh_engine/
+data/text/zh_include/
+data/text/zh_maps/
+
+; 中文字库是例外：它由系统字体生成、没有 png 源，
+; 不入库的话换机器就重建不出来（*.1bpp 默认被忽略）。
+!gfx/font/zh.*.1bpp

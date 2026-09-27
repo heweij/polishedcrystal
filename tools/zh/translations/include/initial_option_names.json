@@ -1,0 +1,50 @@
+{
+  "_comment": "由 tools/zh/zh.py text-extract 生成；zh 为空表示未翻译（回退原文）。控制码沿用 <LINE>/<DONE>/<PLAYER> 等写法，{{n}} 为不可翻译的占位命令，必须原样保留。",
+  "source": "data\\options\\initial_option_names.asm",
+  "blocks": {
+    "InitialOptionNames.Natures#0": {
+      "en": "Natures@",
+      "zh": "性格@"
+    },
+    "InitialOptionNames.Abilities#0": {
+      "en": "Abilities@",
+      "zh": "特性@"
+    },
+    "InitialOptionNames.PSS#0": {
+      "en": "Phys/Spcl split@",
+      "zh": "物特分离@"
+    },
+    "InitialOptionNames.EVs#0": {
+      "en": "EV gain@",
+      "zh": "努力值获取@"
+    },
+    "InitialOptionNames.Experience#0": {
+      "en": "Experience gain@",
+      "zh": "经验获取@"
+    },
+    "InitialOptionNames.Affection#0": {
+      "en": "Affection bonus@",
+      "zh": "亲密度加成@"
+    },
+    "InitialOptionNames.RTC#0": {
+      "en": "Real-time clock@",
+      "zh": "实时时钟@"
+    },
+    "InitialOptionNames.PerfectStats#0": {
+      "en": "Perfect stats@",
+      "zh": "完美个体值@"
+    },
+    "InitialOptionNames.TradedMon#0": {
+      "en": "Traded <PK><MN> obey@",
+      "zh": "交换服从@"
+    },
+    "InitialOptionNames.EvolveInBattle#0": {
+      "en": "Evolve in battle@",
+      "zh": "战斗中进化@"
+    },
+    "InitialOptionNames.ColorVariation#0": {
+      "en": "Color variation@",
+      "zh": "颜色差异@"
+    }
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "_comment": "由 tools/zh/zh.py text-extract 生成；zh 为空表示未翻译（回退原文）。控制码沿用 <LINE>/<DONE>/<PLAYER> 等写法，{{n}} 为不可翻译的占位命令，必须原样保留。",
+  "source": "maps\\Route31.asm",
+  "blocks": {
+    "ReceivedSpearowMailText#0": {
+      "en": "Dark Cave leads<NEXT>to another road@",
+      "zh": "黑暗洞穴<NEXT>通向另一条路@"
+    },
+    "Bug_catcherWade1SeenText": {
+      "en": "I caught a bunch<LINE>of #mon. Let me<CONT>battle with you!<DONE>",
+      "zh": "我抓到了<LINE>好多宝可梦，<CONT>来对战吧！<DONE>"
+    },
+    "Bug_catcherWade1BeatenText": {
+      "en": "Awwwww…<DONE>",
+      "zh": "呜呜呜……<DONE>"
+    },
+    "Bug_catcherWade1AfterText": {
+      "en": "You can catch<LINE>#mon even if<PARA>you have six with<LINE>you.<PARA>If you catch one,<LINE>it'll go to your<CONT>Box automatically.<DONE>",
+      "zh": "就算身上带着<LINE>六只宝可梦，<PARA>也还能<LINE>继续收服。<PARA>收服到新的，<LINE>会自动<CONT>送进箱子。<DONE>"
+    },
+    "Text_Route31SleepyManGotMail": {
+      "en": "…Zzzz… Huh?<PARA>What's that? You<LINE>have Mail for me?<DONE>",
+      "zh": "……呼噜……嗯？<PARA>什么？你有<LINE>信要给我？<DONE>"
+    },
+    "Text_Route31HandOverMailMon": {
+      "en": "<PLAYER> handed<LINE>over the #mon<CONT>holding the Mail.<DONE>",
+      "zh": "<PLAYER>交出了<LINE>那只带着信的<CONT>宝可梦。<DONE>"
+    },
+    "Text_Route31ReadingMail": {
+      "en": "Let's see…<PARA>…Dark Cave leads<LINE>to another road…<PARA>That's good to<LINE>know.<PARA>Thanks for bring-<LINE>ing this to me.<PARA>My friend's a good<LINE>guy, and you're<CONT>swell too!<PARA>I'd like to do<LINE>something good in<CONT>return!<DONE>",
+      "zh": "我看看……<PARA>……黑暗洞穴<LINE>通向另一条路……<PARA>这可是<LINE>有用情报。<PARA>谢谢你<LINE>送来这封信。<PARA>我朋友是<LINE>大好人，你<CONT>也很不错！<PARA>我也想<LINE>做点好事<CONT>回报你！<DONE>"
+    },
+    "Text_Route31TutorSleepTalk": {
+      "en": "For just one<LINE>Silver Leaf,<PARA>I can teach your<LINE>#mon to talk<CONT>in their sleep!<DONE>",
+      "zh": "只要一片<LINE>银色叶子，<PARA>就能教你的<LINE>宝可梦在睡梦中<CONT>说梦话！<DONE>"
+    },
+    "Text_Route31TutorQuestion": {
+      "en": "Should I teach<LINE>your #mon<CONT>Sleep Talk?<DONE>",
+      "zh": "要我教你的<LINE>宝可梦<CONT>梦话吗？<DONE>"
+    },
+    "Route31YoungsterText": {
+      "en": "I found a good<LINE>#mon in Dark<CONT>Cave.<PARA>I'm going to raise<LINE>it to take on<CONT>Falkner.<PARA>He's the leader of<LINE>Violet City's Gym.<DONE>",
+      "zh": "我在黑暗洞穴<LINE>发现了一只<CONT>不错的宝可梦。<PARA>我要好好培养<LINE>它，去挑战<CONT>阿速。<PARA>他是桔梗市<LINE>道馆的馆主。<DONE>"
+    },
+    "Route31SignText": {
+      "en": "Route 31<PARA>Violet City -<LINE>Cherrygrove City<DONE>",
+      "zh": "31号道路<PARA>桔梗市<LINE>——吉野市<DONE>"
+    },
+    "DarkCaveSignText": {
+      "en": "Dark Cave<DONE>",
+      "zh": "黑暗洞穴<DONE>"
+    },
+    "Route31AdvancedTipsSignText": {
+      "en": "Advanced Tips!<PARA>Press Start in<LINE>the Bag to sort<CONT>an item pocket!<DONE>",
+      "zh": "进阶提示！<PARA>在背包里<LINE>按开始键，<CONT>整理道具口袋！<DONE>"
+    }
+  }
+}

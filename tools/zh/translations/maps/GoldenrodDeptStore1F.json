@@ -1,0 +1,26 @@
+{
+  "_comment": "由 tools/zh/zh.py text-extract 生成；zh 为空表示未翻译（回退原文）。控制码沿用 <LINE>/<DONE>/<PLAYER> 等写法，{{n}} 为不可翻译的占位命令，必须原样保留。",
+  "source": "maps\\GoldenrodDeptStore1F.asm",
+  "blocks": {
+    "GoldenrodDeptStore1FReceptionistText": {
+      "en": "Welcome to Golden-<LINE>rod Dept.Store.<DONE>",
+      "zh": "欢迎光临<LINE>满金百货公司。<DONE>"
+    },
+    "GoldenrodDeptStore1FGentlemanText": {
+      "en": "The Dept.Store<LINE>has a decent se-<CONT>lection.<PARA>But some items<LINE>are only available<PARA>as Game Corner<LINE>prizes.<DONE>",
+      "zh": "百货公司<LINE>商品<CONT>还算齐全。<PARA>但有些道具<LINE>只能在<PARA>游戏城<CONT>换到。<DONE>"
+    },
+    "GoldenrodDeptStore1FPokefanFText": {
+      "en": "I'm raring to shop<LINE>again today!<DONE>",
+      "zh": "今天我<LINE>又要<CONT>大买特买！<DONE>"
+    },
+    "GoldenrodDeptStore1FBugCatcherText": {
+      "en": "Mom's good at<LINE>bargain hunting.<PARA>She always buys<LINE>stuff at lower<CONT>prices.<DONE>",
+      "zh": "妈妈很会<LINE>挑便宜货。<PARA>她总能<LINE>用更低的价钱<CONT>买到东西。<DONE>"
+    },
+    "GoldenrodDeptStore1FDirectoryText": {
+      "en": "1F Service Counter<PARA>2F Trainer's<LINE>   Market<PARA>3F Battle<LINE>   Collection<PARA>4F Medicine Box<PARA>5F TM Corner<PARA>6F Tranquil Square<PARA>Rooftop Lookout<DONE>",
+      "zh": "1F 服务台<PARA>2F 训练家<LINE>   市场<PARA>3F 对战<LINE>   收藏<PARA>4F 药品柜<PARA>5F 招式<LINE>   学习器<PARA>6F 静谧广场<PARA>屋顶 瞭望台<DONE>"
+    }
+  }
+}

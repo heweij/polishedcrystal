@@ -1,0 +1,22 @@
+{
+  "_comment": "由 tools/zh/zh.py text-extract 生成；zh 为空表示未翻译（回退原文）。控制码沿用 <LINE>/<DONE>/<PLAYER> 等写法，{{n}} 为不可翻译的占位命令，必须原样保留。",
+  "source": "maps\\GoldenrodHoneyHouse.asm",
+  "blocks": {
+    "GoldenrodHoneyHousePokefanFScript.MenuData2#0": {
+      "en": "× 1   ¥1000@",
+      "zh": "× 1   ¥1000@"
+    },
+    "GoldenrodHoneyHousePokefanFScript.MenuData2#1": {
+      "en": "×10  ¥10000@",
+      "zh": "×10  ¥10000@"
+    },
+    "GoldenrodHoneyHousePokefanFScript.MenuData2#2": {
+      "en": "Cancel@",
+      "zh": "取消@"
+    },
+    "GoldenrodHoneyHouseButterfreeText": {
+      "en": "Butterfree: Freeh!<DONE>",
+      "zh": "巴大蝶：蝶！<DONE>"
+    }
+  }
+}

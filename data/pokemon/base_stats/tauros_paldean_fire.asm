@@ -1,0 +1,23 @@
+if DEF(FAITHFUL)
+	bst 490,  75, 110, 105,  30,  70, 100
+	;   bst   hp  atk  def  sat  sdf  spe
+else
+	bst 500,  75, 110, 105,  40,  70, 100
+	;   bst   hp  atk  def  sat  sdf  spe
+endc
+
+	db FIGHTING, FIRE ; type
+	db 45 ; catch rate
+	db 211 ; base exp
+	db NO_ITEM, NO_ITEM ; held items
+	dn GENDER_F0, HATCH_MEDIUM_FAST ; gender ratio, step cycles to hatch
+
+	abilities_for TAUROS_PALDEAN_FIRE, INTIMIDATE, ANGER_POINT, CUD_CHEW
+	db GROWTH_SLOW ; growth rate
+	dn EGG_GROUND, EGG_GROUND ; egg groups
+
+	ev_yield 1 Atk, 1 Spe
+
+	; tm/hm learnset
+	tmhm CURSE, TOXIC, BULK_UP, HIDDEN_POWER, SUNNY_DAY, HYPER_BEAM, PROTECT, BULLDOZE, SOLAR_BEAM, IRON_TAIL, EARTHQUAKE, RETURN, ROCK_SMASH, DOUBLE_TEAM, FLAMETHROWER, FIRE_BLAST, SUBSTITUTE, FACADE, FLAME_CHARGE, REST, ATTRACT, WILD_CHARGE, GIGA_IMPACT, STRENGTH, BODY_SLAM, DOUBLE_EDGE, ENDURE, HEADBUTT, IRON_HEAD, SLEEP_TALK, SWAGGER, ZEN_HEADBUTT
+	; end

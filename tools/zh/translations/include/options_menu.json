@@ -1,0 +1,142 @@
+{
+  "_comment": "由 tools/zh/zh.py text-extract 生成；zh 为空表示未翻译（回退原文）。控制码沿用 <LINE>/<DONE>/<PLAYER> 等写法，{{n}} 为不可翻译的占位命令，必须原样保留。",
+  "source": "engine\\menus\\options_menu.asm",
+  "blocks": {
+    "Options_TextSpeed.Slow#0": {
+      "en": "Slow   @",
+      "zh": "慢速   @"
+    },
+    "Options_TextSpeed.Medium#0": {
+      "en": "Medium @",
+      "zh": "中速   @"
+    },
+    "Options_TextSpeed.Fast#0": {
+      "en": "Fast   @",
+      "zh": "快速   @"
+    },
+    "Options_TextSpeed.Instant#0": {
+      "en": "Instant@",
+      "zh": "瞬间   @"
+    },
+    "Options_BattleStyle.Set#0": {
+      "en": "Set    @",
+      "zh": "不替换 @"
+    },
+    "Options_BattleStyle.Switch#0": {
+      "en": "Switch @",
+      "zh": "替换   @"
+    },
+    "Options_BattleStyle.Predict#0": {
+      "en": "Predict@",
+      "zh": "预测   @"
+    },
+    "Options_Nicknames.Ask#0": {
+      "en": "Ask   @",
+      "zh": "询问  @"
+    },
+    "Options_Nicknames.Always#0": {
+      "en": "Always@",
+      "zh": "总是  @"
+    },
+    "Options_Nicknames.Never#0": {
+      "en": "Never @",
+      "zh": "从不  @"
+    },
+    "OffString#0": {
+      "en": "Off@",
+      "zh": "关 @"
+    },
+    "OnString#0": {
+      "en": "On @",
+      "zh": "开 @"
+    },
+    "Options_Sound.Mono#0": {
+      "en": "Mono  @",
+      "zh": "单声道@"
+    },
+    "Options_Sound.Stereo#0": {
+      "en": "Stereo@",
+      "zh": "立体声@"
+    },
+    "Options_ClockFormat.Twelve#0": {
+      "en": "12-hour@",
+      "zh": "12小时 @"
+    },
+    "Options_ClockFormat.TwentyFour#0": {
+      "en": "24-hour@",
+      "zh": "24小时 @"
+    },
+    "Options_PokedexUnits.Imperial#0": {
+      "en": "Imperial@",
+      "zh": "英制    @"
+    },
+    "Options_PokedexUnits.Metric#0": {
+      "en": "Metric  @",
+      "zh": "公制    @"
+    },
+    "Options_TextAutoscroll.None#0": {
+      "en": "None  @",
+      "zh": "无    @"
+    },
+    "Options_TextAutoscroll.Start#0": {
+      "en": "Start @",
+      "zh": "开始键@"
+    },
+    "Options_TextAutoscroll.B#0": {
+      "en": "B     @",
+      "zh": "B键   @"
+    },
+    "Options_TextAutoscroll.AorB#0": {
+      "en": "A or B@",
+      "zh": "A或B  @"
+    },
+    "Options_TurningSpeed.Slow#0": {
+      "en": "Slow@",
+      "zh": "慢速@"
+    },
+    "Options_TurningSpeed.Fast#0": {
+      "en": "Fast@",
+      "zh": "快速@"
+    },
+    "Options_Typeface.Normal#0": {
+      "en": "Normal @",
+      "zh": "标准   @"
+    },
+    "Options_Typeface.Narrow#0": {
+      "en": "Narrow @",
+      "zh": "窄体   @"
+    },
+    "Options_Typeface.Bold#0": {
+      "en": "Bold   @",
+      "zh": "粗体   @"
+    },
+    "Options_Typeface.Italic#0": {
+      "en": "Italic @",
+      "zh": "斜体   @"
+    },
+    "Options_Typeface.Serif#0": {
+      "en": "Serif  @",
+      "zh": "衬线   @"
+    },
+    "Options_Typeface.Chicago#0": {
+      "en": "Chicago@",
+      "zh": "芝加哥 @"
+    },
+    "Options_Typeface.MICR#0": {
+      "en": "MICR   @",
+      "zh": ""
+    },
+    "Options_Typeface.Unown#0": {
+      "en": "Unown  @",
+      "zh": "未知   @"
+    },
+    "Options_Keyboard.ABC#0": {
+      "en": "ABCDEF@",
+      "zh": ""
+    },
+    "Options_Keyboard.QWERTY#0": {
+      "en": "QWERTY@",
+      "zh": ""
+    }
+  }
+}

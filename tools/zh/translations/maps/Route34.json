@@ -1,0 +1,154 @@
+{
+  "_comment": "由 tools/zh/zh.py text-extract 生成；zh 为空表示未翻译（回退原文）。控制码沿用 <LINE>/<DONE>/<PLAYER> 等写法，{{n}} 为不可翻译的占位命令，必须原样保留。",
+  "source": "maps\\Route34.asm",
+  "blocks": {
+    "CooltrainerfKateAfterText": {
+      "en": "Kate: I'm sorry we<LINE>jumped you.<PARA>We never expected<LINE>anyone to find us<PARA>here. You sure<LINE>startled us.<DONE>",
+      "zh": "凯特：对不起，<LINE>我们偷袭了你。<PARA>没想到<LINE>会有人找到<CONT>这里。<PARA>你真的<LINE>吓到我们了。<DONE>"
+    },
+    "Route34LyraText_Grandpa": {
+      "en": "Lyra: Grandpa!<DONE>",
+      "zh": "琴音：爷爷！<DONE>"
+    },
+    "Route34LyraGoodWorkText": {
+      "en": "Lyra: Good work,<LINE>Grandpa!<PARA>The #mon you<LINE>raised for me is<CONT>healthy as can be!<PARA>You look fit,<LINE>too!<DONE>",
+      "zh": "琴音：干得好，<LINE>爷爷！<PARA>你替我养的<LINE>宝可梦<CONT>健康极了！<PARA>您看起来<LINE>也很精神！<DONE>"
+    },
+    "Route34LyraGreetingText": {
+      "en": "Lyra: Hi, <PLAYER>!<DONE>",
+      "zh": "琴音：你好，<LINE><PLAYER>！<DONE>"
+    },
+    "Route34LyraIntroductionText": {
+      "en": "Grandpa, this is<LINE>my friend!<PARA><PLAYER> is quite<LINE>good at raising<CONT>#mon.<PARA>Well, not as good<LINE>as you, of course!<DONE>",
+      "zh": "爷爷，这是我的<LINE>朋友！<PARA><PLAYER>很会<CONT>培育宝可梦。<PARA>当然，<LINE>比不上您啦！<DONE>"
+    },
+    "Route34LyraChallengeText": {
+      "en": "<PLAYER>, why don't<LINE>we show Grandpa<CONT>how good you are?<DONE>",
+      "zh": "<PLAYER>，<LINE>我们让爷爷<CONT>看看你的实力吧？<DONE>"
+    },
+    "Route34LyraWinText": {
+      "en": "You're even better<LINE>than I thought!<DONE>",
+      "zh": "你比我想的<LINE>还要厉害！<DONE>"
+    },
+    "Route34LyraLossText": {
+      "en": "Well, you're still<LINE>getting better…<DONE>",
+      "zh": "嗯，你<LINE>还在进步……<DONE>"
+    },
+    "Route34LyraFollowMeText": {
+      "en": "Lyra: Let me<LINE>introduce you to<CONT>Grandma, too!<DONE>",
+      "zh": "琴音：我也<LINE>介绍奶奶<CONT>给你认识！<DONE>"
+    },
+    "BreederJulieSeenText": {
+      "en": "This is where I<LINE>train my baby<CONT>#mon!<DONE>",
+      "zh": "我就在这里<LINE>训练<CONT>我的宝贝宝可梦！<DONE>"
+    },
+    "BreederJulieBeatenText": {
+      "en": "Beaten by a<LINE>passing stranger!<DONE>",
+      "zh": "竟然输给了<LINE>路过的陌生人！<DONE>"
+    },
+    "CamperTodd1SeenText": {
+      "en": "I'm confident in<LINE>my ability to<CONT>raise #mon.<PARA>Want to see?<DONE>",
+      "zh": "我对自己<LINE>培育宝可梦的<CONT>本事很有信心。<PARA>想看看吗？<DONE>"
+    },
+    "CamperTodd1BeatenText": {
+      "en": "Did I screw up my<LINE>training?<DONE>",
+      "zh": "是我<LINE>训练得不对吗？<DONE>"
+    },
+    "CamperTodd1AfterText": {
+      "en": "Maybe I should<LINE>take one to a Day-<PARA>Care. Or maybe use<LINE>some items…<DONE>",
+      "zh": "也许该<LINE>送一只去<CONT>培育屋……<PARA>或者<LINE>用些道具……<DONE>"
+    },
+    "CamperToddSaleText": {
+      "en": "Shopping under the<LINE>sky!<PARA>It feels so nice<LINE>up on a rooftop.<DONE>",
+      "zh": "在天空下<LINE>购物！<PARA>在屋顶上<LINE>感觉真好。<DONE>"
+    },
+    "PicnickerGina1SeenText": {
+      "en": "Are you a trainer?<PARA>Let's have a<LINE>practice battle.<DONE>",
+      "zh": "你是训练家？<PARA>我们来<LINE>练习对战吧。<DONE>"
+    },
+    "PicnickerGina1BeatenText": {
+      "en": "Oh, no! I just<LINE>can't win…<DONE>",
+      "zh": "啊，不会吧！<LINE>我赢不了……<DONE>"
+    },
+    "PicnickerGina1AfterText": {
+      "en": "You're too strong<LINE>to be a practice<CONT>partner.<DONE>",
+      "zh": "你太强了，<LINE>不适合当<CONT>练习对手。<DONE>"
+    },
+    "OfficerfMaraSeenText": {
+      "en": "Who goes there?<LINE>What are you up<CONT>to?<DONE>",
+      "zh": "谁在那儿？<LINE>你在<CONT>干什么？<DONE>"
+    },
+    "OfficerfMaraWinText": {
+      "en": "You're a tough<LINE>little kid.<DONE>",
+      "zh": "你真是个<LINE>厉害的孩子。<DONE>"
+    },
+    "OfficerfMaraAfterText": {
+      "en": "Yes, I see nothing<LINE>wrong today. You<PARA>be good and stay<LINE>out of trouble.<DONE>",
+      "zh": "嗯，今天<LINE>没什么异常。<PARA>你要乖乖的，<LINE>别惹麻烦。<DONE>"
+    },
+    "OfficerfMaraDaytimeText": {
+      "en": "I'm on patrol for<LINE>suspicious indi-<CONT>viduals.<DONE>",
+      "zh": "我在巡逻，<LINE>查找<CONT>可疑人物。<DONE>"
+    },
+    "PokefanmBrandonSeenText": {
+      "en": "I just got my<LINE>#mon back from<CONT>Day-Care.<PARA>Let's see how much<LINE>stronger it got!<DONE>",
+      "zh": "我刚从培育屋<LINE>接回宝可梦。<PARA>看看它<LINE>变强了多少！<DONE>"
+    },
+    "PokefanmBrandonBeatenText": {
+      "en": "Why does it end<LINE>this way?<DONE>",
+      "zh": "怎么会<LINE>变成这样？<DONE>"
+    },
+    "CooltrainerfIreneSeenText": {
+      "en": "Irene: Kyaaah!<LINE>Someone found us!<DONE>",
+      "zh": "艾琳：呀啊！<LINE>有人找到我们了！<DONE>"
+    },
+    "CooltrainerfIreneBeatenText": {
+      "en": "Irene: Ohhh!<LINE>Too strong!<DONE>",
+      "zh": "艾琳：呜哦！<LINE>太强了！<DONE>"
+    },
+    "CooltrainerfIreneAfterText2": {
+      "en": "Irene: Isn't this<LINE>beach great?<PARA>It's our secret<LINE>little getaway!<DONE>",
+      "zh": "艾琳：这片<LINE>海滩很棒吧？<PARA>这是我们<LINE>秘密的小天地！<DONE>"
+    },
+    "CooltrainerfJennSeenText": {
+      "en": "Jenn: You can't<LINE>beat Irene and go<CONT>unpunished!<DONE>",
+      "zh": "珍：你打败了<LINE>艾琳，<CONT>别想就这么算了！<DONE>"
+    },
+    "CooltrainerfJennBeatenText": {
+      "en": "Jenn: So sorry,<LINE>Irene! Sis!<DONE>",
+      "zh": "珍：对不起，<LINE>艾琳！姐姐！<DONE>"
+    },
+    "CooltrainerfJennAfterText2": {
+      "en": "Jenn: Sunlight<LINE>makes your body<CONT>stronger.<DONE>",
+      "zh": "珍：阳光<LINE>能让身体<CONT>更强壮。<DONE>"
+    },
+    "CooltrainerfKateSeenText": {
+      "en": "Kate: You sure<LINE>were mean to my<CONT>little sisters!<DONE>",
+      "zh": "凯特：你对我<LINE>妹妹们<CONT>真过分！<DONE>"
+    },
+    "CooltrainerfKateBeatenText": {
+      "en": "Kate: No! I can't<LINE>believe I lost.<DONE>",
+      "zh": "凯特：不会吧！<LINE>我居然输了。<DONE>"
+    },
+    "CooltrainerfKateOfferPowerHerbText": {
+      "en": "Kate: You're too<LINE>strong. I didn't<CONT>stand a chance.<PARA>Here. You deserve<LINE>this.<DONE>",
+      "zh": "凯特：你太强了。<LINE>我毫无胜算。<PARA>给你。<LINE>这是你<CONT>应得的。<DONE>"
+    },
+    "Route34SignText": {
+      "en": "Route 34<PARA>Goldenrod City -<LINE>Azalea Town<PARA>Ilex Forest<LINE>Somewhere Between<DONE>",
+      "zh": "34号道路<PARA>满金市<LINE>——桧皮镇<PARA>桐树林<LINE>就在两者之间<DONE>"
+    },
+    "Route34TrainerTipsText": {
+      "en": "Trainer Tips<PARA>Berry trees grow<LINE>new Berries<CONT>every day.<PARA>Make a note of<LINE>which trees bear<CONT>which Berries.<DONE>",
+      "zh": "训练家提示<PARA>果树<LINE>每天都会<CONT>长出新树果。<PARA>记下哪棵树<LINE>结什么果吧。<DONE>"
+    },
+    "Route34AdvancedTipsSignText": {
+      "en": "Advanced Tips!<PARA>Some #mon have<LINE>inherent potential<PARA>to be stronger<LINE>than others!<PARA>But all #mon<LINE>can put in effort<CONT>during battle, or<PARA>take vitamins,<LINE>to gain strength!<DONE>",
+      "zh": "进阶提示！<PARA>有些宝可梦<LINE>天生就<PARA>比同类<LINE>更强！<PARA>但所有宝可梦<LINE>都能靠战斗中的<CONT>努力，<PARA>或者吃<LINE>营养饮品<CONT>变强！<DONE>"
+    },
+    "DayCareSignText": {
+      "en": "Day-Care<PARA>Let Us Raise Your<LINE>#mon For You!<DONE>",
+      "zh": "培育屋<PARA>我们来<LINE>帮你培育宝可梦！<DONE>"
+    }
+  }
+}

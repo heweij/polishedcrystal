@@ -1,0 +1,58 @@
+{
+  "_comment": "由 tools/zh/zh.py text-extract 生成；zh 为空表示未翻译（回退原文）。控制码沿用 <LINE>/<DONE>/<PLAYER> 等写法，{{n}} 为不可翻译的占位命令，必须原样保留。",
+  "source": "maps\\RuinsOfAlphOutside.asm",
+  "blocks": {
+    "RuinsOfAlphOutsideFisherText2": {
+      "en": "The ruins hide a<LINE>huge secret!<PARA>…I think…<DONE>",
+      "zh": "遗迹里<LINE>藏着<CONT>巨大的秘密！<PARA>……大概吧……<DONE>"
+    },
+    "RuinsOfAlphOutsideScientistText": {
+      "en": "Hm? That's a #-<LINE>dex, isn't it?<CONT>May I see it?<PARA>There are so many<LINE>kinds of #mon.<PARA>Hm? What's this?<PARA>What is this<LINE>#mon?<PARA>It looks like the<LINE>strange writing on<PARA>the walls of the<LINE>ruins.<PARA>If those drawings<LINE>are really #-<CONT>mon, there should<CONT>be many more.<PARA>I know! Let me up-<LINE>grade your #-<CONT>dex. Follow me.<DONE>",
+      "zh": "嗯？那是<LINE>宝可梦图鉴吧？<PARA>能给我看看吗？<PARA>宝可梦的<LINE>种类真多。<PARA>嗯？<LINE>这是什么？<PARA>这只宝可梦<LINE>是什么？<PARA>它和遗迹<LINE>墙壁上那些<CONT>奇怪的文字<CONT>很像。<PARA>如果那些画<LINE>真的是<CONT>宝可梦，<PARA>应该还有<LINE>更多。<PARA>有了！<LINE>我来<CONT>升级你的图鉴。<PARA>跟我来。<DONE>"
+    },
+    "SuperNerdStanSeenText": {
+      "en": "What do you want?<LINE>I'm studying--<CONT>don't disturb me!<DONE>",
+      "zh": "你想干什么？<LINE>我在研究——<CONT>别打扰我！<DONE>"
+    },
+    "SuperNerdStanBeatenText": {
+      "en": "Sorry…<LINE>I'm frustrated by<PARA>our lack of real<LINE>understanding…<DONE>",
+      "zh": "抱歉……<LINE>我们对遗迹<PARA>还是<LINE>一知半解……<DONE>"
+    },
+    "RuinsOfAlphOutsideMysteryChamberSignText": {
+      "en": "Mystery Stone<LINE>Panel Chamber<DONE>",
+      "zh": "神秘石板<LINE>之间<DONE>"
+    },
+    "RuinsOfAlphOutsideMysteriousHallSignText": {
+      "en": "Mysterious Hall<PARA>Please watch<LINE>your step.<DONE>",
+      "zh": "神秘殿堂<PARA>请小心<LINE>脚下。<DONE>"
+    },
+    "RuinsOfAlphSignText": {
+      "en": "Ruins of Alph<LINE>Visitors Welcome<DONE>",
+      "zh": "阿尔夫遗迹<LINE>欢迎参观<DONE>"
+    },
+    "RuinsOfAlphResearchCenterSignText": {
+      "en": "Ruins of Alph<LINE>Research Center<PARA>The Authority On<LINE>The Ruins of Alph<DONE>",
+      "zh": "阿尔夫遗迹<LINE>研究中心<PARA>研究阿尔夫遗迹<LINE>的权威机构<DONE>"
+    },
+    "RuinsOfAlphAdvancedTipsSignText": {
+      "en": "Advanced Tips!<PARA>The #dex is a<LINE>powerful tool!<PARA>Its Area map shows<LINE>a yellow icon if a<PARA>#mon can be<LINE>found right where<CONT>you are!<DONE>",
+      "zh": "进阶提示！<PARA>图鉴是<LINE>强大的工具！<PARA>如果<LINE>你所在的<CONT>地方<PARA>能遇到宝可梦，<PARA>区域地图上<LINE>就会显示<CONT>黄色图标！<DONE>"
+    },
+    "RuinsOfAlphOutsideFisherText1": {
+      "en": "While exploring<LINE>the ruins, we<PARA>suddenly noticed<LINE>an odd presence.<PARA>We all got scared<LINE>and ran away.<PARA>You should be<LINE>careful too.<DONE>",
+      "zh": "我们探索遗迹时，<LINE>突然感到<PARA>一股<LINE>奇怪的气息。<PARA>大家都<LINE>吓得逃走了。<PARA>你也要<LINE>小心。<DONE>"
+    },
+    "RuinsOfAlphOutsideYoungster2Text": {
+      "en": "A… H… E… A… D…<LINE>Hmm…<PARA>What?<PARA>I'm decoding this<LINE>message!<DONE>",
+      "zh": "A…H…E…A…D…<LINE>嗯……<PARA>什么？<PARA>我在<LINE>解读这条<CONT>信息！<DONE>"
+    },
+    "RuinsofAlphScientistClimax1Text": {
+      "en": "That sounded like<LINE>it came from over<CONT>here…<DONE>",
+      "zh": "声音<LINE>好像是<CONT>从这边传来的……<DONE>"
+    },
+    "RuinsofAlphScientistClimax2Text": {
+      "en": "Incredible!<PARA>Another chamber<LINE>was hidden here<CONT>all this time!<PARA>We could spend<LINE>years studying it!<PARA>…Although, that<LINE>was quite a loud<CONT>earthquake.<PARA>Could another<LINE>chamber have<PARA>opened up far<LINE>away from here?<PARA>I must go tell<LINE>my colleagues<CONT>about this!<DONE>",
+      "zh": "难以置信！<PARA>这里一直<LINE>藏着<CONT>另一个房间！<PARA>光研究它<LINE>就够花<CONT>好几年！<PARA>……不过，<LINE>刚才的地震<CONT>真不小。<PARA>会不会<LINE>在很远的地方<PARA>又开了一个<LINE>房间？<PARA>我得去<LINE>告诉同事们！<DONE>"
+    }
+  }
+}

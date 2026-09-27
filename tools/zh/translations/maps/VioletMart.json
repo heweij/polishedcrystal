@@ -1,0 +1,14 @@
+{
+  "_comment": "由 tools/zh/zh.py text-extract 生成；zh 为空表示未翻译（回退原文）。控制码沿用 <LINE>/<DONE>/<PLAYER> 等写法，{{n}} 为不可翻译的占位命令，必须原样保留。",
+  "source": "maps\\VioletMart.asm",
+  "blocks": {
+    "VioletMartGrannyText": {
+      "en": "When you first<LINE>catch a #mon,<CONT>it may be weak.<PARA>But it will even-<LINE>tually grow to be<CONT>strong.<PARA>It's important to<LINE>treat #mon with<CONT>love.<DONE>",
+      "zh": "刚收服的<LINE>宝可梦<CONT>可能很弱。<PARA>但它<LINE>总有一天<CONT>会变强。<PARA>重要的是<LINE>要用爱心<CONT>对待宝可梦。<DONE>"
+    },
+    "VioletMartCooltrainerMText": {
+      "en": "#mon can hold<LINE>items like Potion<CONT>and Antidote.<PARA>But they don't<LINE>appear to know how<PARA>to use man-made<LINE>items.<DONE>",
+      "zh": "宝可梦可以<LINE>携带伤药、<CONT>解毒药<PARA>这类道具。<PARA>但它们似乎<LINE>不知道怎么用<PARA>人造的道具。<DONE>"
+    }
+  }
+}

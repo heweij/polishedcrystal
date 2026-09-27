@@ -1,0 +1,94 @@
+{
+  "_comment": "由 tools/zh/zh.py text-extract 生成；zh 为空表示未翻译（回退原文）。控制码沿用 <LINE>/<DONE>/<PLAYER> 等写法，{{n}} 为不可翻译的占位命令，必须原样保留。",
+  "source": "maps\\CherrygroveCity.asm",
+  "blocks": {
+    "MysticWaterGuyTextAfter": {
+      "en": "Back to fishing<LINE>for me, then.<DONE>",
+      "zh": "那我继续<LINE>钓鱼好啦。<DONE>"
+    },
+    "GuideGentIntroText": {
+      "en": "You're a rookie<LINE>trainer, aren't<CONT>you? I can tell!<PARA>That's OK! Every-<LINE>one is a rookie<CONT>at some point!<PARA>I can teach you<LINE>a few things.<CONT>Follow me!<DONE>",
+      "zh": "你是新手<LINE>训练家吧？<CONT>我一眼就看出来。<PARA>没关系！谁都有<LINE>当新手的<CONT>时候嘛！<PARA>我来教你<LINE>几件事。<CONT>跟我来吧！<DONE>"
+    },
+    "GuideGentPokeCenterText": {
+      "en": "This is a #mon<LINE>Center. They heal<PARA>your #mon in no<LINE>time at all.<PARA>You'll be relying<LINE>on them a lot, so<PARA>you better learn<LINE>about them.<DONE>",
+      "zh": "这里是<LINE>宝可梦中心，<PARA>他们能立刻<LINE>治好你的宝可梦。<PARA>你以后会常常<LINE>用到它，<PARA>最好先<LINE>弄清楚哦。<DONE>"
+    },
+    "GuideGentMartText": {
+      "en": "This is a #mon<LINE>Mart, or just<CONT># Mart.<PARA>They sell Balls<LINE>for catching wild<PARA>#mon and other<LINE>useful items.<DONE>",
+      "zh": "这里是<LINE>宝可梦商店，<CONT>简称商店。<PARA>他们卖捕捉野生<LINE>宝可梦用的<PARA>精灵球和别的<LINE>实用道具。<DONE>"
+    },
+    "GuideGentRoute30Text": {
+      "en": "Route 30 is out<LINE>this way.<PARA>Trainers will be<LINE>battling their<PARA>prized #mon<LINE>there.<DONE>",
+      "zh": "往这边走<LINE>就是30号道路。<PARA>训练家们会在<LINE>那里用宝贵的<PARA>宝可梦<LINE>一较高下。<DONE>"
+    },
+    "GuideGentAdvancedTipsText": {
+      "en": "Advanced Tips<LINE>signs have this<CONT>unusual look.<PARA>They're full of<LINE>helpful advice.<DONE>",
+      "zh": "「进阶提示」的<LINE>牌子长得<CONT>与众不同。<PARA>上面写满了<LINE>有用的建议。<DONE>"
+    },
+    "GuideGentSeaText": {
+      "en": "This is the sea,<LINE>as you can see.<PARA>Route 32 is just<LINE>across the bay.<DONE>",
+      "zh": "正如你所见，<LINE>这里是大海。<PARA>越过这片海湾<LINE>就是32号道路。<DONE>"
+    },
+    "GuideGentGiftText": {
+      "en": "Here…<PARA>It's my house!<LINE>Thanks for your<CONT>company.<PARA>Let me give you a<LINE>small gift.<DONE>",
+      "zh": "到了……<PARA>这就是我家！<LINE>谢谢你陪我<CONT>走这一路。<PARA>让我送你<LINE>一件小礼物。<DONE>"
+    },
+    "GotMapCardText": {
+      "en": "<PLAYER>'s #gear<LINE>now has a Map!<DONE>",
+      "zh": "<PLAYER>的<LINE>宝可梦齿轮<CONT>新增了地图卡！<DONE>"
+    },
+    "GuideGentPokegearText": {
+      "en": "#gear becomes<LINE>more useful as you<CONT>add Cards.<PARA>I wish you luck on<LINE>your journey!<DONE>",
+      "zh": "宝可梦齿轮<LINE>装上更多卡片<CONT>会更好用。<PARA>祝你<LINE>旅途顺利！<DONE>"
+    },
+    "CherrygroveRivalText_Seen": {
+      "en": "…… …… ……<PARA>You got a #mon<LINE>at the Lab.<PARA>What a waste.<LINE>A wimp like you.<PARA>…… …… ……<PARA>Don't you get what<LINE>I'm saying?<PARA>Well, I too, have<LINE>a good #mon.<PARA>I'll show you<LINE>what I mean!<DONE>",
+      "zh": "…… …… ……<PARA>你在研究所<LINE>拿到了宝可梦。<PARA>真是浪费，<LINE>你这个胆小鬼。<PARA>…… …… ……<PARA>你听不懂<LINE>我的话吗？<PARA>我手上<LINE>也有好宝可梦。<PARA>这就让你<LINE>见识见识！<DONE>"
+    },
+    "RivalCherrygroveWinText": {
+      "en": "Humph. Are you<LINE>happy you won?<DONE>",
+      "zh": "哼。赢了<LINE>就那么开心？<DONE>"
+    },
+    "RivalCherrygroveLossText": {
+      "en": "Humph. That was a<LINE>waste of time.<DONE>",
+      "zh": "哼。真是<LINE>浪费时间。<DONE>"
+    },
+    "CherrygroveRivalTextAfter1": {
+      "en": "…… …… ……<PARA>You want to know<LINE>who I am?<PARA>I'm going to be<LINE>the world's great-<CONT>est #mon<CONT>trainer.<DONE>",
+      "zh": "…… …… ……<PARA>你想知道<LINE>我是谁吗？<PARA>我要成为<LINE>世界上最强的<CONT>宝可梦训练家。<DONE>"
+    },
+    "CherrygroveRivalTextAfter2": {
+      "en": "I dropped my<LINE>Trainer Card…<PARA>Hey! Give it<LINE>back!<PARA>Oh no… You saw<LINE>my name…<DONE>",
+      "zh": "我掉了<LINE>训练家卡片……<PARA>喂！还给<LINE>我！<PARA>糟了……你看到<LINE>我的名字了……<DONE>"
+    },
+    "CherrygroveTeacherText_HaveMapCard": {
+      "en": "When you're with<LINE>#mon, going<CONT>anywhere is fun.<DONE>",
+      "zh": "和宝可梦<LINE>在一起，去哪儿<CONT>都很开心。<DONE>"
+    },
+    "CherrygroveYoungsterText_HavePokedex": {
+      "en": "I battled the<LINE>trainers on the<CONT>road.<PARA>My #mon lost.<LINE>They're a mess! I<PARA>must take them to<LINE>a #mon Center.<DONE>",
+      "zh": "我跟路上的<LINE>训练家<CONT>打了一场。<PARA>我的宝可梦<LINE>输了，<CONT>简直一塌糊涂！<PARA>得带它们去<LINE>宝可梦中心才行。<DONE>"
+    },
+    "MysticWaterGuyTextBefore": {
+      "en": "A #mon I caught<LINE>had an item.<PARA>I think it's<LINE>Mystic Water.<PARA>I don't need it,<LINE>so do you want it?<DONE>",
+      "zh": "我钓到的<LINE>宝可梦<CONT>带着道具。<PARA>好像是<LINE>神秘水滴。<PARA>我用不上，<LINE>你要吗？<DONE>"
+    },
+    "CherrygrovePidgeyText": {
+      "en": "Pidgey: Pijji!<DONE>",
+      "zh": "波波：啾啾！<DONE>"
+    },
+    "CherrygroveCitySignText": {
+      "en": "Cherrygrove City<PARA>The City of Cute,<LINE>Fragrant Flowers<DONE>",
+      "zh": "吉野市<PARA>芬芳可人的<LINE>花之城<DONE>"
+    },
+    "GuideGentsHouseSignText": {
+      "en": "Guide Gent's House<DONE>",
+      "zh": "向导先生的家<DONE>"
+    },
+    "CherrygroveCityAdvancedTipsSignText": {
+      "en": "Advanced Tips!<PARA># Marts will<LINE>give you a free<PARA>Premier Ball with<LINE>every purchase of<CONT>ten # Balls!<DONE>",
+      "zh": "进阶提示！<PARA>每买十个精灵球，<LINE>商店就会<CONT>送一个贵宾球！<DONE>"
+    }
+  }
+}

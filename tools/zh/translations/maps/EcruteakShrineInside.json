@@ -1,0 +1,66 @@
+{
+  "_comment": "由 tools/zh/zh.py text-extract 生成；zh 为空表示未翻译（回退原文）。控制码沿用 <LINE>/<DONE>/<PLAYER> 等写法，{{n}} 为不可翻译的占位命令，必须原样保留。",
+  "source": "maps\\EcruteakShrineInside.asm",
+  "blocks": {
+    "EcruteakShrineInsideReiScript.MenuData2#0": {
+      "en": "Blessing@",
+      "zh": "祈福@"
+    },
+    "EcruteakShrineInsideReiScript.MenuData2#1": {
+      "en": "Battle@",
+      "zh": "对战@"
+    },
+    "EcruteakShrineInsideReiScript.MenuData2#2": {
+      "en": "Cancel@",
+      "zh": "取消@"
+    },
+    "EcruteakShrineInsideReiGreetingText": {
+      "en": "Rei: Oh, hello.<LINE>Welcome to our<CONT>shrine.<PARA>Did you come to<LINE>have me bless one<CONT>of your #mon?<PARA>Or would you like<LINE>to battle?<DONE>",
+      "zh": "丽：啊，<LINE>你好。<PARA>欢迎<LINE>来到本神社。<PARA>你是想<LINE>让我为<CONT>宝可梦<CONT>祈福，<PARA>还是想<LINE>对战？<DONE>"
+    },
+    "EcruteakShrineInsideReiBlessText": {
+      "en": "Rei: OK, which<LINE>#mon should I<CONT>bless?<DONE>",
+      "zh": "丽：好的，<LINE>要为哪只<CONT>宝可梦<CONT>祈福？<DONE>"
+    },
+    "EcruteakShrineInsideReiBlessingText": {
+      "en": "Rei: May you be<LINE>at ease, and find<CONT>peace.<DONE>",
+      "zh": "丽：愿你<LINE>安宁，<CONT>得享<CONT>平和。<DONE>"
+    },
+    "EcruteakShrineInsideHappinessText": {
+      "en": "{{0}} looks<LINE>content.<DONE>",
+      "zh": "{{0}}看起来<LINE>很满足。<DONE>"
+    },
+    "EcruteakShrineInsideReiBattleText": {
+      "en": "Rei: Very well.<LINE>Evil spirits,<CONT>begone!<DONE>",
+      "zh": "丽：好吧。<PARA>邪灵<LINE>退散！<DONE>"
+    },
+    "EcruteakShrineInsideReiBeatenText": {
+      "en": "I admit defeat!<DONE>",
+      "zh": "我<LINE>甘拜下风！<DONE>"
+    },
+    "EcruteakShrineInsideGrampsText": {
+      "en": "The shrine maiden<LINE>here is my grand-<CONT>daughter.<DONE>",
+      "zh": "这里的<LINE>巫女<PARA>是我孙女。<DONE>"
+    },
+    "EcruteakShrineInsideGrannyText": {
+      "en": "I'm glad they didn't<LINE>approve a stop in<CONT>Ecruteak for the<CONT>Magnet Train.<PARA>It would ruin our<LINE>traditional land-<CONT>scape.<DONE>",
+      "zh": "幸好<LINE>磁浮列车<CONT>没有<PARA>批准在<LINE>圆朱市设站。<PARA>否则会<LINE>破坏<CONT>传统的<CONT>街景。<DONE>"
+    },
+    "EcruteakShrineInsideSageText": {
+      "en": "Most of us here at<LINE>the shrine train<PARA>Hoothoot and<LINE>Sentret to battle<CONT>ghosts.<PARA>Rei is unique.<LINE>She uses Fire and<CONT>Psychic types.<DONE>",
+      "zh": "神社里<LINE>大多数人<PARA>都训练咕咕<CONT>和尾立<CONT>对付幽灵。<PARA>只有丽<LINE>与众不同。<PARA>她用的是<LINE>火属性和<CONT>超能力属性。<DONE>"
+    },
+    "EcruteakShrineInsideFurretText": {
+      "en": "Furret: Dook-dook!<DONE>",
+      "zh": "大尾立：尾立！<DONE>"
+    },
+    "EcruteakShrineInsideAltarText": {
+      "en": "It's an altar with<LINE>a sacred mirror<CONT>and flowers.<DONE>",
+      "zh": "神龛上<LINE>供奉着<CONT>神镜与鲜花。<DONE>"
+    },
+    "EcruteakShrineInsideSignText": {
+      "en": "Please show honor<LINE>and respect while<CONT>visiting.<DONE>",
+      "zh": "参拜时<LINE>请保持<CONT>敬意。<DONE>"
+    }
+  }
+}

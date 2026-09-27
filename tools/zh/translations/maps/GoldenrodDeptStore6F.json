@@ -1,0 +1,18 @@
+{
+  "_comment": "由 tools/zh/zh.py text-extract 生成；zh 为空表示未翻译（回退原文）。控制码沿用 <LINE>/<DONE>/<PLAYER> 等写法，{{n}} 为不可翻译的占位命令，必须原样保留。",
+  "source": "maps\\GoldenrodDeptStore6F.asm",
+  "blocks": {
+    "GoldenrodDeptStore6FLassText": {
+      "en": "Do you listen to<LINE>Lucky Channel?<PARA>If you want to<LINE>win, trade #mon<PARA>with as many peo-<LINE>ple as possible to<PARA>get different ID<LINE>numbers.<DONE>",
+      "zh": "你听<LINE>幸运频道吗？<PARA>想中奖，<PARA>就和<LINE>尽量多的人<CONT>交换宝可梦，<PARA>拿到<LINE>不同的ID。<DONE>"
+    },
+    "GoldenrodDeptStore6FSuperNerdText": {
+      "en": "If you're tired,<LINE>try the vending<CONT>machine's drinks.<PARA>Your #mon will<LINE>love them too.<DONE>",
+      "zh": "累了就<LINE>试试<CONT>贩卖机的饮料。<PARA>宝可梦<LINE>也会喜欢。<DONE>"
+    },
+    "GoldenrodDeptStore6FDirectoryText": {
+      "en": "Take a Break from<LINE>Shopping!<PARA>6F Tranquil Square<DONE>",
+      "zh": "购物途中<LINE>歇一歇！<PARA>6F 静谧广场<DONE>"
+    }
+  }
+}

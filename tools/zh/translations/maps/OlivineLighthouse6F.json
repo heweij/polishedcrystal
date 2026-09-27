@@ -1,0 +1,42 @@
+{
+  "_comment": "由 tools/zh/zh.py text-extract 生成；zh 为空表示未翻译（回退原文）。控制码沿用 <LINE>/<DONE>/<PLAYER> 等写法，{{n}} 为不可翻译的占位命令，必须原样保留。",
+  "source": "maps\\OlivineLighthouse6F.asm",
+  "blocks": {
+    "JasmineCianwoodPharmacyText": {
+      "en": "Jasmine: …This<LINE>#mon always<PARA>kept the sea lit<LINE>at night.<PARA>…But it suddenly<LINE>got sick… It's<CONT>gasping for air…<PARA>…I understand<LINE>that there is a<PARA>wonderful Pharmacy<LINE>in Cianwood…<PARA>But that's across<LINE>the sea…<PARA>And I can't leave<LINE>Amphy unattended…<DONE>",
+      "zh": "阿蜜：…这只<LINE>宝可梦<PARA>一直<LINE>在夜里<CONT>照亮海面。<PARA>…可它<LINE>突然<CONT>生病了……<PARA>现在<LINE>呼吸困难……<PARA>…我听说<LINE>湛蓝市有<PARA>一家<LINE>很棒的<CONT>药房……<PARA>但那<LINE>在海的<CONT>对岸……<PARA>而我<LINE>不能<PARA>丢下<LINE>电龙<CONT>不管……<DONE>"
+    },
+    "JasmineCureAmphyText": {
+      "en": "Jasmine: …Will<LINE>that medicine cure<CONT>Amphy?<DONE>",
+      "zh": "阿蜜：…那种药<PARA>能治好电龙吗？<DONE>"
+    },
+    "PlayerHandedSecretpotionText": {
+      "en": "<PLAYER> handed the<LINE>SecretPotion to<CONT>Jasmine.<DONE>",
+      "zh": "<PLAYER>把<LINE>秘密药水<CONT>交给了阿蜜。<DONE>"
+    },
+    "JasmineDontBeOffendedText": {
+      "en": "Jasmine: …Um,<LINE>please don't be<CONT>offended…<PARA>…Amphy will not<LINE>take anything from<CONT>anyone but me…<DONE>",
+      "zh": "阿蜜：…嗯，<PARA>请不要<CONT>见怪……<PARA>…电龙<LINE>只肯<PARA>吃我给的<CONT>东西……<DONE>"
+    },
+    "JasmineAmphyHowAreYouFeelingText": {
+      "en": "Jasmine: …<PARA>Amphy, how are you<LINE>feeling?<DONE>",
+      "zh": "阿蜜：……<PARA>电龙，<LINE>你感觉<CONT>怎么样？<DONE>"
+    },
+    "JasmineThankYouText": {
+      "en": "Jasmine: …Oh, I'm<LINE>so relieved…<PARA>This is just so<LINE>wonderful…<PARA>Thank you so very,<LINE>very much.<PARA>…I will return to<LINE>the Gym…<DONE>",
+      "zh": "阿蜜：…啊，<LINE>我<CONT>放心了……<PARA>真是<LINE>太好了……<PARA>真的<LINE>非常<CONT>感谢你。<PARA>…我要<LINE>回道馆了……<DONE>"
+    },
+    "JasmineISeeText": {
+      "en": "Jasmine: …I see…<DONE>",
+      "zh": "阿蜜：…是吗……<DONE>"
+    },
+    "AmphyPalPalooText": {
+      "en": "Amphy: …<LINE>…Pa… paloo…<DONE>",
+      "zh": "电龙：……<LINE>…啪…啪噜…<DONE>"
+    },
+    "AmphyPaluPaluluText": {
+      "en": "Amphy: Palu!<LINE>Palulu!<DONE>",
+      "zh": "电龙：啪噜！<LINE>啪噜噜！<DONE>"
+    }
+  }
+}

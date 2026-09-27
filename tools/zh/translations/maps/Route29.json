@@ -1,0 +1,62 @@
+{
+  "_comment": "由 tools/zh/zh.py text-extract 生成；zh 为空表示未翻译（回退原文）。控制码沿用 <LINE>/<DONE>/<PLAYER> 等写法，{{n}} 为不可翻译的占位命令，必须原样保留。",
+  "source": "maps\\Route29.asm",
+  "blocks": {
+    "CatchingTutorialIntroText": {
+      "en": "Lyra: <PLAYER>!<PARA>You can catch wild<LINE>#mon with #<PARA>Balls. Follow me<LINE>and I'll show you!<DONE>",
+      "zh": "琴音：<PLAYER>！<PARA>用精灵球就能<LINE>捕捉野生的<PARA>宝可梦。跟我来，<LINE>我示范给你看！<DONE>"
+    },
+    "CatchingTutorialDebriefText": {
+      "en": "Lyra: See? Just<LINE>like that!<PARA>If you weaken them<LINE>first, #mon are<CONT>easier to catch.<PARA>I'll give you<LINE>these. Good luck!<DONE>",
+      "zh": "琴音：看，<LINE>就是这样！<PARA>先把它打弱，<LINE>宝可梦就会<CONT>更容易收服。<PARA>这些送给你，<LINE>加油哦！<DONE>"
+    },
+    "CatchingTutorialRefusedText": {
+      "en": "Aww… I wanted to<LINE>show off my cap-<CONT>turing skills a<CONT>little…<PARA>Anyway, I'll give<LINE>you these.<CONT>Good luck!<DONE>",
+      "zh": "唉……我本来<LINE>想露两手<CONT>收服的技术……<PARA>算了，这些<LINE>送给你。<CONT>加油哦！<DONE>"
+    },
+    "CatchingTutorialGoodbyeText": {
+      "en": "Lyra: See you!<DONE>",
+      "zh": "琴音：回见！<DONE>"
+    },
+    "Route29YoungsterText": {
+      "en": "Yo. How are your<LINE>#mon?<PARA>If they're weak<LINE>and not ready for<PARA>battle, keep out<LINE>of the grass.<DONE>",
+      "zh": "哟。你的宝可梦<LINE>还好吗？<PARA>要是它们太弱、<LINE>还没准备好<PARA>对战，就别<LINE>往草丛里钻。<DONE>"
+    },
+    "Route29TeacherText": {
+      "en": "See those ledges?<LINE>It's scary to jump<CONT>off them.<PARA>But you can go to<LINE>New Bark without<PARA>walking through<LINE>the grass.<DONE>",
+      "zh": "看到那些<LINE>台阶了吧？<PARA>跳下去挺吓人。<PARA>不过去若叶镇<LINE>可以不用<CONT>穿过草丛。<DONE>"
+    },
+    "Route29FisherText": {
+      "en": "I wanted to take a<LINE>break, so I saved<PARA>to record my<LINE>progress.<DONE>",
+      "zh": "我想休息一下，<LINE>就先存档了，<PARA>好记下<LINE>进度。<DONE>"
+    },
+    "Text_WaitingForMorning": {
+      "en": "I'm waiting for<LINE>#mon that<PARA>appear only in the<LINE>morning.<DONE>",
+      "zh": "我在等只在<LINE>早上出现的<PARA>宝可梦。<DONE>"
+    },
+    "MeetTuscanyText": {
+      "en": "Tuscany: I do be-<LINE>lieve that this is<PARA>the first time<LINE>we've met?<PARA>Please allow me to<LINE>introduce myself.<PARA>I am Tuscany of<LINE>Tuesday.<DONE>",
+      "zh": "Tuscany：我想<LINE>我们应该是<PARA>第一次见面吧？<PARA>请允许我<LINE>做个自我介绍。<PARA>我是星期二的<LINE>Tuscany。<DONE>"
+    },
+    "TuscanyGivesGiftText": {
+      "en": "By way of intro-<LINE>duction, please<PARA>accept this gift,<LINE>a Silk Scarf.<DONE>",
+      "zh": "初次见面，<LINE>请收下<PARA>这件礼物——<LINE>丝绸围巾。<DONE>"
+    },
+    "TuscanyTuesdayText": {
+      "en": "Tuscany: Have you<LINE>met Monica, my<CONT>older sister?<PARA>Or my younger<LINE>brother, Wesley?<PARA>I am the second of<LINE>seven children.<DONE>",
+      "zh": "Tuscany：你见过<LINE>我姐姐Monica<CONT>了吗？<PARA>或者我弟弟<LINE>Wesley？<PARA>我在七兄妹里<LINE>排行第二。<DONE>"
+    },
+    "Route29Sign1Text": {
+      "en": "Route 29<PARA>New Bark Town -<LINE>Cherrygrove City<DONE>",
+      "zh": "29号道路<PARA>若叶镇<LINE>——吉野市<DONE>"
+    },
+    "Route29Sign2Text": {
+      "en": "Route 29<PARA>Cherrygrove City -<LINE>New Bark Town<DONE>",
+      "zh": "29号道路<PARA>吉野市<LINE>——若叶镇<DONE>"
+    },
+    "Route29AdvancedTipsSignText": {
+      "en": "Advanced Tips!<PARA>Press Down+B at<LINE>the title screen<PARA>to reset the<LINE>clock!<PARA>Press Left+B to<LINE>reset the initial<CONT>game options!<DONE>",
+      "zh": "进阶提示！<PARA>在标题画面<LINE>同时按B键<CONT>和方向键下，<PARA>就能重置时钟！<PARA>同时按B键<LINE>和方向键左，<CONT>重置初始设置！<DONE>"
+    }
+  }
+}

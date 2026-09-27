@@ -1,0 +1,118 @@
+{
+  "_comment": "由 tools/zh/zh.py text-extract 生成；zh 为空表示未翻译（回退原文）。控制码沿用 <LINE>/<DONE>/<PLAYER> 等写法，{{n}} 为不可翻译的占位命令，必须原样保留。",
+  "source": "maps\\NationalPark.asm",
+  "blocks": {
+    "NationalParkLassText": {
+      "en": "Look! Check out my<LINE>bag!<PARA>I pinned my Badges<LINE>onto it.<DONE>",
+      "zh": "快看！<LINE>看看我的包！<PARA>我把徽章<LINE>都别在上面了。<DONE>"
+    },
+    "NationalParkPokefanFText": {
+      "en": "This is Mail I got<LINE>from my daughter.<CONT>It cheers me up.<DONE>",
+      "zh": "这是女儿<LINE>寄给我的邮件。<PARA>看了就<LINE>心情愉快。<DONE>"
+    },
+    "NationalParkTeacher1Text": {
+      "en": "Pay attention,<LINE>please!<PARA>…Oops, I have to<LINE>quit thinking like<PARA>a teacher all the<LINE>time.<PARA>You must be a<LINE>#mon trainer.<PARA>Since you're work-<LINE>ing so hard, I<PARA>want you to have<LINE>this.<DONE>",
+      "zh": "请注意听讲！<PARA>……哎呀，<LINE>我不能<LINE>总是<CONT>摆出老师的样子。<PARA>你一定是<LINE>宝可梦训练家。<PARA>你这么努力，<PARA>这个就<LINE>送给你。<DONE>"
+    },
+    "NationalParkTeacher1Text_GotQuickClaw": {
+      "en": "Let a #mon hold<LINE>that Quick Claw.<PARA>Sometimes it will<LINE>strike first<CONT>during battle.<DONE>",
+      "zh": "让宝可梦<LINE>携带先制之爪。<PARA>有时能在<LINE>战斗中<CONT>抢先出手。<DONE>"
+    },
+    "SchoolgirlElizaSeenText": {
+      "en": "Oddish is just<LINE>the cutest!<PARA>Don't you agree?<DONE>",
+      "zh": "走路草<LINE>最可爱了！<PARA>你也这么想吧？<DONE>"
+    },
+    "SchoolgirlElizaBeatenText": {
+      "en": "My poor Oddish…<DONE>",
+      "zh": "我可怜的<LINE>走路草……<DONE>"
+    },
+    "SchoolboyJohnnySeenText": {
+      "en": "Bellsprout is just<LINE>the coolest!<PARA>Aren't I right?<DONE>",
+      "zh": "喇叭芽<LINE>最帅了！<PARA>我说得对吧？<DONE>"
+    },
+    "SchoolboyJohnnyBeatenText": {
+      "en": "Bellsprout, no…<DONE>",
+      "zh": "喇叭芽，<LINE>不要……<DONE>"
+    },
+    "NationalParkTeacher2Text": {
+      "en": "Those kids should<LINE>battle inside the<CONT>grass.<PARA>They're disturbing<LINE>my quiet walk…<DONE>",
+      "zh": "那些孩子<LINE>该在草丛里<CONT>对战。<PARA>他们打扰了<LINE>我安静的散步……<DONE>"
+    },
+    "NationalParkPersianText": {
+      "en": "Persian: Fufushaa!<DONE>",
+      "zh": "猫老大：呼呼！<DONE>"
+    },
+    "NationalParkGameboyKidText": {
+      "en": "I'm studying my<LINE>#dex.<PARA>I want to collect<LINE>a living #-<PARA>dex with one of<LINE>each #mon.<DONE>",
+      "zh": "我在研究<LINE>图鉴。<PARA>我想集齐<LINE>每一种<CONT>活的宝可梦，<PARA>做成<LINE>活体图鉴。<DONE>"
+    },
+    "SchoolboyJack1SeenText": {
+      "en": "The world of<LINE>#mon is deep.<PARA>There are still<LINE>lots of things we<CONT>don't know.<PARA>But I know more<LINE>than you do!<DONE>",
+      "zh": "宝可梦的<LINE>世界很深奥。<PARA>还有很多<LINE>我们<CONT>不知道的事。<PARA>但我<LINE>懂得比你多！<DONE>"
+    },
+    "SchoolboyJack1BeatenText": {
+      "en": "Wha-wha-what?<DONE>",
+      "zh": "什、什、什么？<DONE>"
+    },
+    "SchoolboyJackTradeMonText": {
+      "en": "There is a lot<LINE>to learn.<PARA>For example…<PARA>There are {d:NUM_TMS} kinds<LINE>of TMs.<PARA>Traded #mon<LINE>level up faster.<DONE>",
+      "zh": "要学的<LINE>还有很多。<PARA>比如说……<PARA>招式学习器<LINE>有{d:NUM_TMS}种。<PARA>交换来的<LINE>宝可梦<CONT>升级更快。<DONE>"
+    },
+    "PokefanfBeverly1SeenText": {
+      "en": "My #mon are<LINE>simply darling.<PARA>Let me tell you<LINE>how proud my<CONT>darlings make me.<DONE>",
+      "zh": "我的宝可梦<LINE>实在太可爱了。<PARA>让我告诉你，<LINE>它们让我<CONT>多么骄傲。<DONE>"
+    },
+    "PokefanfBeverly1BeatenText": {
+      "en": "I can beat you in<LINE>pride, but…<DONE>",
+      "zh": "论自豪<LINE>我不输你，<PARA>可是……<DONE>"
+    },
+    "PokefanBeverlyCuteMonText": {
+      "en": "I must say, your<LINE>#mon are quite<CONT>cute, too.<DONE>",
+      "zh": "说真的，<LINE>你的宝可梦<CONT>也很可爱。<DONE>"
+    },
+    "PokefanmWilliamSeenText": {
+      "en": "We adore our #-<LINE>mon, even if they<CONT>dislike us.<PARA>That's what being<LINE>a fan is about.<DONE>",
+      "zh": "就算被<LINE>宝可梦讨厌，<PARA>我们也<LINE>照样爱它们。<PARA>这才是<LINE>真正的粉丝。<DONE>"
+    },
+    "PokefanmWilliamBeatenText": {
+      "en": "M-my #mon!<DONE>",
+      "zh": "我、我的宝可梦！<DONE>"
+    },
+    "BugManiacLouSeenText": {
+      "en": "Nobody can beat<LINE>my passion for<CONT>bug #mon!<DONE>",
+      "zh": "没人比我<LINE>更热爱<CONT>虫属性宝可梦！<DONE>"
+    },
+    "BugManiacLouBeatenText": {
+      "en": "How can this be?!<DONE>",
+      "zh": "怎么会这样？！<DONE>"
+    },
+    "OfficermKeithSeenText": {
+      "en": "Halt! What are<LINE>you doing out<CONT>this late?<DONE>",
+      "zh": "站住！这么晚了，<LINE>你在<CONT>干什么？<DONE>"
+    },
+    "OfficermKeithWinText": {
+      "en": "You know how to<LINE>defend yourself!<DONE>",
+      "zh": "你还挺会<LINE>保护自己的！<DONE>"
+    },
+    "OfficermKeithAfterText": {
+      "en": "The park stays<LINE>open at night,<PARA>because Officers<LINE>like me keep it<CONT>safe!<DONE>",
+      "zh": "公园晚上<LINE>也开放，<PARA>因为有<LINE>像我这样的<CONT>警察<CONT>保护安全！<DONE>"
+    },
+    "OfficermKeithDaytimeText": {
+      "en": "Enjoying the<LINE>park, are you?<PARA>Always take a<LINE>#mon with you<PARA>if you go in the<LINE>tall grass!<DONE>",
+      "zh": "在逛公园啊？<PARA>进<LINE>高草丛时<PARA>一定要带上<CONT>宝可梦！<DONE>"
+    },
+    "NationalParkRelaxationSquareText": {
+      "en": "Relaxation Square<LINE>National Park<DONE>",
+      "zh": "休憩广场<LINE>自然公园<DONE>"
+    },
+    "NationalParkBattleNoticeText": {
+      "en": "What is this<LINE>notice?<PARA>Please battle only<LINE>in the grass.<PARA>National Park<LINE>Warden's Office<DONE>",
+      "zh": "这是什么<LINE>告示？<PARA>请只在<LINE>草丛里对战。<PARA>自然公园<LINE>园长办公室<DONE>"
+    },
+    "NationalParkTrainerTipsText": {
+      "en": "Trainer Tips<PARA>#mon become<LINE>happier from<PARA>haircuts, bless-<LINE>ings, photographs,<CONT>and other treats.<DONE>",
+      "zh": "训练家提示<PARA>理发、<LINE>祝福、<CONT>拍照<PARA>等体贴的举动，<PARA>都能让宝可梦<LINE>更开心。<DONE>"
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "_comment": "由 tools/zh/zh.py text-extract 生成；zh 为空表示未翻译（回退原文）。控制码沿用 <LINE>/<DONE>/<PLAYER> 等写法，{{n}} 为不可翻译的占位命令，必须原样保留。",
+  "source": "maps\\EcruteakMart.asm",
+  "blocks": {
+    "EcruteakMartSuperNerdText": {
+      "en": "My Eevee evolved<LINE>into an Espeon.<PARA>But my friend's<LINE>Eevee turned into<CONT>an Umbreon.<PARA>I wonder why? We<LINE>both were raising<PARA>our Eevee in the<LINE>same way…<DONE>",
+      "zh": "我的伊布<LINE>进化成了<CONT>太阳伊布。<PARA>可朋友的<LINE>伊布<PARA>却变成了<CONT>月亮伊布。<PARA>这是<LINE>为什么呢？<PARA>我们<LINE>明明用<CONT>同样的方式<CONT>培育……<DONE>"
+    },
+    "EcruteakMartGrannyText": {
+      "en": "The Magnet Train<LINE>in Goldenrod is<CONT>great, but there<PARA>were also plans to<LINE>put a station in<CONT>Ecruteak at first.<DONE>",
+      "zh": "满金市的<LINE>磁浮列车<CONT>很棒，<PARA>不过<LINE>起初也<PARA>计划在<LINE>圆朱市设站。<DONE>"
+    }
+  }
+}

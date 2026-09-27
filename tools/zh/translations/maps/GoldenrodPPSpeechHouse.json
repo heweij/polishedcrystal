@@ -1,0 +1,14 @@
+{
+  "_comment": "由 tools/zh/zh.py text-extract 生成；zh 为空表示未翻译（回退原文）。控制码沿用 <LINE>/<DONE>/<PLAYER> 等写法，{{n}} 为不可翻译的占位命令，必须原样保留。",
+  "source": "maps\\GoldenrodPPSpeechHouse.asm",
+  "blocks": {
+    "GoldenrodPPSpeechHouseFisherText": {
+      "en": "Once while I was<LINE>battling, my<PARA>#mon couldn't<LINE>make any moves.<PARA>The Power Points,<LINE>or PP, of its<PARA>moves were all<LINE>gone.<DONE>",
+      "zh": "有一次对战，<LINE>我的宝可梦<PARA>完全<LINE>使不出招式。<PARA>原来招式的<LINE>PP<PARA>全用光了。<DONE>"
+    },
+    "GoldenrodPPSpeechHouseLassText": {
+      "en": "Sometimes, a<LINE>healthy #mon<PARA>may be unable to<LINE>use its moves.<PARA>If that happens,<LINE>heal it at a #-<CONT>mon Center or use<CONT>an item.<DONE>",
+      "zh": "有时<LINE>健康的宝可梦<PARA>也会<LINE>使不出招式。<PARA>那就去<LINE>宝可梦中心<CONT>恢复，<PARA>或用道具。<DONE>"
+    }
+  }
+}

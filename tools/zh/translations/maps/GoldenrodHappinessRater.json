@@ -1,0 +1,22 @@
+{
+  "_comment": "由 tools/zh/zh.py text-extract 生成；zh 为空表示未翻译（回退原文）。控制码沿用 <LINE>/<DONE>/<PLAYER> 等写法，{{n}} 为不可翻译的占位命令，必须原样保留。",
+  "source": "maps\\GoldenrodHappinessRater.asm",
+  "blocks": {
+    "GoldenrodHappinessRaterAskCheckText": {
+      "en": "If you treat your<LINE>#mon nicely,<PARA>they will love you<LINE>in return.<PARA>Want me to check<LINE>your #mon's<CONT>happiness?<DONE>",
+      "zh": "只要你<LINE>善待宝可梦，<PARA>它们也会<LINE>亲近你。<PARA>要我检查<LINE>宝可梦的<CONT>亲密度吗？<DONE>"
+    },
+    "GoldenrodHappinessRaterTeacherText": {
+      "en": "Oh? Let me see<LINE>your {{0}}…<DONE>",
+      "zh": "哦？<LINE>让我看看<CONT>你的{{0}}……<DONE>"
+    },
+    "GoldenrodHappinessRaterPokefanMText": {
+      "en": "I keep losing in<LINE>battles, and my<PARA>#mon end up<LINE>fainting…<PARA>Maybe that's why<LINE>my #mon don't<CONT>like me much…<DONE>",
+      "zh": "我老是<LINE>对战落败，<PARA>宝可梦<LINE>也昏厥……<PARA>也许<LINE>这就是为什么<PARA>它们<LINE>不太喜欢我……<DONE>"
+    },
+    "GoldenrodHappinessRaterTwinText": {
+      "en": "When I use an item<LINE>on my #mon, it<CONT>acts really glad!<DONE>",
+      "zh": "给宝可梦<LINE>用道具时，<PARA>它看起来<LINE>好开心！<DONE>"
+    }
+  }
+}

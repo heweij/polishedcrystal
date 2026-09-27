@@ -1,0 +1,26 @@
+{
+  "_comment": "由 tools/zh/zh.py text-extract 生成；zh 为空表示未翻译（回退原文）。控制码沿用 <LINE>/<DONE>/<PLAYER> 等写法，{{n}} 为不可翻译的占位命令，必须原样保留。",
+  "source": "maps\\SproutTower2F.asm",
+  "blocks": {
+    "SageNicoSeenText": {
+      "en": "However hard we<LINE>battle, the tower<CONT>will stand strong.<DONE>",
+      "zh": "无论我们<LINE>怎样对战，<PARA>这座塔<LINE>都屹立不倒。<DONE>"
+    },
+    "SageNicoBeatenText": {
+      "en": "I fought hard but<LINE>I'm too weak.<DONE>",
+      "zh": "我拼尽全力，<LINE>却还是太弱。<DONE>"
+    },
+    "SageEdmondSeenText": {
+      "en": "…Sway like leaves<LINE>in the wind…<DONE>",
+      "zh": "……如叶<LINE>随风摇曳……<DONE>"
+    },
+    "SageEdmondBeatenText": {
+      "en": "Oh, I'm weak!<DONE>",
+      "zh": "啊，我太弱了！<DONE>"
+    },
+    "SproutTower2FStatueText": {
+      "en": "A #mon statue…<PARA>It looks very<LINE>distinguished.<DONE>",
+      "zh": "一座宝可梦<LINE>雕像……<PARA>看起来<LINE>气派非凡。<DONE>"
+    }
+  }
+}

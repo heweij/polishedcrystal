@@ -1,0 +1,1314 @@
+TradeAnimation:
+	ld hl, wPlayerTrademonSenderName
+	ld de, wOTTrademonSenderName
+	call LinkTradeAnim_LoadTradePlayerNames
+	ld hl, wLinkTradeSendmonData
+	ld bc, wPlayerTrademonSpecies
+	ld de, wPlayerTrademonPersonality
+	call LinkTradeAnim_LoadTradeMonData
+	ld hl, wLinkTradeGetmonData
+	ld bc, wOTTrademonSpecies
+	ld de, wOTTrademonPersonality
+	call LinkTradeAnim_LoadTradeMonData
+	ld de, .script
+	jr RunTradeAnimSequence
+
+.script
+	tradeanim_setup_givemon_scroll
+	tradeanim_show_givemon_data
+	tradeanim_do_givemon_scroll
+	tradeanim_prepare_player_ball
+	tradeanim_wait_80
+	tradeanim_wait_96
+	tradeanim_poof
+	tradeanim_rocking_ball
+	tradeanim_enter_link_tube
+	tradeanim_wait_anim
+	tradeanim_bulge_through_tube
+	tradeanim_wait_anim
+	tradeanim_textbox_scroll
+	tradeanim_give_trademon_sfx
+	tradeanim_tube_to_ot
+	tradeanim_sent_to_ot_text
+	tradeanim_scroll_out_right
+
+	tradeanim_ot_sends_text_1
+	tradeanim_ot_bids_farewell
+	tradeanim_wait_40
+	tradeanim_scroll_out_right
+	tradeanim_get_trademon_sfx
+	tradeanim_tube_to_player
+	tradeanim_prepare_ot_ball
+	tradeanim_enter_link_tube
+	tradeanim_drop_ball
+	tradeanim_exit_link_tube
+	tradeanim_wait_anim
+	tradeanim_show_getmon_data
+	tradeanim_poof
+	tradeanim_wait_anim
+	tradeanim_frontpic_scroll
+	tradeanim_animate_frontpic
+	tradeanim_wait_80_if_ot_egg
+	tradeanim_textbox_scroll
+	tradeanim_take_care_of_text
+	tradeanim_scroll_out_right
+	tradeanim_end
+
+TradeAnimationPlayer2:
+	ld hl, wOTTrademonSenderName
+	ld de, wPlayerTrademonSenderName
+	call LinkTradeAnim_LoadTradePlayerNames
+	ld hl, wLinkTradeGetmonData
+	ld bc, wPlayerTrademonSpecies
+	ld de, wPlayerTrademonPersonality
+	call LinkTradeAnim_LoadTradeMonData
+	ld hl, wLinkTradeSendmonData
+	ld bc, wOTTrademonSpecies
+	ld de, wOTTrademonPersonality
+	call LinkTradeAnim_LoadTradeMonData
+	ld de, .script
+	jr RunTradeAnimSequence
+
+.script
+	tradeanim_ot_sends_text_2
+	tradeanim_ot_bids_farewell
+	tradeanim_wait_40
+	tradeanim_scroll_out_right
+	tradeanim_get_trademon_sfx
+	tradeanim_tube_to_ot
+	tradeanim_prepare_ot_ball
+	tradeanim_enter_link_tube
+	tradeanim_drop_ball
+	tradeanim_exit_link_tube
+	tradeanim_wait_anim
+	tradeanim_show_getmon_data
+	tradeanim_poof
+	tradeanim_wait_anim
+	tradeanim_frontpic_scroll
+	tradeanim_animate_frontpic
+	tradeanim_wait_180_if_ot_egg
+	tradeanim_textbox_scroll
+	tradeanim_take_care_of_text
+	tradeanim_scroll_out_right
+
+	tradeanim_setup_givemon_scroll
+	tradeanim_show_givemon_data
+	tradeanim_do_givemon_scroll
+	tradeanim_prepare_player_ball
+	tradeanim_wait_40
+	tradeanim_poof
+	tradeanim_rocking_ball
+	tradeanim_enter_link_tube
+	tradeanim_wait_anim
+	tradeanim_bulge_through_tube
+	tradeanim_wait_anim
+	tradeanim_textbox_scroll
+	tradeanim_give_trademon_sfx
+	tradeanim_tube_to_player
+	tradeanim_sent_to_ot_text
+	tradeanim_scroll_out_right
+	tradeanim_end
+
+RunTradeAnimSequence:
+	ld hl, wTradeAnimPointer
+	ld a, e
+	ld [hli], a
+	ld [hl], d
+	ldh a, [hMapAnims]
+	push af
+	xor a
+	ldh [hMapAnims], a
+	ld hl, wStateFlags
+	ld a, [hl]
+	push af
+	res SPRITE_UPDATES_DISABLED_F, [hl]
+	ld hl, wOptions1
+	ld a, [hl]
+	push af
+	set NO_TEXT_SCROLL, [hl]
+
+	xor a
+	ld [wJumptableIndex], a
+	call ClearBGPalettes
+	call ClearSprites
+	call ClearTileMap
+	call DisableLCD
+	call LoadFontsBattleExtra
+	call ClearSpriteAnims
+	ld a, $1
+	ldh [rVBK], a
+	ld hl, vTiles0
+	ld bc, STARTOF(VRAM) + SIZEOF(VRAM) - vTiles0
+	xor a
+	rst ByteFill
+	xor a
+	ldh [rVBK], a
+	hlbgcoord 0, 0
+	ld bc, STARTOF(VRAM) + SIZEOF(VRAM) - vBGMap0
+	ld a, ' '
+	rst ByteFill
+	ld hl, TradeGameBoyLZ
+	ld de, vTiles2 tile $31
+	lb bc, BANK(TradeGameBoyLZ), 47
+	call DecompressRequest2bpp
+	xor a
+	ldh [hSCX], a
+	ldh [hSCY], a
+	ld a, $7
+	ldh [hWX], a
+	ld a, $90
+	ldh [hWY], a
+	farcall GetTrademonFrontpic
+	call EnableLCD
+	call LoadTradeBallAndCableGFX
+	ld a, [wPlayerTrademonSpecies]
+	ld hl, wPlayerTrademonForm
+	ld de, vTiles0
+	call TradeAnim_GetFrontpic
+	ld a, [wOTTrademonSpecies]
+	ld hl, wOTTrademonForm
+	ld de, vTiles0 tile $31
+	call TradeAnim_GetFrontpic
+	ld a, [wPlayerTrademonForm]
+	ld b, a
+	ld a, [wPlayerTrademonSpecies] ; not loading into c since we're loading into wNamedObjectIndex anyway
+	ld de, wPlayerTrademonSpeciesName
+	call TradeAnim_GetNickname
+	ld a, [wOTTrademonForm]
+	ld b, a
+	ld a, [wOTTrademonSpecies]
+	ld de, wOTTrademonSpeciesName
+	call TradeAnim_GetNickname
+	call TradeAnim_NormalPals
+
+	ld e, MUSIC_EVOLUTION
+	call PlayMusic2
+
+.anim_loop
+	call DoTradeAnimation
+	jr nc, .anim_loop
+
+	pop af
+	ld [wOptions1], a
+	pop af
+	ld [wStateFlags], a
+	pop af
+	ldh [hMapAnims], a
+	ret
+
+DoTradeAnimation:
+	ld a, [wJumptableIndex]
+	bit 7, a
+	jr nz, .finished
+	call .DoTradeAnimCommand
+	farcall PlaySpriteAnimations
+	ld hl, wFrameCounter2
+	inc [hl]
+	call DelayFrame
+	and a
+	ret
+
+.finished
+	call LoadStandardFont
+	scf
+	ret
+
+.DoTradeAnimCommand:
+	call StandardStackJumpTable
+
+.Jumptable:
+	dw TradeAnim_AdvanceScriptPointer ; 00
+	dw TradeAnim_ShowGivemonData      ; 01
+	dw TradeAnim_ShowGetmonData       ; 02
+	dw TradeAnim_EnterLinkTube1       ; 03
+	dw TradeAnim_EnterLinkTube2       ; 04
+	dw TradeAnim_ExitLinkTube         ; 05
+	dw TradeAnim_TubeToOT1            ; 06
+	dw TradeAnim_TubeToOT2            ; 07
+	dw TradeAnim_TubeToOT3            ; 08
+	dw TradeAnim_TubeToOT4            ; 09
+	dw TradeAnim_TubeToOT5            ; 0a
+	dw TradeAnim_TubeToOT6            ; 0b
+	dw TradeAnim_TubeToOT7            ; 0c
+	dw TradeAnim_TubeToOT8            ; 0d
+	dw TradeAnim_TubeToPlayer1        ; 0e
+	dw TradeAnim_TubeToPlayer2        ; 0f
+	dw TradeAnim_TubeToPlayer3        ; 10
+	dw TradeAnim_TubeToPlayer4        ; 11
+	dw TradeAnim_TubeToPlayer5        ; 12
+	dw TradeAnim_TubeToPlayer6        ; 13
+	dw TradeAnim_TubeToPlayer7        ; 14
+	dw TradeAnim_TubeToPlayer8        ; 15
+	dw TradeAnim_SentToOTText         ; 16
+	dw TradeAnim_OTBidsFarewell       ; 17
+	dw TradeAnim_TakeCareOfText       ; 18
+	dw TradeAnim_OTSendsText1         ; 19
+	dw TradeAnim_OTSendsText2         ; 1a
+	dw TradeAnim_SetupGivemonScroll   ; 1b
+	dw TradeAnim_DoGivemonScroll      ; 1c
+	dw TradeAnim_FrontpicScrollStart  ; 1d
+	dw TradeAnim_TextboxScrollStart   ; 1e
+	dw TradeAnim_ScrollOutRight       ; 1f
+	dw TradeAnim_ScrollOutRight2      ; 20
+	dw TradeAnim_Wait80               ; 21
+	dw TradeAnim_Wait40               ; 22
+	dw TradeAnim_RockingBall          ; 23
+	dw TradeAnim_DropBall             ; 24
+	dw TradeAnim_WaitAnim             ; 25
+	dw TradeAnim_WaitAnim2            ; 26
+	dw TradeAnim_Poof                 ; 27
+	dw TradeAnim_BulgeThroughTube     ; 28
+	dw TradeAnim_GiveTrademonSFX      ; 29
+	dw TradeAnim_GetTrademonSFX       ; 2a
+	dw TradeAnim_End                  ; 2b
+	dw TradeAnim_AnimateFrontpic      ; 2c
+	dw TradeAnim_Wait96               ; 2d
+	dw TradeAnim_Wait80IfOTEgg        ; 2e
+	dw TradeAnim_Wait180IfOTEgg       ; 2f
+	dw TradeAnim_PreparePlayerBall    ; 30
+	dw TradeAnim_PrepareOTBall        ; 31
+
+TradeAnim_IncrementJumptableIndex:
+	ld hl, wJumptableIndex
+	inc [hl]
+	ret
+
+TradeAnim_AdvanceScriptPointer:
+	ld hl, wTradeAnimPointer
+	ld a, [hli]
+	ld d, [hl]
+	ld e, a
+	ld a, [de]
+	ld [wJumptableIndex], a
+	inc de
+	ld a, d
+	ld [hld], a
+	ld [hl], e
+	ret
+
+TradeAnim_End:
+	ld hl, wJumptableIndex
+	set 7, [hl]
+	ret
+
+TradeAnim_TubeToOT1:
+	ld a, [wLinkTradeSendmonSpecies]
+	ld [wTempSpecies], a
+	ld hl, wLinkTradeSendmonPersonality
+	xor a
+	depixel 5, 9, 4, 6
+	ld b, $0
+	jr TradeAnim_InitTubeAnim
+
+TradeAnim_TubeToPlayer1:
+	ld a, [wLinkTradeGetmonSpecies]
+	ld [wTempSpecies], a
+	ld hl, wLinkTradeGetmonPersonality
+	ld a, $1
+	depixel 12, 9, 4, 6
+	ld b, $5
+TradeAnim_InitTubeAnim:
+	push af
+	push bc
+	push de
+	push bc
+	push de
+
+	push hl ; wLinkTradeSendmonPersonality or wLinkTradeGetmonPersonality
+
+	call ClearTileMap
+
+	xor a
+	ldh [hSCX], a
+	ldh [hSCY], a
+	ldh [rSCX], a
+	ldh [rSCY], a
+	ld a, 7
+	ldh [hWX], a
+	ld a, 144
+	ldh [hWY], a
+	call DelayFrame
+
+	call ClearSpriteAnims
+
+	ld de, TradeBubbleGFX
+	ld hl, vTiles0 tile $72
+	lb bc, BANK(TradeBubbleGFX), 4
+	call Request2bpp
+	xor a
+	ld hl, wSpriteAnimDict
+	ld [hli], a
+	ld [hl], $62
+
+	pop hl ; wLinkTradeSendmonPersonality or wLinkTradeGetmonPersonality
+	inc hl
+	ld a, [hld]
+	ld [wCurIconForm], a
+	farcall LoadTradeAnimationMonMiniAndMask
+
+	ld a, CGB_TRADE_BG
+	call GetCGBLayout
+
+	call DisableLCD
+
+	xor a
+	ldh [hBGMapMode], a
+	ld hl, TradeBGTilemapLZ
+	ld a, BANK(TradeBGTilemapLZ)
+	debgcoord 0, 0
+	call FarDecompressToDE
+	ld a, 1
+	ldh [rVBK], a
+	ld hl, TradeBGAttrmapLZ
+	ld a, BANK(TradeBGAttrmapLZ)
+	debgcoord 0, 0
+	call FarDecompressToDE
+	xor a
+	ldh [rVBK], a
+
+	call TradeAnim_PlaceTrademonStatsOnTubeAnim
+
+	pop de
+	ld a, SPRITE_ANIM_INDEX_TRADEMON_ICON
+	call InitSpriteAnimStruct
+
+	ld hl, SPRITEANIMSTRUCT_JUMPTABLE_INDEX
+	add hl, bc
+	pop bc
+	ld [hl], b
+
+	pop de
+	ld a, SPRITE_ANIM_INDEX_TRADEMON_BUBBLE
+	call InitSpriteAnimStruct
+
+	ld hl, SPRITEANIMSTRUCT_JUMPTABLE_INDEX
+	add hl, bc
+	pop bc
+	ld [hl], b
+
+	pop af ; whether we're starting from the top or bottom
+	and a
+	jr z, .from_player
+	ld a, $70
+	ldh [hSCY], a
+	ldh [rSCY], a
+	; flip all the arrow tiles to point up
+	ld a, 1
+	ldh [rVBK], a
+	ld bc, TILEMAP_WIDTH - 1
+	hlbgcoord 12, 14
+rept 3
+	set B_OAM_YFLIP, [hl]
+	inc hl
+	set B_OAM_YFLIP, [hl]
+	add hl, bc
+endr
+	set B_OAM_YFLIP, [hl]
+	inc hl
+	set B_OAM_YFLIP, [hl]
+	xor a
+	ldh [rVBK], a
+
+	call TradeAnim_PrepareOTGB
+	jr .finish
+
+.from_player
+	call TradeAnim_PreparePlayerGB
+
+.finish
+	call EnableLCD
+
+	call TradeAnim_IncrementJumptableIndex
+
+	ld a, 34
+	ld [wFrameCounter], a
+	ret
+
+TradeAnim_TubeToOT2:
+TradeAnim_TubeToOT4:
+TradeAnim_TubeToOT6:
+TradeAnim_TubeToPlayer2:
+TradeAnim_TubeToPlayer5:
+	call TradeAnim_FlashBGPals
+	ld hl, wFrameCounter
+	ld a, [hl]
+	and a
+	jmp z, TradeAnim_IncrementJumptableIndex
+	dec [hl]
+	ret
+
+TradeAnim_TubeToOT3:
+	call TradeAnim_FlashBGPals
+	ldh a, [hSCY]
+	inc a
+	ldh [hSCY], a
+	cp $30
+	call z, TradeAnim_PrepareOTGB
+	cp $70
+	ret nz
+TradeAnim_TubeToOT5:
+	ld a, 90
+	ld [wFrameCounter], a
+TradeAnim_TubeToOT7:
+TradeAnim_TubeToPlayer6:
+TradeAnim_TubeToPlayer7:
+	jmp TradeAnim_IncrementJumptableIndex
+
+TradeAnim_TubeToPlayer3:
+	call TradeAnim_FlashBGPals
+	ldh a, [hSCY]
+	dec a
+	ldh [hSCY], a
+	cp $30
+	call z, TradeAnim_PreparePlayerGB
+	and a
+	ret nz
+	jmp TradeAnim_IncrementJumptableIndex
+
+TradeAnim_TubeToPlayer4:
+	call TradeAnim_FlashBGPals
+	ld a, $80 + 60
+	ld [wFrameCounter], a
+	jmp TradeAnim_IncrementJumptableIndex
+
+TradeAnim_TubeToOT8:
+TradeAnim_TubeToPlayer8:
+	call ClearBGPalettes
+	call ClearTileMap
+	call ClearSprites
+	call DisableLCD
+	call ClearSpriteAnims
+	hlbgcoord 0, 0
+	ld bc, STARTOF(VRAM) + SIZEOF(VRAM) - vBGMap0
+	ld a, ' '
+	rst ByteFill
+	xor a
+	ldh [hSCY], a
+	ld a, $90
+	ldh [hWY], a
+	ld a, $1
+	ldh [rVBK], a
+	hlbgcoord 0, 0
+	ld bc, vBGMap1 - vBGMap0
+	xor a
+	rst ByteFill
+	ldh [rVBK], a
+	call EnableLCD
+	call LoadTradeBallAndCableGFX
+	call ApplyTilemapInVBlank
+	call TradeAnim_NormalPals
+	jmp TradeAnim_AdvanceScriptPointer
+
+TradeAnim_GiveTrademonSFX:
+	call TradeAnim_AdvanceScriptPointer
+	ld de, SFX_GIVE_TRADEMON
+	jmp WaitPlaySFX
+
+TradeAnim_GetTrademonSFX:
+	call TradeAnim_AdvanceScriptPointer
+	ld de, SFX_GET_TRADEMON
+	jmp WaitPlaySFX
+
+TradeAnim_PlaceTrademonStatsOnTubeAnim:
+	hlbgcoord 10, 11
+	ld de, wLinkPlayer1Name
+	rst PlaceString
+	hlbgcoord 10, 20
+	ld de, wLinkPlayer2Name
+	rst PlaceString
+	ret
+
+TradeAnim_EnterLinkTube1:
+	call ClearTileMap
+	call WaitTop
+	ld a, $60
+	ldh [hSCX], a
+	call DelayFrame
+
+	hlcoord 0, 2
+	ld de, .TradeLinkTubeTilemap
+	lb bc, 3, 11
+.row
+	push bc
+	push hl
+.col
+	ld a, [de]
+	inc de
+	ld [hli], a
+	dec c
+	jr nz, .col
+	pop hl
+	ld bc, SCREEN_WIDTH
+	add hl, bc
+	pop bc
+	dec b
+	jr nz, .row
+
+	call ApplyTilemapInVBlank
+
+	ld a, CGB_TRADE_TUBE
+	call GetCGBLayout
+
+	ld de, SFX_POTION
+	call PlaySFX
+	jmp TradeAnim_IncrementJumptableIndex
+
+.TradeLinkTubeTilemap: INCBIN "gfx/trade/link_cable.tilemap"
+
+TradeAnim_EnterLinkTube2:
+	ldh a, [hSCX]
+	and a
+	jr z, .done
+	sub $4
+	ldh [hSCX], a
+	ret
+
+.done
+	ld c, 80
+	call DelayFrames
+	jmp TradeAnim_AdvanceScriptPointer
+
+TradeAnim_ExitLinkTube:
+	ldh a, [hSCX]
+	cp $60
+	jr z, .done
+	add $4
+	ldh [hSCX], a
+	ret
+
+.done
+	call ClearTileMap
+	xor a
+	ldh [hSCX], a
+	jmp TradeAnim_AdvanceScriptPointer
+
+TradeAnim_SetupGivemonScroll:
+	ld a, $8f
+	ldh [hWX], a
+	ld a, $88
+	ldh [hSCX], a
+	ld a, $50
+	ldh [hWY], a
+	jmp TradeAnim_AdvanceScriptPointer
+
+TradeAnim_DoGivemonScroll:
+	ldh a, [hWX]
+	cp $7
+	jr z, .done
+	sub $4
+	ldh [hWX], a
+	ldh a, [hSCX]
+	sub $4
+	ldh [hSCX], a
+	ret
+
+.done
+	ld a, $7
+	ldh [hWX], a
+	xor a
+	ldh [hSCX], a
+	jmp TradeAnim_AdvanceScriptPointer
+
+TradeAnim_FrontpicScrollStart:
+	ld a, $7
+	ldh [hWX], a
+	ld a, $50
+	ldh [hWY], a
+	jmp TradeAnim_AdvanceScriptPointer
+
+TradeAnim_TextboxScrollStart:
+	ld a, $7
+	ldh [hWX], a
+	ld a, $90
+	ldh [hWY], a
+	jmp TradeAnim_AdvanceScriptPointer
+
+TradeAnim_ScrollOutRight:
+	call WaitTop
+	ld a, HIGH(vBGMap1)
+	ldh [hBGMapAddress + 1], a
+	call ApplyTilemapInVBlank
+	ld a, $7
+	ldh [hWX], a
+	xor a
+	ldh [hWY], a
+	call DelayFrame
+	call WaitTop
+	ld a, HIGH(vBGMap0)
+	ldh [hBGMapAddress + 1], a
+	call ClearTileMap
+	jmp TradeAnim_IncrementJumptableIndex
+
+TradeAnim_ScrollOutRight2:
+	ldh a, [hWX]
+	cp $a1
+	jr nc, .done
+	add $4
+	ldh [hWX], a
+	ret
+
+.done
+	ld a, HIGH(vBGMap1)
+	ldh [hBGMapAddress + 1], a
+	call ApplyTilemapInVBlank
+	ld a, $7
+	ldh [hWX], a
+	ld a, $90
+	ldh [hWY], a
+	ld a, HIGH(vBGMap0)
+	ldh [hBGMapAddress + 1], a
+	jmp TradeAnim_AdvanceScriptPointer
+
+TradeAnim_ShowGivemonData:
+	call ShowPlayerTrademonStats
+	ld a, [wPlayerTrademonSpecies]
+	ld [wCurPartySpecies], a
+	ld a, [wPlayerTrademonPersonality]
+	ld [wTempMonPersonality], a
+	ld a, [wPlayerTrademonPersonality + 1]
+	ld [wTempMonPersonality + 1], a
+	ld a, [wPlayerTrademonCaughtBall]
+	ld [wTempMonCaughtBall], a
+	ld a, CGB_TRADE_PIC
+	call GetCGBLayout
+	ld a, %11100100 ; 3,2,1,0
+	call DmgToCgbBGPals
+	call TradeAnim_ShowGivemonFrontpic
+
+	ld c, 12
+	call DelayFrames
+	ld a, [wPlayerTrademonSpecies]
+	ld c, a
+	ld a, [wPlayerTrademonForm]
+	ld b, a
+	call PlayMonCry2
+	jmp TradeAnim_AdvanceScriptPointer
+
+TradeAnim_ShowGetmonData:
+	call ShowOTTrademonStats
+	ld a, [wOTTrademonSpecies]
+	ld [wCurPartySpecies], a
+	ld a, [wOTTrademonPersonality]
+	ld [wTempMonPersonality], a
+	ld a, [wOTTrademonPersonality + 1]
+	ld [wTempMonPersonality + 1], a
+	ld a, [wOTTrademonCaughtBall]
+	ld [wTempMonCaughtBall], a
+	ld a, CGB_TRADE_PIC
+	call GetCGBLayout
+	ld a, %11100100 ; 3,2,1,0
+	call DmgToCgbBGPals
+	call TradeAnim_ShowGetmonFrontpic
+	jmp TradeAnim_AdvanceScriptPointer
+
+TradeAnim_AnimateFrontpic:
+	farcall AnimateTrademonFrontpic
+	jmp TradeAnim_AdvanceScriptPointer
+
+TradeAnim_GetFrontpic:
+	push de
+	ld [wCurPartySpecies], a
+	ld [wCurSpecies], a
+	ld a, [hl]
+	ld [wCurForm], a
+	call GetBaseData
+	pop de
+	farjp GetFrontpic
+
+TradeAnim_GetNickname:
+	push de
+	ld hl, wNamedObjectIndex
+	ld [hli], a
+	ld [hl], b
+	call GetPokemonName
+	ld hl, wStringBuffer1
+	pop de
+	ld bc, NAME_LENGTH
+	rst CopyBytes
+	ret
+
+TradeAnim_ShowGivemonFrontpic:
+	ld de, vTiles0
+	jr TradeAnim_ShowFrontpic
+
+TradeAnim_ShowGetmonFrontpic:
+	ld de, vTiles0 tile $31
+TradeAnim_ShowFrontpic:
+	call DelayFrame
+	ld hl, vTiles2
+	lb bc, 10, $31
+	call Request2bpp
+	call WaitTop
+	call TradeAnim_BlankTileMap
+	hlcoord 7, 2
+	xor a
+	ldh [hGraphicStartTile], a
+	lb bc, 7, 7
+	farcall PlaceGraphic
+	jmp ApplyTilemapInVBlank
+
+TradeAnim_Wait80:
+	ld c, 80
+	call DelayFrames
+	jmp TradeAnim_AdvanceScriptPointer
+
+TradeAnim_Wait40:
+	ld c, 40
+	call DelayFrames
+	jmp TradeAnim_AdvanceScriptPointer
+
+TradeAnim_Wait96:
+	ld c, 96
+	call DelayFrames
+	jmp TradeAnim_AdvanceScriptPointer
+
+TradeAnim_Wait80IfOTEgg:
+	call IsOTTrademonEgg
+	ret z
+	ld c, 80
+	jmp DelayFrames
+
+TradeAnim_Wait180IfOTEgg:
+	call IsOTTrademonEgg
+	ret z
+	ld c, 180
+	jmp DelayFrames
+
+IsOTTrademonEgg:
+	call TradeAnim_AdvanceScriptPointer
+	ld a, [wOTTrademonIsEgg]
+	bit MON_IS_EGG_F, a
+	ret
+
+ShowPlayerTrademonStats:
+	ld de, wPlayerTrademonIsEgg
+	ld a, [de]
+	bit MON_IS_EGG_F, a
+	ld de, wPlayerTrademonSpecies
+	jr nz, TrademonStats_Egg
+	call TrademonStats_MonTemplate
+	ld a, [wPlayerTrademonSpecies]
+	ld c, a
+	ld a, [wPlayerTrademonForm]
+	ld b, a
+	call TrademonStats_PrintSpeciesNumber
+	ld de, wPlayerTrademonSpeciesName
+	hlcoord 4, 2
+	rst PlaceString
+	ld de, wPlayerTrademonOTName
+	hlcoord 7, 4
+	rst PlaceString
+	ld de, wPlayerTrademonID
+	hlcoord 7, 6
+	lb bc, PRINTNUM_LEADINGZEROS | 2, 5
+	call PrintNum
+	jr TrademonStats_WaitBGMap
+
+ShowOTTrademonStats:
+	ld de, wOTTrademonIsEgg
+	ld a, [de]
+	bit MON_IS_EGG_F, a
+	ld de, wOTTrademonSpecies
+	jr nz, TrademonStats_Egg
+	call TrademonStats_MonTemplate
+	ld a, [wOTTrademonSpecies]
+	ld c, a
+	ld a, [wOTTrademonForm]
+	ld b, a
+	call TrademonStats_PrintSpeciesNumber
+	ld de, wOTTrademonSpeciesName
+	hlcoord 4, 2
+	rst PlaceString
+	ld de, wOTTrademonOTName
+	hlcoord 7, 4
+	rst PlaceString
+	ld de, wOTTrademonID
+	hlcoord 7, 6
+	lb bc, PRINTNUM_LEADINGZEROS | 2, 5
+	call PrintNum
+	jr TrademonStats_WaitBGMap
+
+TrademonStats_MonTemplate:
+	call WaitTop
+	call TradeAnim_BlankTileMap
+	ld a, HIGH(vBGMap1)
+	ldh [hBGMapAddress + 1], a
+	hlcoord 3, 0
+	lb bc, 6, 13
+	call Textbox
+	hlcoord 4, 0
+	ld de, TrademonStats_OTMonData
+	rst PlaceString
+	ret
+
+TrademonStats_Egg:
+	call WaitTop
+	call TradeAnim_BlankTileMap
+	ld a, HIGH(vBGMap1)
+	ldh [hBGMapAddress + 1], a
+	hlcoord 3, 0
+	lb bc, 6, 13
+	call Textbox
+	hlcoord 4, 2
+	ld de, TrademonStats_EggData
+	rst PlaceString
+	; fallthrough
+
+TrademonStats_WaitBGMap:
+	call ApplyTilemapInVBlank
+	call WaitTop
+	ld a, HIGH(vBGMap0)
+	ldh [hBGMapAddress + 1], a
+	ret
+
+TrademonStats_OTMonData:
+	db   "─── №."
+	next ""
+	next "OT/"
+	next "<ID>№.@"
+
+TrademonStats_EggData:
+	db   "Egg"
+	next "OT/?????"
+	next "<ID>№.?????@"
+
+TrademonStats_PrintSpeciesNumber:
+	call GetPokedexNumber
+	ld de, wTextDecimalByte+1
+	ld a, c
+	ld [de], a
+	dec de
+	ld a, b
+	ld [de], a
+	hlcoord 10, 0
+	lb bc, PRINTNUM_LEADINGZEROS | 2, 3
+	call PrintNum
+	ld [hl], ' '
+	ret
+
+TradeAnim_RockingBall:
+	depixel 10, 11, 4, 0
+	ld a, SPRITE_ANIM_INDEX_TRADE_POKE_BALL
+	call InitSpriteAnimStruct
+	call TradeAnim_AdvanceScriptPointer
+	ld a, 32
+	ld [wFrameCounter], a
+	ret
+
+TradeAnim_DropBall:
+	depixel 10, 11, 4, 0
+	ld a, SPRITE_ANIM_INDEX_TRADE_POKE_BALL
+	call InitSpriteAnimStruct
+	ld hl, SPRITEANIMSTRUCT_JUMPTABLE_INDEX
+	add hl, bc
+	ld [hl], $1
+	ld hl, SPRITEANIMSTRUCT_YOFFSET
+	add hl, bc
+	ld [hl], $dc
+	call TradeAnim_AdvanceScriptPointer
+	ld a, 57
+	ld [wFrameCounter], a
+	ret
+
+TradeAnim_Poof:
+	depixel 10, 11, 4, 0
+	ld a, SPRITE_ANIM_INDEX_TRADE_POOF
+	call InitSpriteAnimStruct
+	call TradeAnim_AdvanceScriptPointer
+	ld a, 16
+	ld [wFrameCounter], a
+	ld de, SFX_BALL_POOF
+	call PlaySFX
+	jmp DelayFrame
+
+TradeAnim_BulgeThroughTube:
+	ld a, CGB_TRADE_TUBE
+	call GetCGBLayout
+	depixel 5, 11
+	ld a, SPRITE_ANIM_INDEX_TRADE_TUBE_BULGE
+	call InitSpriteAnimStruct
+	call TradeAnim_AdvanceScriptPointer
+	ld a, $40
+	ld [wFrameCounter], a
+	ret
+
+TradeAnim_AnimateTrademonInTube:
+	ld hl, SPRITEANIMSTRUCT_JUMPTABLE_INDEX
+	add hl, bc
+	ld a, [hl]
+	call StackJumpTable
+
+.Jumptable:
+; player to OT
+	dw .MoveLeft
+	dw .WaitTimer
+	dw .MoveDown
+	dw .MoveRight
+	dw .DeleteSelf
+; OT to player
+	dw .MoveLeft
+	dw .WaitTimer
+	dw .MoveUp
+	dw .MoveRight
+	dw .DeleteSelf
+
+.MoveLeft:
+	ld hl, SPRITEANIMSTRUCT_XCOORD
+	add hl, bc
+	ld a, [hl]
+	cp $2c
+	jr z, .done_move_left
+	dec [hl]
+	ret
+.done_move_left
+	call .JumptableNext
+	ld hl, SPRITEANIMSTRUCT_VAR1
+	add hl, bc
+	ld [hl], $73
+	ret
+
+.WaitTimer:
+	ld hl, SPRITEANIMSTRUCT_VAR1
+	add hl, bc
+	ld a, [hl]
+	dec [hl]
+	and a
+	ret nz
+	jr .JumptableNext
+
+.MoveDown:
+	ld hl, SPRITEANIMSTRUCT_YCOORD
+	add hl, bc
+	ld a, [hl]
+	cp $64
+	jr nc, .JumptableNext
+	inc [hl]
+	ret
+
+.MoveRight:
+	ld hl, SPRITEANIMSTRUCT_XCOORD
+	add hl, bc
+	ld a, [hl]
+	cp $56
+	jr nc, .JumptableNext
+	inc [hl]
+	ret
+
+.InitTimer:
+	call .JumptableNext
+	ld hl, SPRITEANIMSTRUCT_VAR1
+	add hl, bc
+	ld [hl], $80
+	ret
+
+.MoveUp:
+	ld hl, SPRITEANIMSTRUCT_YCOORD
+	add hl, bc
+	ld a, [hl]
+	cp $2c
+	jr z, .done_move_up
+	dec [hl]
+	ret
+.done_move_up
+	call .JumptableNext
+	; fallthrough
+
+.WaitTimer2:
+	ld hl, SPRITEANIMSTRUCT_VAR1
+	add hl, bc
+	ld a, [hl]
+	dec [hl]
+	and a
+	ret nz
+	; fallthrough
+
+.JumptableNext:
+	ld hl, SPRITEANIMSTRUCT_JUMPTABLE_INDEX
+	add hl, bc
+	inc [hl]
+	ret
+
+.DeleteSelf:
+	ld hl, SPRITEANIMSTRUCT_INDEX
+	add hl, bc
+	ld [hl], $0
+	ret
+
+TradeAnim_SentToOTText:
+	ld hl, .Text_MonName
+	call PrintText
+	ld c, 189
+	call DelayFrames
+	ld hl, .Text_WasSentTo
+	call PrintText
+	call TradeAnim_Wait80Frames
+	ld c, 128
+	call DelayFrames
+	jmp TradeAnim_AdvanceScriptPointer
+
+.Text_WasSentTo:
+	; was sent to @ .
+	text_farend _MonWasSentToText
+.Text_MonName:
+	;
+	text_farend ClearText
+TradeAnim_OTBidsFarewell:
+	ld hl, .Text_BidsFarewellToMon
+	call PrintText
+	call TradeAnim_Wait80Frames
+	ld hl, .Text_MonName
+	call PrintText
+	call TradeAnim_Wait80Frames
+	ld a, [wOTTrademonCaughtBall]
+	ld [wTempMonCaughtBall], a
+	jmp TradeAnim_AdvanceScriptPointer
+
+.Text_BidsFarewellToMon:
+	; bids farewell to
+	text_farend _BidsFarewellToMonText
+.Text_MonName:
+	; .
+	text_farend _MonNameBidsFarewellText
+TradeAnim_TakeCareOfText:
+	call WaitTop
+	hlcoord 0, 10
+	ld bc, 8 * SCREEN_WIDTH
+	ld a, ' '
+	rst ByteFill
+	call ApplyTilemapInVBlank
+	ld hl, .Text_TakeGoodCareOfMon
+	call PrintText
+	call TradeAnim_Wait80Frames
+	jmp TradeAnim_AdvanceScriptPointer
+
+.Text_TakeGoodCareOfMon:
+	; Take good care of @ .
+	text_farend _TakeGoodCareOfMonText
+TradeAnim_OTSendsText1:
+	ld hl, .Text_ForYourMon
+	call PrintText
+	call TradeAnim_Wait80Frames
+	ld hl, .Text_OTSends
+	call PrintText
+	call TradeAnim_Wait80Frames
+	ld c, 14
+	call DelayFrames
+	jmp TradeAnim_AdvanceScriptPointer
+
+.Text_ForYourMon:
+	; For @ 's @ ,
+	text_farend _ForYourMonSendsText
+.Text_OTSends:
+	; sends @ .
+	text_farend _OTSendsText
+TradeAnim_OTSendsText2:
+	ld hl, .Text_WillTrade
+	call PrintText
+	call TradeAnim_Wait80Frames
+	ld hl, .Text_ForYourMon
+	call PrintText
+	call TradeAnim_Wait80Frames
+	ld c, 14
+	call DelayFrames
+	jmp TradeAnim_AdvanceScriptPointer
+
+.Text_WillTrade:
+	; will trade @ @
+	text_farend _WillTradeText
+.Text_ForYourMon:
+	; for @ 's @ .
+	text_farend _ForYourMonWillTradeText
+TradeAnim_Wait80Frames:
+	ld c, 80
+	jmp DelayFrames
+
+TradeAnim_BlankTileMap:
+	hlcoord 0, 0
+	ld bc, SCREEN_AREA
+	ld a, ' '
+	rst ByteFill
+	ret
+
+TradeAnim_NormalPals:
+	ld a, %11100100 ; 3,2,1,0
+	call DmgToCgbObjPal0
+	ld a, %11100100 ; 3,2,1,0
+	jmp DmgToCgbBGPals
+
+LinkTradeAnim_LoadTradePlayerNames:
+	push de
+	ld de, wLinkPlayer1Name
+	ld bc, NAME_LENGTH
+	rst CopyBytes
+	pop hl
+	ld de, wLinkPlayer2Name
+	ld bc, NAME_LENGTH
+	rst CopyBytes
+	ret
+
+LinkTradeAnim_LoadTradeMonData:
+	; bc = species, de = shiny, de+1 = form
+	ld a, [bc]
+	ld [hli], a
+	ld a, [de]
+	ld [hli], a
+	inc de
+	ld a, [de]
+	and SPECIESFORM_MASK
+	ld [hl], a
+	ret
+
+TradeAnim_WaitAnim:
+TradeAnim_WaitAnim2:
+	ld hl, wFrameCounter
+	ld a, [hl]
+	and a
+	jmp z, TradeAnim_AdvanceScriptPointer
+	dec [hl]
+	ret
+
+LoadTradeBallAndCableGFX:
+	call DelayFrame
+	ld hl, TradePoofCableGFX
+	ld de, vTiles0 tile $68
+	lb bc, BANK(TradePoofCableGFX), 14
+	call DecompressRequest2bpp
+	xor a
+	ld hl, wSpriteAnimDict
+	ld [hli], a
+	ld [hl], $62
+	ret
+
+TradeAnim_FlashBGPals:
+	ld hl, wFrameCounter2
+	ld a, [hl]
+	and %111
+	ret nz
+
+	ldh a, [rWBK]
+	push af
+	ld a, BANK(wBGPals2)
+	ldh [rWBK], a
+
+	bit 3, [hl]
+	ld hl, .LightArrowColor
+	jr z, .inverted
+	assert .LightArrowColor + 2 == .DarkArrowColor
+	inc hl
+	inc hl
+.inverted
+	ld a, [hli]
+	ld b, [hl]
+	ld hl, wBGPals2 palette 1 color 3 ; arrow
+	ld [hli], a
+	ld [hl], b
+
+	ld hl, wBGPals2 palette 2 color 1 ; light and dark flash colors
+	ld a, [hli]
+	ld e, a
+	ld a, [hli]
+	ld d, a
+	ld a, [hli]
+	ld c, a
+	ld b, [hl]
+
+	ld hl, wBGPals2 palette 2 color 1 ; cable on white background
+	ld a, c
+	ld [hli], a
+	ld a, b
+	ld [hli], a
+	ld a, e
+	ld [hli], a
+	ld [hl], d
+	ld hl, wBGPals2 palette 6 color 1 ; cable on dark background
+	ld a, c
+	ld [hli], a
+	ld a, b
+	ld [hli], a
+	ld a, e
+	ld [hli], a
+	ld [hl], d
+	ld hl, wBGPals2 palette 3 color 0 ; game boy screens
+	ld a, e
+	ld [hli], a
+	ld [hl], d
+
+	pop af
+	ldh [rWBK], a
+	ld a, TRUE
+	ldh [hCGBPalUpdate], a
+	ret
+
+.LightArrowColor:
+if !DEF(MONOCHROME)
+	RGB 31, 20, 08
+else
+	RGB_MONOCHROME_LIGHT
+endc
+
+.DarkArrowColor:
+if !DEF(MONOCHROME)
+	RGB 31, 15, 00
+else
+	RGB_MONOCHROME_DARK
+endc
+
+TradeAnim_PrepareOTGB:
+	ld hl, wBGPals2 palette 7 color 1 ; ot game boy
+	jr TradeAnim_PrepareGBCorners
+
+TradeAnim_PreparePlayerGB:
+	ld hl, wBGPals2 palette 4 color 1 ; player game boy
+TradeAnim_PrepareGBCorners:
+	ldh a, [rWBK]
+	push af
+	ld a, BANK(wBGPals2)
+	ldh [rWBK], a
+
+	ld a, [hli]
+	ld c, a
+	ld a, [hli]
+	ld b, a
+	ld a, [hli]
+	ld d, a
+	ld e, [hl]
+
+	ld hl, wBGPals2 palette 5 color 1 ; game boy corners
+	ld a, c
+	ld [hli], a
+	ld a, b
+	ld [hli], a
+	ld a, e
+	ld [hli], a
+	ld [hl], d
+
+	ld hl, wBGPals2 palette 3 color 1 ; game boy screens
+	ld a, c
+	ld [hli], a
+	ld [hl], b
+
+	pop af
+	ldh [rWBK], a
+	ld a, TRUE
+	ldh [hCGBPalUpdate], a
+	ret
+
+TradeAnim_PreparePlayerBall:
+	ld a, [wPlayerTrademonCaughtBall]
+	jr TradeAnim_PrepareBall
+
+TradeAnim_PrepareOTBall:
+	ld a, [wOTTrademonCaughtBall]
+TradeAnim_PrepareBall:
+	add a
+	add LOW(AnimBallObjGFX)
+	ld l, a
+	adc HIGH(AnimBallObjGFX)
+	sub l
+	ld h, a
+	ld a, BANK(AnimBallObjGFX)
+	call GetFarWord
+	ld de, vTiles0 tile $62
+	lb bc, BANK("Battle Ball Icons"), 6
+	call DecompressRequest2bpp
+	jmp TradeAnim_AdvanceScriptPointer

@@ -1,0 +1,30 @@
+{
+  "_comment": "由 tools/zh/zh.py text-extract 生成；zh 为空表示未翻译（回退原文）。控制码沿用 <LINE>/<DONE>/<PLAYER> 等写法，{{n}} 为不可翻译的占位命令，必须原样保留。",
+  "source": "maps\\EcruteakHouse.asm",
+  "blocks": {
+    "EcruteakTinTowerEntranceSageText_GotFogBadge": {
+      "en": "Bell Tower is off<LINE>limits to anyone<PARA>without Ecruteak<LINE>Gym's Badge.<PARA>Ah!<PARA>Ecruteak's Gym<LINE>Badge! Please, go<CONT>right through.<DONE>",
+      "zh": "没有圆朱市<CONT>道馆徽章的人<PARA>不得进入<LINE>铃铛塔。<PARA>啊！<PARA>这是圆朱市<LINE>的<CONT>道馆徽章！<PARA>请进，<LINE>请进。<DONE>"
+    },
+    "EcruteakTinTowerEntranceSageText_HearsClearBell": {
+      "en": "A momentous event<LINE>has occurred.<PARA>I beg your pardon,<LINE>but I must ask you<CONT>to leave.<PARA>………………<PARA>Ah!<PARA>The sound of that<LINE>Clear Bell!<PARA>It… It's sublime!<PARA>I've never heard<LINE>so beautiful a<CONT>sound before!<PARA>That bell's chime<LINE>is indicative of<CONT>the bearer's soul.<PARA>You…<PARA>You may be able to<LINE>make it through<CONT>Bell Tower.<PARA>Please, do go on.<DONE>",
+      "zh": "发生了一件<LINE>大事。<PARA>抱歉，<LINE>请你先<CONT>离开吧。<PARA>………………<PARA>啊！<PARA>那是<LINE>清铃的声音！<PARA>太、太<LINE>美妙了！<PARA>我<LINE>从未听过<PARA>如此<LINE>动人的声音！<PARA>铃声<LINE>映照<CONT>持有者的<CONT>心灵。<PARA>你……<PARA>你或许<LINE>能通过<CONT>铃铛塔。<PARA>请，<LINE>继续前进吧。<DONE>"
+    },
+    "EcruteakTinTowerEntranceSageText_PleaseDoGoOn": {
+      "en": "Please, do go on.<DONE>",
+      "zh": "请，<LINE>继续前进吧。<DONE>"
+    },
+    "EcruteakTinTowerEntranceSageText_HeardClearBell": {
+      "en": "That bell's chime<LINE>is indicative of<CONT>the bearer's soul.<PARA>You…<PARA>You may be able to<LINE>make it through<CONT>Bell Tower.<PARA>Please, do go on.<DONE>",
+      "zh": "铃声<LINE>映照<CONT>持有者的<CONT>心灵。<PARA>你……<PARA>你或许<LINE>能通过<CONT>铃铛塔。<PARA>请，<LINE>继续前进吧。<DONE>"
+    },
+    "EcruteakTinTowerEntranceWanderingSageText_GotClearBell": {
+      "en": "The Bell Tower<LINE>shook! A #mon<PARA>must have returned<LINE>to the top!<DONE>",
+      "zh": "铃铛塔<LINE>震动了！<PARA>一定有<LINE>宝可梦<CONT>回到了塔顶！<DONE>"
+    },
+    "EcruteakTinTowerEntranceGrampsText": {
+      "en": "Two towers…<LINE>Two #mon…<PARA>But when one<LINE>burned down, both<PARA>#mon flew away,<LINE>never to return.<DONE>",
+      "zh": "两座塔……<PARA>两只<LINE>宝可梦……<PARA>可当<LINE>一座塔<CONT>烧毁时，<PARA>两只<LINE>宝可梦<PARA>都飞走了，<PARA>再也没<LINE>回来。<DONE>"
+    }
+  }
+}

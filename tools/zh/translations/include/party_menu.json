@@ -1,0 +1,142 @@
+{
+  "_comment": "由 tools/zh/zh.py text-extract 生成；zh 为空表示未翻译（回退原文）。控制码沿用 <LINE>/<DONE>/<PLAYER> 等写法，{{n}} 为不可翻译的占位命令，必须原样保留。",
+  "source": "engine\\pokemon\\party_menu.asm",
+  "blocks": {
+    "BT_SwapRentals.TradeWhichPKMN#0": {
+      "en": "Trade which <PK><MN>?   @",
+      "zh": "交换哪只宝可梦？@"
+    },
+    "BT_PartySelect.MenuData#0": {
+      "en": "Enter@",
+      "zh": "出战@"
+    },
+    "BT_PartySelect.MenuData#1": {
+      "en": "Summary@",
+      "zh": "概要@"
+    },
+    "BT_PartySelect.MenuData#2": {
+      "en": "Cancel@",
+      "zh": "取消@"
+    },
+    "BT_PartySelect.BannedMenuData#0": {
+      "en": "Summary@",
+      "zh": "概要@"
+    },
+    "BT_PartySelect.BannedMenuData#1": {
+      "en": "Cancel@",
+      "zh": "取消@"
+    },
+    "BTText_EnterBattle#0": {
+      "en": "Enter battle?@",
+      "zh": "参加战斗？@"
+    },
+    "BTText_SameSpecies": {
+      "en": "The #mon must<LINE>be of different<CONT>species!<PROMPT>",
+      "zh": "宝可梦必须<LINE>是不同<CONT>种类！<PROMPT>"
+    },
+    "BTText_SameItem": {
+      "en": "The #mon's held<LINE>items must differ!<PROMPT>",
+      "zh": "宝可梦携带的<LINE>道具必须不同！<PROMPT>"
+    },
+    "BT_ConfirmPartySelection.YesNoMenuData#0": {
+      "en": "Yes@",
+      "zh": "是@"
+    },
+    "BT_ConfirmPartySelection.YesNoMenuData#1": {
+      "en": "No@",
+      "zh": "否@"
+    },
+    "PlacePartyNicknames.Cancel#0": {
+      "en": "Cancel@",
+      "zh": "取消@"
+    },
+    "PlacePartyMonTMHMCompatibility.PlaceAbleNotAble#0": {
+      "en": "Able@",
+      "zh": "可以@"
+    },
+    "PlacePartyMonTMHMCompatibility.PlaceAbleNotAble#1": {
+      "en": "Not able@",
+      "zh": "不能@"
+    },
+    "PlacePartyMonTMHMCompatibility.PlaceAbleNotAble#2": {
+      "en": "Learned@",
+      "zh": "已学会@"
+    },
+    "PlacePartyMonEvoStoneCompatibility#0": {
+      "en": "Able@",
+      "zh": "可以@"
+    },
+    "PlacePartyMonEvoStoneCompatibility#1": {
+      "en": "Not able@",
+      "zh": "不能@"
+    },
+    "PlacePartyMonRemindable.PlaceAbleNotAble#0": {
+      "en": "Able@",
+      "zh": "可以@"
+    },
+    "PlacePartyMonRemindable.PlaceAbleNotAble#1": {
+      "en": "Not able@",
+      "zh": "不能@"
+    },
+    "PlacePartyMonBattleTower#0": {
+      "en": "Banned@",
+      "zh": "禁止@"
+    },
+    "PlacePartyMonBattleTower#1": {
+      "en": "Able@",
+      "zh": "可以@"
+    },
+    "PlacePartyMonBattleTower#2": {
+      "en": "First@",
+      "zh": "第一@"
+    },
+    "PlacePartyMonBattleTower#3": {
+      "en": "Second@",
+      "zh": "第二@"
+    },
+    "PlacePartyMonBattleTower#4": {
+      "en": "Third@",
+      "zh": "第三@"
+    },
+    "PlacePartyMonBattleTower#5": {
+      "en": "Last foe@",
+      "zh": "最终对手@"
+    },
+    "ChooseAMonString#0": {
+      "en": "Choose a #mon.@",
+      "zh": "选择一只宝可梦。@"
+    },
+    "UseOnWhichPKMNString#0": {
+      "en": "Use on which <PK><MN>?@",
+      "zh": "用在哪只宝可梦？@"
+    },
+    "WhichPKMNString#0": {
+      "en": "Which <PK><MN>?@",
+      "zh": "哪只宝可梦？@"
+    },
+    "TeachWhichPKMNString#0": {
+      "en": "Teach which <PK><MN>?@",
+      "zh": "教哪只宝可梦？@"
+    },
+    "TutorWhichPKMNString#0": {
+      "en": "Tutor which <PK><MN>?@",
+      "zh": "指导哪只宝可梦？@"
+    },
+    "Choose3MonString#0": {
+      "en": "Choose 3 battle <PK><MN>@",
+      "zh": "选择3只出战<PK><MN>@"
+    },
+    "MoveToWhereString#0": {
+      "en": "Move to where?@",
+      "zh": "移动到哪？@"
+    },
+    "ToWhichPKMNString#0": {
+      "en": "To which <PK><MN>?@",
+      "zh": "换到哪只宝可梦？@"
+    },
+    "YouHaveNoPKMNString#0": {
+      "en": "You have no <PK><MN>!@",
+      "zh": "你没有宝可梦！@"
+    }
+  }
+}

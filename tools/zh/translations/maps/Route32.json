@@ -1,0 +1,122 @@
+{
+  "_comment": "由 tools/zh/zh.py text-extract 生成；zh 为空表示未翻译（回退原文）。控制码沿用 <LINE>/<DONE>/<PLAYER> 等写法，{{n}} 为不可翻译的占位命令，必须原样保留。",
+  "source": "maps\\Route32.asm",
+  "blocks": {
+    "Route32CooltrainerMText_WhatsTheHurry": {
+      "en": "Wait up!<LINE>What's the hurry?<DONE>",
+      "zh": "等等！<LINE>这么急<CONT>要去哪儿？<DONE>"
+    },
+    "Route32CooltrainerMText_AideIsWaiting": {
+      "en": "<PLAYER>, right?<LINE>Some guy wearing<PARA>glasses was look-<LINE>ing for you.<PARA>See for yourself.<LINE>He's waiting for<PARA>you at the #mon<LINE>Center.<DONE>",
+      "zh": "你是<PLAYER>吧？<LINE>有个戴眼镜的<PARA>人在找你。<PARA>你自己去看吧。<LINE>他在<PARA>宝可梦中心<LINE>等你。<DONE>"
+    },
+    "Route32CooltrainerMText_VioletGym": {
+      "en": "Have you gone to<LINE>the #mon Gym?<PARA>You can test your<LINE>#mon and your-<CONT>self there.<PARA>It's a rite of<LINE>passage for all<CONT>trainers!<DONE>",
+      "zh": "你去过<LINE>宝可梦道馆吗？<PARA>在那里可以<LINE>检验宝可梦<CONT>和你自己。<PARA>那是所有<LINE>训练家的<CONT>必修课！<DONE>"
+    },
+    "Text_MillionDollarSlowpokeTail": {
+      "en": "How would you like<LINE>to have this<PARA>tasty, nutritious<LINE>SlowpokeTail?<PARA>For you right now,<LINE>just ¥10,000,000!<PARA>You'll want this!<DONE>",
+      "zh": "这个<LINE>美味又营养的<CONT>呆呆兽尾巴，<PARA>你觉得怎么样？<PARA>现在只要<LINE>¥10,000,000！<PARA>你一定<LINE>想要吧！<DONE>"
+    },
+    "FisherJustinSeenText": {
+      "en": "Whoa!<PARA>You made me lose<LINE>that fish!<DONE>",
+      "zh": "哇啊！<PARA>你害我<LINE>把鱼放跑了！<DONE>"
+    },
+    "FisherJustinBeatenText": {
+      "en": "Sploosh!<DONE>",
+      "zh": "扑通！<DONE>"
+    },
+    "FisherRalph1SeenText": {
+      "en": "I'm really good at<LINE>both fishing and<CONT>#mon.<PARA>I'm not about to<LINE>lose to any kid!<DONE>",
+      "zh": "钓鱼和<LINE>宝可梦，<CONT>我都很在行。<PARA>我可不会<LINE>输给小孩子！<DONE>"
+    },
+    "FisherRalph1BeatenText": {
+      "en": "Tch! I tried to<LINE>rush things…<DONE>",
+      "zh": "啧！我太<LINE>急于求成了……<DONE>"
+    },
+    "FisherRalphAfterText": {
+      "en": "Fishing is a life-<LINE>long passion.<PARA>#mon are life-<LINE>long friends!<DONE>",
+      "zh": "钓鱼是<LINE>一生的爱好。<PARA>宝可梦是<LINE>一生的朋友！<DONE>"
+    },
+    "FisherHenrySeenText": {
+      "en": "My #mon?<LINE>Freshly caught!<DONE>",
+      "zh": "我的宝可梦？<LINE>刚收服的！<DONE>"
+    },
+    "FisherHenryBeatenText": {
+      "en": "Splash?<DONE>",
+      "zh": "哗啦？<DONE>"
+    },
+    "YoungsterAlbertSeenText": {
+      "en": "I haven't seen you<LINE>around before.<PARA>So you think you<LINE>are pretty tough?<DONE>",
+      "zh": "我没见过你。<PARA>看来你<LINE>觉得自己<CONT>挺厉害？<DONE>"
+    },
+    "YoungsterAlbertBeatenText": {
+      "en": "You're strong!<DONE>",
+      "zh": "你好强！<DONE>"
+    },
+    "YoungsterGordonSeenText": {
+      "en": "I found some good<LINE>#mon in the<CONT>grass!<PARA>I think they'll do<LINE>it for me!<DONE>",
+      "zh": "我在草丛里<LINE>发现了<CONT>很棒的宝可梦！<PARA>它们一定<LINE>能帮我赢！<DONE>"
+    },
+    "YoungsterGordonBeatenText": {
+      "en": "Darn. I thought I<LINE>could win.<DONE>",
+      "zh": "可恶。我<LINE>本以为能赢。<DONE>"
+    },
+    "CamperRolandSeenText": {
+      "en": "That glance…<LINE>It's intriguing.<DONE>",
+      "zh": "那个眼神……<LINE>真有意思。<DONE>"
+    },
+    "CamperRolandBeatenText": {
+      "en": "Hmmm. This is<LINE>disappointing.<DONE>",
+      "zh": "嗯……<LINE>真令人失望。<DONE>"
+    },
+    "PicnickerLiz1SeenText": {
+      "en": "Uh-huh. Yeah, and<LINE>you know…<PARA>Pardon? Battle?<LINE>I'm on the phone.<PARA>Oh, all right. But<LINE>make it fast.<DONE>",
+      "zh": "嗯嗯。对，<LINE>然后呢……<PARA>什么？对战？<LINE>我在打电话呢。<PARA>好吧。<LINE>但要快一点。<DONE>"
+    },
+    "PicnickerLiz1BeatenText": {
+      "en": "Oh! I've got to<LINE>relieve my anger!<DONE>",
+      "zh": "啊！我得去<LINE>发泄一下！<DONE>"
+    },
+    "PicnickerLiz1AfterText": {
+      "en": "I was having a<LINE>nice chat too.<DONE>",
+      "zh": "我刚才<LINE>聊得正开心呢。<DONE>"
+    },
+    "Bird_keeperPeterSeenText": {
+      "en": "That Badge! It's<LINE>from Violet City!<PARA>You beat Falkner?<DONE>",
+      "zh": "那枚徽章！<LINE>是桔梗市的！<PARA>你打败阿速了？<DONE>"
+    },
+    "MeetFriedaText": {
+      "en": "Frieda: Yahoo!<LINE>It's Friday!<PARA>I'm Frieda of<LINE>Friday!<PARA>Nice to meet you!<DONE>",
+      "zh": "芙丽妲：呀吼！<LINE>今天是星期五！<PARA>我是<LINE>星期五的<CONT>芙丽妲！<PARA>请多指教！<DONE>"
+    },
+    "FriedaGivesGiftText": {
+      "en": "Here's a Poison<LINE>Barb for you!<DONE>",
+      "zh": "这个毒针<LINE>送给你！<DONE>"
+    },
+    "FriedaFridayText": {
+      "en": "Frieda: Hiya! What<LINE>day do you like?<PARA>I love Friday. No<LINE>doubt about it!<PARA>Don't you think<LINE>it's great too?<DONE>",
+      "zh": "芙丽妲：嗨！<LINE>你喜欢哪一天？<PARA>我最喜欢<LINE>星期五，<CONT>毫无疑问！<PARA>你也觉得<LINE>很棒吧？<DONE>"
+    },
+    "Route32SignText": {
+      "en": "Route 32<PARA>Violet City -<LINE>Azalea Town<DONE>",
+      "zh": "32号道路<PARA>桔梗市<LINE>——桧皮镇<DONE>"
+    },
+    "Route32RuinsSignText": {
+      "en": "Ruins of Alph<LINE>East Entrance<DONE>",
+      "zh": "阿尔夫遗迹<LINE>东边入口<DONE>"
+    },
+    "Route32UnionCaveSignText": {
+      "en": "Union Cave<LINE>Ahead<DONE>",
+      "zh": "互连洞<LINE>前方<DONE>"
+    },
+    "Route32AdvancedTips1Text": {
+      "en": "Advanced Tips!<PARA>Items may be found<LINE>by fishing or by<CONT>smashing rocks!<DONE>",
+      "zh": "进阶提示！<PARA>钓鱼或<LINE>打碎岩石，<PARA>都能<LINE>找到道具！<DONE>"
+    },
+    "Route32AdvancedTips2Text": {
+      "en": "Advanced Tips!<PARA>If you lose a bat-<LINE>tle with another<CONT>trainer, you pay<PARA>them money based<LINE>on how many Badges<CONT>you own!<DONE>",
+      "zh": "进阶提示！<PARA>和其他训练家<LINE>对战输了，<PARA>要按你<LINE>拥有的徽章数<CONT>付钱！<DONE>"
+    }
+  }
+}

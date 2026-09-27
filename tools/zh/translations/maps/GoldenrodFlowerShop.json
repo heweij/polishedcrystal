@@ -1,0 +1,66 @@
+{
+  "_comment": "由 tools/zh/zh.py text-extract 生成；zh 为空表示未翻译（回退原文）。控制码沿用 <LINE>/<DONE>/<PLAYER> 等写法，{{n}} 为不可翻译的占位命令，必须原样保留。",
+  "source": "maps\\GoldenrodFlowerShop.asm",
+  "blocks": {
+    "FlowerShopTeacherScript.MenuData2#0": {
+      "en": "× 1    ¥200@",
+      "zh": "× 1    ¥200@"
+    },
+    "FlowerShopTeacherScript.MenuData2#1": {
+      "en": "×10   ¥2000@",
+      "zh": "×10   ¥2000@"
+    },
+    "FlowerShopTeacherScript.MenuData2#2": {
+      "en": "Cancel@",
+      "zh": "取消@"
+    },
+    "GoldenrodFlowerShopTeacherMySisterWentToSeeWigglyTreeRoute36Text": {
+      "en": "Have you seen that<LINE>wiggly tree that's<PARA>growing on Route<LINE>36?<PARA>My little sister<LINE>got all excited<PARA>and went to see<LINE>it…<PARA>I'm worried… Isn't<LINE>it dangerous?<DONE>",
+      "zh": "你见过<LINE>36号道路上<PARA>那棵<LINE>摇动的树吗？<PARA>我妹妹<LINE>兴奋地<PARA>跑去看它了……<PARA>我很担心……<PARA>那不是很<CONT>危险吗？<DONE>"
+    },
+    "GoldenrodFlowerShopTeacherStopMySisterText": {
+      "en": "My little sister<LINE>got all excited<PARA>and went to see<LINE>the wiggly tree…<PARA>I'm worried… Can<LINE>you please stop<PARA>her from getting<LINE>hurt by it?<DONE>",
+      "zh": "我妹妹<LINE>兴奋地<PARA>跑去看那棵<CONT>摇动的树了……<PARA>我很担心……<PARA>请你<LINE>别让她<CONT>受伤好吗？<DONE>"
+    },
+    "GoldenrodFlowerShopTeacherAskWantToBorrowWaterBottleText": {
+      "en": "Do you want to<LINE>borrow the water<PARA>bottle too?<LINE>I don't want you<PARA>doing anything<LINE>dangerous with it.<DONE>",
+      "zh": "你也想借<LINE>喷壶吗？<PARA>不过<LINE>别拿它<PARA>做危险的事。<DONE>"
+    },
+    "GoldenrodFlowerShopTeacherBetterThanWhitneyText": {
+      "en": "Oh, you're better<LINE>than Whitney.<PARA>Do you know about<LINE>that wiggly tree?<PARA>If you wet it with<LINE>a water bottle, it<CONT>attacks.<PARA>But since you<LINE>have some Badges,<CONT>you should be OK.<DONE>",
+      "zh": "哦，你比<LINE>小茜还强。<PARA>你知道那棵<CONT>摇动的树吗？<PARA>用喷壶<LINE>浇它，<PARA>它就会<LINE>攻击。<PARA>不过你有<LINE>徽章，<PARA>应该<LINE>没问题。<DONE>"
+    },
+    "GoldenrodFlowerShopTeacherHeresTheSquirtbottleText": {
+      "en": "Oh, you're better<LINE>than Whitney…<PARA>You'll be OK,<LINE>then. Here's my<CONT>water bottle!<DONE>",
+      "zh": "哦，你比<LINE>小茜还强……<PARA>那就<LINE>没问题了。<PARA>我的喷壶<LINE>借给你！<DONE>"
+    },
+    "GoldenrodFlowerShopTeacherDontDoAnythingDangerousText": {
+      "en": "Don't do anything<LINE>too dangerous!<DONE>",
+      "zh": "别做<LINE>太危险的事！<DONE>"
+    },
+    "GoldenrodFlowerShopFloriaWonderIfSisWillLendWaterBottleText": {
+      "en": "When I told my sis<LINE>about the jiggly<PARA>tree, she told me<LINE>it's dangerous.<PARA>If I beat Whitney,<LINE>I wonder if she'll<PARA>lend me her water<LINE>bottle…<DONE>",
+      "zh": "我跟姐姐<LINE>说起那棵<CONT>摇动的树，<PARA>她说很危险。<PARA>要是我能<LINE>打赢小茜，<PARA>不知道她<LINE>会不会把喷壶<CONT>借我……<DONE>"
+    },
+    "GoldenrodFlowerShopFloriaYouBeatWhitneyText": {
+      "en": "Wow, you beat<LINE>Whitney? Cool!<PARA>Maybe you can take<LINE>care of the jiggly<CONT>tree.<PARA>You'll just need a<LINE>water bottle like<CONT>my sis has.<DONE>",
+      "zh": "哇，你<LINE>打赢小茜了？<PARA>好厉害！<PARA>也许你能<LINE>搞定那棵<CONT>摇动的树。<PARA>只要有<LINE>姐姐那样的<CONT>喷壶就行。<DONE>"
+    },
+    "WoukdYouLikeMulchText": {
+      "en": "Care to buy some<LINE>Mulch?<PARA>It makes Berries<LINE>grow faster!<DONE>",
+      "zh": "要买点<LINE>营养土吗？<PARA>它能让树果<LINE>长得更快！<DONE>"
+    },
+    "NoRoomForMulchText": {
+      "en": "Oh no, your Bag<LINE>is full!<DONE>",
+      "zh": "哎呀，<LINE>背包满了！<DONE>"
+    },
+    "DescribeMulchText": {
+      "en": "Our Mulch is a<LINE>mix of high-qual-<PARA>ity soil and #-<LINE>mon's… er… you<PARA>know. It's full<LINE>of nutrients!<DONE>",
+      "zh": "我们的营养土<LINE>是优质土壤<PARA>和宝可梦的……<PARA>呃……<LINE>你懂的。<PARA>营养<LINE>非常丰富！<DONE>"
+    },
+    "FlowerShopGentlemanText": {
+      "en": "I've been working<LINE>late a lot recent-<CONT>ly, so I'm buying<PARA>some flowers for<LINE>my wife.<DONE>",
+      "zh": "最近<LINE>老是加班，<PARA>所以买些花<LINE>送给妻子。<DONE>"
+    }
+  }
+}

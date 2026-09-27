@@ -1,0 +1,74 @@
+{
+  "_comment": "由 tools/zh/zh.py text-extract 生成；zh 为空表示未翻译（回退原文）。控制码沿用 <LINE>/<DONE>/<PLAYER> 等写法，{{n}} 为不可翻译的占位命令，必须原样保留。",
+  "source": "maps\\Route42.asm",
+  "blocks": {
+    "Route42LyraGreetingText": {
+      "en": "Lyra: Hi, <PLAYER>!<PARA>What a coinci-<LINE>dence. I was just<PARA>studying the eff-<LINE>ects of the recent<PARA>avalanche on wild<LINE>#mon.<PARA>So you're heading<LINE>to Mahogany Town<PARA>for another Gym<LINE>Badge?<PARA>Then I have a<LINE>present for you!<PARA>But you'll have to<LINE>beat me first!<DONE>",
+      "zh": "琴音：<LINE>嗨，<PLAYER>！<PARA>真巧。<LINE>我正在<CONT>研究<PARA>最近的<LINE>山崩<PARA>对野生<CONT>宝可梦的<CONT>影响。<PARA>你要去<LINE>卡吉镇<PARA>拿下一枚<CONT>徽章？<PARA>那我有<LINE>礼物<CONT>送给你！<PARA>不过<LINE>你得先<CONT>打赢我！<DONE>"
+    },
+    "Route42LyraWinText": {
+      "en": "You've earned this<LINE>gift!<DONE>",
+      "zh": "这份礼物<LINE>是你赢得的！<DONE>"
+    },
+    "Route42LyraLossText": {
+      "en": "Better luck next<LINE>time…<DONE>",
+      "zh": "下次<LINE>再加油……<DONE>"
+    },
+    "Route42LyraPresentText": {
+      "en": "Lyra: Wow, you're<LINE>getting really<CONT>strong, <PLAYER>!<PARA>I'm sure you can<LINE>beat the Mahogany<CONT>Gym Leader.<PARA>And then you can<LINE>use this!<DONE>",
+      "zh": "琴音：哇，<LINE>你变得<CONT>好强，<PLAYER>！<PARA>你一定<LINE>能打赢<PARA>卡吉市的<CONT>馆主。<PARA>然后<LINE>就能<CONT>用这个了！<DONE>"
+    },
+    "Route42LyraWhirlpoolText": {
+      "en": "Lyra: That's<LINE>Whirlpool.<PARA>Teach it to a<LINE>#mon to get<CONT>across wild water.<PARA>I should get<LINE>going. It was<PARA>nice seeing you,<LINE><PLAYER>!<PARA>Bye now!<DONE>",
+      "zh": "琴音：<LINE>那就是潮旋。<PARA>教给<LINE>宝可梦，<PARA>就能<LINE>穿过<CONT>湍急的水域。<PARA>我该<LINE>走了。<PARA>很高兴<LINE>见到你，<CONT><PLAYER>！<PARA>再见啦！<DONE>"
+    },
+    "FisherTully1SeenText": {
+      "en": "Let me demonstrate<LINE>the power of the<CONT>#mon I caught!<DONE>",
+      "zh": "让你见识<LINE>我钓到的<CONT>宝可梦<CONT>的力量！<DONE>"
+    },
+    "FisherTully1BeatenText": {
+      "en": "What? That's not<LINE>right.<DONE>",
+      "zh": "什么？<LINE>不对啊。<DONE>"
+    },
+    "FisherTullyAfterBattleText": {
+      "en": "I want to become<LINE>the trainer Champ<PARA>using the #mon<LINE>I caught.<PARA>That's the best<LINE>part of fishing!<DONE>",
+      "zh": "我要用<LINE>钓到的<CONT>宝可梦<PARA>成为<LINE>最强的<CONT>训练家。<PARA>这才是<LINE>钓鱼的<CONT>乐趣所在！<DONE>"
+    },
+    "HikerBenjaminSeenText": {
+      "en": "Ah, it's good to<LINE>be outside!<CONT>I feel so free!<DONE>",
+      "zh": "啊，<LINE>在外面<CONT>真舒服！<PARA>感觉<LINE>自由自在！<DONE>"
+    },
+    "HikerBenjaminBeatenText": {
+      "en": "Gahahah!<DONE>",
+      "zh": "哈哈哈！<DONE>"
+    },
+    "PokemaniacShaneSeenText": {
+      "en": "HEY!<PARA>This is my secret<LINE>place! Get lost,<CONT>you outsider!<DONE>",
+      "zh": "喂！<LINE>这里是<CONT>我的秘密据点！<PARA>外来者，<LINE>快滚开！<DONE>"
+    },
+    "PokemaniacShaneBeatenText": {
+      "en": "I should have used<LINE>my Moon Stone…<DONE>",
+      "zh": "我该用<LINE>月之石的……<DONE>"
+    },
+    "Route42OfficerText": {
+      "en": "Sorry, you can't<LINE>come this way.<PARA>There's been an<LINE>avalanche on<CONT>Mt.Mortar.<PARA>We're still clear-<LINE>ing the rubble.<DONE>",
+      "zh": "抱歉，<LINE>这边<CONT>不能通行。<PARA>擂钵山<LINE>发生了<CONT>山崩。<PARA>我们还在<LINE>清理碎石。<DONE>"
+    },
+    "Route42Sign1Text": {
+      "en": "Route 42<PARA>Ecruteak City -<LINE>Mahogany Town<DONE>",
+      "zh": "42号道路<PARA>圆朱市—<LINE>卡吉镇<DONE>"
+    },
+    "MtMortarSign1Text": {
+      "en": "Mt.Mortar<PARA>Waterfall Cave<LINE>Inside<DONE>",
+      "zh": "擂钵山<PARA>瀑布洞窟<DONE>"
+    },
+    "MtMortarSign2Text": {
+      "en": "Mt.Mortar<PARA>Waterfall Cave<LINE>Inside<DONE>",
+      "zh": "擂钵山<PARA>瀑布洞窟<DONE>"
+    },
+    "Route42Sign2Text": {
+      "en": "Route 42<PARA>Ecruteak City -<LINE>Mahogany Town<DONE>",
+      "zh": "42号道路<PARA>圆朱市—<LINE>卡吉镇<DONE>"
+    }
+  }
+}

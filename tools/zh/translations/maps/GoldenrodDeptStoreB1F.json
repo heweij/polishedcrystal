@@ -1,0 +1,22 @@
+{
+  "_comment": "由 tools/zh/zh.py text-extract 生成；zh 为空表示未翻译（回退原文）。控制码沿用 <LINE>/<DONE>/<PLAYER> 等写法，{{n}} 为不可翻译的占位命令，必须原样保留。",
+  "source": "maps\\GoldenrodDeptStoreB1F.asm",
+  "blocks": {
+    "GoldenrodDeptStoreB1FBlackBelt1Text": {
+      "en": "Hey, kid! You're<LINE>holding us up!<PARA>Our policy is to<LINE>work behind the<PARA>scenes where no<LINE>one can see us!<DONE>",
+      "zh": "喂，小鬼！<LINE>你挡着路了！<PARA>我们的准则<LINE>是躲在<PARA>没人看见的<CONT>地方干活！<DONE>"
+    },
+    "GoldenrodDeptStoreB1FBlackBelt2Text": {
+      "en": "I lose my passion<LINE>for work if some-<CONT>one's watching.<PARA>Come on, kid,<LINE>scoot!<DONE>",
+      "zh": "有人看着，<LINE>我就<CONT>提不起干劲。<PARA>快走吧，小鬼！<DONE>"
+    },
+    "GoldenrodDeptStoreB1FBlackBelt3Text": {
+      "en": "Oohah! Oohah!<PARA>The stuff on the<LINE>ground's junk.<PARA>Take it if you<LINE>want it!<DONE>",
+      "zh": "呜哈！呜哈！<PARA>地上的东西<LINE>是垃圾。<PARA>想要<LINE>就拿走！<DONE>"
+    },
+    "GoldenrodDeptStoreB1FMachokeText": {
+      "en": "Machoke: Maaacho!<DONE>",
+      "zh": "豪力：豪力！<DONE>"
+    }
+  }
+}

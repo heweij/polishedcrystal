@@ -1,0 +1,22 @@
+{
+  "_comment": "由 tools/zh/zh.py text-extract 生成；zh 为空表示未翻译（回退原文）。控制码沿用 <LINE>/<DONE>/<PLAYER> 等写法，{{n}} 为不可翻译的占位命令，必须原样保留。",
+  "source": "maps\\ElmsHouse.asm",
+  "blocks": {
+    "ElmsWifeText": {
+      "en": "Hi, <PLAYER>! My<LINE>husband's always<PARA>so busy--I hope<LINE>he's OK.<PARA>When he's caught<LINE>up in his #mon<PARA>research, he even<LINE>forgets to eat.<DONE>",
+      "zh": "你好，<PLAYER>！<LINE>我丈夫总是<PARA>那么忙——<LINE>真希望他没事。<PARA>他一埋头<LINE>研究宝可梦，<PARA>连饭都<LINE>忘了吃。<DONE>"
+    },
+    "ElmsSonText": {
+      "en": "When I grow up,<LINE>I'm going to help<CONT>my dad!<PARA>I'm going to be a<LINE>great #mon<CONT>professor!<DONE>",
+      "zh": "等我长大了，<LINE>要帮爸爸<CONT>的忙！<PARA>我要成为<LINE>了不起的<CONT>宝可梦博士！<DONE>"
+    },
+    "ElmsHouseFridgeText": {
+      "en": "There's some food<LINE>here. This must be<CONT>for #mon.<DONE>",
+      "zh": "这里有些食物。<LINE>这应该是<CONT>给宝可梦的。<DONE>"
+    },
+    "ElmsHousePCText": {
+      "en": "#mon. Where do<LINE>they come from?<PARA>Where are they<LINE>going?<PARA>Why has no one<LINE>ever witnessed a<CONT>#mon's birth?<PARA>I want to know! I<LINE>will dedicate my<PARA>life to the study<LINE>of #mon!<PARA>…<PARA>It's a part of<LINE>Prof.Elm's re-<CONT>search papers.<DONE>",
+      "zh": "宝可梦。<LINE>它们从何而来？<PARA>又要<LINE>去往何方？<PARA>为什么<LINE>从来没有<CONT>人见过<CONT>宝可梦的诞生？<PARA>我想知道！<LINE>我要把<PARA>一生献给<LINE>宝可梦的研究！<PARA>……<PARA>这是空木博士<LINE>研究论文<CONT>的一部分。<DONE>"
+    }
+  }
+}

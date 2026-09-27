@@ -1,0 +1,26 @@
+{
+  "_comment": "由 tools/zh/zh.py text-extract 生成；zh 为空表示未翻译（回退原文）。控制码沿用 <LINE>/<DONE>/<PLAYER> 等写法，{{n}} 为不可翻译的占位命令，必须原样保留。",
+  "source": "maps\\OlivineGoodRodHouse.asm",
+  "blocks": {
+    "OfferGoodRodText": {
+      "en": "Olivine is on the<LINE>sea!<PARA>And if it's on the<LINE>sea, there are<CONT>bound to be fish!<PARA>I've fished here<LINE>for 30 years.<PARA>Would you like to<LINE>face the sea and<CONT>fish?<DONE>",
+      "zh": "浅葱市<LINE>面向大海！<PARA>既然<LINE>面朝大海，<PARA>就一定<LINE>有鱼！<PARA>我在这里<LINE>钓了<CONT>30年。<PARA>你想<LINE>对着大海<CONT>钓鱼吗？<DONE>"
+    },
+    "GiveGoodRodText": {
+      "en": "Ah, hahah!<LINE>We have ourselves<CONT>a new angler!<DONE>",
+      "zh": "啊，哈哈哈！<PARA>又多了<LINE>一位<CONT>钓鱼人！<DONE>"
+    },
+    "GaveGoodRodText": {
+      "en": "Fish aren't found<LINE>in the sea alone.<PARA>They go wherever<LINE>there is water.<DONE>",
+      "zh": "鱼<LINE>不只<CONT>在海里。<PARA>有水的<LINE>地方<CONT>就有鱼。<DONE>"
+    },
+    "DontWantGoodRodText": {
+      "en": "Whaaat? You don't<LINE>like to fish?!<CONT>Incomprehensible!<DONE>",
+      "zh": "什——么？<LINE>你不喜欢<CONT>钓鱼？！<PARA>难以理解！<DONE>"
+    },
+    "HaveGoodRodText": {
+      "en": "How are things?<LINE>Land the big one?<DONE>",
+      "zh": "怎么样？<LINE>钓到<CONT>大鱼了吗？<DONE>"
+    }
+  }
+}

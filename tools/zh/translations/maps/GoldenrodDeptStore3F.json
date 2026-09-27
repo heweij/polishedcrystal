@@ -1,0 +1,18 @@
+{
+  "_comment": "由 tools/zh/zh.py text-extract 生成；zh 为空表示未翻译（回退原文）。控制码沿用 <LINE>/<DONE>/<PLAYER> 等写法，{{n}} 为不可翻译的占位命令，必须原样保留。",
+  "source": "maps\\GoldenrodDeptStore3F.asm",
+  "blocks": {
+    "GoldenrodDeptStore3FSuperNerdText": {
+      "en": "I, I, I'm really<LINE>impatient!<PARA>I use X Speed in<LINE>battle to speed up<CONT>my #mon.<DONE>",
+      "zh": "我、我、我<LINE>很没耐心！<PARA>对战时我用<LINE>速度强化<CONT>来加快<CONT>宝可梦的速度。<DONE>"
+    },
+    "GoldenrodDeptStore3FRockerText": {
+      "en": "Hey! When you bat-<LINE>tle, do you use<CONT>X Sp.Atk?<PARA>It's awesome. It<LINE>really jacks up<CONT>Special Attack!<DONE>",
+      "zh": "嘿！<LINE>对战时<PARA>你用<LINE>特攻强化吗？<PARA>超好用！<PARA>特攻<LINE>大幅提升！<DONE>"
+    },
+    "GoldenrodDeptStore3FDirectoryText": {
+      "en": "For Victory<LINE>Seekers<PARA>3F Battle<LINE>   Collection<DONE>",
+      "zh": "献给<LINE>追求胜利者<PARA>3F 对战<LINE>   收藏<DONE>"
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "_comment": "由 tools/zh/zh.py text-extract 生成；zh 为空表示未翻译（回退原文）。控制码沿用 <LINE>/<DONE>/<PLAYER> 等写法，{{n}} 为不可翻译的占位命令，必须原样保留。",
+  "source": "maps\\OlivineLighthouse4F.asm",
+  "blocks": {
+    "SailorKentSeenText": {
+      "en": "Jasmine must be<LINE>worried sick about<CONT>the #mon here.<PARA>She won't even<LINE>smile these days.<DONE>",
+      "zh": "阿蜜一定<LINE>很担心<PARA>这里的<LINE>宝可梦。<PARA>最近<LINE>连笑容<CONT>都没有了。<DONE>"
+    },
+    "SailorKentBeatenText": {
+      "en": "I can't manage a<LINE>smile either…<DONE>",
+      "zh": "我也<LINE>笑不出来……<DONE>"
+    },
+    "SailorKentFinalText": {
+      "en": "The #mon here<LINE>is well again.<PARA>Cianwood Pharmacy<LINE>lived up to its<CONT>reputation!<DONE>",
+      "zh": "这里的<LINE>宝可梦<PARA>已经<LINE>康复了。<PARA>湛蓝市的<CONT>药房<PARA>果然<LINE>名不虚传！<DONE>"
+    },
+    "LassConnieSeenText": {
+      "en": "Jasmine is this<LINE>city's Gym Leader.<PARA>I mean to bring<LINE>her back with me.<PARA>Nobody had better<LINE>get in my way!<DONE>",
+      "zh": "阿蜜是<LINE>这座城市的<CONT>馆主。<PARA>我要<LINE>把她<CONT>带回去。<PARA>谁也<LINE>别想<CONT>挡我的路！<DONE>"
+    },
+    "LassConnieBeatenText": {
+      "en": "Aaack! My #mon!<DONE>",
+      "zh": "啊！<LINE>我的宝可梦！<DONE>"
+    }
+  }
+}

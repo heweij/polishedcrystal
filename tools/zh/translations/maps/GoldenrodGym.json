@@ -1,0 +1,74 @@
+{
+  "_comment": "由 tools/zh/zh.py text-extract 生成；zh 为空表示未翻译（回退原文）。控制码沿用 <LINE>/<DONE>/<PLAYER> 等写法，{{n}} 为不可翻译的占位命令，必须原样保留。",
+  "source": "maps\\GoldenrodGym.asm",
+  "blocks": {
+    "WhitneyBeforeText": {
+      "en": "Hi! I'm Whitney!<PARA>Everyone was into<LINE>#mon, so I got<CONT>into it too!<PARA>#mon are<LINE>super cute!<PARA>You want to bat-<LINE>tle? I'm warning<CONT>you--I'm good!<DONE>",
+      "zh": "你好！我是小茜！<PARA>大家都在玩<LINE>宝可梦，<CONT>我也跟着玩！<PARA>宝可梦<LINE>超级可爱！<PARA>想对战？<LINE>先提醒你——<PARA>我可是很强的！<DONE>"
+    },
+    "WhitneyShouldntBeSoSeriousText": {
+      "en": "Sob…<PARA>…Waaaaaaah!<LINE>You're mean!<PARA>You shouldn't be<LINE>so serious! You…<CONT>you child, you!<DONE>",
+      "zh": "呜……<PARA>……哇啊啊啊！<LINE>你太过分了！<PARA>你别<LINE>那么认真嘛！<PARA>你……<LINE>你这个小孩子！<DONE>"
+    },
+    "WhitneyWhatDoYouWantText": {
+      "en": "…Sniff…<PARA>What? What do you<LINE>want? A Badge?<PARA>Oh, right.<LINE>I forgot. Here's<CONT>the Plain Badge.<DONE>",
+      "zh": "……抽泣……<PARA>什么？你想要<LINE>什么？徽章？<PARA>啊，对了。<LINE>我忘了。<PARA>给你，<LINE>普通徽章。<DONE>"
+    },
+    "WhitneyPlainBadgeText": {
+      "en": "The Plain Badge<LINE>lets your #mon<PARA>use Strength out-<LINE>side of battle.<PARA>Oh, you can have<LINE>this too!<DONE>",
+      "zh": "有了普通徽章，<PARA>你的宝可梦<LINE>就能在<CONT>对战之外<CONT>使用怪力。<PARA>哦，这个<LINE>也给你！<DONE>"
+    },
+    "WhitneyGoodCryText": {
+      "en": "Ah, that was a<LINE>good cry!<PARA>Come for a visit<LINE>again! Bye-bye!<DONE>",
+      "zh": "啊，哭得<LINE>真痛快！<PARA>下次<LINE>再来玩！<PARA>拜拜！<DONE>"
+    },
+    "LassCathySeenText": {
+      "en": "Don't let my<LINE>#mon's cute<PARA>looks fool you.<LINE>They can whip you!<DONE>",
+      "zh": "别被我<LINE>宝可梦<CONT>可爱的外表<CONT>骗了。<PARA>它们<LINE>可是很能打的！<DONE>"
+    },
+    "LassCathyBeatenText": {
+      "en": "Darn… I thought<LINE>you were weak…<DONE>",
+      "zh": "可恶……<LINE>我还以为<CONT>你很弱……<DONE>"
+    },
+    "SrandjrJoandcath1SeenText": {
+      "en": "Jo: If you want to<LINE>face Whitney,<PARA>you'll have to go<LINE>through me!<PARA>Cath, did that<LINE>sound cool?<DONE>",
+      "zh": "乔：想挑战<LINE>小茜，<PARA>得先过<CONT>我这关！<PARA>凯丝，<LINE>这句帅不帅？<DONE>"
+    },
+    "SrandjrJoandcath1BeatenText": {
+      "en": "Jo: Losing isn't<LINE>cool at all!<DONE>",
+      "zh": "乔：输了<LINE>一点都不帅！<DONE>"
+    },
+    "SrandjrJoandcath2SeenText": {
+      "en": "Cath: I'm trying<LINE>to beat Whitney,<CONT>but my senior and<PARA>I can beat you<LINE>first!<DONE>",
+      "zh": "凯丝：我正想<LINE>打败小茜，<PARA>不过我和前辈<LINE>可以先<CONT>打败你！<DONE>"
+    },
+    "SrandjrJoandcath2BeatenText": {
+      "en": "Cath: Oh, no,<LINE>no, no!<DONE>",
+      "zh": "凯丝：啊，不要，<LINE>不要不要！<DONE>"
+    },
+    "JoWhitneyCriesText": {
+      "en": "Oh, no. You made<LINE>Whitney cry.<PARA>It's OK. She'll<LINE>stop soon. She<PARA>always cries when<LINE>she loses.<DONE>",
+      "zh": "哎呀，你<LINE>把小茜弄哭了。<PARA>没关系。<LINE>她很快<CONT>就不哭了。<PARA>她输了<LINE>总会哭。<DONE>"
+    },
+    "BeautyVictoriaSeenText": {
+      "en": "Oh, you are a cute<LINE>little trainer! ♥<PARA>I like you, but I<LINE>won't hold back!<DONE>",
+      "zh": "哎呀，你真是<LINE>可爱的训练家！♥<PARA>我喜欢你，<LINE>但不会<CONT>手下留情！<DONE>"
+    },
+    "BeautyVictoriaBeatenText": {
+      "en": "Let's see… Oops,<LINE>it's over?<DONE>",
+      "zh": "看看……<LINE>哎呀，<CONT>结束了？<DONE>"
+    },
+    "BeautySamanthaSeenText": {
+      "en": "Give it your best<LINE>shot, or I'll take<CONT>you down!<DONE>",
+      "zh": "尽管<LINE>全力以赴，<PARA>不然我就<LINE>打倒你！<DONE>"
+    },
+    "BeautySamanthaBeatenText": {
+      "en": "No! Oh, Meowth,<LINE>I'm so sorry!<DONE>",
+      "zh": "不要！<LINE>喵喵，<CONT>对不起！<DONE>"
+    },
+    "GoldenrodGymGuyWinText": {
+      "en": "You won? Great! I<LINE>was busy admiring<CONT>the ladies here.<DONE>",
+      "zh": "你赢了？<LINE>太棒了！<PARA>我正忙着<LINE>欣赏这里的<CONT>美女呢。<DONE>"
+    }
+  }
+}

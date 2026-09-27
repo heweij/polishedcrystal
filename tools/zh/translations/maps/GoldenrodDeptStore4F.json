@@ -1,0 +1,22 @@
+{
+  "_comment": "由 tools/zh/zh.py text-extract 生成；zh 为空表示未翻译（回退原文）。控制码沿用 <LINE>/<DONE>/<PLAYER> 等写法，{{n}} 为不可翻译的占位命令，必须原样保留。",
+  "source": "maps\\GoldenrodDeptStore4F.asm",
+  "blocks": {
+    "GoldenrodDeptStore4FCooltrainerMText": {
+      "en": "Hey. I love strong<LINE>#mon.<PARA>I feed them Pro-<LINE>tein to crank up<CONT>their Attack.<DONE>",
+      "zh": "嘿。我喜欢<LINE>强壮的宝可梦。<PARA>我喂它们<LINE>蛋白药剂<PARA>来提升<LINE>攻击。<DONE>"
+    },
+    "GoldenrodDeptStore4FBugCatcherText": {
+      "en": "There are four<LINE>#mon that<PARA>evolve if exposed<LINE>to a Linking Cord:<PARA>Machoke, Graveler,<LINE>Kadabra, and<CONT>Haunter!<DONE>",
+      "zh": "有四种<LINE>宝可梦<PARA>使用连接绳<LINE>就能进化：<PARA>豪力、隆隆石、<CONT>勇基拉和鬼斯通！<DONE>"
+    },
+    "GoldenrodDeptStore4FGameboyKidText": {
+      "en": "Some #mon<LINE>evolve only<PARA>when they hold<LINE>a certain item.<PARA>I know of four:<LINE>Poliwhirl, Onix,<PARA>Slowpoke and, um,<LINE>Scyther.<PARA>I heard there are<LINE>others too.<DONE>",
+      "zh": "有些宝可梦<LINE>只有<PARA>携带特定道具<LINE>才能进化。<PARA>我知道四种：<PARA>蚊香君、大岩蛇、<CONT>呆呆兽、<PARA>还有飞天螳螂！<PARA>听说<LINE>还有别的。<DONE>"
+    },
+    "GoldenrodDeptStore4FDirectoryText": {
+      "en": "Let Us Pump Up<LINE>Your #mon!<PARA>4F Medicine Box<DONE>",
+      "zh": "让你的宝可梦<LINE>变得更强！<PARA>4F 药品柜<DONE>"
+    }
+  }
+}

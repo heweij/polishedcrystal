@@ -1,0 +1,22 @@
+{
+  "_comment": "由 tools/zh/zh.py text-extract 生成；zh 为空表示未翻译（回退原文）。控制码沿用 <LINE>/<DONE>/<PLAYER> 等写法，{{n}} 为不可翻译的占位命令，必须原样保留。",
+  "source": "maps\\Route38EcruteakGate.asm",
+  "blocks": {
+    "Route38EcruteakGateOfficerText": {
+      "en": "Where did you say<LINE>you're from?<PARA>New Bark Town?<PARA>Prof.Elm lives<LINE>over there, right?<PARA>You've come a long<LINE>way to get here.<DONE>",
+      "zh": "你说你<LINE>来自哪里？<PARA>若叶镇？<PARA>空木博士<LINE>住在那里吧？<PARA>你走了<LINE>很远的路<CONT>才到这里。<DONE>"
+    },
+    "ProfOaksAide2HiText": {
+      "en": "Hello there! I'm<LINE>Prof.Oak's aide.<PARA>If you caught 30<LINE>kinds of #mon,<PARA>I'm supposed to<LINE>give you an item.<PARA>So, <PLAYER>,<LINE>have you caught<PARA>at least 30 kinds<LINE>of #mon?<DONE>",
+      "zh": "你好！<LINE>我是<PARA>大木博士的<CONT>助手。<PARA>如果你<LINE>收服了<PARA>30种<LINE>宝可梦，<PARA>我就要<LINE>给你<CONT>一件道具。<PARA>那么，<PLAYER>，<PARA>你收服了<CONT>30种以上<PARA>宝可梦吗？<DONE>"
+    },
+    "ProfOaksAide2UhOhText": {
+      "en": "Let's see…<LINE>Uh-oh! You've only<PARA>caught {{0}} kinds<LINE>of #mon.<PARA>Come back and see<LINE>me when you catch<CONT>30 kinds.<DONE>",
+      "zh": "让我看看……<PARA>哎呀！<LINE>你只收服了<CONT>{{0}}种<PARA>宝可梦。<PARA>收服到<LINE>30种<PARA>再来找我。<DONE>"
+    },
+    "ProfOaksAide2HereYouGoText": {
+      "en": "Let's see…<LINE>Great job! You've<PARA>caught {{0}} kinds<LINE>of #mon.<PARA>Congratulations!<LINE>Here you go!<DONE>",
+      "zh": "让我看看……<PARA>干得好！<LINE>你收服了<CONT>{{0}}种<PARA>宝可梦。<PARA>恭喜！<LINE>这个给你！<DONE>"
+    }
+  }
+}

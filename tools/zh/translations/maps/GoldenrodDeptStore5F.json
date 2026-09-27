@@ -1,0 +1,34 @@
+{
+  "_comment": "由 tools/zh/zh.py text-extract 生成；zh 为空表示未翻译（回退原文）。控制码沿用 <LINE>/<DONE>/<PLAYER> 等写法，{{n}} 为不可翻译的占位命令，必须原样保留。",
+  "source": "maps\\GoldenrodDeptStore5F.asm",
+  "blocks": {
+    "GoldenrodDeptStore5FReceptionistOhYourMonDotDotDotText": {
+      "en": "Hello. Oh, your<LINE>#mon…<DONE>",
+      "zh": "你好。<LINE>哎呀，你的<CONT>宝可梦……<DONE>"
+    },
+    "GoldenrodDeptStore5FReceptionistThisMoveShouldBePerfectText": {
+      "en": "It's very attached<LINE>to you.<PARA>This move should<LINE>be perfect for a<CONT>pair like you.<DONE>",
+      "zh": "它很<LINE>亲近你。<PARA>这个招式<LINE>应该<PARA>很适合<LINE>你们这一对。<DONE>"
+    },
+    "GoldenrodDeptStore5FCarrieMysteryGiftRequiresGBCText": {
+      "en": "Looking at the<LINE>ground while I was<PARA>walking made me<LINE>dizzy.<PARA>But, I did find<LINE>this Berry!<DONE>",
+      "zh": "我边走边<LINE>看地面，<PARA>看得<LINE>头晕。<PARA>不过，<LINE>我找到了<CONT>这颗树果！<DONE>"
+    },
+    "MysteryGiftGirl_NoRoomText": {
+      "en": "But you can't<LINE>carry it…<DONE>",
+      "zh": "可你<LINE>拿不下了……<DONE>"
+    },
+    "GoldenrodDeptStore5FLassText": {
+      "en": "On Sundays, a lady<LINE>comes to check out<CONT>#mon.<PARA>She even gives<LINE>away TMs!<DONE>",
+      "zh": "星期天会有<LINE>一位女士<PARA>来看宝可梦。<PARA>她还会<LINE>送招式学习器！<DONE>"
+    },
+    "GoldenrodDeptStore5FPokefanMText": {
+      "en": "You can't rename a<LINE>#mon you get in<CONT>a trade.<PARA>The name is a re-<LINE>flection of the<PARA>original trainer's<LINE>feelings for it.<DONE>",
+      "zh": "交换来的<LINE>宝可梦<CONT>不能改名。<PARA>名字<LINE>寄托着<PARA>原本训练家<LINE>对它的感情。<DONE>"
+    },
+    "GoldenrodDeptStore5FDirectoryText": {
+      "en": "Customize Your<LINE>#mon<PARA>5F TM Corner<DONE>",
+      "zh": "打造<LINE>专属的宝可梦<PARA>5F 招式学习器<DONE>"
+    }
+  }
+}

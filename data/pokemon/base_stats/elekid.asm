@@ -1,0 +1,23 @@
+if DEF(FAITHFUL)
+	bst 360,  45,  63,  37,  65,  55,  95
+	;   bst   hp  atk  def  sat  sdf  spe
+else
+	bst 370,  50,  63,  37,  65,  55, 100
+	;   bst   hp  atk  def  sat  sdf  spe
+endc
+
+	db ELECTRIC, ELECTRIC ; type
+	db 45 ; catch rate
+	db 106 ; base exp
+	db PERSIM_BERRY, ELECTIRIZER ; held items
+	dn GENDER_F25, HATCH_MEDIUM_SLOW ; gender ratio, step cycles to hatch
+
+	abilities_for ELEKID, STATIC, STATIC, VITAL_SPIRIT
+	db GROWTH_MEDIUM_FAST ; growth rate
+	dn EGG_NONE, EGG_NONE ; egg groups
+
+	ev_yield 1 Spe
+
+	; tm/hm learnset
+	tmhm DYNAMICPUNCH, CURSE, TOXIC, BULK_UP, HIDDEN_POWER, LIGHT_SCREEN, PROTECT, RAIN_DANCE, THUNDERBOLT, THUNDER, RETURN, PSYCHIC, ROCK_SMASH, DOUBLE_TEAM, SWIFT, SUBSTITUTE, FACADE, REST, ATTRACT, THIEF, WILD_CHARGE, FLASH, VOLT_SWITCH, THUNDER_WAVE, BODY_SLAM, COUNTER, DOUBLE_EDGE, ENDURE, FIRE_PUNCH, HEADBUTT, ICE_PUNCH, SEISMIC_TOSS, SLEEP_TALK, SWAGGER, THUNDERPUNCH, ZAP_CANNON
+	; end

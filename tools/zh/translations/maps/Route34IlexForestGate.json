@@ -1,0 +1,26 @@
+{
+  "_comment": "由 tools/zh/zh.py text-extract 生成；zh 为空表示未翻译（回退原文）。控制码沿用 <LINE>/<DONE>/<PLAYER> 等写法，{{n}} 为不可翻译的占位命令，必须原样保留。",
+  "source": "maps\\Route34IlexForestGate.asm",
+  "blocks": {
+    "Route34IlexForestGateTeacher_GotSweetScent": {
+      "en": "It's False Swipe.<PARA>It won't knock<LINE>out wild #mon,<PARA>so they'll be<LINE>easier to catch.<DONE>",
+      "zh": "那是点到为止。<PARA>它不会让<LINE>野生宝可梦<CONT>昏厥，<PARA>所以更容易<CONT>收服。<DONE>"
+    },
+    "Route34IlexForestGateTeacherText": {
+      "en": "Oh, hello. You're<LINE>making a #dex?<PARA>It must be hard to<LINE>catch all those<CONT>#mon.<PARA>Here, take this<LINE>TM.<DONE>",
+      "zh": "哦，你好。<LINE>你在做图鉴？<PARA>要收服<LINE>那么多宝可梦，<PARA>一定很辛苦。<PARA>来，<LINE>这个招式学习器<CONT>给你。<DONE>"
+    },
+    "Route34IlexForestGateTeacher_ForestIsRestless": {
+      "en": "Something's wrong<LINE>in Ilex Forest…<PARA>You should stay<LINE>away right now.<DONE>",
+      "zh": "桐树林里<LINE>有点不对劲……<PARA>你现在<LINE>最好别靠近。<DONE>"
+    },
+    "Route34IlexForestGateHeracrossText": {
+      "en": "Heracross: Cross!<DONE>",
+      "zh": "赫拉克罗斯：<LINE>克罗斯！<DONE>"
+    },
+    "Route34IlexForestGateLassText": {
+      "en": "Did you see the<LINE>shrine honoring<CONT>the protector?<PARA>It watches over<LINE>the Forest from<CONT>across time.<PARA>I think that it<LINE>must be a Grass-<CONT>type #mon.<DONE>",
+      "zh": "你看到那座<LINE>供奉<CONT>守护神的<CONT>祠堂了吗？<PARA>它跨越时空<LINE>守护着森林。<PARA>我想那一定是<LINE>草属性的<CONT>宝可梦。<DONE>"
+    }
+  }
+}

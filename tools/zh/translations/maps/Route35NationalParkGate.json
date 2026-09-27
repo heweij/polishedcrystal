@@ -1,0 +1,90 @@
+{
+  "_comment": "由 tools/zh/zh.py text-extract 生成；zh 为空表示未翻译（回退原文）。控制码沿用 <LINE>/<DONE>/<PLAYER> 等写法，{{n}} 为不可翻译的占位命令，必须原样保留。",
+  "source": "maps\\Route35NationalParkGate.asm",
+  "blocks": {
+    "Route35NationalParkGateOfficer1AskToParticipateText": {
+      "en": "Today's {{0}}.<LINE>That means the<PARA>Bug-Catching Con-<LINE>test is on today.<PARA>The rules are sim-<LINE>ple.<PARA>Using one of your<LINE>#mon, catch a<PARA>bug #mon to be<LINE>judged.<PARA>Would you like to<LINE>give it a try?<DONE>",
+      "zh": "今天是{{0}}。<PARA>也就是说，<LINE>今天举办<CONT>捕虫大赛。<PARA>规则<LINE>很简单。<PARA>用你的一只<CONT>宝可梦<PARA>去捕捉<LINE>虫属性宝可梦<CONT>来评分。<PARA>要不要<LINE>试试看？<DONE>"
+    },
+    "Route35NationalParkGateOfficer1GiveParkBallsText": {
+      "en": "Here are the Park<LINE>Balls for the<CONT>Contest.<DONE>",
+      "zh": "这是大赛<LINE>用的公园球。<DONE>"
+    },
+    "Route35NationalParkGatePlayerReceivedParkBallsText": {
+      "en": "<PLAYER> gained<LINE>{d:BUG_CONTEST_BALLS} Park Balls.<DONE>",
+      "zh": "<PLAYER>得到了<LINE>{d:BUG_CONTEST_BALLS}个公园球。<DONE>"
+    },
+    "Route35NationalParkGateOfficer1ExplainsRulesText": {
+      "en": "The person who<LINE>gets the strong-<CONT>est bug #mon<CONT>is the winner.<PARA>You have {d:BUG_CONTEST_MINUTES}<LINE>minutes.<PARA>If you run out of<LINE>Park Balls, you're<CONT>done.<PARA>You can keep the<LINE>last #mon you<CONT>catch as your own.<PARA>Go out and catch<LINE>the strongest bug<PARA>#mon you can<LINE>find!<DONE>",
+      "zh": "捉到<LINE>最强的<PARA>虫属性宝可梦<CONT>的人获胜。<PARA>限时<LINE>{d:BUG_CONTEST_MINUTES}分钟。<PARA>公园球<LINE>用完<CONT>就结束。<PARA>最后捉到的<LINE>宝可梦<CONT>可以归你。<PARA>出发去捉<LINE>你能找到的<CONT>最强的<CONT>虫属性宝可梦吧！<DONE>"
+    },
+    "Route35NationalParkGateOfficer1AskToUseFirstMonText": {
+      "en": "Uh-oh…<PARA>You have more than<LINE>one #mon.<PARA>You'll have to use<LINE>{{0}}, the<PARA>first #mon in<LINE>your party.<PARA>Is that OK with<LINE>you?<DONE>",
+      "zh": "哎呀……<PARA>你有<LINE>不止一只<PARA>宝可梦。<PARA>那就用<LINE>队伍里的<CONT>第一只{{0}}。<PARA>这样可以吗？<DONE>"
+    },
+    "Route35NationalParkGateOfficer1WellHoldYourMonText": {
+      "en": "Fine, we'll hold<LINE>your other #mon<CONT>while you compete.<DONE>",
+      "zh": "好的，<LINE>比赛期间<PARA>我们帮你保管<CONT>其他宝可梦。<DONE>"
+    },
+    "Route35NationalParkGatePlayersMonLeftWithHelperText": {
+      "en": "<PLAYER>'s #mon<LINE>were left with the<CONT>Contest Helper.<DONE>",
+      "zh": "<PLAYER>的宝可梦<LINE>寄放在<CONT>大赛助手<CONT>那里。<DONE>"
+    },
+    "Route35NationalParkGateOfficer1ChooseMonAndComeBackText": {
+      "en": "Please choose the<LINE>#mon to be used<PARA>in the Contest,<LINE>then come see me.<DONE>",
+      "zh": "请选好<LINE>参赛用的<CONT>宝可梦，<PARA>再来找我。<DONE>"
+    },
+    "Route35NationalParkGateOfficer1TakePartInFutureText": {
+      "en": "OK. We hope you'll<LINE>take part in the<CONT>future.<DONE>",
+      "zh": "好的。<LINE>希望以后<PARA>你能<LINE>再来参加。<DONE>"
+    },
+    "Route35NationalParkGateOfficer1FirstMonCantBattleText": {
+      "en": "Uh-oh…<LINE>The first #mon<PARA>in your party<LINE>can't battle.<PARA>Please switch it<LINE>with the #mon<PARA>you want to use,<LINE>then come see me.<DONE>",
+      "zh": "哎呀……<LINE>你队伍里的<CONT>第一只宝可梦<PARA>无法战斗。<PARA>请和<LINE>想用的宝可梦<CONT>调换顺序，<PARA>再来找我。<DONE>"
+    },
+    "Route35NationalParkGateOfficer1MakeRoomText": {
+      "en": "Uh-oh…<LINE>Both your party<PARA>and your PC Box<LINE>are full.<PARA>You have no room<LINE>to put the bug<CONT>#mon you catch.<PARA>Please make room<LINE>in your party or<PARA>your PC Box, then<LINE>come see me.<DONE>",
+      "zh": "哎呀……<LINE>你的队伍<PARA>和电脑箱子<LINE>都满了。<PARA>没有位置<LINE>放捉到的<CONT>虫属性宝可梦。<PARA>请在队伍<LINE>或电脑里<CONT>腾出空间，<PARA>再来找我。<DONE>"
+    },
+    "Route35NationalParkGateOfficer1EggAsFirstMonText": {
+      "en": "Uh-oh…<LINE>You have an Egg as<PARA>the first #mon<LINE>in your party.<PARA>Please switch it<LINE>with the #mon<PARA>you want to use,<LINE>then come see me.<DONE>",
+      "zh": "哎呀……<LINE>你队伍里的<PARA>第一只是蛋。<PARA>请和<LINE>想用的宝可梦<CONT>调换顺序，<PARA>再来找我。<DONE>"
+    },
+    "Route35NationalParkGateOfficer1WantToFinishText": {
+      "en": "You still have {{0}}<LINE>minute<PLURAL> left.<PARA>Do you want to<LINE>finish now?<DONE>",
+      "zh": "你还有<LINE>{{0}}分钟<PLURAL>。<PARA>要现在<LINE>结束吗？<DONE>"
+    },
+    "Route35NationalParkGateOfficer1WaitAtNorthGateText": {
+      "en": "OK. Please wait at<LINE>the North Gate for<PARA>the announcement<LINE>of the winners.<DONE>",
+      "zh": "好的。<LINE>请在北门<CONT>等候<PARA>公布<LINE>获胜者。<DONE>"
+    },
+    "Route35NationalParkGateOfficer1OkGoFinishText": {
+      "en": "OK. Please get<LINE>back outside and<CONT>finish up.<DONE>",
+      "zh": "好的。<LINE>请回到外面，<PARA>完成比赛。<DONE>"
+    },
+    "Route35NationalParkGateOfficer1ContestIsOverText": {
+      "en": "Today's Contest is<LINE>over. We hope you<PARA>will participate<LINE>in the future.<DONE>",
+      "zh": "今天的大赛<LINE>结束了。<PARA>希望以后<PARA>你能<LINE>再来参加。<DONE>"
+    },
+    "Route35NationalParkGateYoungsterText": {
+      "en": "When is the next<LINE>Bug-Catching Con-<CONT>test going to be?<DONE>",
+      "zh": "下一次<LINE>捕虫大赛<PARA>是什么时候？<DONE>"
+    },
+    "BugCatchingContestExplanationText": {
+      "en": "The Bug-Catching<LINE>Contest is held on<PARA>Tuesday, Thursday<LINE>and Saturday.<PARA>Not only do you<LINE>earn a prize just<PARA>for participating,<LINE>you also get to<PARA>keep the bug<LINE>#mon you may<PARA>have at the end of<LINE>the contest.<DONE>",
+      "zh": "捕虫大赛<LINE>在<PARA>星期二、<CONT>星期四<PARA>和星期六举行。<PARA>只要参加<LINE>就能得到奖品，<PARA>而且<LINE>比赛结束时<CONT>捉到的<CONT>虫属性宝可梦<PARA>也归你所有。<DONE>"
+    },
+    "Route35NationalParkGatePokefanFText": {
+      "en": "Many #mon come<LINE>to National Park<PARA>with their<LINE>trainers,<PARA>and they're all<LINE>so, so cute!<PARA>Yes, the Bug<LINE>#mon too!<DONE>",
+      "zh": "很多宝可梦<LINE>跟着训练家<PARA>来到自然公园，<PARA>它们都<LINE>超级可爱！<PARA>没错，<LINE>虫属性宝可梦<CONT>也一样！<DONE>"
+    },
+    "Text_Route35NationalParkGateTutorCharm": {
+      "en": "I can make your<LINE>#mon cuter with<CONT>the move Charm.<PARA>Even opposing<LINE>#mon won't want<PARA>to hit it as<LINE>hard afterwards!<DONE>",
+      "zh": "我可以教你的<LINE>宝可梦<CONT>招式『迷人』，<PARA>让它变得更可爱。<PARA>连对手的<LINE>宝可梦<PARA>都<LINE>不忍心<CONT>下重手！<DONE>"
+    },
+    "Text_Route35NationalParkGateTutorQuestion": {
+      "en": "I just need a<LINE>Silver Leaf, so<PARA>can I teach Charm?<LINE>Pretty please?<DONE>",
+      "zh": "我只要<LINE>一片银色叶子，<PARA>可以教<LINE>『迷人』吗？<PARA>拜托啦？<DONE>"
+    }
+  }
+}

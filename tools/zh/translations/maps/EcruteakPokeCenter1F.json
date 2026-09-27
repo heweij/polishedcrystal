@@ -1,0 +1,18 @@
+{
+  "_comment": "由 tools/zh/zh.py text-extract 生成；zh 为空表示未翻译（回退原文）。控制码沿用 <LINE>/<DONE>/<PLAYER> 等写法，{{n}} 为不可翻译的占位命令，必须原样保留。",
+  "source": "maps\\EcruteakPokeCenter1F.asm",
+  "blocks": {
+    "EcruteakPokeCenter1FBillScript.GiftEeveeMail#0": {
+      "en": "Please keep this<NEXT>Pokémon safe!@@",
+      "zh": "请好好照顾<NEXT>这只宝可梦！@@"
+    },
+    "EcruteakPokeCenter1FCooltrainerFText": {
+      "en": "Morty, the Gym<LINE>Leader, is soooo<CONT>cool.<PARA>His #mon are<LINE>really tough too.<DONE>",
+      "zh": "馆主松叶<LINE>超——级帅。<PARA>他的宝可梦<CONT>也很强。<DONE>"
+    },
+    "EcruteakPokeCenter1FGymGuyText": {
+      "en": "Lake of Rage…<PARA>The appearance of<LINE>a Gyarados swarm…<PARA>I smell a conspir-<LINE>acy. I know it!<DONE>",
+      "zh": "愤怒之湖……<PARA>暴鲤龙<LINE>成群出现……<PARA>我闻到了<LINE>阴谋的<CONT>味道。<PARA>肯定有！<DONE>"
+    }
+  }
+}

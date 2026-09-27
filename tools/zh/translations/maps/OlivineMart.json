@@ -1,0 +1,14 @@
+{
+  "_comment": "由 tools/zh/zh.py text-extract 生成；zh 为空表示未翻译（回退原文）。控制码沿用 <LINE>/<DONE>/<PLAYER> 等写法，{{n}} 为不可翻译的占位命令，必须原样保留。",
+  "source": "maps\\OlivineMart.asm",
+  "blocks": {
+    "OlivineMartCooltrainerFText": {
+      "en": "Do your #mon<LINE>already know the<PARA>move for carrying<LINE>people on water?<DONE>",
+      "zh": "你的宝可梦<CONT>已经学会<PARA>载人在<LINE>水上<CONT>移动的<CONT>招式了吗？<DONE>"
+    },
+    "OlivineMartLassText": {
+      "en": "My Butterfree came<LINE>from my boyfriend<CONT>overseas.<PARA>It carried some<LINE>Mail from him.<PARA>Want to know what<LINE>it says?<PARA>Let's see… Nope!<LINE>It's a secret!<DONE>",
+      "zh": "我的巴大蝶<PARA>是海外的<CONT>男朋友<CONT>送来的。<PARA>它<LINE>带来了<CONT>他的信。<PARA>想知道<LINE>写了什么？<PARA>让我看看…<PARA>不行！<LINE>是秘密！<DONE>"
+    }
+  }
+}

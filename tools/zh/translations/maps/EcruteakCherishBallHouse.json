@@ -1,0 +1,10 @@
+{
+  "_comment": "由 tools/zh/zh.py text-extract 生成；zh 为空表示未翻译（回退原文）。控制码沿用 <LINE>/<DONE>/<PLAYER> 等写法，{{n}} 为不可翻译的占位命令，必须原样保留。",
+  "source": "maps\\EcruteakCherishBallHouse.asm",
+  "blocks": {
+    "EcruteakCherishBallHouseGrannyText": {
+      "en": "Fashions change<LINE>over the years,<PARA>but Ecruteak re-<LINE>mains as trad-<CONT>itional as ever.<DONE>",
+      "zh": "岁月<LINE>流逝，<PARA>流行<LINE>不断改变，<PARA>但圆朱市<LINE>始终<CONT>坚守传统。<DONE>"
+    }
+  }
+}

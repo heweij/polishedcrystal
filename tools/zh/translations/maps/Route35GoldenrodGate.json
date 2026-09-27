@@ -1,0 +1,34 @@
+{
+  "_comment": "由 tools/zh/zh.py text-extract 生成；zh 为空表示未翻译（回退原文）。控制码沿用 <LINE>/<DONE>/<PLAYER> 等写法，{{n}} 为不可翻译的占位命令，必须原样保留。",
+  "source": "maps\\Route35GoldenrodGate.asm",
+  "blocks": {
+    "GiftSpearowMail#0": {
+      "en": "Dark Cave leads<NEXT>to another road@",
+      "zh": "黑暗洞穴<NEXT>通往另一条道路@"
+    },
+    "Route35GoldenrodGateRandyAskTakeThisMonToMyFriendText": {
+      "en": "Excuse me, kid!<LINE>Can you do a guy<CONT>a favor?<PARA>Can you take this<LINE>#mon with Mail<CONT>to my friend?<PARA>He's on Route 31.<DONE>",
+      "zh": "不好意思，<LINE>小鬼！<PARA>能帮个忙吗？<PARA>能把这只<CONT>带着邮件的<CONT>宝可梦<PARA>送到我朋友<LINE>那里吗？<PARA>他在31号道路。<DONE>"
+    },
+    "Route35GoldenrodGateRandyThanksText": {
+      "en": "You will? Perfect!<LINE>Thanks, kid!<PARA>My pal's a chubby<LINE>guy who snoozes<CONT>all the time.<PARA>You'll recognize<LINE>him right away!<DONE>",
+      "zh": "你愿意？<LINE>太好了！<PARA>谢谢你，孩子！<PARA>我朋友是个<LINE>胖胖的、<CONT>老是打瞌睡的<CONT>家伙。<PARA>你一眼<LINE>就能认出来！<DONE>"
+    },
+    "Route35GoldenrodGatePlayerReceivedAMonWithMailText": {
+      "en": "<PLAYER> received a<LINE>#mon with Mail.<DONE>",
+      "zh": "<PLAYER>收到了<LINE>带着邮件的<CONT>宝可梦。<DONE>"
+    },
+    "Route35GoldenrodGateRandySomethingForYourTroubleText": {
+      "en": "Thanks, kid! You<LINE>made the delivery<CONT>for me!<PARA>Here's something<LINE>for your trouble!<DONE>",
+      "zh": "谢谢你，孩子！<LINE>你帮我<CONT>送到了！<PARA>这点心意<LINE>收下吧！<DONE>"
+    },
+    "Route35GoldenrodGateRandyMyPalWasSnoozingRightText": {
+      "en": "My pal was snooz-<LINE>ing, right? Heh,<CONT>what'd I say?<DONE>",
+      "zh": "我朋友在<LINE>打瞌睡吧？<PARA>嘿嘿，<LINE>我说得没错吧？<DONE>"
+    },
+    "Route35GoldenrodGateFisherText": {
+      "en": "I wonder how many<LINE>kinds of #mon<PARA>there are in the<LINE>world.<PARA>Three years ago,<LINE>Prof.Oak said that<PARA>there were 150<LINE>different kinds.<DONE>",
+      "zh": "世上到底有<LINE>多少种<CONT>宝可梦呢？<PARA>三年前，<LINE>大木博士说<PARA>有150种。<DONE>"
+    }
+  }
+}

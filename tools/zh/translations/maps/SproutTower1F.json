@@ -1,0 +1,30 @@
+{
+  "_comment": "由 tools/zh/zh.py text-extract 生成；zh 为空表示未翻译（回退原文）。控制码沿用 <LINE>/<DONE>/<PLAYER> 等写法，{{n}} 为不可翻译的占位命令，必须原样保留。",
+  "source": "maps\\SproutTower1F.asm",
+  "blocks": {
+    "SageChowSeenText": {
+      "en": "We stand guard in<LINE>this tower.<PARA>Here, we express<LINE>our gratitude to<CONT>honor all #mon.<DONE>",
+      "zh": "我们在这座塔<LINE>里守望着。<PARA>我们在这里<LINE>表达对宝可梦<CONT>的敬意。<DONE>"
+    },
+    "SageChowBeatenText": {
+      "en": "Th-Thank you!<DONE>",
+      "zh": "谢、谢谢你！<DONE>"
+    },
+    "SproutTower1FSage1Text": {
+      "en": "Only if you reach<LINE>the top will you<CONT>obtain a TM.<DONE>",
+      "zh": "只有登上塔顶，<LINE>才能得到<CONT>招式学习器。<DONE>"
+    },
+    "SproutTower1FSage2Text": {
+      "en": "Sprout Tower was<LINE>built long ago<PARA>as a place for<LINE>#mon training.<DONE>",
+      "zh": "喇叭芽之塔<LINE>是很久以前<PARA>为训练宝可梦<LINE>而建造的。<DONE>"
+    },
+    "SproutTower1FTeacherText": {
+      "en": "See the pillar<LINE>shaking?<PARA>People are train-<LINE>ing upstairs.<DONE>",
+      "zh": "看到那根柱子<LINE>在摇晃吧？<PARA>楼上有人<LINE>正在修行。<DONE>"
+    },
+    "SproutTower1FStatueText": {
+      "en": "A #mon statue…<PARA>It looks very<LINE>distinguished.<DONE>",
+      "zh": "宝可梦的石像……<PARA>看起来<LINE>十分庄严。<DONE>"
+    }
+  }
+}

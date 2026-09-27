@@ -1,0 +1,10 @@
+{
+  "_comment": "由 tools/zh/zh.py text-extract 生成；zh 为空表示未翻译（回退原文）。控制码沿用 <LINE>/<DONE>/<PLAYER> 等写法，{{n}} 为不可翻译的占位命令，必须原样保留。",
+  "source": "maps\\Route42EcruteakGate.asm",
+  "blocks": {
+    "Route42EcruteakGateOfficerText": {
+      "en": "Mt.Mortar is like<LINE>a maze inside.<PARA>Be careful. Don't<LINE>get lost in there.<DONE>",
+      "zh": "擂钵山<LINE>里面<CONT>像迷宫一样。<PARA>小心<LINE>别迷路了。<DONE>"
+    }
+  }
+}

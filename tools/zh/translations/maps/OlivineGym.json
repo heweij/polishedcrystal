@@ -1,0 +1,30 @@
+{
+  "_comment": "由 tools/zh/zh.py text-extract 生成；zh 为空表示未翻译（回退原文）。控制码沿用 <LINE>/<DONE>/<PLAYER> 等写法，{{n}} 为不可翻译的占位命令，必须原样保留。",
+  "source": "maps\\OlivineGym.asm",
+  "blocks": {
+    "Jasmine_SteelTypeIntro": {
+      "en": "…Thank you for<LINE>your help at the<CONT>Lighthouse…<PARA>But this is dif-<LINE>ferent. Please<PARA>allow me to intro-<LINE>duce myself.<PARA>I am Jasmine, a<LINE>Gym Leader. I use<CONT>the Steel-type.<PARA>…Do you know about<LINE>the Steel-type?<PARA>They are very<LINE>hard, cold, sharp,<CONT>and really strong.<PARA>…Um… May I begin?<DONE>",
+      "zh": "…谢谢你<LINE>在灯塔<CONT>帮忙……<PARA>但这次<LINE>不一样。<PARA>请允许<LINE>我自我<CONT>介绍。<PARA>我是阿蜜，<LINE>道馆馆主。<PARA>我用的是<LINE>钢属性。<PARA>…你<LINE>了解<CONT>钢属性吗？<PARA>它们<LINE>坚硬、冰冷、<CONT>锐利，<PARA>而且<LINE>非常强大。<PARA>…嗯……<PARA>可以<LINE>开始了吗？<DONE>"
+    },
+    "Jasmine_BetterTrainer": {
+      "en": "…You are a better<LINE>trainer than me,<PARA>in both skill and<LINE>kindness.<PARA>In accordance with<LINE>League rules, I<PARA>confer upon you<LINE>this Badge.<DONE>",
+      "zh": "…你<LINE>比我<CONT>更优秀，<PARA>无论<LINE>实力<CONT>还是<CONT>温柔。<PARA>依照<LINE>联盟的<CONT>规定，<PARA>我将这枚<CONT>徽章<CONT>授予你。<DONE>"
+    },
+    "Jasmine_BadgeSpeech": {
+      "en": "With that Badge,<LINE>all #mon up<PARA>to <LV>70, even<LINE>traded ones, will<PARA>obey you without<LINE>question.<PARA>…Um… Please take<LINE>this too…<DONE>",
+      "zh": "有了那枚<CONT>徽章，<PARA>等级70以下的<CONT>宝可梦，<PARA>即使是<LINE>交换来的，<PARA>也会<LINE>完全<CONT>听你指挥。<PARA>…嗯……<PARA>这个也<LINE>请收下……<DONE>"
+    },
+    "Jasmine_GoodLuck": {
+      "en": "Um… I don't know<LINE>how to say this,<CONT>but good luck…<DONE>",
+      "zh": "嗯……<LINE>我不太<CONT>会说，<PARA>总之<LINE>祝你好运……<DONE>"
+    },
+    "OlivineGymGuyWinText": {
+      "en": "That was awesome.<PARA>The Steel-type,<LINE>huh?<PARA>That was a close<LINE>encounter of an<CONT>unknown kind!<DONE>",
+      "zh": "太精彩了。<PARA>钢属性吗？<PARA>真是一场<LINE>未知的<CONT>近距离<CONT>接触！<DONE>"
+    },
+    "OlivineGymGuyPreText": {
+      "en": "Jasmine, the Gym<LINE>Leader, is at the<CONT>Lighthouse.<PARA>She's been tending<LINE>to a sick #mon.<PARA>A strong trainer<LINE>has to be compas-<CONT>sionate.<DONE>",
+      "zh": "馆主阿蜜<LINE>在灯塔。<PARA>她一直在<LINE>照顾<CONT>生病的<CONT>宝可梦。<PARA>强大的<LINE>训练家<PARA>必须<LINE>有怜悯之心。<DONE>"
+    }
+  }
+}

@@ -1,0 +1,18 @@
+	bst 395,  60,  65,  70,  85,  75,  40
+	;   bst   hp  atk  def  sat  sdf  spe
+
+	db GRASS, POISON ; type
+	db 120 ; catch rate
+	db 132 ; base exp
+	db SILVER_LEAF, NO_ITEM ; held items
+	dn GENDER_F50, HATCH_MEDIUM_FAST ; gender ratio, step cycles to hatch
+
+	abilities_for GLOOM, CHLOROPHYLL, CHLOROPHYLL, STENCH
+	db GROWTH_MEDIUM_SLOW ; growth rate
+	dn EGG_PLANT, EGG_PLANT ; egg groups
+
+	ev_yield 2 SAt
+
+	; tm/hm learnset
+	tmhm CURSE, TOXIC, VENOSHOCK, HIDDEN_POWER, SUNNY_DAY, PROTECT, GIGA_DRAIN, SOLAR_BEAM, RETURN, DOUBLE_TEAM, SLUDGE_BOMB, SUBSTITUTE, FACADE, REST, ATTRACT, DAZZLINGLEAM, ENERGY_BALL, DRAIN_PUNCH, FLASH, SWORDS_DANCE, CUT, CHARM, DOUBLE_EDGE, ENDURE, HYPER_VOICE, SEED_BOMB, SLEEP_TALK, SWAGGER
+	; end

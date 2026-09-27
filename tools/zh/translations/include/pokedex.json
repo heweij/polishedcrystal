@@ -1,0 +1,46 @@
+{
+  "_comment": "由 tools/zh/zh.py text-extract 生成；zh 为空表示未翻译（回退原文）。控制码沿用 <LINE>/<DONE>/<PLAYER> 等写法，{{n}} 为不可翻译的占位命令，必须原样保留。",
+  "source": "engine\\pokedex\\pokedex.asm",
+  "blocks": {
+    "PokedexStr_Feet#0": {
+      "en": "′??″@",
+      "zh": ""
+    },
+    "Pokedex_Main.ResultString#0": {
+      "en": " Results/  @",
+      "zh": "结果/      @"
+    },
+    "Pokedex_Bio.GetEggGroupName#0": {
+      "en": "100%@",
+      "zh": ""
+    },
+    "_Pokedex_Mode.UnownMode#0": {
+      "en": "Unown Mode@",
+      "zh": "未知图腾@"
+    },
+    "_Pokedex_Mode.MenuDescriptions#0": {
+      "en": "<PK><MN> are listed in<NEXT>regional order.@",
+      "zh": "宝可梦按<NEXT>地区顺序排列。@"
+    },
+    "_Pokedex_Mode.MenuDescriptions#1": {
+      "en": "<PK><MN> are listed in<NEXT>national order.@",
+      "zh": "宝可梦按<NEXT>全国顺序排列。@"
+    },
+    "_Pokedex_Mode.MenuDescriptions#2": {
+      "en": "Display Unown<NEXT>information.@",
+      "zh": "显示未知图腾<NEXT>的信息。@"
+    },
+    "_Pokedex_Mode.MenuDescriptions#3": {
+      "en": "Return to the <PK><MN><NEXT>list.@",
+      "zh": "返回宝可梦<NEXT>列表。@"
+    },
+    "_Pokedex_Search.byNameString#0": {
+      "en": "by Name  @",
+      "zh": "按名称   @"
+    },
+    "_Pokedex_Search.BlankDefaultString#0": {
+      "en": "    @",
+      "zh": ""
+    }
+  }
+}

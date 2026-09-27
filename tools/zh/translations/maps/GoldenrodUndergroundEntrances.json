@@ -1,0 +1,22 @@
+{
+  "_comment": "由 tools/zh/zh.py text-extract 生成；zh 为空表示未翻译（回退原文）。控制码沿用 <LINE>/<DONE>/<PLAYER> 等写法，{{n}} 为不可翻译的占位命令，必须原样保留。",
+  "source": "maps\\GoldenrodUndergroundEntrances.asm",
+  "blocks": {
+    "GoldenrodUndergroundEntrances_TeacherText": {
+      "en": "There are some<LINE>shops downstairs…<PARA>But there are<LINE>also trainers.<PARA>I'm scared to go<LINE>down there.<DONE>",
+      "zh": "楼下有<LINE>一些商店……<PARA>但也有<LINE>训练家。<PARA>我不敢<LINE>下去。<DONE>"
+    },
+    "GoldenrodUndergroundEntrances_SuperNerd1Text": {
+      "en": "This tunnel was<LINE>originally made<CONT>for deliveries to<PARA>the department<LINE>store.<PARA>It's a nice short-<LINE>cut across the<CONT>city too.<DONE>",
+      "zh": "这条隧道<LINE>原本是<PARA>给百货公司<LINE>送货用的。<PARA>现在也是<LINE>横穿城市的<CONT>捷径。<DONE>"
+    },
+    "GoldenrodUndergroundEntrances_SuperNerd2Text": {
+      "en": "I was challenged<LINE>to a battle down-<CONT>stairs.<PARA>It's rough down<LINE>there. You'd<CONT>better be careful.<DONE>",
+      "zh": "我在楼下<LINE>被挑战了。<PARA>下面<LINE>很凶险。<PARA>你最好<LINE>小心点。<DONE>"
+    },
+    "GoldenrodUndergroundEntrances_BeautyText": {
+      "en": "I went on a tour<LINE>of the Radio<PARA>Tower. I saw all<LINE>three studios and<PARA>even ate in the<LINE>café.<DONE>",
+      "zh": "我参观了<LINE>广播塔。<PARA>看了<LINE>三个演播室，<PARA>还在<LINE>咖啡厅<CONT>吃了东西。<DONE>"
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "_comment": "由 tools/zh/zh.py text-extract 生成；zh 为空表示未翻译（回退原文）。控制码沿用 <LINE>/<DONE>/<PLAYER> 等写法，{{n}} 为不可翻译的占位命令，必须原样保留。",
+  "source": "maps\\TinTower1F.asm",
+  "blocks": {
+    "TinTowerEusineSuicuneText": {
+      "en": "Eusine: Awesome!<LINE>Too awesome, even!<PARA>I've never seen a<LINE>battle that great.<PARA>That was truly<LINE>inspiring to see.<PARA>Suicune was tough,<LINE>but you were even<PARA>more incredible,<LINE><PLAYER>.<PARA>I heard Suicune's<LINE>mystic power<PARA>summons a rainbow-<LINE>colored #mon.<PARA>Maybe, just maybe,<LINE>what went on today<PARA>will cause that<LINE>#mon to appear.<PARA>I'm going to study<LINE>the legends more.<PARA>Thanks for showing<LINE>me that fantastic<CONT>battle.<PARA>Later, <PLAYER>!<DONE>",
+      "zh": "米那君：<LINE>太厉害了！<PARA>厉害得<LINE>让人佩服！<PARA>我从未<LINE>见过<CONT>如此精彩的对战。<PARA>真是<LINE>令人振奋。<PARA>水君很强，<PARA>可你<LINE>更胜一筹，<PARA><PLAYER>。<PARA>听说水君的<LINE>神秘力量<PARA>能召来<LINE>彩虹色的<CONT>宝可梦。<PARA>也许，<LINE>只是也许，<PARA>今天发生的<LINE>一切<PARA>会让那只<LINE>宝可梦<CONT>现身。<PARA>我要<LINE>更深入地<CONT>研究传说。<PARA>谢谢你<LINE>让我看到<CONT>如此精彩的对战。<PARA>再见，<PLAYER>！<DONE>"
+    },
+    "TinTower1FSage1Text": {
+      "en": "According to<LINE>legend…<PARA>When the souls of<LINE>#mon and humans<PARA>commune, from the<LINE>heavens descends a<PARA>#mon of rainbow<LINE>colors…<PARA>Could it mean the<LINE>legendary #mon<PARA>are testing us<LINE>humans?<DONE>",
+      "zh": "根据传说……<PARA>当宝可梦<LINE>与人类的<CONT>心灵相通，<PARA>彩虹色的<CONT>宝可梦<PARA>便会<LINE>从天而降……<PARA>这是否意味着<CONT>传说的<CONT>宝可梦<PARA>在考验<LINE>我们人类？<DONE>"
+    },
+    "TinTower1FSage2Text": {
+      "en": "When the Gong<LINE>Tower burned down,<PARA>three nameless<LINE>#mon were said<PARA>to have perished.<LINE>It was tragic.<PARA>However…<PARA>A rainbow-colored<LINE>#mon…<PARA>In other words…<PARA>Ho-Oh descended<LINE>from the sky and<PARA>gave new life to<LINE>the three #mon.<PARA>They are…<PARA>Suicune, Entei and<LINE>Raikou.<PARA>That is what they<LINE>say.<DONE>",
+      "zh": "据说<LINE>钟塔<CONT>烧毁时，<PARA>三只<LINE>无名的宝可梦<PARA>葬身火海。<PARA>那真是<LINE>一场悲剧。<PARA>然而……<PARA>彩虹色的<CONT>宝可梦……<PARA>也就是说……<PARA>凤王<LINE>从天而降，<PARA>赋予那三只<CONT>宝可梦<CONT>新的生命。<PARA>它们<LINE>就是……<PARA>水君、炎帝<CONT>和雷公。<PARA>传说是<LINE>这么说的。<DONE>"
+    },
+    "TinTower1FSage3Text": {
+      "en": "The two towers are<LINE>said to have been<PARA>built to foster<LINE>friendship and<PARA>hope between #-<LINE>mon and people.<PARA>That was 700 years<LINE>ago, but the ideal<PARA>still remains<LINE>important today.<DONE>",
+      "zh": "据说<LINE>两座塔<PARA>是为了<LINE>培养<PARA>宝可梦与人类<CONT>的<PARA>友谊与希望<CONT>而建。<PARA>虽然<LINE>已是<PARA>七百年前的事，<PARA>这份<LINE>心愿<PARA>至今<LINE>依然重要。<DONE>"
+    },
+    "TinTower1FSage5Text1": {
+      "en": "This will protect<LINE>you. Take it.<DONE>",
+      "zh": "这个<LINE>能保护你。<PARA>拿去吧。<DONE>"
+    },
+    "TinTowerEusineHoOhText": {
+      "en": "I knew it.<PARA>I knew you'd get<LINE>to see the #mon<PARA>of rainbow colors,<LINE><PLAYER>.<PARA>It happened just<LINE>as I envisioned.<PARA>My research isn't<LINE>bad, I might say.<PARA>I'm going to keep<LINE>studying #mon<PARA>to become a famous<LINE>#Maniac!<PARA>If you're ever in<LINE>Celadon City,<PARA>will you say hi to<LINE>my grandpa?<PARA>I'm sure he would<LINE>like the company<CONT>while I'm away.<PARA>Later, <PLAYER>!<DONE>",
+      "zh": "果然。<PARA>我就知道<LINE>你能见到<CONT>彩虹色的<CONT>宝可梦，<PARA><PLAYER>。<PARA>一切都<LINE>如我所料。<PARA>我的<LINE>研究<CONT>还不赖吧。<PARA>我要<LINE>继续研究<CONT>宝可梦，<PARA>成为<LINE>有名的<CONT>宝可梦狂！<PARA>你若<LINE>去玉虹市，<PARA>能替我<LINE>问候<CONT>我爷爷吗？<PARA>我不在时<LINE>他会很寂寞。<PARA>再见，<PLAYER>！<DONE>"
+    }
+  }
+}

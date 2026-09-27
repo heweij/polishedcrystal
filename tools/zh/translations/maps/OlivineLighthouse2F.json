@@ -1,0 +1,30 @@
+{
+  "_comment": "由 tools/zh/zh.py text-extract 生成；zh 为空表示未翻译（回退原文）。控制码沿用 <LINE>/<DONE>/<PLAYER> 等写法，{{n}} 为不可翻译的占位命令，必须原样保留。",
+  "source": "maps\\OlivineLighthouse2F.asm",
+  "blocks": {
+    "SailorHuey1SeenText": {
+      "en": "Men of the sea are<LINE>always spoiling<CONT>for a good fight!<DONE>",
+      "zh": "海上男儿<LINE>随时<CONT>想打一场！<DONE>"
+    },
+    "SailorHuey1BeatenText": {
+      "en": "Urf!<LINE>I lose!<DONE>",
+      "zh": "呃！<LINE>我输了！<DONE>"
+    },
+    "GentlemanAlfredSeenText": {
+      "en": "Hm? This is no<LINE>place for playing.<DONE>",
+      "zh": "嗯？<LINE>这里<CONT>不是<CONT>玩的地方。<DONE>"
+    },
+    "GentlemanAlfredBeatenText": {
+      "en": "Ah! I can see that<LINE>you're serious.<DONE>",
+      "zh": "啊！<LINE>我看得出<CONT>你是认真的。<DONE>"
+    },
+    "GentlemanAlfredFinalText": {
+      "en": "Up top is a #-<LINE>mon that keeps the<CONT>Lighthouse lit.<PARA>You helped cure<LINE>its sickness?<PARA>You've done us a<LINE>real service!<DONE>",
+      "zh": "塔顶有<LINE>一只<CONT>维持灯塔<CONT>亮光的<CONT>宝可梦。<PARA>你帮忙<LINE>治好了<CONT>它的病？<PARA>真是<LINE>帮了<CONT>大忙！<DONE>"
+    },
+    "SailorHueyGiveProteinText": {
+      "en": "Man! You're as<LINE>tough as ever!<PARA>Anyway, here's<LINE>that medicine from<CONT>before.<DONE>",
+      "zh": "伙计！<LINE>你还是<CONT>这么强！<PARA>对了，<LINE>这是<CONT>之前说的药。<DONE>"
+    }
+  }
+}

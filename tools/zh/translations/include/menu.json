@@ -1,0 +1,54 @@
+{
+  "_comment": "由 tools/zh/zh.py text-extract 生成；zh 为空表示未翻译（回退原文）。控制码沿用 <LINE>/<DONE>/<PLAYER> 等写法，{{n}} 为不可翻译的占位命令，必须原样保留。",
+  "source": "engine\\battle\\menu.asm",
+  "blocks": {
+    "BattleMenuDataHeader.Strings#0": {
+      "en": "Fight@",
+      "zh": "战斗@"
+    },
+    "BattleMenuDataHeader.Strings#1": {
+      "en": "<PK><MN>@",
+      "zh": ""
+    },
+    "BattleMenuDataHeader.Strings#2": {
+      "en": "Bag@",
+      "zh": "背包@"
+    },
+    "BattleMenuDataHeader.Strings#3": {
+      "en": "Run@",
+      "zh": "逃跑@"
+    },
+    "ContestBattleMenuDataHeader.Strings#0": {
+      "en": "Fight@",
+      "zh": "战斗@"
+    },
+    "ContestBattleMenuDataHeader.Strings#1": {
+      "en": "<PK><MN>@",
+      "zh": ""
+    },
+    "ContestBattleMenuDataHeader.Strings#2": {
+      "en": "Ball×  @",
+      "zh": "球×    @"
+    },
+    "ContestBattleMenuDataHeader.Strings#3": {
+      "en": "Run@",
+      "zh": "逃跑@"
+    },
+    "SafariBattleMenuDataHeader.Strings#0": {
+      "en": "Ball×  @",
+      "zh": "球×    @"
+    },
+    "SafariBattleMenuDataHeader.Strings#1": {
+      "en": "Bait@",
+      "zh": "诱饵@"
+    },
+    "SafariBattleMenuDataHeader.Strings#2": {
+      "en": "Rock@",
+      "zh": "岩石@"
+    },
+    "SafariBattleMenuDataHeader.Strings#3": {
+      "en": "Run@",
+      "zh": "逃跑@"
+    }
+  }
+}

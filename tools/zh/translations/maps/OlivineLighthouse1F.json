@@ -1,0 +1,10 @@
+{
+  "_comment": "由 tools/zh/zh.py text-extract 生成；zh 为空表示未翻译（回退原文）。控制码沿用 <LINE>/<DONE>/<PLAYER> 等写法，{{n}} 为不可翻译的占位命令，必须原样保留。",
+  "source": "maps\\OlivineLighthouse1F.asm",
+  "blocks": {
+    "OlivineLighthouse1FPokefanFText": {
+      "en": "In the past, #-<LINE>mon used to light<PARA>the sea around<LINE>Olivine at night.<PARA>The Lighthouse was<LINE>made in honor of<CONT>those #mon.<DONE>",
+      "zh": "从前，<LINE>是宝可梦<PARA>在夜里<LINE>照亮<CONT>浅葱的<CONT>海面。<PARA>这座灯塔<LINE>就是为了<CONT>纪念它们<CONT>而建的。<DONE>"
+    }
+  }
+}

@@ -1,0 +1,86 @@
+{
+  "_comment": "由 tools/zh/zh.py text-extract 生成；zh 为空表示未翻译（回退原文）。控制码沿用 <LINE>/<DONE>/<PLAYER> 等写法，{{n}} 为不可翻译的占位命令，必须原样保留。",
+  "source": "maps\\OlivineCity.asm",
+  "blocks": {
+    "OlivineCityRivalGymText": {
+      "en": "…<PARA>You again?<PARA>There's no need to<LINE>panic. I don't<PARA>bother with wimps<LINE>like you.<PARA>Speaking of weak-<LINE>lings, the city's<PARA>Gym Leader isn't<LINE>here.<PARA>Supposedly taking<LINE>care of a sick<PARA>#mon at the<LINE>Lighthouse.<PARA>Humph! Boo-hoo!<LINE>Just let sick<CONT>#mon go!<PARA>A #mon that<LINE>can't battle is<CONT>worthless!<PARA>Why don't you go<LINE>train at the<CONT>Lighthouse?<PARA>Who knows. It may<LINE>make you a bit<CONT>less weak!<DONE>",
+      "zh": "…<PARA>又是你？<PARA>不必<LINE>紧张。<PARA>我可不会<LINE>理会<CONT>你这种弱者。<PARA>说起<LINE>弱者，<PARA>这座城市的<CONT>馆主<LINE>也不在。<PARA>听说在<LINE>灯塔照顾<CONT>生病的<CONT>宝可梦。<PARA>哼！<LINE>真没出息！<PARA>生病的<LINE>宝可梦<PARA>放了不就好了！<PARA>不能战斗的<CONT>宝可梦<PARA>毫无价值！<PARA>你也去<LINE>灯塔<CONT>锻炼锻炼？<PARA>说不定<LINE>能让你<CONT>没那么弱！<DONE>"
+    },
+    "OlivineCityRivalLighthouseText": {
+      "en": "…<PARA>You again?<PARA>There's no need to<LINE>panic. I don't<PARA>bother with wimps<LINE>like you.<PARA>Speaking of weak-<LINE>lings, the city's<PARA>Gym Leader is<LINE>taking care of a<PARA>sick #mon in<LINE>the Lighthouse.<PARA>Humph! Boo-hoo!<LINE>Just let sick<CONT>#mon go!<PARA>A #mon that<LINE>can't battle is<CONT>worthless!<PARA>Why don't you go<LINE>train inside?<PARA>Who knows. It may<LINE>make you a bit<CONT>less weak!<DONE>",
+      "zh": "…<PARA>又是你？<PARA>不必<LINE>紧张。<PARA>我可不会<LINE>理会<CONT>你这种弱者。<PARA>说起<LINE>弱者，<PARA>这座城市的<CONT>馆主<PARA>正在灯塔<LINE>照顾<CONT>生病的<CONT>宝可梦。<PARA>哼！<LINE>真没出息！<PARA>生病的<LINE>宝可梦<PARA>放了不就好了！<PARA>不能战斗的<CONT>宝可梦<PARA>毫无价值！<PARA>你也<LINE>进去<CONT>锻炼锻炼？<PARA>说不定<LINE>能让你<CONT>没那么弱！<DONE>"
+    },
+    "OlivineCityStandingYoungsterPokedexText": {
+      "en": "Wow, you have a<LINE>#dex!<PARA>That is just so<LINE>awesome.<DONE>",
+      "zh": "哇，你有<LINE>宝可梦图鉴！<PARA>太厉害了。<DONE>"
+    },
+    "OlivineCitySailor1Text": {
+      "en": "Dark roads are<LINE>dangerous at<CONT>night.<PARA>But in the pitch-<LINE>black of night,<PARA>the sea is even<LINE>more treacherous!<PARA>Without the beacon<LINE>of the Lighthouse<PARA>to guide it, no<LINE>ship can sail.<DONE>",
+      "zh": "夜晚的<LINE>昏暗道路<CONT>很危险。<PARA>但在<LINE>漆黑的夜里，<PARA>大海<LINE>更加<CONT>凶险！<PARA>没有<LINE>灯塔的<CONT>光芒指引，<PARA>船只<LINE>无法航行。<DONE>"
+    },
+    "OlivineCitySailor2Text": {
+      "en": "The sea is sweet!<PARA>Sunsets on the sea<LINE>are marvelous!<PARA>Sing with me!<LINE>♪ Yo-ho! Blow the<CONT>man down!… ♪<DONE>",
+      "zh": "大海<LINE>真美好！<PARA>海上的<LINE>夕阳<CONT>美极了！<PARA>和我一起唱！<PARA>♪ 哟——嗬！<CONT>吹倒那家伙！…♪<DONE>"
+    },
+    "OlivineCityFisherText": {
+      "en": "You remind me of<LINE>a kid who used to<CONT>live here.<PARA>The family moved<LINE>away when their<PARA>father became a<LINE>Gym Leader in<CONT>another region.<DONE>",
+      "zh": "你让我想起<CONT>以前住在<CONT>这里的孩子。<PARA>他父亲<LINE>去别地区<CONT>当馆主后，<PARA>全家<LINE>就搬走了。<DONE>"
+    },
+    "OlivineCitySailor3Text": {
+      "en": "To see the Light-<LINE>house illuminate<PARA>the sea at night--<LINE>it's beautiful!<DONE>",
+      "zh": "夜里<LINE>灯塔<CONT>照亮海面——<PARA>真美啊！<DONE>"
+    },
+    "OlivineCityPokefanFText": {
+      "en": "Have you been to<LINE>Olivine Café?<PARA>The food is<LINE>delicious.<DONE>",
+      "zh": "你去过<LINE>浅葱咖啡馆吗？<PARA>那里的<LINE>餐点<CONT>很好吃。<DONE>"
+    },
+    "OlivineCityPokefanMText": {
+      "en": "Most trainers who<LINE>visit Olivine head<PARA>straight for the<LINE>Battle Tower.<PARA>Only the best can<LINE>compete there.<DONE>",
+      "zh": "来浅葱市的<CONT>训练家<PARA>大多<LINE>直奔<CONT>对战塔。<PARA>只有<LINE>最强的人<PARA>才能<LINE>在那里<CONT>比拼。<DONE>"
+    },
+    "OlivineCitySailor4Text": {
+      "en": "♪ A home like<LINE>O-li-vine,<PARA>I'm so hap-py I<LINE>can call you mine,<PARA>Next to the deep<LINE>blue brine,<PARA>Ci-ty oh so<LINE>di-vine,<PARA>Shine bright my<LINE>O-li-vine!… ♪<DONE>",
+      "zh": "♪ 啊，我的家<CONT>在浅葱，<PARA>能称它<LINE>为家，<PARA>我<LINE>多么幸福，<PARA>紧邻<LINE>深蓝的<CONT>大海，<PARA>神圣的<LINE>城市啊，<PARA>闪耀吧，<LINE>我的浅葱！… ♪<DONE>"
+    },
+    "OlivineCitySailor5Text": {
+      "en": "Us sailors love<LINE>a sing-song.<CONT>Join in!<PARA>♪ From off the<LINE>plank,<PARA>'twas then he<LINE>thank,<PARA>oh fiddle-dee<LINE>fiddle-dee dee… ♪<DONE>",
+      "zh": "我们水手<LINE>最爱唱歌。<PARA>一起来！<PARA>♪ 从<LINE>甲板上，<PARA>他<LINE>道了谢，<PARA>哦，<LINE>叮叮<CONT>当当<CONT>当… ♪<DONE>"
+    },
+    "OlivineCityLass1Text": {
+      "en": "The sailors here<LINE>may seem like a<PARA>handful, but<LINE>they're harmless.<DONE>",
+      "zh": "这里的水手<CONT>看起来<CONT>有点闹，<PARA>但其实<LINE>没有恶意。<DONE>"
+    },
+    "OlivineCityYoungster2Text": {
+      "en": "Sailors and camp-<LINE>ers have something<CONT>in common:<PARA>we both like to<LINE>sing!<PARA>But sailors' songs<LINE>are really…<CONT>different.<DONE>",
+      "zh": "水手和<LINE>露营少年<CONT>有个<CONT>共同点：<PARA>我们都<LINE>喜欢唱歌！<PARA>不过<LINE>水手的歌<PARA>真的……<CONT>很不一样。<DONE>"
+    },
+    "OlivineCityLass2Text": {
+      "en": "Jasmine, our Gym<LINE>Leader, is a shy<PARA>girl. She's no<LINE>pushover, mind!<DONE>",
+      "zh": "我们的<LINE>馆主阿蜜<PARA>是个<LINE>害羞的女孩。<PARA>但别<LINE>小看她！<DONE>"
+    },
+    "OlivineCitySignText": {
+      "en": "Olivine City<PARA>The Port Closest<LINE>to Foreign Lands<DONE>",
+      "zh": "浅葱市<PARA>离外国<LINE>最近的港口<DONE>"
+    },
+    "OlivineCityPortSignText": {
+      "en": "Olivine Port<LINE>Fast Ship Pier<DONE>",
+      "zh": "浅葱港口<PARA>高速船<LINE>码头<DONE>"
+    },
+    "OlivineGymSignText": {
+      "en": "Olivine City<LINE>#mon Gym<CONT>Leader: Jasmine<PARA>The Steel-Clad<LINE>Defense Girl<DONE>",
+      "zh": "浅葱市<LINE>宝可梦道馆<PARA>馆主：阿蜜<PARA>钢铁般的<CONT>防御少女<DONE>"
+    },
+    "OlivineLighthouseSignText": {
+      "en": "Olivine Lighthouse<LINE>Also known as the<CONT>Glitter Lighthouse<DONE>",
+      "zh": "浅葱灯塔<PARA>又称<LINE>闪耀灯塔<DONE>"
+    },
+    "OlivineCityBattleTowerSignText": {
+      "en": "Battle Tower Ahead<LINE>Opening Now!<DONE>",
+      "zh": "前方<LINE>对战塔<PARA>即将开业！<DONE>"
+    },
+    "OlivineCityCafeSignText": {
+      "en": "Olivine Café<DONE>",
+      "zh": "浅葱咖啡馆<DONE>"
+    }
+  }
+}

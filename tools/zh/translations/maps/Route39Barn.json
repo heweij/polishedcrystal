@@ -1,0 +1,62 @@
+{
+  "_comment": "由 tools/zh/zh.py text-extract 生成；zh 为空表示未翻译（回退原文）。控制码沿用 <LINE>/<DONE>/<PLAYER> 等写法，{{n}} 为不可翻译的占位命令，必须原样保留。",
+  "source": "maps\\Route39Barn.asm",
+  "blocks": {
+    "Text_MoomooIsSick": {
+      "en": "Moomoo is sick…<PARA>She needs lots of<LINE>healthy Berries.<DONE>",
+      "zh": "哞哞<LINE>生病了……<PARA>它需要<LINE>很多<CONT>健康的树果。<DONE>"
+    },
+    "Text_WereFeedingMoomoo": {
+      "en": "We're feeding<LINE>Moomoo!<DONE>",
+      "zh": "我们正在<LINE>喂哞哞！<DONE>"
+    },
+    "Text_WeakMoo": {
+      "en": "Miltank: …Moo…<DONE>",
+      "zh": "大奶罐：…哞…<DONE>"
+    },
+    "Text_ItsCryIsWeak": {
+      "en": "Its cry is weak…<DONE>",
+      "zh": "它的叫声<LINE>很虚弱……<DONE>"
+    },
+    "MoomooHappyMooText": {
+      "en": "Miltank: Mooo!<DONE>",
+      "zh": "大奶罐：哞——！<DONE>"
+    },
+    "Text_AskGiveBerry": {
+      "en": "Give an Oran or<LINE>Sitrus Berry to<CONT>Miltank?<DONE>",
+      "zh": "要<LINE>给大奶罐<PARA>橙橙果或<CONT>文柚果吗？<DONE>"
+    },
+    "Text_GaveOranBerry": {
+      "en": "<PLAYER> gave an<LINE>Oran Berry to<CONT>Miltank.<DONE>",
+      "zh": "<PLAYER>给了<LINE>大奶罐<CONT>橙橙果。<DONE>"
+    },
+    "Text_GaveSitrusBerry": {
+      "en": "<PLAYER> gave a<LINE>Sitrus Berry to<CONT>Miltank.<DONE>",
+      "zh": "<PLAYER>给了<LINE>大奶罐<CONT>文柚果。<DONE>"
+    },
+    "Text_LittleHealthier": {
+      "en": "Miltank became a<LINE>little healthier!<DONE>",
+      "zh": "大奶罐<LINE>稍微<CONT>恢复了<CONT>一些！<DONE>"
+    },
+    "Text_QuiteHealthy": {
+      "en": "Miltank became<LINE>quite healthy!<DONE>",
+      "zh": "大奶罐<LINE>恢复得<CONT>很不错！<DONE>"
+    },
+    "Text_TotallyHealthy": {
+      "en": "Miltank became<LINE>totally healthy!<DONE>",
+      "zh": "大奶罐<LINE>完全<CONT>康复了！<DONE>"
+    },
+    "Text_NoBerries": {
+      "en": "<PLAYER> has no<LINE>Oran or Sitrus<CONT>Berries…<DONE>",
+      "zh": "<PLAYER>没有<LINE>橙橙果<CONT>或文柚果……<DONE>"
+    },
+    "Text_RefusedToGiveBerry": {
+      "en": "<PLAYER> wouldn't<LINE>give a Berry.<PARA>Miltank looks sad.<DONE>",
+      "zh": "<PLAYER>不肯<LINE>给树果。<PARA>大奶罐<LINE>看起来<CONT>很失落。<DONE>"
+    },
+    "Route39BarnBucketText": {
+      "en": "It's a bucket.<DONE>",
+      "zh": "是个水桶。<DONE>"
+    }
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "_comment": "由 tools/zh/zh.py text-extract 生成；zh 为空表示未翻译（回退原文）。控制码沿用 <LINE>/<DONE>/<PLAYER> 等写法，{{n}} 为不可翻译的占位命令，必须原样保留。",
+  "source": "maps\\Route32PokeCenter1F.asm",
+  "blocks": {
+    "Route32Pokecenter1FCooltrainerFText": {
+      "en": "What should I make<LINE>my #mon hold?<PARA>Maybe an item that<LINE>increases Attack<CONT>power…<DONE>",
+      "zh": "该让宝可梦<LINE>携带什么呢？<PARA>也许该选<LINE>能提升攻击的<CONT>道具……<DONE>"
+    }
+  }
+}

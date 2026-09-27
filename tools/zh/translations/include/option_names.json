@@ -1,0 +1,58 @@
+{
+  "_comment": "由 tools/zh/zh.py text-extract 生成；zh 为空表示未翻译（回退原文）。控制码沿用 <LINE>/<DONE>/<PLAYER> 等写法，{{n}} 为不可翻译的占位命令，必须原样保留。",
+  "source": "data\\options\\option_names.asm",
+  "blocks": {
+    "OptionNames.TextSpeed#0": {
+      "en": "Text Speed@",
+      "zh": "文字速度@"
+    },
+    "OptionNames.TextAutoscroll#0": {
+      "en": "Text Autoscroll@",
+      "zh": "自动滚动@"
+    },
+    "OptionNames.Frame#0": {
+      "en": "Frame@",
+      "zh": "边框@"
+    },
+    "OptionNames.Typeface#0": {
+      "en": "Typeface@",
+      "zh": "字体@"
+    },
+    "OptionNames.Keyboard#0": {
+      "en": "Keyboard@",
+      "zh": "键盘@"
+    },
+    "OptionNames.Sound#0": {
+      "en": "Sound@",
+      "zh": "声音@"
+    },
+    "OptionNames.BattleEffects#0": {
+      "en": "Battle Effects@",
+      "zh": "对战特效@"
+    },
+    "OptionNames.BattleStyle#0": {
+      "en": "Battle Style@",
+      "zh": "战斗方式@"
+    },
+    "OptionNames.Nicknames#0": {
+      "en": "Nicknames@",
+      "zh": "昵称@"
+    },
+    "OptionNames.RunningShoes#0": {
+      "en": "Running Shoes@",
+      "zh": "跑步鞋@"
+    },
+    "OptionNames.TurningSpeed#0": {
+      "en": "Turning Speed@",
+      "zh": "转向速度@"
+    },
+    "OptionNames.ClockFormat#0": {
+      "en": "Clock Format@",
+      "zh": "时间格式@"
+    },
+    "OptionNames.PokedexUnits#0": {
+      "en": "#dex Units@",
+      "zh": "图鉴单位@"
+    }
+  }
+}

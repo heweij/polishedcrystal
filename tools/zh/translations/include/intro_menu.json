@@ -1,0 +1,82 @@
+{
+  "_comment": "由 tools/zh/zh.py text-extract 生成；zh 为空表示未翻译（回退原文）。控制码沿用 <LINE>/<DONE>/<PLAYER> 等写法，{{n}} 为不可翻译的占位命令，必须原样保留。",
+  "source": "engine\\menus\\intro_menu.asm",
+  "blocks": {
+    "InitializeMagikarpHouse.Ralph#0": {
+      "en": "Ralph@",
+      "zh": "拉尔夫@"
+    },
+    "Continue_LoadMenuHeader.MenuData2_Dex#0": {
+      "en": "Player@",
+      "zh": "玩家@"
+    },
+    "Continue_LoadMenuHeader.MenuData2_Dex#1": {
+      "en": "Badges@",
+      "zh": "徽章@"
+    },
+    "Continue_LoadMenuHeader.MenuData2_Dex#2": {
+      "en": "#dex@",
+      "zh": "图鉴@"
+    },
+    "Continue_LoadMenuHeader.MenuData2_Dex#3": {
+      "en": "Time@",
+      "zh": "时间@"
+    },
+    "Continue_LoadMenuHeader.MenuData2_NoDex#0": {
+      "en": "Player <PLAYER>@",
+      "zh": "玩家 <PLAYER>@"
+    },
+    "Continue_LoadMenuHeader.MenuData2_NoDex#1": {
+      "en": "Badges@",
+      "zh": "徽章@"
+    },
+    "Continue_LoadMenuHeader.MenuData2_NoDex#2": {
+      "en": " @",
+      "zh": ""
+    },
+    "Continue_LoadMenuHeader.MenuData2_NoDex#3": {
+      "en": "Time@",
+      "zh": "时间@"
+    },
+    "Continue_DisplayBadgesDexPlayerName.Player#0": {
+      "en": "<PLAYER>@",
+      "zh": ""
+    },
+    "Continue_UnknownGameTime#0": {
+      "en": " ???@",
+      "zh": ""
+    },
+    "ElmText1": {
+      "en": "{{0}}",
+      "zh": ""
+    },
+    "ElmText3": {
+      "en": "{{0}}",
+      "zh": ""
+    },
+    "ElmText4": {
+      "en": "{{0}}",
+      "zh": ""
+    },
+    "ElmText5": {
+      "en": "{{0}}",
+      "zh": ""
+    },
+    "ElmText6": {
+      "en": "{{0}}",
+      "zh": ""
+    },
+    "ElmText7": {
+      "en": "{{0}}",
+      "zh": ""
+    },
+    "AreYouABoyOrAreYouAGirlText": {
+      "en": "{{0}}",
+      "zh": ""
+    },
+    "SoThisIsYouText": {
+      "en": "{{0}}",
+      "zh": ""
+    }
+  }
+}

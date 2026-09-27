@@ -1,0 +1,14 @@
+{
+  "_comment": "由 tools/zh/zh.py text-extract 生成；zh 为空表示未翻译（回退原文）。控制码沿用 <LINE>/<DONE>/<PLAYER> 等写法，{{n}} 为不可翻译的占位命令，必须原样保留。",
+  "source": "maps\\EcruteakLugiaSpeechHouse.asm",
+  "blocks": {
+    "EcruteakLugiaSpeechHouseGrampsText": {
+      "en": "This happened when<LINE>I was young.<PARA>The sky suddenly<LINE>turned black. A<PARA>giant flying #-<LINE>mon was blocking<CONT>out the sun.<PARA>I wonder what that<LINE>#mon was?<PARA>It was like a bird<LINE>and a dragon.<DONE>",
+      "zh": "这是我<LINE>年轻时的事。<PARA>天空<LINE>骤然变黑。<PARA>一只巨大的<CONT>飞行宝可梦<PARA>遮住了<LINE>太阳。<PARA>那究竟是<LINE>什么宝可梦？<PARA>它<LINE>既像鸟<CONT>又像龙。<DONE>"
+    },
+    "EcruteakLugiaSpeechHouseYoungsterText": {
+      "en": "Is there really a<LINE>#mon that big?<PARA>If it exists, it<LINE>must be powerful.<DONE>",
+      "zh": "真的有<LINE>那么大的<CONT>宝可梦吗？<PARA>如果<LINE>真有，<PARA>一定<LINE>很强。<DONE>"
+    }
+  }
+}

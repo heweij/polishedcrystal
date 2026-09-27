@@ -1,0 +1,14 @@
+{
+  "_comment": "由 tools/zh/zh.py text-extract 生成；zh 为空表示未翻译（回退原文）。控制码沿用 <LINE>/<DONE>/<PLAYER> 等写法，{{n}} 为不可翻译的占位命令，必须原样保留。",
+  "source": "maps\\CherrygroveMart.asm",
+  "blocks": {
+    "CherrygroveMartCooltrainerMText_PokeBallsInStock": {
+      "en": "# Balls are in<LINE>stock! Now I can<CONT>catch #mon!<DONE>",
+      "zh": "精灵球<LINE>到货啦！<CONT>这下就能收服<LINE>宝可梦了！<DONE>"
+    },
+    "CherrygroveMartYoungsterText": {
+      "en": "When I was walking<LINE>in the grass, a<PARA>bug #mon poi-<LINE>soned my #mon!<PARA>I just kept going,<LINE>and my #mon<CONT>barely recovered.<PARA>You should keep an<LINE>Antidote with you.<DONE>",
+      "zh": "我在草丛里走<LINE>的时候，<PARA>被虫子属性的<LINE>宝可梦毒到了！<PARA>我硬撑着往前走，<LINE>它好不容易<CONT>才恢复过来。<PARA>你最好随身<LINE>带着解毒药。<DONE>"
+    }
+  }
+}

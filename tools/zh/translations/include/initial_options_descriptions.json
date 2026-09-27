@@ -1,0 +1,10 @@
+{
+  "_comment": "由 tools/zh/zh.py text-extract 生成；zh 为空表示未翻译（回退原文）。控制码沿用 <LINE>/<DONE>/<PLAYER> 等写法，{{n}} 为不可翻译的占位命令，必须原样保留。",
+  "source": "data\\options\\initial_options_descriptions.asm",
+  "blocks": {
+    "InitialOptionsDoneDescription": {
+      "en": "Save your choices<LINE>and play the game!<PROMPT>",
+      "zh": "保存选择<LINE>开始游戏吧！<PROMPT>"
+    }
+  }
+}

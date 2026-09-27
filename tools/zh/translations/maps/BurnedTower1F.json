@@ -1,0 +1,66 @@
+{
+  "_comment": "由 tools/zh/zh.py text-extract 生成；zh 为空表示未翻译（回退原文）。控制码沿用 <LINE>/<DONE>/<PLAYER> 等写法，{{n}} 为不可翻译的占位命令，必须原样保留。",
+  "source": "maps\\BurnedTower1F.asm",
+  "blocks": {
+    "BurnedTowerRival_BeforeText": {
+      "en": "…… …… ……<PARA>…Oh, it's you.<PARA>I came looking for<LINE>some legendary<PARA>#mon that they<LINE>say roosts here.<PARA>But there's<LINE>nothing here!<PARA>Nothing after all<LINE>the trouble of<PARA>coming to this<LINE>dump? No way!<PARA>It's all your<LINE>fault!<DONE>",
+      "zh": "………………<PARA>…哦，是你。<PARA>我听说有<LINE>传说中的<CONT>宝可梦<PARA>栖息在这里，<PARA>就跑来找了。<PARA>可是<LINE>什么都没有！<PARA>特意跑到<LINE>这种破地方，<PARA>却一无所获？<PARA>开什么玩笑！<PARA>都怪你！<DONE>"
+    },
+    "BurnedTowerRival_WinText": {
+      "en": "…Humph!<PARA>This is why I hate<LINE>battling wimps.<PARA>There's no<LINE>challenge in it.<DONE>",
+      "zh": "…哼！<PARA>所以我才<LINE>讨厌<CONT>和弱者对战。<PARA>一点<LINE>挑战性<CONT>都没有。<DONE>"
+    },
+    "BurnedTowerRival_AfterText1": {
+      "en": "…Aw, whatever.<PARA>You would never be<LINE>able to catch a<PARA>legendary #mon<LINE>anyway.<DONE>",
+      "zh": "…算了。<PARA>反正你<LINE>也抓不到<PARA>传说的<CONT>宝可梦。<DONE>"
+    },
+    "BurnedTowerRival_LossText": {
+      "en": "…Humph!<PARA>This is why I hate<LINE>battling wimps.<PARA>It's just a waste<LINE>of my time.<DONE>",
+      "zh": "…哼！<PARA>所以我才<LINE>讨厌<CONT>和弱者对战。<PARA>纯粹<LINE>浪费时间。<DONE>"
+    },
+    "BurnedTowerRival_AfterText2": {
+      "en": "Humph!<PARA>What are you doing<LINE>falling into a<PARA>hole? Some genius<LINE>you are!<PARA>Serves you right!<DONE>",
+      "zh": "哼！<PARA>你居然<LINE>会掉进洞里？<PARA>真是个<CONT>天才！<PARA>活该！<DONE>"
+    },
+    "BurnedTower1FEusineIntroText": {
+      "en": "Eusine: My name's<LINE>Eusine.<PARA>I'm on the trail<LINE>of a #mon named<CONT>Suicune.<PARA>And you are…?<PARA><PLAYER>? Glad to<LINE>meet you!<PARA>I heard rumors<LINE>that Suicune is in<PARA>this Burned Tower,<LINE>so I came to look.<PARA>But where exactly<LINE>could it be?<DONE>",
+      "zh": "米那君：<LINE>我叫米那君。<PARA>我正在<LINE>追寻<CONT>名为水君的<CONT>宝可梦。<PARA>你是……？<PARA><PLAYER>？<LINE>很高兴<CONT>认识你！<PARA>听说水君<LINE>就在这座<CONT>烧焦塔里，<PARA>所以<LINE>我来一探究竟。<PARA>但它到底<LINE>在哪里呢？<DONE>"
+    },
+    "BurnedTower1FEusineText": {
+      "en": "Eusine: I heard<LINE>that Suicune is in<PARA>this Burned Tower,<LINE>so I came to look.<PARA>But where exactly<LINE>could it be?<DONE>",
+      "zh": "米那君：听说<LINE>水君<PARA>就在这座<CONT>烧焦塔里，<PARA>所以<LINE>我来一探究竟。<PARA>但它到底<LINE>在哪里呢？<DONE>"
+    },
+    "BurnedTower1FMortyText": {
+      "en": "Morty: Ecruteak's<LINE>Gym Leader has to<PARA>study what are<LINE>said to be the<PARA>legendary #mon<LINE>--Suicune, Entei<CONT>and Raikou.<PARA>Eusine is here, so<LINE>I've decided to<PARA>investigate the<LINE>Tower with him.<DONE>",
+      "zh": "松叶：圆朱市的<CONT>馆主<PARA>必须研究<LINE>传说的<CONT>宝可梦<PARA>——水君、炎帝<CONT>和雷公。<PARA>既然<LINE>米那君来了，<PARA>我决定<LINE>和他一起<CONT>调查这座塔。<DONE>"
+    },
+    "HexManiacTamaraSeenText": {
+      "en": "A strange power is<LINE>present here…<DONE>",
+      "zh": "此地<LINE>涌动着<CONT>奇异的力量……<DONE>"
+    },
+    "HexManiacTamaraBeatenText": {
+      "en": "I have lost…<DONE>",
+      "zh": "我输了……<DONE>"
+    },
+    "FirebreatherNedSeenText": {
+      "en": "My soul is on<LINE>fire. I'll show<PARA>you how hot it<LINE>burns!<DONE>",
+      "zh": "我的灵魂<LINE>在燃烧。<PARA>让你见识<LINE>它的热度！<DONE>"
+    },
+    "FirebreatherNedBeatenText": {
+      "en": "Still not hot<LINE>enough…<DONE>",
+      "zh": "还是<LINE>不够热……<DONE>"
+    },
+    "FirebreatherDickBeforeText": {
+      "en": "Hey, I'm training<LINE>secretly here!<PARA>Don't embarrass me<LINE>by looking!<DONE>",
+      "zh": "喂，我在这里<CONT>秘密修行！<PARA>别盯着看，<LINE>我会害羞！<DONE>"
+    },
+    "FirebreatherDickBeatenText": {
+      "en": "I burned down to<LINE>white ashes…<DONE>",
+      "zh": "我烧成了<LINE>灰烬……<DONE>"
+    },
+    "FirebreatherDickAfterText": {
+      "en": "I was so into my<LINE>training that I<PARA>fell down this<LINE>hole.<DONE>",
+      "zh": "我太投入<LINE>修行，<PARA>结果<LINE>掉进了洞里。<DONE>"
+    }
+  }
+}

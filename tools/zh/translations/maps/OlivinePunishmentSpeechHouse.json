@@ -1,0 +1,14 @@
+{
+  "_comment": "由 tools/zh/zh.py text-extract 生成；zh 为空表示未翻译（回退原文）。控制码沿用 <LINE>/<DONE>/<PLAYER> 等写法，{{n}} 为不可翻译的占位命令，必须原样保留。",
+  "source": "maps\\OlivinePunishmentSpeechHouse.asm",
+  "blocks": {
+    "OlivinePunishmentSpeechHouseDadText": {
+      "en": "Along the way to<LINE>Cianwood, there<PARA>are four deserted<LINE>islands.<PARA>Bad kids are taken<LINE>to the islands as<CONT>punishment!<DONE>",
+      "zh": "去湛蓝市的<CONT>路上，<PARA>有四个<LINE>无人岛。<PARA>坏孩子<LINE>会被<CONT>带到岛上<CONT>受罚！<DONE>"
+    },
+    "OlivinePunishmentSpeechHouseDaughterText": {
+      "en": "Whenever I get in<LINE>trouble, Daddy<CONT>always scares me.<DONE>",
+      "zh": "每次<LINE>我闯祸，<PARA>爸爸<LINE>都会<CONT>吓唬我。<DONE>"
+    }
+  }
+}

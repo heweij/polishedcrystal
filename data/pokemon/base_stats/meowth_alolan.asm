@@ -1,0 +1,23 @@
+if DEF(FAITHFUL)
+	bst 290,  40,  35,  35,  50,  40,  90
+	;   bst   hp  atk  def  sat  sdf  spe
+else
+	bst 300,  40,  35,  35,  60,  40,  90
+	;   bst   hp  atk  def  sat  sdf  spe
+endc
+
+	db DARK, DARK ; type
+	db 255 ; catch rate
+	db 69 ; base exp
+	db NO_ITEM, AMULET_COIN ; held items
+	dn GENDER_F50, HATCH_MEDIUM_FAST ; gender ratio, step cycles to hatch
+
+	abilities_for MEOWTH_ALOLAN, PICKUP, TOUGH_CLAWS, RATTLED
+	db GROWTH_MEDIUM_FAST ; growth rate
+	dn EGG_GROUND, EGG_GROUND ; egg groups
+
+	ev_yield 1 Spe
+
+	; tm/hm learnset
+	tmhm CURSE, TOXIC, HIDDEN_POWER, SUNNY_DAY, HONE_CLAWS, PROTECT, RAIN_DANCE, IRON_TAIL, THUNDERBOLT, THUNDER, RETURN, DIG, SHADOW_BALL, DOUBLE_TEAM, SWIFT, AERIAL_ACE, SUBSTITUTE, FACADE, REST, ATTRACT, THIEF, FALSE_SWIPE, DARK_PULSE, WATER_PULSE, SHADOW_CLAW, U_TURN, FLASH, CUT, AGILITY, BODY_SLAM, CHARM, DEFENSE_CURL, DOUBLE_EDGE, DREAM_EATER, ENDURE, HEADBUTT, HYPER_VOICE, ICY_WIND, KNOCK_OFF, PAY_DAY, SEED_BOMB, SLEEP_TALK, SWAGGER, ZAP_CANNON
+	; end

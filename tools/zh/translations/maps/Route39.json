@@ -1,0 +1,86 @@
+{
+  "_comment": "由 tools/zh/zh.py text-extract 生成；zh 为空表示未翻译（回退原文）。控制码沿用 <LINE>/<DONE>/<PLAYER> 等写法，{{n}} 为不可翻译的占位命令，必须原样保留。",
+  "source": "maps\\Route39.asm",
+  "blocks": {
+    "Route39MiltankText": {
+      "en": "Miltank: Mooo!<DONE>",
+      "zh": "大奶罐：哞——！<DONE>"
+    },
+    "SailorEugeneSeenText": {
+      "en": "I just got back to<LINE>Olivine.<PARA>So how about a<LINE>#mon battle?<DONE>",
+      "zh": "我刚回到<CONT>浅葱市。<PARA>来一场<LINE>宝可梦<CONT>对战吧？<DONE>"
+    },
+    "SailorEugeneBeatenText": {
+      "en": "Awaaargh!<DONE>",
+      "zh": "哇啊啊啊！<DONE>"
+    },
+    "PokefanmDerek1SeenText": {
+      "en": "This is a good<LINE>time to brag about<CONT>my Pikachu!<DONE>",
+      "zh": "正好<LINE>炫耀一下<CONT>我的皮卡丘！<DONE>"
+    },
+    "PokefanmDerek1BeatenText": {
+      "en": "I had no time to<LINE>show off Pikachu…<DONE>",
+      "zh": "没来得及<LINE>炫耀<CONT>皮卡丘……<DONE>"
+    },
+    "PokefanMDerekText_NotBragging": {
+      "en": "I'm not listening<LINE>to your bragging!<PARA>We # Fans have<LINE>a policy of not<PARA>listening to other<LINE>people brag!<DONE>",
+      "zh": "我可不想<LINE>听你炫耀！<PARA>我们<LINE>宝可梦迷<PARA>有<LINE>不听别人<CONT>炫耀的<CONT>原则！<DONE>"
+    },
+    "PokefanfRuthSeenText": {
+      "en": "Such darling<LINE>#mon.<PARA>Let's show our<LINE>#mon together<CONT>at the same time.<DONE>",
+      "zh": "好可爱的<LINE>宝可梦。<PARA>我们<LINE>同时<PARA>展示一下<CONT>彼此的<CONT>宝可梦吧。<DONE>"
+    },
+    "PokefanfRuthBeatenText": {
+      "en": "I don't mind<LINE>losing.<DONE>",
+      "zh": "输了<LINE>我也不在乎。<DONE>"
+    },
+    "PsychicNormanSeenText": {
+      "en": "Let me see what<LINE>your #mon are<CONT>capable of.<DONE>",
+      "zh": "让我看看<CONT>你的宝可梦<PARA>有多大<CONT>本事。<DONE>"
+    },
+    "PsychicNormanBeatenText": {
+      "en": "Ooh, your #mon<LINE>have potential.<DONE>",
+      "zh": "哦，<LINE>你的宝可梦<PARA>很有<CONT>潜力。<DONE>"
+    },
+    "PokefanfJaimeSeenText": {
+      "en": "You came at just<LINE>the right time.<PARA>Let's battle.<DONE>",
+      "zh": "你来得<LINE>正是时候。<PARA>来<LINE>对战吧。<DONE>"
+    },
+    "PokefanfJaimeBeatenText": {
+      "en": "Oh, how disap-<LINE>pointing…<DONE>",
+      "zh": "啊，<LINE>真遗憾……<DONE>"
+    },
+    "Route39BeautyText": {
+      "en": "Which is taller:<LINE>the Bell Tower in<CONT>Ecruteak City,<PARA>or the Lighthouse<LINE>in Olivine City?<PARA>The Bell Tower,<LINE>no doubt!<DONE>",
+      "zh": "圆朱市的<LINE>铃铛塔<PARA>和浅葱市的<CONT>灯塔，<PARA>哪个<LINE>更高？<PARA>当然是<LINE>铃铛塔！<DONE>"
+    },
+    "Route39HikerText": {
+      "en": "North of Olivine<LINE>is the frontier<CONT>of Johto!<PARA>An intense hike<LINE>through rugged<PARA>terrain, then<LINE>scaling an icy<CONT>mountain…<PARA>I've heard that<LINE>some #mon have<PARA>adapted to sur-<LINE>vive the harsh<CONT>climate.<PARA>…But without a<LINE>pair of Go-Goggles<CONT>for safety,<PARA>I can't even start<LINE>on the hike…<DONE>",
+      "zh": "浅葱市<LINE>以北<PARA>就是城都的<CONT>边境了！<PARA>要在<LINE>崎岖的<CONT>地形中<CONT>跋涉，<PARA>再<LINE>攀登<CONT>冰封的山……<PARA>听说有些<LINE>宝可梦<PARA>已经<LINE>适应了<CONT>严酷的气候。<PARA>……但没有<LINE>护目镜<CONT>保命，<PARA>我连<LINE>出发<CONT>都做不到……<DONE>"
+    },
+    "Route39SignText": {
+      "en": "Route 39<PARA>Olivine City -<LINE>Ecruteak City<DONE>",
+      "zh": "39号道路<PARA>浅葱市—<LINE>圆朱市<DONE>"
+    },
+    "Route39AdvancedTips1Text": {
+      "en": "Advanced Tips!<PARA>Sandstorms boost<LINE>Special Defense of<CONT>Rock-type #mon!<PARA>And, Hail boosts<LINE>the Defense of<CONT>Ice-type #mon!<DONE>",
+      "zh": "进阶小提示！<PARA>沙暴会<LINE>提升<PARA>岩石属性<CONT>宝可梦的<CONT>特防！<PARA>而冰雹会<LINE>提升<PARA>冰属性<CONT>宝可梦的<CONT>防御！<DONE>"
+    },
+    "Route39AdvancedTips2Text": {
+      "en": "Advanced Tips!<PARA>A #mon with<LINE>the Compound Eyes<CONT>ability, or one<PARA>holding an Amulet<LINE>Coin, is more li-<CONT>kely to encounter<PARA>a wild #mon<LINE>holding an item!<DONE>",
+      "zh": "进阶小提示！<PARA>拥有<LINE>复眼特性，<PARA>或携带<LINE>护符金币的<CONT>宝可梦，<PARA>更容易<LINE>遇到<PARA>携带道具的<CONT>野生宝可梦！<DONE>"
+    },
+    "RuggedRoadAheadSignText": {
+      "en": "Rugged Road<LINE>ahead<PARA>North to<LINE>Snowtop Mountain<DONE>",
+      "zh": "前方<LINE>崎岖之路<PARA>向北<LINE>通往雪峰山<DONE>"
+    },
+    "MoomooFarmSignText": {
+      "en": "Moomoo Farm<PARA>Enjoy Our Fresh<LINE>and Tasty Milk<DONE>",
+      "zh": "哞哞农场<PARA>新鲜美味的<CONT>牛奶<DONE>"
+    },
+    "Route39TrainerTipsText": {
+      "en": "Trainer Tips<PARA>Use Headbutt on<LINE>trees to shake<CONT>#mon out.<PARA>Different kinds of<LINE>#mon drop out<CONT>of trees.<PARA>Use Headbutt on<LINE>any tree you see!<DONE>",
+      "zh": "训练家提示<PARA>对树使用<LINE>头锤，<PARA>就能<LINE>摇下<CONT>宝可梦。<PARA>不同的树<LINE>会掉下<CONT>不同的<CONT>宝可梦。<PARA>看到树<LINE>就<CONT>用头锤吧！<DONE>"
+    }
+  }
+}

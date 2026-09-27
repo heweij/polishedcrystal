@@ -1,0 +1,90 @@
+{
+  "_comment": "由 tools/zh/zh.py text-extract 生成；zh 为空表示未翻译（回退原文）。控制码沿用 <LINE>/<DONE>/<PLAYER> 等写法，{{n}} 为不可翻译的占位命令，必须原样保留。",
+  "source": "maps\\GoldenrodBillsHouse.asm",
+  "blocks": {
+    "BillsGrandpaIntroText": {
+      "en": "Hm? You know Bill?<LINE>He's my grandson.<PARA>He's in Kanto. He<LINE>does something<PARA>with PCs, so I'm<LINE>house-sitting.<DONE>",
+      "zh": "嗯？你认识正辉？<PARA>他是我孙子。<PARA>他在关都，<LINE>做和电脑有关的<CONT>工作，<PARA>所以我<LINE>帮他看家。<DONE>"
+    },
+    "BillsGrandpaAskToSeeMonText": {
+      "en": "If you have that<LINE>#mon, may I see<CONT>it, please?<DONE>",
+      "zh": "如果你有那只<LINE>宝可梦，<PARA>能给我<LINE>看看吗？<DONE>"
+    },
+    "BillsGrandpaExcitedToSeeText": {
+      "en": "You will show me?<LINE>How good of you!<DONE>",
+      "zh": "你愿意<LINE>给我看？<PARA>你真好！<DONE>"
+    },
+    "BillsGrandpaYouDontHaveItTextText": {
+      "en": "You don't have it?<LINE>That's too bad…<DONE>",
+      "zh": "你没有吗？<LINE>真遗憾……<DONE>"
+    },
+    "BillsGrandpaShownPokemonText": {
+      "en": "Ah, so that is<LINE>{{0}}?<PARA>Isn't it cute!<LINE>That's so kind of<CONT>you.<DONE>",
+      "zh": "啊，这就是<LINE>{{0}}吗？<PARA>好可爱！<PARA>谢谢你<LINE>这么好心。<DONE>"
+    },
+    "BillsGrandpaTokenOfAppreciationText": {
+      "en": "Thanks!<PARA>This is a token of<LINE>my appreciation.<DONE>",
+      "zh": "谢谢！<PARA>这点心意<LINE>请收下。<DONE>"
+    },
+    "BillsGrandpaComeAgainText": {
+      "en": "Come visit again<LINE>sometime.<DONE>",
+      "zh": "有空<LINE>再来玩。<DONE>"
+    },
+    "BillsGrandpaShownAllThePokemonText": {
+      "en": "Thanks for showing<LINE>me so many cute<CONT>#mon.<PARA>I really enjoyed<LINE>myself. I'm glad<PARA>I've lived such a<LINE>long life.<DONE>",
+      "zh": "谢谢你让我看<LINE>这么多可爱的<CONT>宝可梦。<PARA>我真的很开心。<PARA>能活这么久<LINE>真好。<DONE>"
+    },
+    "BillsGrandpaSnubbullText": {
+      "en": "My grandson Bill<LINE>told me about a<PARA>short, pink canine<LINE>#mon with blue<CONT>polka dots.<DONE>",
+      "zh": "我孙子正辉<LINE>跟我说过一种<CONT>矮矮的、<PARA>粉红色的<CONT>犬类宝可梦，<PARA>身上有<LINE>蓝色圆点。<DONE>"
+    },
+    "BillsGrandpaTogepiText": {
+      "en": "Do you know of a<LINE>#mon that has a<PARA>shell covered in<LINE>red and blue<CONT>triangles?<PARA>It's supposed to<LINE>be a symbol of<CONT>good luck.<DONE>",
+      "zh": "你知道有种<LINE>宝可梦，<PARA>壳上有<LINE>红色和蓝色的<CONT>三角形吗？<PARA>据说它<LINE>是<CONT>幸运的象征。<DONE>"
+    },
+    "BillsGrandpaMurkrowText": {
+      "en": "Do you know of a<LINE>bird #mon that<PARA>has a crooked<LINE>yellow beak and<CONT>black feathers?<PARA>I heard that it<LINE>appears at night.<PARA>I would quite<LINE>like to see it.<DONE>",
+      "zh": "你知道有种<LINE>鸟宝可梦，<PARA>有弯弯的<LINE>黄色鸟喙<PARA>和黑色羽毛吗？<PARA>听说它<LINE>在夜里出现。<PARA>我很想<LINE>见一见。<DONE>"
+    },
+    "BillsGrandpaOddishText": {
+      "en": "Ah, my grandson<LINE>mentioned a round,<PARA>blue #mon that<LINE>has leaves growing<CONT>on its head.<DONE>",
+      "zh": "啊，我孙子<LINE>提过一种<CONT>圆圆的、<CONT>蓝色的宝可梦，<PARA>头上<LINE>长着叶子。<DONE>"
+    },
+    "BillsGrandpaJigglypuffText": {
+      "en": "Bill told me about<LINE>a pink #mon<PARA>with a hypnotic<LINE>singing voice.<DONE>",
+      "zh": "正辉跟我说过<LINE>一种粉红色的<CONT>宝可梦，<PARA>歌声<LINE>能让人<CONT>昏昏欲睡。<DONE>"
+    },
+    "BillsGrandpaBellsproutText": {
+      "en": "My grandson Bill<LINE>mentioned a green<PARA>#mon that walks<LINE>on its roots.<DONE>",
+      "zh": "我孙子正辉<LINE>提过一种<CONT>绿色的宝可梦，<PARA>用根<LINE>走路。<DONE>"
+    },
+    "BillsGrandpaStaryuText": {
+      "en": "Do you know of a<LINE>sea #mon that<PARA>has a red sphere<LINE>in its body?<PARA>You know, the one<LINE>that's shaped like<CONT>a star?<PARA>I heard that it<LINE>appears at night.<PARA>I would surely<LINE>like to see it.<DONE>",
+      "zh": "你知道有种<LINE>海洋宝可梦，<PARA>身体里<LINE>有红色的球吗？<PARA>就是那个<LINE>星星形状的。<PARA>听说它<LINE>在夜里出现。<PARA>我一定要<LINE>见一见。<DONE>"
+    },
+    "BillsGrandpaGrowlitheText": {
+      "en": "Bill told me about<LINE>a #mon that is<PARA>very loyal to its<LINE>trainer.<PARA>It's supposed to<LINE>Roar well.<DONE>",
+      "zh": "正辉跟我说过<LINE>一种对训练家<PARA>非常忠诚的<CONT>宝可梦。<PARA>听说它<LINE>很会吼叫。<DONE>"
+    },
+    "BillsGrandpaPichuText": {
+      "en": "Do you know that<LINE>hugely popular<CONT>#mon?<PARA>The #mon that<LINE>has a yellow body<CONT>and red cheeks.<PARA>I would love to<LINE>see what it looks<PARA>like before it<LINE>evolves.<DONE>",
+      "zh": "你知道那只<LINE>超人气的<CONT>宝可梦吗？<PARA>身体是黄色的，<LINE>脸颊红红的。<PARA>我很想看看<LINE>它进化前<CONT>的样子。<DONE>"
+    },
+    "BillsMomText_AfterEcruteak": {
+      "en": "My husband was<LINE>once known as a<PARA>#Maniac.<LINE>Bill must have<PARA>taken after his<LINE>father.<PARA>But now my husband<LINE>won't work. He<PARA>just goofs off<LINE>all day long.<DONE>",
+      "zh": "我丈夫<LINE>曾被称为<PARA>宝可梦狂。<PARA>正辉<LINE>大概像他爸。<PARA>可现在我丈夫<LINE>不肯工作，<PARA>整天<LINE>游手好闲。<DONE>"
+    },
+    "BillsSisterUsefulNumberText": {
+      "en": "Are you a trainer?<PARA>I've got a useful<LINE>phone number for<CONT>you.<DONE>",
+      "zh": "你是训练家？<PARA>我有个<LINE>有用的<CONT>电话号码<CONT>给你。<DONE>"
+    },
+    "RecordedBillsNumberText": {
+      "en": "<PLAYER> recorded<LINE>Bill's number.<DONE>",
+      "zh": "<PLAYER>记下了<LINE>正辉的号码。<DONE>"
+    },
+    "BillsSisterPhoneFullText": {
+      "en": "You can't record<LINE>any more numbers.<DONE>",
+      "zh": "你记不下<LINE>更多号码了。<DONE>"
+    }
+  }
+}

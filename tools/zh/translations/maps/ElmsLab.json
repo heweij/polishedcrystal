@@ -1,0 +1,318 @@
+{
+  "_comment": "由 tools/zh/zh.py text-extract 生成；zh 为空表示未翻译（回退原文）。控制码沿用 <LINE>/<DONE>/<PLAYER> 等写法，{{n}} 为不可翻译的占位命令，必须原样保留。",
+  "source": "maps\\ElmsLab.asm",
+  "blocks": {
+    "ElmText_Intro": {
+      "en": "Elm: <PLAYER>!<LINE>There you are!<PARA>Hello to you too,<LINE>Lyra.<PARA>I needed to ask<LINE>you both a favor.<PARA>You see…<PARA>I'm writing a<LINE>paper that I want<PARA>to present at a<LINE>conference.<PARA>But there are some<LINE>things I don't<PARA>quite understand<LINE>yet.<PARA>So!<PARA>I'd like you both<LINE>to raise #mon<PARA>that I recently<LINE>caught.<DONE>",
+      "zh": "空木：<PLAYER>！<LINE>你终于来了！<PARA>琴音，<LINE>也欢迎你。<PARA>我想拜托<LINE>你们俩一件事。<PARA>是这样的……<PARA>我正在写<LINE>一篇论文，<PARA>想在学会上<CONT>发表。<PARA>但还有些<LINE>地方<PARA>我还<LINE>弄不明白。<PARA>所以！<PARA>想请你们俩<LINE>培育宝可梦，<PARA>就是我最近<CONT>收服的那些。<DONE>"
+    },
+    "ElmText_Accepted": {
+      "en": "Thanks, <PLAYER>!<PARA>You're a great<LINE>help!<DONE>",
+      "zh": "谢谢，<PLAYER>！<PARA>你真是<LINE>帮了大忙！<DONE>"
+    },
+    "ElmText_Refused": {
+      "en": "But… Please, I<LINE>need your help!<DONE>",
+      "zh": "可是……<LINE>拜托，<CONT>我需要你的帮助！<DONE>"
+    },
+    "ElmText_ResearchAmbitions": {
+      "en": "When I announce my<LINE>findings, I'm sure<PARA>we'll delve a bit<LINE>deeper into the<PARA>many mysteries of<LINE>#mon.<PARA>You can count on<LINE>it!<DONE>",
+      "zh": "等我公布<LINE>研究成果，<PARA>我们一定能<LINE>更深入地<PARA>揭开宝可梦<LINE>的种种谜团。<PARA>这一点<LINE>包在我身上！<DONE>"
+    },
+    "ElmText_GotAnEmail": {
+      "en": "Oh, hey! I got an<LINE>e-mail!<PARA>………………<LINE>Hm… Uh-huh…<PARA>OK…<DONE>",
+      "zh": "哦，嘿！<LINE>收到邮件了！<PARA>………………<LINE>嗯……哦……<PARA>好的……<DONE>"
+    },
+    "ElmText_MissionFromMrPokemon": {
+      "en": "Hey, listen.<PARA>I have an acquain-<LINE>tance called Mr.<CONT>#mon.<PARA>He keeps finding<LINE>weird things and<PARA>raving about his<LINE>discoveries.<PARA>Anyway, I just got<LINE>an e-mail from him<PARA>saying that this<LINE>time it's real.<PARA>It is intriguing,<LINE>but we're busy<PARA>with our #mon<LINE>research…<PARA>Wait!<PARA>I know!<PARA><PLAYER>, can you<LINE>go in our place?<DONE>",
+      "zh": "嘿，听我说。<PARA>我有个熟人<LINE>叫宝可梦<CONT>老爷爷。<PARA>他总能<LINE>发现些奇怪的<CONT>东西，<PARA>然后兴奋地<LINE>讲他的发现。<PARA>总之，我刚<LINE>收到他的邮件，<PARA>说这次<LINE>是真的。<PARA>听起来<LINE>很有意思，<PARA>可我们正忙着<LINE>研究宝可梦……<PARA>等等！<PARA>有了！<PARA><PLAYER>，你能<LINE>替我们<CONT>跑一趟吗？<DONE>"
+    },
+    "ElmText_ChooseAPokemon": {
+      "en": "I want you to<LINE>raise one of the<PARA>#mon contained<LINE>in these Balls.<PARA>You'll be that<LINE>#mon's first<CONT>partner, <PLAYER>!<PARA>Go on. Pick one!<DONE>",
+      "zh": "我想请你<LINE>培育一只<PARA>装在球里的<LINE>宝可梦。<PARA>你会成为<LINE>它最初的<CONT>伙伴，<PLAYER>！<PARA>来吧，<LINE>选一只！<DONE>"
+    },
+    "LabWhereGoingText": {
+      "en": "Elm: Wait! Where<LINE>are you going?<DONE>",
+      "zh": "空木：等一下！<LINE>你要去哪儿？<DONE>"
+    },
+    "TakeCyndaquilText": {
+      "en": "Elm: You'll take<LINE>Cyndaquil, the<CONT>fire #mon?<DONE>",
+      "zh": "空木：你要选<LINE>火球鼠，<CONT>火属性宝可梦？<DONE>"
+    },
+    "TakeTotodileText": {
+      "en": "Elm: Do you want<LINE>Totodile, the<CONT>water #mon?<DONE>",
+      "zh": "空木：你想要<LINE>小锯鳄，<CONT>水属性宝可梦？<DONE>"
+    },
+    "TakeChikoritaText": {
+      "en": "Elm: So, you like<LINE>Chikorita, the<CONT>grass #mon?<DONE>",
+      "zh": "空木：你喜欢<LINE>菊草叶，<CONT>草属性宝可梦？<DONE>"
+    },
+    "DidntChooseStarterText": {
+      "en": "Elm: Think it over<LINE>carefully.<PARA>Your partner is<LINE>important.<DONE>",
+      "zh": "空木：好好<LINE>想清楚。<PARA>伙伴是<LINE>很重要的。<DONE>"
+    },
+    "ChoseStarterText": {
+      "en": "Elm: I think<LINE>that's a great<CONT>#mon too!<DONE>",
+      "zh": "空木：我觉得<LINE>那只宝可梦<CONT>也很棒！<DONE>"
+    },
+    "ElmDirectionsText1": {
+      "en": "Mr.#mon lives a<LINE>little bit beyond<PARA>Cherrygrove, the<LINE>next city over.<PARA>It's almost a<LINE>direct route<PARA>there, so you<LINE>can't miss it.<PARA>But just in case,<LINE>here's my phone<PARA>number. Call me if<LINE>anything comes up!<DONE>",
+      "zh": "宝可梦老爷爷<LINE>住在前面一点，<PARA>过了吉野市<LINE>就是。<PARA>路几乎是<LINE>一条直线，<PARA>你不会<LINE>走错的。<PARA>以防万一，<LINE>这是我的<CONT>电话号码。<PARA>有什么事<LINE>就打给我！<DONE>"
+    },
+    "ElmDirectionsText2": {
+      "en": "If your #mon is<LINE>hurt, you should<PARA>heal it with this<LINE>machine.<PARA>Feel free to use<LINE>it anytime.<DONE>",
+      "zh": "宝可梦<LINE>受伤的话，<PARA>就用这台<LINE>机器治疗。<PARA>随时都可以<LINE>使用。<DONE>"
+    },
+    "ElmDirectionsText3": {
+      "en": "<PLAYER>, I'm<LINE>counting on you!<DONE>",
+      "zh": "<PLAYER>，<LINE>我就拜托你了！<DONE>"
+    },
+    "GotElmsNumberText": {
+      "en": "<PLAYER> got Elm's<LINE>phone number.<DONE>",
+      "zh": "<PLAYER>记下了<LINE>空木博士的<CONT>电话号码。<DONE>"
+    },
+    "ElmDescribesMrPokemonText": {
+      "en": "Mr.#mon goes<LINE>everywhere and<CONT>finds rarities.<PARA>Too bad they're<LINE>just rare and<CONT>not very useful…<DONE>",
+      "zh": "宝可梦老爷爷<LINE>到处跑，<CONT>专找稀有货。<PARA>可惜那些东西<LINE>只是稀有，<CONT>没什么用……<DONE>"
+    },
+    "ElmPokeBallText": {
+      "en": "It contains a<LINE>#mon caught by<CONT>Prof.Elm.<DONE>",
+      "zh": "里面装着<LINE>空木博士<CONT>收服的宝可梦。<DONE>"
+    },
+    "ElmsLabHealingMachineText2": {
+      "en": "Would you like to<LINE>heal your #mon?<DONE>",
+      "zh": "要治疗<LINE>宝可梦吗？<DONE>"
+    },
+    "ElmAfterTheftText1": {
+      "en": "Elm: <PLAYER>, this<LINE>is terrible…<PARA>Oh, yes, what was<LINE>Mr.#mon's big<CONT>discovery?<DONE>",
+      "zh": "空木：<PLAYER>，<LINE>这下糟了……<PARA>啊，对了，<LINE>宝可梦老爷爷的<CONT>重大发现是什么？<DONE>"
+    },
+    "ElmAfterTheftText2": {
+      "en": "<PLAYER> handed<LINE>the Mystery Egg to<CONT>Prof.Elm.<DONE>",
+      "zh": "<PLAYER>把<LINE>神秘蛋交给了<CONT>空木博士。<DONE>"
+    },
+    "ElmAfterTheftText3": {
+      "en": "Elm: This?<DONE>",
+      "zh": "空木：这个？<DONE>"
+    },
+    "ElmAfterTheftText4": {
+      "en": "But… Is it a<LINE>#mon Egg?<PARA>If it is, it is a<LINE>great discovery!<DONE>",
+      "zh": "可是……这是<LINE>宝可梦的蛋？<PARA>如果是，那可<LINE>是重大发现！<DONE>"
+    },
+    "ElmAfterTheftText5": {
+      "en": "Elm: What?!<PARA>Prof.Oak gave you<LINE>a #dex?<PARA><PLAYER>, is that<LINE>true? Th-that's<CONT>incredible!<PARA>He is superb at<LINE>seeing the poten-<CONT>tial of people as<CONT>trainers.<PARA>Wow, <PLAYER>. You<LINE>may have what it<PARA>takes to become<LINE>the Champion.<PARA>You seem to be<LINE>getting on great<CONT>with #mon too.<PARA>You should take<LINE>the #mon Gym<CONT>challenge.<PARA>The closest Gym<LINE>would be the one<CONT>in Violet City.<DONE>",
+      "zh": "空木：什么？！<PARA>大木博士给了你<LINE>宝可梦图鉴？<PARA><PLAYER>，这是<LINE>真的吗？<PARA>那、那真是<LINE>太厉害了！<PARA>他最擅长<LINE>看出一个人<CONT>作为训练家的<CONT>潜质。<PARA>哇，<PLAYER>。<PARA>你也许有<LINE>成为冠军的<CONT>资质。<PARA>你和宝可梦<LINE>似乎也<CONT>相处得很好。<PARA>你该去挑战<LINE>宝可梦道馆。<PARA>最近的道馆<LINE>就在桔梗市。<DONE>"
+    },
+    "ElmAfterTheftText6": {
+      "en": "…<PLAYER>. The<LINE>road to the<PARA>championship will<LINE>be a long one.<PARA>Before you leave,<LINE>make sure that you<CONT>talk to your mom.<DONE>",
+      "zh": "……<PLAYER>。<PARA>通往冠军的<LINE>路还很长。<PARA>出发之前，<LINE>一定要先<CONT>和妈妈说一声。<DONE>"
+    },
+    "ElmAfterTheftText7": {
+      "en": "And give me a call<LINE>sometimes too.<PARA>If you want to<LINE>know how your<PARA>#mon might<LINE>evolve, then<PARA>my research will<LINE>be invaluable!<DONE>",
+      "zh": "有空也给我<LINE>打个电话。<PARA>想知道你的<LINE>宝可梦<PARA>会怎么进化，<PARA>我的研究<LINE>绝对有用！<DONE>"
+    },
+    "ElmStudyingEggText": {
+      "en": "Elm: Don't give<LINE>up! I'll call if<PARA>I learn anything<LINE>about that Egg!<DONE>",
+      "zh": "空木：别放弃！<LINE>只要我查出<PARA>那颗蛋的<LINE>线索，<PARA>就打电话<CONT>给你！<DONE>"
+    },
+    "ElmAideHasEggText": {
+      "en": "Elm: <PLAYER>?<LINE>Didn't you meet my<CONT>assistant?<PARA>He should have met<LINE>you with the Egg<PARA>at Violet City's<LINE>#mon Center.<PARA>You must have just<LINE>missed him. Try to<CONT>catch him there.<DONE>",
+      "zh": "空木：<PLAYER>？<LINE>你没见到<CONT>我的助手吗？<PARA>他应该带着蛋<LINE>在桔梗市的<CONT>宝可梦中心<PARA>等你。<PARA>你们大概<LINE>刚好错过了，<PARA>去那里<LINE>找找他吧。<DONE>"
+    },
+    "ElmWaitingEggHatchText": {
+      "en": "Elm: Hey, has that<LINE>Egg changed any?<DONE>",
+      "zh": "空木：嘿，<LINE>那颗蛋<CONT>有什么变化吗？<DONE>"
+    },
+    "ShowElmTogepiText1": {
+      "en": "Elm: <PLAYER>, you<LINE>look great!<DONE>",
+      "zh": "空木：<PLAYER>，<LINE>你看起来<CONT>精神不错！<DONE>"
+    },
+    "ShowElmTogepiText2": {
+      "en": "What?<LINE>That #mon?!<DONE>",
+      "zh": "什么？<LINE>那只宝可梦？！<DONE>"
+    },
+    "ShowElmTogepiText3": {
+      "en": "The Egg hatched!<LINE>So, #mon are<CONT>born from Eggs…<PARA>No, perhaps not<LINE>all #mon are.<PARA>Wow, there's still<LINE>a lot of research<CONT>to be done.<DONE>",
+      "zh": "蛋孵化了！<LINE>原来宝可梦<CONT>是从蛋里<CONT>出生的……<PARA>不，也许<LINE>并非全都如此。<PARA>哇，还有<LINE>好多研究<CONT>要做呢。<DONE>"
+    },
+    "ElmGiveOddSouvenirText1": {
+      "en": "Thanks, <PLAYER>!<LINE>You're helping<PARA>unravel #mon<LINE>mysteries for us!<PARA>I want you to have<LINE>this as a token of<CONT>our appreciation.<DONE>",
+      "zh": "谢谢，<PLAYER>！<LINE>你在帮我们<PARA>解开宝可梦<LINE>的谜团！<PARA>这个送给你，<LINE>作为我们<CONT>的一点谢意。<DONE>"
+    },
+    "ElmGiveOddSouvenirText2": {
+      "en": "That's an oddity<LINE>I was given by<CONT>Mr. #mon.<PARA>He told me it's a<LINE>souvenir from his<PARA>trip to a tropical<LINE>island.<PARA>Supposedly there<LINE>are a few species<PARA>of #mon that<LINE>like to hold it.<DONE>",
+      "zh": "那是宝可梦<LINE>老爷爷<PARA>给我的<CONT>稀奇玩意儿。<PARA>他说这是<LINE>去热带小岛<CONT>时买的纪念品。<PARA>据说有几种<LINE>宝可梦<PARA>喜欢<LINE>拿着它。<DONE>"
+    },
+    "ElmText_CallYou": {
+      "en": "Elm: <PLAYER>, I'll<LINE>call you if any-<CONT>thing comes up.<DONE>",
+      "zh": "空木：<PLAYER>，<LINE>有什么事<CONT>我会打给你。<DONE>"
+    },
+    "AideText_AfterTheft": {
+      "en": "…sigh… That<LINE>stolen #mon.<PARA>I wonder how it's<LINE>doing.<PARA>They say a #mon<LINE>raised by a bad<PARA>person turns bad<LINE>itself.<DONE>",
+      "zh": "……唉……<LINE>那只被偷走的<CONT>宝可梦。<PARA>不知道它<LINE>现在怎么样。<PARA>听说被坏人<LINE>养大的宝可梦<PARA>自己也会变坏。<DONE>"
+    },
+    "AideText_ThiefReturnedMon": {
+      "en": "<PLAYER>!<LINE>Guess what!<PARA>The boy who took<LINE>the Professor's<CONT>#mon…<PARA>…came back to<LINE>return it!<PARA>But Prof.Elm said<LINE>to him…<PARA>“It seems that<LINE>the #mon likes<CONT>you very much.<PARA>#mon do their<LINE>best with someone<CONT>they love.<PARA>I think it should<LINE>stay with you.”<PARA>…Isn't it moving?<LINE>It made me cry!<PARA>I saw the boy's<LINE>face as he left.<PARA>He looked so<LINE>happy!<DONE>",
+      "zh": "<PLAYER>！<LINE>你猜怎么着！<PARA>那个偷走<LINE>博士宝可梦的<CONT>男孩……<PARA>……主动<LINE>还回来了！<PARA>可是空木博士<LINE>对他说……<PARA>“那只宝可梦<LINE>似乎<CONT>很喜欢你。<PARA>宝可梦和<LINE>喜欢的人在一起，<PARA>才能<LINE>发挥最好的<CONT>一面。<PARA>我觉得它<LINE>应该跟着你。”<PARA>……<LINE>太感人了，<CONT>我都要哭了！<PARA>我看到那男孩<LINE>离开时的<CONT>表情。<PARA>他看起来<LINE>好幸福！<DONE>"
+    },
+    "ElmGiveMasterBallText1": {
+      "en": "Elm: Hi, <PLAYER>!<LINE>Thanks to you, my<PARA>research is going<LINE>great!<PARA>Take this as a<LINE>token of my<CONT>appreciation.<DONE>",
+      "zh": "空木：你好，<LINE><PLAYER>！<PARA>多亏了你，<LINE>我的研究<CONT>进展顺利！<PARA>这个给你，<LINE>当作我的<CONT>一点谢意。<DONE>"
+    },
+    "ElmGiveMasterBallText2": {
+      "en": "The Master Ball is<LINE>the best!<PARA>It's the ultimate<LINE>Ball! It'll catch<PARA>any #mon with-<LINE>out fail.<PARA>It's given only to<LINE>recognized #mon<CONT>researchers.<PARA>I think you can<LINE>make much better<PARA>use of it than I<LINE>can, <PLAYER>!<DONE>",
+      "zh": "大师球是<LINE>最棒的！<PARA>它是<LINE>终极的球！<PARA>一定能<PARA>收服任何<CONT>宝可梦。<PARA>它只发给<LINE>公认的<CONT>宝可梦研究者。<PARA>我觉得<LINE>你能比我<PARA>更好地<LINE>用它，<PLAYER>！<DONE>"
+    },
+    "ElmGiveTicketText1": {
+      "en": "Elm: <PLAYER>!<LINE>There you are!<PARA>I called because I<LINE>have something for<CONT>you.<PARA>See? It's an<LINE>S.S.Ticket.<PARA>Now you can catch<LINE>#mon in Kanto.<PARA>You can also take<LINE>on new Gyms.<PARA>If you earn eight<LINE>more Badges,<PARA>the Elite Four<LINE>will battle you<PARA>with all their<LINE>strength.<DONE>",
+      "zh": "空木：<PLAYER>！<LINE>你来了！<PARA>我找你，是<LINE>因为有东西<PARA>要给你。<PARA>看，这是<LINE>船票。<PARA>有了它，你<LINE>就能在关都<CONT>收服宝可梦。<PARA>还能挑战<LINE>新的道馆。<PARA>如果再拿到<LINE>八枚徽章，<PARA>四天王就会<LINE>全力与你<CONT>一战。<DONE>"
+    },
+    "ElmGiveTicketText2": {
+      "en": "The ship departs<LINE>from Olivine City.<PARA>But you knew that<LINE>already, <PLAYER>.<PARA>After all, you've<LINE>traveled all over<CONT>with your #mon.<PARA>Oh, that reminds<LINE>me!<PARA>Battle Tower has<LINE>just opened up<CONT>near Olivine.<PARA>A champ like you<LINE>should do well<CONT>competing there!<DONE>",
+      "zh": "船从浅黄市<LINE>出发。<PARA>不过你早就<LINE>知道了吧，<PARA><PLAYER>。<PARA>毕竟你带着<LINE>宝可梦<CONT>走遍各地。<PARA>哦，<LINE>想起来了！<PARA>浅黄市附近<LINE>刚开了<CONT>对战塔。<PARA>像你这样的<LINE>强者，<PARA>一定能在那里<CONT>大显身手！<DONE>"
+    },
+    "LyraAnnouncesGymChallengeText": {
+      "en": "Lyra: There you<LINE>are, <PLAYER>!<PARA>I saw your battle<LINE>with the Champion<CONT>on TV.<PARA>You were incred-<LINE>ible!<PARA>It really inspired<LINE>me, <PLAYER>.<PARA>Even if I can't<LINE>reach that level…<CONT>I want to try.<PARA>I want to see what<LINE>I'm capable of.<PARA>Prof.Elm, I'm<LINE>sorry I can't keep<CONT>helping out here.<PARA>I'm going to<LINE>challenge all the<PARA>Gyms in Johto and<LINE>make it to the<CONT>#mon League!<PARA>Wish me luck!<LINE>See you later!<DONE>",
+      "zh": "琴音：找到你了，<LINE><PLAYER>！<PARA>我在电视上<LINE>看了你和冠军<CONT>的对战。<PARA>你太<LINE>厉害了！<PARA>真的<LINE>鼓舞了我，<PARA><PLAYER>。<PARA>就算我<LINE>达不到那个<CONT>高度……<PARA>我也想试试。<PARA>我想知道<LINE>自己有<CONT>多大的本事。<PARA>空木博士，<LINE>抱歉不能再<CONT>在这里帮忙了。<PARA>我要去挑战<LINE>城都所有的<CONT>道馆，<PARA>然后打进<LINE>宝可梦联盟！<PARA>祝我好运！<LINE>再见！<DONE>"
+    },
+    "ElmAfterTicketText": {
+      "en": "Elm: Well then,<LINE><PLAYER>, you both<PARA>have your own<LINE>journeys now.<PARA>I wonder if she'll<LINE>reach the League<CONT>first?<PARA>Give my regards to<LINE>Prof.Oak in Kanto!<DONE>",
+      "zh": "空木：那么，<LINE><PLAYER>，<PARA>你们俩<LINE>都有各自的<CONT>旅程了。<PARA>不知道她<LINE>会不会先<CONT>打进联盟？<PARA>替我向关都的<LINE>大木博士<CONT>问好！<DONE>"
+    },
+    "ElmBeforeBattleText": {
+      "en": "Elm: <PLAYER>!<LINE>How is your #-<CONT>journey so far?<DONE>",
+      "zh": "空木：<PLAYER>！<LINE>你的旅程<CONT>还顺利吗？<DONE>"
+    },
+    "ElmByTheWayText": {
+      "en": "While you're here,<LINE><PLAYER>…<DONE>",
+      "zh": "既然你来了，<LINE><PLAYER>……<DONE>"
+    },
+    "ElmAskBattleText": {
+      "en": "I could use some<LINE>practice battling<PARA>a talented trainer<LINE>like yourself.<PARA>How about it,<LINE><PLAYER>?<DONE>",
+      "zh": "我想<LINE>练练对战，<PARA>对手最好像你<LINE>这样有才能。<PARA>怎么样，<LINE><PLAYER>？<DONE>"
+    },
+    "ElmSeenText": {
+      "en": "Show me how much<LINE>you've grown since<PARA>you left New Bark<LINE>Town!<DONE>",
+      "zh": "让我看看<LINE>你离开若叶镇后<PARA>成长了<LINE>多少！<DONE>"
+    },
+    "ElmWinText": {
+      "en": "Astounding!<DONE>",
+      "zh": "太惊人了！<DONE>"
+    },
+    "ElmLoseText": {
+      "en": "Were you going<LINE>easy on me?<DONE>",
+      "zh": "你是不是<LINE>手下留情了？<DONE>"
+    },
+    "ElmRefusedBattleText": {
+      "en": "If your #mon<LINE>need healing,<PARA>just use the<LINE>machine here.<DONE>",
+      "zh": "宝可梦<LINE>需要治疗的话，<PARA>用这里的<LINE>机器就好。<DONE>"
+    },
+    "AideText_GiveYouPotions": {
+      "en": "<PLAYER>, I want<LINE>you to have this<CONT>for your errand.<DONE>",
+      "zh": "<PLAYER>，<LINE>这个给你，<CONT>路上用得着。<DONE>"
+    },
+    "AideText_AlwaysBusy": {
+      "en": "There are only two<LINE>of us, so we're<CONT>always busy.<DONE>",
+      "zh": "我们只有<LINE>两个人，<CONT>总是很忙。<DONE>"
+    },
+    "AideText_TheftTestimony": {
+      "en": "There was a loud<LINE>noise outside…<PARA>When we went to<LINE>look, someone<CONT>stole a #mon.<PARA>It's unbelievable<LINE>that anyone would<CONT>do that!<PARA>…sigh… That<LINE>stolen #mon.<PARA>I wonder how it's<LINE>doing.<PARA>They say a #mon<LINE>raised by a bad<PARA>person turns bad<LINE>itself.<DONE>",
+      "zh": "外面传来<LINE>一声巨响……<PARA>我们跑出去看，<LINE>有人<CONT>偷走了宝可梦。<PARA>竟然有人<LINE>做得出<CONT>这种事！<PARA>……唉……<LINE>那只被偷走的<CONT>宝可梦。<PARA>不知道它<LINE>现在怎么样。<PARA>听说被坏人<LINE>养大的宝可梦<PARA>自己也会变坏。<DONE>"
+    },
+    "ElmsLabOfficerText1": {
+      "en": "I heard a #mon<LINE>was stolen here.<PARA>Rule number one!<LINE>“The criminal will<PARA>always return to<LINE>the scene of the<CONT>crime…”<PARA>Oh my… So you're<LINE>the thief?<DONE>",
+      "zh": "听说这里的<LINE>宝可梦<CONT>被偷了。<PARA>第一条准则！<LINE>“罪犯<PARA>总会回到<LINE>作案现场……”<PARA>哎呀……<LINE>那你就是<CONT>小偷？<DONE>"
+    },
+    "ElmsLabOfficerText2": {
+      "en": "What?<PARA>You battled a<LINE>trainer like that?<PARA>Did you happen to<LINE>get his name?<DONE>",
+      "zh": "什么？<PARA>你和那样的<LINE>训练家<CONT>对战过？<PARA>你有没有<LINE>问到他的名字？<DONE>"
+    },
+    "ElmsLabOfficerText3": {
+      "en": "OK! So <RIVAL><LINE>was his name.<PARA>Thanks for helping<LINE>my investigation!<DONE>",
+      "zh": "好！他叫<LINE><RIVAL>，对吧。<PARA>谢谢你<LINE>协助调查！<DONE>"
+    },
+    "ElmsLabLyraWhichPokemonText": {
+      "en": "Which #mon are<LINE>you going to pick,<CONT><PLAYER>?<DONE>",
+      "zh": "你要选<LINE>哪只宝可梦，<CONT><PLAYER>？<DONE>"
+    },
+    "LyraChoosesStarterText": {
+      "en": "Lyra: Then I'll<LINE>pick this one!<DONE>",
+      "zh": "琴音：那我就<LINE>选这只！<DONE>"
+    },
+    "LyraReceivedStarterText": {
+      "en": "Lyra received<LINE>{{0}}!<DONE>",
+      "zh": "琴音收下了<LINE>{{0}}！<DONE>"
+    },
+    "LyraNicknamedChikoritaText": {
+      "en": "Lyra: It's so<LINE>cute! I'll nick-<CONT>name it Chicory!<DONE>",
+      "zh": "琴音：好可爱！<LINE>我给它起名<CONT>叫小菊！<DONE>"
+    },
+    "LyraNicknamedCyndaquilText": {
+      "en": "Lyra: It's so<LINE>cute! I'll nick-<CONT>name it Cinder!<DONE>",
+      "zh": "琴音：好可爱！<LINE>我给它起名<CONT>叫小焰！<DONE>"
+    },
+    "LyraNicknamedTotodileText": {
+      "en": "Lyra: It's so<LINE>cute! I'll nick-<CONT>name it Toto!<DONE>",
+      "zh": "琴音：好可爱！<LINE>我给它起名<CONT>叫托托！<DONE>"
+    },
+    "ElmsLabLyraChallengeText": {
+      "en": "Lyra: <PLAYER>!<LINE>Let's get to know<PARA>our #mon with<LINE>a battle!<DONE>",
+      "zh": "琴音：<PLAYER>！<LINE>我们来一场<CONT>对战，<PARA>熟悉一下<LINE>宝可梦吧！<DONE>"
+    },
+    "ElmsLabLyraWinText": {
+      "en": "Good job,<LINE><PLAYER>!<DONE>",
+      "zh": "干得好，<LINE><PLAYER>！<DONE>"
+    },
+    "ElmsLabLyraLossText": {
+      "en": "Yay! I won!<DONE>",
+      "zh": "太好了！<LINE>我赢了！<DONE>"
+    },
+    "ElmsLabLyraText_YouLost": {
+      "en": "That was an<LINE>exciting battle!<DONE>",
+      "zh": "这场对战<LINE>真精彩！<DONE>"
+    },
+    "ElmsLabLyraThankYouText": {
+      "en": "Thank you for the<LINE>#mon, Prof.<CONT>Elm.<DONE>",
+      "zh": "谢谢您<LINE>给我宝可梦，<CONT>空木博士。<DONE>"
+    },
+    "ElmsLabLyraSeeYouText": {
+      "en": "<PLAYER>, I'll<LINE>see you later!<PARA>Have fun on your<LINE>errand!<DONE>",
+      "zh": "<PLAYER>，<LINE>回头见！<PARA>祝你跑腿<LINE>愉快！<DONE>"
+    },
+    "ElmsLabLyraTheftInnocentText": {
+      "en": "Lyra: Hold on!<LINE><PLAYER> has noth-<CONT>ing to do with it!<PARA>I saw a red-haired<LINE>boy spying on the<CONT>building!<DONE>",
+      "zh": "琴音：等一下！<LINE><PLAYER>和这件事<CONT>毫无关系！<PARA>我看到一个<LINE>红头发的男孩<CONT>在窥探这栋楼！<DONE>"
+    },
+    "ElmsLabLyraTheftGoodbyeText": {
+      "en": "Lyra: <PLAYER>,<LINE>I'm glad he under-<PARA>stood that you're<LINE>innocent.<PARA>I hope he makes<LINE>the thief return<CONT>that #mon…<PARA>Well then, see<LINE>you later!<DONE>",
+      "zh": "琴音：<PLAYER>，<LINE>他总算明白<PARA>你是<LINE>清白的了。<PARA>希望他能让<LINE>小偷<PARA>把那只宝可梦<CONT>还回来……<PARA>那么，<LINE>回头见！<DONE>"
+    },
+    "ElmsLabWindowText1": {
+      "en": "The window's open.<PARA>A pleasant breeze<LINE>is blowing in.<DONE>",
+      "zh": "窗户开着。<PARA>一阵怡人的<LINE>微风吹进来。<DONE>"
+    },
+    "ElmsLabWindowText2": {
+      "en": "He broke in<LINE>through here!<DONE>",
+      "zh": "他就是从<LINE>这里闯进来的！<DONE>"
+    },
+    "ElmsLabTravelTip1Text": {
+      "en": "<PLAYER> opened a<LINE>book.<PARA>Travel Tip 1:<PARA>Press Start to<LINE>open the Menu.<DONE>",
+      "zh": "<PLAYER>打开了<LINE>一本书。<PARA>旅行提示 1：<PARA>按开始键<LINE>打开菜单。<DONE>"
+    },
+    "ElmsLabTravelTip2Text": {
+      "en": "<PLAYER> opened a<LINE>book.<PARA>Travel Tip 2:<PARA>Record your trip<LINE>with Save!<DONE>",
+      "zh": "<PLAYER>打开了<LINE>一本书。<PARA>旅行提示 2：<PARA>用存档<LINE>记录旅程！<DONE>"
+    },
+    "ElmsLabTravelTip3Text": {
+      "en": "<PLAYER> opened a<LINE>book.<PARA>Travel Tip 3:<PARA>Open your Bag and<LINE>press Select to<CONT>move items.<DONE>",
+      "zh": "<PLAYER>打开了<LINE>一本书。<PARA>旅行提示 3：<PARA>打开背包，<LINE>按选择键<CONT>移动道具。<DONE>"
+    },
+    "ElmsLabTravelTip4Text": {
+      "en": "<PLAYER> opened a<LINE>book.<PARA>Travel Tip 4:<PARA>Check your #mon<LINE>moves. Press the<PARA>A Button to switch<LINE>moves.<DONE>",
+      "zh": "<PLAYER>打开了<LINE>一本书。<PARA>旅行提示 4：<PARA>查看宝可梦的<LINE>招式。<PARA>按A键<LINE>可以调换<CONT>招式顺序。<DONE>"
+    },
+    "ElmsLabTrashcanText": {
+      "en": "The wrapper from<LINE>the snack Prof.Elm<CONT>ate is in there…<DONE>",
+      "zh": "空木博士<LINE>吃零食的<CONT>包装纸在里面……<DONE>"
+    }
+  }
+}

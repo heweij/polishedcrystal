@@ -1,0 +1,90 @@
+{
+  "_comment": "由 tools/zh/zh.py text-extract 生成；zh 为空表示未翻译（回退原文）。控制码沿用 <LINE>/<DONE>/<PLAYER> 等写法，{{n}} 为不可翻译的占位命令，必须原样保留。",
+  "source": "maps\\GoldenrodPokecomCenter1F.asm",
+  "blocks": {
+    "GoldenrodPokecenter1FGameboyKidText": {
+      "en": "The Colosseum<LINE>upstairs is for<CONT>link battles.<PARA>Battle records are<LINE>posted on the<PARA>wall, so I can't<LINE>afford to lose.<DONE>",
+      "zh": "楼上的<LINE>对战竞技场<PARA>用来做<CONT>连接对战。<PARA>战绩会<LINE>贴在墙上，<PARA>所以我<LINE>不能输。<DONE>"
+    },
+    "GoldenrodPokecenter1FLassText": {
+      "en": "A higher level<LINE>#mon doesn't<CONT>always win.<PARA>After all, it may<LINE>have a type dis-<CONT>advantage.<PARA>I don't think<LINE>there is a single<PARA>#mon that is<LINE>the toughest.<DONE>",
+      "zh": "等级高的<LINE>宝可梦<CONT>不一定会赢。<PARA>毕竟它可能<LINE>属性不利。<PARA>我觉得<LINE>没有<PARA>绝对最强的<CONT>宝可梦。<DONE>"
+    },
+    "GoldenrodPokecenter1FPokefanFDoYouHaveEonMailText": {
+      "en": "Oh my, your bag<LINE>looks so heavy!<PARA>Oh! Do you happen<LINE>to have something<CONT>named Eon Mail?<PARA>My daughter is<LINE>after one.<PARA>You can part with<LINE>one, can't you?<DONE>",
+      "zh": "哎呀，你的包<LINE>看起来好沉！<PARA>哦！你有没有<LINE>叫『永恒邮件』<CONT>的东西？<PARA>我女儿<LINE>想要一个。<PARA>让给我<LINE>一个好吗？<DONE>"
+    },
+    "GoldenrodPokecenter1FAskGiveAwayAnEonMailText": {
+      "en": "Give away an Eon<LINE>Mail?<DONE>",
+      "zh": "要让出<LINE>永恒邮件吗？<DONE>"
+    },
+    "GoldenrodPokecenter1FPokefanFThisIsForYouText": {
+      "en": "Oh, that's great!<LINE>Thank you, honey!<PARA>Here, this is for<LINE>you in return!<DONE>",
+      "zh": "啊，太好了！<LINE>谢谢你，孩子！<PARA>来，<LINE>这个给你<CONT>作为回报！<DONE>"
+    },
+    "GoldenrodPokecenter1FPokefanFTooBadText": {
+      "en": "Oh? You don't have<LINE>one? Too bad.<DONE>",
+      "zh": "咦？你没有吗？<LINE>真可惜。<DONE>"
+    },
+    "GoldenrodPokecenter1FPlayerGaveAwayTheEonMailText": {
+      "en": "<PLAYER> gave away<LINE>the Eon Mail.<DONE>",
+      "zh": "<PLAYER>让出了<LINE>永恒邮件。<DONE>"
+    },
+    "GoldenrodPokecenter1FPokefanFGotEvioliteText": {
+      "en": "Thank you for<LINE>the Eon Mail!<PARA>My daughter will<LINE>be delighted!<DONE>",
+      "zh": "谢谢你的<LINE>永恒邮件！<PARA>我女儿<LINE>一定很高兴！<DONE>"
+    },
+    "WonderTradeIntroText": {
+      "en": "Hello! Welcome to<LINE>#Com Center<CONT>Wonder Trade Hub.<DONE>",
+      "zh": "你好！欢迎来到<LINE>宝可通讯中心<CONT>奇迹交换站。<DONE>"
+    },
+    "IntroduceTealaText": {
+      "en": "I'm Teala, your<LINE>trade attendant.<DONE>",
+      "zh": "我是蒂拉，<LINE>负责交换的<CONT>工作人员。<DONE>"
+    },
+    "WonderTradeExplanationText": {
+      "en": "You can trade<LINE>#mon with other<CONT>people far away.<DONE>",
+      "zh": "你可以<LINE>和远方的人<CONT>交换宝可梦。<DONE>"
+    },
+    "WonderTradeCompleteText": {
+      "en": "It's your new<LINE>partner.<PARA>Please take care<LINE>of it with love.<DONE>",
+      "zh": "这是你的<LINE>新伙伴。<PARA>请用心<LINE>照顾它。<DONE>"
+    },
+    "WonderTradeForGSBallPichuText": {
+      "en": "…But what's this?<LINE>Is something wrong<PARA>with the Wonder<LINE>Trade machine?<PARA>It seems like you<LINE>just traded a<PARA>#mon with<LINE>yourself.<PARA>But that can't be<LINE>right… You can't<PARA>be in two places<LINE>at once.<PARA>Besides, the ma-<LINE>chine communicates<PARA>through space,<LINE>not time…<PARA>And what is that<LINE>strange Ball it's<PARA>holding? Is it an<LINE>Apricorn Ball?<PARA>Here, take a look…<DONE>",
+      "zh": "……可这是<LINE>什么？<PARA>奇迹交换机<LINE>出问题了？<PARA>你好像<LINE>跟自己<CONT>交换了宝可梦。<PARA>这不可能……<PARA>你不可能<LINE>同时<LINE>在两个地方。<PARA>而且这台机器<LINE>跨越的是<CONT>空间，<PARA>不是时间……<PARA>还有，它<LINE>拿着的那个<PARA>奇怪的球<CONT>是什么？<PARA>是球果球吗？<PARA>来，<LINE>你看看……<DONE>"
+    },
+    "WonderTradeForGSBallPichuText2": {
+      "en": "It may be unusual,<LINE>but a #mon<CONT>is a #mon.<PARA>Please look after<LINE>it carefully.<DONE>",
+      "zh": "也许<LINE>有点不寻常，<PARA>但宝可梦<LINE>就是宝可梦。<PARA>请好好<LINE>照顾它。<DONE>"
+    },
+    "GoldenrodPokecenter1FSuperNerdText": {
+      "en": "Whoa, this #mon<LINE>Center is huge.<PARA>They just built<LINE>this place. They<PARA>installed lots of<LINE>new machines too.<DONE>",
+      "zh": "哇，这家<LINE>宝可梦中心<CONT>真大。<PARA>这里<LINE>刚建成，<PARA>还装了<LINE>很多新机器。<DONE>"
+    },
+    "GoldenrodPokecenter1FLassText_PidgeyMail": {
+      "en": "I thought up a fun<LINE>new thing for the<CONT>Wonder Trade Hub!<PARA>I make a Pidgey<LINE>hold Mail, then<PARA>put it up for<LINE>trade for another<CONT>one!<PARA>If everyone did<LINE>that, Mail could<PARA>be traded with all<LINE>sorts of people!<PARA>I call it Pidgey<LINE>Mail!<PARA>If it becomes<LINE>popular, I might<PARA>make lots of new<LINE>friends!<DONE>",
+      "zh": "我想了个<LINE>有趣的新玩法，<PARA>用奇迹交换站！<PARA>让波波<LINE>带着邮件，<PARA>再拿去<LINE>交换别的！<PARA>如果大家都<LINE>这么做，<PARA>邮件就能<LINE>在各种各样<CONT>的人之间<CONT>传来传去！<PARA>我叫它<LINE>『波波邮件』！<PARA>要是流行起来，<PARA>我说不定<LINE>能交到<CONT>很多新朋友！<DONE>"
+    },
+    "JudgeMachineEngineerWorkingText": {
+      "en": "The #mon<LINE>Judge Machine…<PARA>It's been my dream<LINE>for a long time.<PARA>And with the #-<LINE>Com Center funding<CONT>my work, it can<CONT>become a reality,<PARA>even if it takes<LINE>a computer the<CONT>size of a room!<PARA>Think of how use-<LINE>ful it will be<CONT>for Breeders who<CONT>hatch many Eggs!<PARA>I'm almost done…<DONE>",
+      "zh": "宝可梦<LINE>评定机器……<PARA>这是我一直<LINE>以来的梦想。<PARA>有宝可通讯中心<LINE>资助我的研究，<PARA>哪怕需要<LINE>一整间屋子<CONT>那么大的<CONT>电脑，<PARA>也能实现！<PARA>想想看，<LINE>对孵化很多蛋的<CONT>培育家<PARA>会有多有用！<PARA>就快完成了……<DONE>"
+    },
+    "JudgeMachineEngineerFinishedText": {
+      "en": "The #mon<LINE>Judge Machine…<PARA>It's finally done!<LINE>My dream has be-<CONT>come reality!<PARA>What is it?<LINE>It's a machine for<PARA>judging the stats<LINE>of any #mon!<PARA>It uses the latest<LINE>AI technology to<PARA>evaluate a #-<LINE>mon's inherent<CONT>potential, as well<PARA>as the effort it's<LINE>put into becoming<CONT>stronger.<PARA>It's the perfect<LINE>way to measure a<CONT>#mon's power!<PARA>Go ahead and try<LINE>using it. It's<CONT>perfectly safe.<PARA>As for me, I'm ta-<LINE>king a vacation!<DONE>",
+      "zh": "宝可梦<LINE>评定机器……<PARA>终于完成了！<LINE>我的梦想<CONT>成真了！<PARA>那是什么？<LINE>它是用来<CONT>评定宝可梦<CONT>能力的机器！<PARA>它用<LINE>最新的人工智能<CONT>技术，<PARA>评估宝可梦<LINE>天生的资质，<PARA>以及它为变强<LINE>付出的努力。<PARA>这是衡量<LINE>宝可梦实力的<CONT>最佳方式！<PARA>尽管<LINE>用用看。<PARA>非常安全。<PARA>至于我嘛，<LINE>要去<CONT>度假了！<DONE>"
+    },
+    "GoldenrodPokecenter1FPokefanFText_Sunflora": {
+      "en": "Some girl I don't<LINE>know sent me her<CONT>Sunflora.<PARA>You should trade<LINE>for a #mon that<CONT>you want.<DONE>",
+      "zh": "一个<LINE>不认识的女孩<PARA>把她的<LINE>向日花怪<CONT>发给了我。<PARA>你也该<LINE>换到自己<CONT>想要的宝可梦。<DONE>"
+    },
+    "GoldenrodPokecenter1FRockerText": {
+      "en": "The machines here<LINE>can't all be used<CONT>yet.<PARA>Still, it's nice<LINE>coming to a trendy<PARA>place before other<LINE>people.<DONE>",
+      "zh": "这里的机器<LINE>还不能<CONT>全部使用。<PARA>不过能<LINE>比别人<CONT>先来这种<CONT>时髦的地方，<PARA>感觉不错。<DONE>"
+    },
+    "GoldenrodPokecenter1FGrampsText": {
+      "en": "Just seeing all<LINE>these new things<PARA>here makes me feel<LINE>younger!<DONE>",
+      "zh": "光是看到<LINE>这些新东西，<PARA>我就觉得<LINE>年轻了！<DONE>"
+    }
+  }
+}

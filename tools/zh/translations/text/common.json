@@ -1,0 +1,2466 @@
+{
+  "_comment": "由 tools/zh/zh.py text-extract 生成；zh 为空表示未翻译（回退原文）。控制码沿用 <LINE>/<DONE>/<PLAYER> 等写法，{{n}} 为不可翻译的占位命令，必须原样保留。",
+  "source": "data\\text\\common.asm",
+  "blocks": {
+    "_FruitBearingTreeText": {
+      "en": "It's a fruit-<LINE>bearing tree.<DONE>",
+      "zh": "这是一棵<LINE>果树。<DONE>"
+    },
+    "_HeyItsFruitText": {
+      "en": "Hey! It's<LINE>{{0}}!<DONE>",
+      "zh": "哦！是<LINE>{{0}}！<DONE>"
+    },
+    "_ObtainedOneFruitText": {
+      "en": "Obtained a<LINE>{{0}}!<DONE>",
+      "zh": "得到了<LINE>{{0}}！<DONE>"
+    },
+    "_ObtainedTwoFruitText": {
+      "en": "Obtained two<LINE>{{0}}!<DONE>",
+      "zh": "得到了两个<LINE>{{0}}！<DONE>"
+    },
+    "_ObtainedThreeFruitText": {
+      "en": "Obtained three<LINE>{{0}}!<DONE>",
+      "zh": "得到了三个<LINE>{{0}}！<DONE>"
+    },
+    "_FruitPackIsFullText": {
+      "en": "But the Bag is<LINE>full…<DONE>",
+      "zh": "但是包包<LINE>已经满了……<DONE>"
+    },
+    "_NoApricornBoxText": {
+      "en": "But there's nothing<LINE>to put it in…<DONE>",
+      "zh": "但是没有可以<LINE>存放的地方……<DONE>"
+    },
+    "_ApricornBoxIsFullText": {
+      "en": "But the Apricorn<LINE>Box is full…<DONE>",
+      "zh": "但是球果盒<LINE>已经满了……<DONE>"
+    },
+    "_PutAwayTheApricornText": {
+      "en": "<PLAYER> put the<LINE>{{0}} in<CONT>the Apricorn Box.<DONE>",
+      "zh": "<PLAYER>把<LINE>{{0}}放进了<CONT>球果盒。<DONE>"
+    },
+    "_NothingHereText": {
+      "en": "There's nothing<LINE>here…<DONE>",
+      "zh": "这里什么<LINE>也没有……<DONE>"
+    },
+    "_WantToUseMulchText": {
+      "en": "Want to use<LINE>Mulch?<DONE>",
+      "zh": "要使用<LINE>树肥吗？<DONE>"
+    },
+    "_UsedMulchText": {
+      "en": "<PLAYER> used<LINE>Mulch!<PARA>The tree was<LINE>fertilized!<DONE>",
+      "zh": "<PLAYER>使用了<LINE>树肥！<PARA>树得到了<LINE>充分的养分！<DONE>"
+    },
+    "_WhichApricornText": {
+      "en": "Which Apricorn<LINE>should I use?<DONE>",
+      "zh": "要用哪个<LINE>球果？<DONE>"
+    },
+    "_HowManyShouldIMakeText": {
+      "en": "How many should I<LINE>make?<DONE>",
+      "zh": "要做<LINE>几个？<DONE>"
+    },
+    "_HowManyDoYouWantToSellText": {
+      "en": "How many do you<LINE>want to sell?<DONE>",
+      "zh": "要卖<LINE>几个？<DONE>"
+    },
+    "_RecoveredSomeHPText": {
+      "en": "{{0}}<LINE>recovered {{1}}HP!<DONE>",
+      "zh": "{{0}}<LINE>恢复了{{1}}点HP！<DONE>"
+    },
+    "_CuredOfPoisonText": {
+      "en": "{{0}}'s<LINE>cured of poison.<DONE>",
+      "zh": "{{0}}的<LINE>中毒治好了。<DONE>"
+    },
+    "_RidOfParalysisText": {
+      "en": "{{0}}'s<LINE>rid of paralysis.<DONE>",
+      "zh": "{{0}}的<LINE>麻痹解除了。<DONE>"
+    },
+    "_BurnWasHealedText": {
+      "en": "{{0}}'s<LINE>burn was healed.<DONE>",
+      "zh": "{{0}}的<LINE>灼伤治好了。<DONE>"
+    },
+    "_WasDefrostedText": {
+      "en": "{{0}}<LINE>was defrosted.<DONE>",
+      "zh": "{{0}}<LINE>解冻了。<DONE>"
+    },
+    "_WokeUpText": {
+      "en": "{{0}}<LINE>woke up.<DONE>",
+      "zh": "{{0}}<LINE>醒过来了。<DONE>"
+    },
+    "_HealthReturnedText": {
+      "en": "{{0}}'s<LINE>health returned.<DONE>",
+      "zh": "{{0}}的<LINE>体力恢复了。<DONE>"
+    },
+    "_RevitalizedText": {
+      "en": "{{0}}<LINE>is revitalized.<DONE>",
+      "zh": "{{0}}<LINE>恢复了活力。<DONE>"
+    },
+    "_GrewToLevelText": {
+      "en": "{{0}} grew to<LINE>level {{1}}!{{2}}<WAIT>@",
+      "zh": "{{0}}升到了<LINE>等级{{1}}！{{2}}<WAIT>@"
+    },
+    "_CameToItsSensesText": {
+      "en": "{{0}} came<LINE>to its senses.<DONE>",
+      "zh": "{{0}}恢复了<LINE>清醒。<DONE>"
+    },
+    "_OakTimeWokeUpText": {
+      "en": "………………………………<LINE>………………………………<PARA>Zzz… Hm? Wha…?<LINE>You woke me up!<PARA>Will you check the<LINE>clock for me?<PROMPT>",
+      "zh": "……呼呼……<LINE>………………<PARA>呼……嗯？什么？<LINE>你把我吵醒了！<PARA>能帮我看一下<LINE>时间吗？<PROMPT>"
+    },
+    "_OakTimeWhatTimeIsItText": {
+      "en": "What time is it?<DONE>",
+      "zh": "现在几点了？<DONE>"
+    },
+    "_OakTimeHowManyMinutesText": {
+      "en": "How many minutes?<DONE>",
+      "zh": "多少分钟了？<DONE>"
+    },
+    "_OakTimeWhoaText": {
+      "en": "Whoa!<DONE>",
+      "zh": "哇！<DONE>"
+    },
+    "_OakTimeQuestionMarkText": {
+      "en": "?<DONE>",
+      "zh": "？<DONE>"
+    },
+    "_OakTimeOversleptText": {
+      "en": "!<LINE>I overslept!<DONE>",
+      "zh": "！<LINE>我睡过头了！<DONE>"
+    },
+    "_OakTimeYikesText": {
+      "en": "!<LINE>Yikes! I over-<CONT>slept!<DONE>",
+      "zh": "！<LINE>糟糕！我<CONT>睡过头了！<DONE>"
+    },
+    "ProfElmNappedText": {
+      "en": "!<LINE>I napped for<CONT>too long!<DONE>",
+      "zh": "！<LINE>我打了个盹，<CONT>睡太久了！<DONE>"
+    },
+    "_OakTimeSoDarkText": {
+      "en": "!<LINE>No wonder it's so<CONT>dark!<DONE>",
+      "zh": "！<LINE>怪不得这么<CONT>黑！<DONE>"
+    },
+    "_OakTimeWhatDayIsItText": {
+      "en": "What day is it?<DONE>",
+      "zh": "今天星期几？<DONE>"
+    },
+    "_OakTimeIsItText": {
+      "en": ", is it?<DONE>",
+      "zh": "，是吗？<DONE>"
+    },
+    "_NothingToChooseText": {
+      "en": "There's nothing to<LINE>choose.<PROMPT>",
+      "zh": "没有可以<LINE>选择的东西。<PROMPT>"
+    },
+    "_WhichSidePutOnText": {
+      "en": "Which side do you<LINE>want to put it on?<DONE>",
+      "zh": "要把它装饰在<LINE>哪一边呢？<DONE>"
+    },
+    "_WhichSidePutAwayText": {
+      "en": "Which side do you<LINE>want to put away?<DONE>",
+      "zh": "要把哪一边<LINE>收起来呢？<DONE>"
+    },
+    "_PutAwayTheDecoText": {
+      "en": "Put away the<LINE>{{0}}.<PROMPT>",
+      "zh": "收起了<LINE>{{0}}。<PROMPT>"
+    },
+    "_NothingToPutAwayText": {
+      "en": "There's nothing to<LINE>put away.<PROMPT>",
+      "zh": "没有可以<LINE>收起的东西。<PROMPT>"
+    },
+    "_SetUpTheDecoText": {
+      "en": "Set up the<LINE>{{0}}.<PROMPT>",
+      "zh": "摆设了<LINE>{{0}}。<PROMPT>"
+    },
+    "_PutAwayAndSetUpText": {
+      "en": "Put away the<LINE>{{0}}<PARA>and set up the<LINE>{{1}}.<PROMPT>",
+      "zh": "把{{0}}<LINE>收起来，<PARA>再摆上<LINE>{{1}}。<PROMPT>"
+    },
+    "_AlreadySetUpText": {
+      "en": "That's already set<LINE>up.<PROMPT>",
+      "zh": "那个已经<LINE>摆好了。<PROMPT>"
+    },
+    "_LookTownMapText": {
+      "en": "It's the Town Map.<DONE>",
+      "zh": "这是城镇地图。<DONE>"
+    },
+    "_LookPikachuPosterText": {
+      "en": "It's a poster of a<LINE>cute Pikachu.<DONE>",
+      "zh": "这是一张可爱的<LINE>皮卡丘海报。<DONE>"
+    },
+    "_LookClefairyPosterText": {
+      "en": "It's a poster of a<LINE>cute Clefairy.<DONE>",
+      "zh": "这是一张可爱的<LINE>皮皮海报。<DONE>"
+    },
+    "_LookJigglypuffPosterText": {
+      "en": "It's a poster of a<LINE>cute Marill.<DONE>",
+      "zh": "这是一张可爱的<LINE>玛力露海报。<DONE>"
+    },
+    "_LookAdorableDecoText": {
+      "en": "It's an adorable<LINE>{{0}}.<DONE>",
+      "zh": "十分可爱的<LINE>{{0}}。<DONE>"
+    },
+    "DecoConsoleText": {
+      "en": "It's a shiny<LINE>{{0}}.<DONE>",
+      "zh": "闪闪发亮的<LINE>{{0}}。<DONE>"
+    },
+    "_LookGiantDecoText": {
+      "en": "A giant doll! It's<LINE>fluffy and cuddly.<DONE>",
+      "zh": "巨大的玩偶！<LINE>毛茸茸的真舒服。<DONE>"
+    },
+    "_MomHiHowAreYouText": {
+      "en": "Hi, <PLAYER>!<LINE>How are you?<PROMPT>",
+      "zh": "嗨，<PLAYER>！<LINE>你好吗？<PROMPT>"
+    },
+    "_MomFoundAnItemText": {
+      "en": "I found a useful<LINE>item shopping, so<PROMPT>",
+      "zh": "我逛街时买了件<LINE>有用的道具，所以<PROMPT>"
+    },
+    "_MomBoughtWithYourMoneyText": {
+      "en": "I bought it with<LINE>your money. Sorry!<PROMPT>",
+      "zh": "我用你的钱<LINE>买了它。抱歉！<PROMPT>"
+    },
+    "_MomItsInPCText": {
+      "en": "It's in your PC.<LINE>You'll like it!<DONE>",
+      "zh": "放在你的<LINE>电脑里了！<DONE>"
+    },
+    "_MomFoundADollText": {
+      "en": "While shopping<LINE>today, I saw this<CONT>adorable doll, so<PROMPT>",
+      "zh": "今天逛街时<LINE>看到这个可爱的<CONT>玩偶，所以<PROMPT>"
+    },
+    "_MomItsInYourRoomText": {
+      "en": "It's in your room.<LINE>You'll love it!<DONE>",
+      "zh": "放在你的<LINE>房间里了！<DONE>"
+    },
+    "_MonWasSentToText": {
+      "en": "{{0}} was<LINE>sent to {{1}}.<DONE>",
+      "zh": "{{0}}被<LINE>送到了{{1}}。<DONE>"
+    },
+    "_BidsFarewellToMonText": {
+      "en": "{{0}} bids<LINE>farewell to<DONE>",
+      "zh": "{{0}}正在<LINE>向<DONE>"
+    },
+    "_MonNameBidsFarewellText": {
+      "en": "{{0}}.<DONE>",
+      "zh": "{{0}}告别。<DONE>"
+    },
+    "_TakeGoodCareOfMonText": {
+      "en": "Take good care of<LINE>{{0}}.<DONE>",
+      "zh": "要好好照顾<LINE>{{0}}。<DONE>"
+    },
+    "_ForYourMonSendsText": {
+      "en": "For {{0}}'s<LINE>{{1}},<DONE>",
+      "zh": "用{{0}}的<LINE>{{1}}，<DONE>"
+    },
+    "_OTSendsText": {
+      "en": "{{0}} sends<LINE>{{1}}.<DONE>",
+      "zh": "{{0}}派出<LINE>{{1}}。<DONE>"
+    },
+    "_WillTradeText": {
+      "en": "{{0}} will<LINE>trade {{1}}@",
+      "zh": "{{0}}将会<LINE>交换{{1}}@"
+    },
+    "_ForYourMonWillTradeText": {
+      "en": "for {{0}}'s<LINE>{{1}}.<DONE>",
+      "zh": "交换{{0}}的<LINE>{{1}}。<DONE>"
+    },
+    "_OPT_IntroText1": {
+      "en": "<LINE>Mary: Prof.Oak's<DONE>",
+      "zh": "<LINE>玛丽：大木博士的<DONE>"
+    },
+    "_OPT_IntroText2": {
+      "en": "<LINE>#mon Talk!<DONE>",
+      "zh": "<LINE>宝可梦讲座！<DONE>"
+    },
+    "_OPT_IntroText3": {
+      "en": "<LINE>With me, Mary!<DONE>",
+      "zh": "<LINE>由我玛丽主持！<DONE>"
+    },
+    "_OPT_OakText1": {
+      "en": "<LINE>Oak: {{0}}<DONE>",
+      "zh": "<LINE>大木：{{0}}<DONE>"
+    },
+    "_OPT_OakText2": {
+      "en": "<LINE>may be seen around<DONE>",
+      "zh": "<LINE>可能会在<DONE>"
+    },
+    "_OPT_OakText3": {
+      "en": "<LINE>{{0}}.<DONE>",
+      "zh": "<LINE>{{0}}附近。<DONE>"
+    },
+    "_OPT_MaryText1": {
+      "en": "<LINE>Mary: {{0}}'s<DONE>",
+      "zh": "<LINE>玛丽：{{0}}真是<DONE>"
+    },
+    "OPT_SweetAdorably": {
+      "en": "<LINE>sweet and adorably<DONE>",
+      "zh": "<LINE>又甜又<DONE>"
+    },
+    "OPT_WigglySlickly": {
+      "en": "<LINE>wiggly and slickly<DONE>",
+      "zh": "<LINE>又扭又滑<DONE>"
+    },
+    "OPT_AptlyNamed": {
+      "en": "<LINE>aptly named and<DONE>",
+      "zh": "<LINE>名副其实，<DONE>"
+    },
+    "OPT_UndeniablyKindOf": {
+      "en": "<LINE>undeniably kind of<DONE>",
+      "zh": "<LINE>确实有点<DONE>"
+    },
+    "OPT_Unbearably": {
+      "en": "<LINE>so, so unbearably<DONE>",
+      "zh": "<LINE>实在太、太<DONE>"
+    },
+    "OPT_WowImpressively": {
+      "en": "<LINE>wow, impressively<DONE>",
+      "zh": "<LINE>哇，真是<DONE>"
+    },
+    "OPT_AlmostPoisonously": {
+      "en": "<LINE>almost poisonously<DONE>",
+      "zh": "<LINE>几乎带毒地<DONE>"
+    },
+    "OPT_Sensually": {
+      "en": "<LINE>ooh, so sensually<DONE>",
+      "zh": "<LINE>哦，妩媚得<DONE>"
+    },
+    "OPT_Mischievously": {
+      "en": "<LINE>so mischievously<DONE>",
+      "zh": "<LINE>真是调皮<DONE>"
+    },
+    "OPT_Topically": {
+      "en": "<LINE>so very topically<DONE>",
+      "zh": "<LINE>非常应景<DONE>"
+    },
+    "OPT_Addictively": {
+      "en": "<LINE>sure addictively<DONE>",
+      "zh": "<LINE>令人上瘾<DONE>"
+    },
+    "OPT_LooksInWater": {
+      "en": "<LINE>looks in water is<DONE>",
+      "zh": "<LINE>在水里的样子<DONE>"
+    },
+    "OPT_EvolutionMustBe": {
+      "en": "<LINE>evolution must be<DONE>",
+      "zh": "<LINE>进化后肯定<DONE>"
+    },
+    "OPT_Provocatively": {
+      "en": "<LINE>provocatively<DONE>",
+      "zh": "<LINE>挑逗得<DONE>"
+    },
+    "OPT_FlippedOut": {
+      "en": "<LINE>so flipped out and<DONE>",
+      "zh": "<LINE>兴奋过头又<DONE>"
+    },
+    "OPT_HeartMeltingly": {
+      "en": "<LINE>heart-meltingly<DONE>",
+      "zh": "<LINE>让人心动的<DONE>"
+    },
+    "OPT_Cute": {
+      "en": "<LINE>cute.<DONE>",
+      "zh": "<LINE>可爱。<DONE>"
+    },
+    "OPT_Weird": {
+      "en": "<LINE>weird.<DONE>",
+      "zh": "<LINE>古怪。<DONE>"
+    },
+    "OPT_Pleasant": {
+      "en": "<LINE>pleasant.<DONE>",
+      "zh": "<LINE>讨人喜欢。<DONE>"
+    },
+    "OPT_BoldSortOf": {
+      "en": "<LINE>bold, sort of.<DONE>",
+      "zh": "<LINE>有点大胆。<DONE>"
+    },
+    "OPT_Frightening": {
+      "en": "<LINE>frightening.<DONE>",
+      "zh": "<LINE>吓人。<DONE>"
+    },
+    "OPT_SuaveDebonair": {
+      "en": "<LINE>suave & debonair!<DONE>",
+      "zh": "<LINE>温文尔雅！<DONE>"
+    },
+    "OPT_Powerful": {
+      "en": "<LINE>powerful.<DONE>",
+      "zh": "<LINE>强而有力。<DONE>"
+    },
+    "OPT_Exciting": {
+      "en": "<LINE>exciting.<DONE>",
+      "zh": "<LINE>令人兴奋。<DONE>"
+    },
+    "OPT_Groovy": {
+      "en": "<LINE>groovy!<DONE>",
+      "zh": "<LINE>时髦！<DONE>"
+    },
+    "OPT_Inspiring": {
+      "en": "<LINE>inspiring.<DONE>",
+      "zh": "<LINE>鼓舞人心。<DONE>"
+    },
+    "OPT_Friendly": {
+      "en": "<LINE>friendly.<DONE>",
+      "zh": "<LINE>友善。<DONE>"
+    },
+    "OPT_HotHotHot": {
+      "en": "<LINE>hot, hot, hot!<DONE>",
+      "zh": "<LINE>火辣、火辣！<DONE>"
+    },
+    "OPT_Stimulating": {
+      "en": "<LINE>stimulating.<DONE>",
+      "zh": "<LINE>刺激性十足。<DONE>"
+    },
+    "OPT_Guarded": {
+      "en": "<LINE>guarded.<DONE>",
+      "zh": "<LINE>谨慎。<DONE>"
+    },
+    "OPT_Lovely": {
+      "en": "<LINE>lovely.<DONE>",
+      "zh": "<LINE>可爱动人。<DONE>"
+    },
+    "OPT_Speedy": {
+      "en": "<LINE>speedy.<DONE>",
+      "zh": "<LINE>动作迅速。<DONE>"
+    },
+    "_OPT_PokemonChannelText": {
+      "en": "#mon<DONE>",
+      "zh": "宝可梦<DONE>"
+    },
+    "_BenIntroText1": {
+      "en": "<LINE>Ben: #mon Music<DONE>",
+      "zh": "<LINE>阿本：宝可梦<DONE>"
+    },
+    "_BenIntroText2": {
+      "en": "<LINE>Channel! ♪<DONE>",
+      "zh": "<LINE>音乐频道！♪<DONE>"
+    },
+    "_BenIntroText3": {
+      "en": "<LINE>It's me, DJ Ben! ♪<DONE>",
+      "zh": "<LINE>我是DJ阿本！♪<DONE>"
+    },
+    "_FernIntroText1": {
+      "en": "<LINE>Fern: #music! ♪<DONE>",
+      "zh": "<LINE>阿蕨：音乐！♪<DONE>"
+    },
+    "_FernIntroText2": {
+      "en": "<LINE>With DJ Fern! ♪<DONE>",
+      "zh": "<LINE>我是DJ阿蕨！♪<DONE>"
+    },
+    "_BenFernText1": {
+      "en": "<LINE>Today's <DAY>,<DONE>",
+      "zh": "<LINE>今天是<DAY>，<DONE>"
+    },
+    "_BenFernText2A": {
+      "en": "<LINE>so let's jam to<DONE>",
+      "zh": "<LINE>就来听听<DONE>"
+    },
+    "_BenFernText2B": {
+      "en": "<LINE>so chill out to<DONE>",
+      "zh": "<LINE>就来放松<DONE>"
+    },
+    "_BenFernText3A": {
+      "en": "<LINE>#mon March!<DONE>",
+      "zh": "<LINE>宝可梦进行曲！<DONE>"
+    },
+    "_BenFernText3B": {
+      "en": "<LINE>#mon Lullaby!<DONE>",
+      "zh": "<LINE>宝可梦摇篮曲！<DONE>"
+    },
+    "_LC_Text1": {
+      "en": "<LINE>Reed: Yeehaw! How<DONE>",
+      "zh": "<LINE>里德：哟嗬！大家<DONE>"
+    },
+    "_LC_Text2": {
+      "en": "<LINE>y'all doin' now?<DONE>",
+      "zh": "<LINE>现在好吗？<DONE>"
+    },
+    "_LC_Text3": {
+      "en": "<LINE>Whether you're up<DONE>",
+      "zh": "<LINE>不管你心情好<DONE>"
+    },
+    "_LC_Text4": {
+      "en": "<LINE>or way down low,<DONE>",
+      "zh": "<LINE>还是很低落，<DONE>"
+    },
+    "_LC_Text5": {
+      "en": "<LINE>don't you miss the<DONE>",
+      "zh": "<LINE>都别错过<DONE>"
+    },
+    "_LC_Text6": {
+      "en": "<LINE>Lucky Number Show!<DONE>",
+      "zh": "<LINE>幸运数字节目！<DONE>"
+    },
+    "_LC_Text7": {
+      "en": "<LINE>Today's Lucky<DONE>",
+      "zh": "<LINE>今天的幸运<DONE>"
+    },
+    "_LC_Text8": {
+      "en": "<LINE>Number is <PAUSE>{{0}}!<DONE>",
+      "zh": "<LINE>号码是<PAUSE>{{0}}！<DONE>"
+    },
+    "_LC_Text9": {
+      "en": "<LINE>I'll repeat that!<DONE>",
+      "zh": "<LINE>我再重复一遍！<DONE>"
+    },
+    "_LC_Text10": {
+      "en": "<LINE>Match it and go to<DONE>",
+      "zh": "<LINE>对上了就去<DONE>"
+    },
+    "_LC_Text11": {
+      "en": "<LINE>the Radio Tower!<DONE>",
+      "zh": "<LINE>广播塔！<DONE>"
+    },
+    "_LC_DragText1": {
+      "en": "<LINE>…Repeating myself<DONE>",
+      "zh": "<LINE>…老是重复<DONE>"
+    },
+    "_LC_DragText2": {
+      "en": "<LINE>gets to be a drag…<DONE>",
+      "zh": "<LINE>真没劲……<DONE>"
+    },
+    "_PnP_Text1": {
+      "en": "<LINE>Places and People!<DONE>",
+      "zh": "<LINE>地点与人！<DONE>"
+    },
+    "_PnP_Text2": {
+      "en": "<LINE>Brought to you by<DONE>",
+      "zh": "<LINE>由我为您<DONE>"
+    },
+    "_PnP_Text3": {
+      "en": "<LINE>me, DJ Lily!<DONE>",
+      "zh": "<LINE>播出，DJ莉莉！<DONE>"
+    },
+    "_PnP_Text4": {
+      "en": "<LINE>{{0}} {{1}}<DONE>",
+      "zh": "<LINE>{{0}}{{1}}<DONE>"
+    },
+    "_PnP_cute": {
+      "en": "<LINE>is cute.<DONE>",
+      "zh": "<LINE>很可爱。<DONE>"
+    },
+    "_PnP_lazy": {
+      "en": "<LINE>is sort of lazy.<DONE>",
+      "zh": "<LINE>有点懒散。<DONE>"
+    },
+    "_PnP_happy": {
+      "en": "<LINE>is always happy.<DONE>",
+      "zh": "<LINE>总是很开心。<DONE>"
+    },
+    "_PnP_noisy": {
+      "en": "<LINE>is quite noisy.<DONE>",
+      "zh": "<LINE>相当吵闹。<DONE>"
+    },
+    "_PnP_precocious": {
+      "en": "<LINE>is precocious.<DONE>",
+      "zh": "<LINE>很早熟。<DONE>"
+    },
+    "_PnP_bold": {
+      "en": "<LINE>is somewhat bold.<DONE>",
+      "zh": "<LINE>有点大胆。<DONE>"
+    },
+    "_PnP_picky": {
+      "en": "<LINE>is too picky!<DONE>",
+      "zh": "<LINE>太挑剔了！<DONE>"
+    },
+    "_PnP_sortofok": {
+      "en": "<LINE>is sort of OK.<DONE>",
+      "zh": "<LINE>还算不错。<DONE>"
+    },
+    "_PnP_soso": {
+      "en": "<LINE>is just so-so.<DONE>",
+      "zh": "<LINE>普普通通。<DONE>"
+    },
+    "_PnP_great": {
+      "en": "<LINE>is actually great.<DONE>",
+      "zh": "<LINE>其实很棒。<DONE>"
+    },
+    "_PnP_mytype": {
+      "en": "<LINE>is just my type.<DONE>",
+      "zh": "<LINE>正合我意。<DONE>"
+    },
+    "_PnP_cool": {
+      "en": "<LINE>is so cool, no?<DONE>",
+      "zh": "<LINE>很酷，不是吗？<DONE>"
+    },
+    "_PnP_inspiring": {
+      "en": "<LINE>is inspiring!<DONE>",
+      "zh": "<LINE>令人振奋！<DONE>"
+    },
+    "_PnP_weird": {
+      "en": "<LINE>is kind of weird.<DONE>",
+      "zh": "<LINE>有点古怪。<DONE>"
+    },
+    "_PnP_rightforme": {
+      "en": "<LINE>is right for me?<DONE>",
+      "zh": "<LINE>适合我吗？<DONE>"
+    },
+    "_PnP_odd": {
+      "en": "<LINE>is definitely odd!<DONE>",
+      "zh": "<LINE>绝对很古怪！<DONE>"
+    },
+    "_PnP_Text5": {
+      "en": "<LINE>{{0}}<DONE>",
+      "zh": "<LINE>{{0}}<DONE>"
+    },
+    "_RocketRadioText1": {
+      "en": "<LINE>… …Ahem, we are<DONE>",
+      "zh": "<LINE>…咳咳，我们是<DONE>"
+    },
+    "_RocketRadioText2": {
+      "en": "<LINE>Team Rocket!<DONE>",
+      "zh": "<LINE>火箭队！<DONE>"
+    },
+    "_RocketRadioText3": {
+      "en": "<LINE>After three years<DONE>",
+      "zh": "<LINE>经过三年<DONE>"
+    },
+    "_RocketRadioText4": {
+      "en": "<LINE>of preparation, we<DONE>",
+      "zh": "<LINE>的准备，我们<DONE>"
+    },
+    "_RocketRadioText5": {
+      "en": "<LINE>have risen again<DONE>",
+      "zh": "<LINE>终于再次<DONE>"
+    },
+    "_RocketRadioText6": {
+      "en": "<LINE>from the ashes!<DONE>",
+      "zh": "<LINE>东山再起！<DONE>"
+    },
+    "_RocketRadioText7": {
+      "en": "<LINE>Giovanni! <PAUSE>Can you<DONE>",
+      "zh": "<LINE>坂木！<PAUSE>你能<DONE>"
+    },
+    "_RocketRadioText8": {
+      "en": "<LINE>hear?<PAUSE> We did it!<DONE>",
+      "zh": "<LINE>听见吗？<PAUSE>我们<DONE>"
+    },
+    "_RocketRadioText9": {
+      "en": "<LINE><PAUSE>Where is our boss?<DONE>",
+      "zh": "<LINE><PAUSE>老大在哪里？<DONE>"
+    },
+    "_RocketRadioText10": {
+      "en": "<LINE><PAUSE>Is he listening?<DONE>",
+      "zh": "<LINE><PAUSE>他在听吗？<DONE>"
+    },
+    "_BuenaRadioText1": {
+      "en": "<LINE>Buena: Buena here!<DONE>",
+      "zh": "<LINE>布埃娜：我在这！<DONE>"
+    },
+    "_BuenaRadioText2": {
+      "en": "<LINE>Today's password!<DONE>",
+      "zh": "<LINE>今天的密码！<DONE>"
+    },
+    "_BuenaRadioText3": {
+      "en": "<LINE>Let me think… It's<DONE>",
+      "zh": "<LINE>让我想想…是<DONE>"
+    },
+    "_BuenaRadioText4": {
+      "en": "<LINE>{{0}}!<DONE>",
+      "zh": "<LINE>{{0}}！<DONE>"
+    },
+    "_BuenaRadioText5": {
+      "en": "<LINE>Don't forget it!<DONE>",
+      "zh": "<LINE>别忘了哦！<DONE>"
+    },
+    "_BuenaRadioText6": {
+      "en": "<LINE>I'm in Goldenrod's<DONE>",
+      "zh": "<LINE>我在满金市的<DONE>"
+    },
+    "_BuenaRadioText7": {
+      "en": "<LINE>Radio Tower!<DONE>",
+      "zh": "<LINE>广播塔里！<DONE>"
+    },
+    "_BuenaRadioMidnightText1": {
+      "en": "<LINE>Buena: Oh my…<DONE>",
+      "zh": "<LINE>布埃娜：哎呀…<DONE>"
+    },
+    "_BuenaRadioMidnightText2": {
+      "en": "<LINE>It's midnight! I<DONE>",
+      "zh": "<LINE>已经午夜了！我<DONE>"
+    },
+    "_BuenaRadioMidnightText3": {
+      "en": "<LINE>have to shut down!<DONE>",
+      "zh": "<LINE>必须收播了！<DONE>"
+    },
+    "_BuenaRadioMidnightText4": {
+      "en": "<LINE>Thanks for tuning<DONE>",
+      "zh": "<LINE>感谢收听<DONE>"
+    },
+    "_BuenaRadioMidnightText5": {
+      "en": "<LINE>in to the end! But<DONE>",
+      "zh": "<LINE>到最后！不过<DONE>"
+    },
+    "_BuenaRadioMidnightText6": {
+      "en": "<LINE>don't stay up too<DONE>",
+      "zh": "<LINE>别熬夜太<DONE>"
+    },
+    "_BuenaRadioMidnightText7": {
+      "en": "<LINE>late! Presented to<DONE>",
+      "zh": "<LINE>晚！由DJ<DONE>"
+    },
+    "_BuenaRadioMidnightText8": {
+      "en": "<LINE>you by DJ Buena!<DONE>",
+      "zh": "<LINE>布埃娜为您播出！<DONE>"
+    },
+    "_BuenaRadioMidnightText9": {
+      "en": "I'm outta here!<DONE>",
+      "zh": "我走啦！<DONE>"
+    },
+    "_BuenaRadioMidnightText10": {
+      "en": "…<DONE>",
+      "zh": "…<DONE>"
+    },
+    "_BuenaOffTheAirText": {
+      "en": "<LINE><DONE>",
+      "zh": "<LINE><DONE>"
+    },
+    "Text_EnemyUsed": {
+      "en": "<ENEMY><LINE>used {{0}}!<PROMPT>",
+      "zh": "<ENEMY><LINE>使用了{{0}}！<PROMPT>"
+    },
+    "Text_EnemyUsedOn": {
+      "en": "<ENEMY><LINE>used {{0}}<CONT>on {{1}}!<PROMPT>",
+      "zh": "<ENEMY><LINE>用{{0}}<CONT>对{{1}}使出！<PROMPT>"
+    },
+    "_AskFloorElevatorText": {
+      "en": "Which floor?<DONE>",
+      "zh": "要去几楼？<DONE>"
+    },
+    "_BugCatchingContestTimeUpText": {
+      "en": "Announcer: BEEEP!<PARA>Time's up!<DONE>",
+      "zh": "广播：哔哔！<PARA>时间到！<DONE>"
+    },
+    "_BugCatchingContestIsOverText": {
+      "en": "Announcer: The<LINE>Contest is over!<DONE>",
+      "zh": "广播：捕虫大赛<LINE>已经结束！<DONE>"
+    },
+    "_RepelWoreOffText": {
+      "en": "Repel's effect<LINE>wore off.<DONE>",
+      "zh": "除虫喷雾的<LINE>效果消失了。<DONE>"
+    },
+    "UseAnotherRepelText": {
+      "en": "Repel's effect<LINE>wore off.<PARA>Use another?<DONE>",
+      "zh": "除虫喷雾的<LINE>效果消失了。<PARA>要再用一个吗？<DONE>"
+    },
+    "_JustSawSomeRareMonText": {
+      "en": "I just saw some<LINE>rare {{0}} in<CONT>{{1}}.<PARA>I'll call you if I<LINE>see another rare<CONT>#mon, OK?<PROMPT>",
+      "zh": "{{0}}很稀有，<LINE>我刚才在<CONT>{{1}}见到了。<PARA>如果再发现<LINE>稀有宝可梦，<CONT>我会打电话给你。<PROMPT>"
+    },
+    "_SavingRecordText": {
+      "en": "Saving record…<LINE>Don't turn off!<DONE>",
+      "zh": "正在保存记录…<LINE>请勿关闭电源！<DONE>"
+    },
+    "_NoCoinsText": {
+      "en": "You have no coins.<PROMPT>",
+      "zh": "你没有代币。<PROMPT>"
+    },
+    "_NoCoinCaseText": {
+      "en": "You don't have a<LINE>Coin Case.<PROMPT>",
+      "zh": "你没有<LINE>代币盒。<PROMPT>"
+    },
+    "_NPCTradeCableText": {
+      "en": "OK, connect the<LINE>Game Link Cable.<PROMPT>",
+      "zh": "好，请连接<LINE>游戏连接线。<PROMPT>"
+    },
+    "Text_NPCTraded": {
+      "en": "<PLAYER> traded<LINE>{{0}} for<CONT>{{1}}.<DONE>",
+      "zh": "<PLAYER>用<LINE>{{0}}<CONT>换了{{1}}。<DONE>"
+    },
+    "_NPCTradeFanfareText": {
+      "en": "{{0}}<PAUSE>@",
+      "zh": "{{0}}<PAUSE>@"
+    },
+    "_NPCTradeIntroText1": {
+      "en": "I collect #mon.<LINE>Do you have<CONT>{{0}}?<PARA>Want to trade it<LINE>for my {{1}}?<DONE>",
+      "zh": "我在收集宝可梦。<LINE>你有<CONT>{{0}}吗？<PARA>愿意用它换<LINE>我的{{1}}吗？<DONE>"
+    },
+    "_NPCTradeCancelText1": {
+      "en": "You don't want to<LINE>trade? Aww…<DONE>",
+      "zh": "你不想<LINE>交换吗？唉…<DONE>"
+    },
+    "_NPCTradeWrongText1": {
+      "en": "Huh? That's not<LINE>{{0}}.<CONT>What a letdown…<DONE>",
+      "zh": "咦？那不是<LINE>{{0}}。<CONT>真让人失望…<DONE>"
+    },
+    "_NPCTradeCompleteText1": {
+      "en": "Yay! I got myself<LINE>{{0}}!<CONT>Thanks!<DONE>",
+      "zh": "太好了！我得到<LINE>{{0}}了！<CONT>谢谢你！<DONE>"
+    },
+    "_NPCTradeAfterText1": {
+      "en": "Hi, how's my old<LINE>{{0}} doing?<DONE>",
+      "zh": "嗨，我以前的<LINE>{{0}}还好吗？<DONE>"
+    },
+    "_NPCTradeIntroText2": {
+      "en": "Hi, I'm looking<LINE>for this #mon.<PARA>If you have<LINE>{{0}}, would<PARA>you trade it for<LINE>my {{1}}?<DONE>",
+      "zh": "嗨，我正在找<LINE>这只宝可梦。<PARA>如果你有<LINE>{{0}}，<PARA>愿意用它换<LINE>我的{{1}}吗？<DONE>"
+    },
+    "_NPCTradeCancelText2": {
+      "en": "You don't have<LINE>one either?<PARA>Gee, that's really<LINE>disappointing…<DONE>",
+      "zh": "你也<LINE>没有吗？<PARA>唉，真是<LINE>太可惜了…<DONE>"
+    },
+    "_NPCTradeWrongText2": {
+      "en": "You don't have<LINE>{{0}}? That's<CONT>too bad, then.<DONE>",
+      "zh": "你没有<LINE>{{0}}吗？<CONT>那太遗憾了。<DONE>"
+    },
+    "_NPCTradeCompleteText2": {
+      "en": "Great! Thank you!<PARA>I finally got<LINE>{{0}}.<DONE>",
+      "zh": "太好了！谢谢你！<PARA>我终于得到<LINE>{{0}}了。<DONE>"
+    },
+    "_NPCTradeAfterText2": {
+      "en": "Hi! The {{0}}<LINE>you traded me is<CONT>doing great!<DONE>",
+      "zh": "嗨！你换给我的<LINE>{{0}}<CONT>状态很好！<DONE>"
+    },
+    "_NPCTradeIntroText3": {
+      "en": "{{0}}'s cute,<LINE>but I don't have<PARA>it. Do you have<LINE>{{1}}?<PARA>Want to trade it<LINE>for my {{2}}?<DONE>",
+      "zh": "{{0}}很可爱，<LINE>但我没有。<PARA>你有<LINE>{{1}}吗？<PARA>愿意用它换<LINE>我的{{2}}吗？<DONE>"
+    },
+    "_NPCTradeCancelText3": {
+      "en": "You don't want to<LINE>trade? Oh, darn…<DONE>",
+      "zh": "你不想<LINE>交换吗？哎呀…<DONE>"
+    },
+    "_NPCTradeWrongText3": {
+      "en": "That's not<LINE>{{0}}.<PARA>Please trade with<LINE>me if you get one.<DONE>",
+      "zh": "那不是<LINE>{{0}}。<PARA>如果有了就<LINE>和我交换吧。<DONE>"
+    },
+    "_NPCTradeCompleteText3": {
+      "en": "Wow! Thank you!<LINE>I always wanted<CONT>{{0}}!<DONE>",
+      "zh": "哇！谢谢你！<LINE>我一直想要<CONT>{{0}}！<DONE>"
+    },
+    "_NPCTradeAfterText3": {
+      "en": "How is that<LINE>{{0}} I<CONT>traded you doing?<PARA>Your {{1}}'s<LINE>so cute!<DONE>",
+      "zh": "我换给你的<LINE>{{0}}<CONT>还好吗？<PARA>你的{{1}}<LINE>真可爱！<DONE>"
+    },
+    "_NPCTradeCompleteText4": {
+      "en": "Uh? What happened?<DONE>",
+      "zh": "咦？发生了什么？<DONE>"
+    },
+    "_NPCTradeAfterText4": {
+      "en": "Trading is so odd…<PARA>I still have a lot<LINE>to learn about it.<DONE>",
+      "zh": "交换真奇妙…<PARA>我还有很多<LINE>要学的地方。<DONE>"
+    },
+    "_MomLeavingText1": {
+      "en": "Wow, that's a cute<LINE>#mon.<PARA>Where did you get<LINE>it?<PARA>…<PARA>So, you're leaving<LINE>on an adventure…<PARA>OK!<LINE>I'll help too.<PARA>But what can I do<LINE>for you?<PARA>I know! I'll save<LINE>money for you.<PARA>On a long journey,<LINE>money's important.<PARA>Do you want me to<LINE>save your money?<DONE>",
+      "zh": "哇，好可爱的<LINE>宝可梦。<PARA>你是从哪里<LINE>得到它的？<PARA>…<PARA>那么，你要踏上<LINE>冒险之旅了……<PARA>好的！<LINE>我也会帮忙。<PARA>不过我能为你<LINE>做些什么呢？<PARA>有了！我来<LINE>帮你存钱。<PARA>长途旅行中，<LINE>钱很重要。<PARA>要我帮你存<LINE>一些钱吗？<DONE>"
+    },
+    "_MomLeavingText2": {
+      "en": "OK, I'll take care<LINE>of your money.<PARA>………………<PROMPT>",
+      "zh": "好的，你的钱<LINE>就交给我。<PARA>………………<PROMPT>"
+    },
+    "_MomLeavingText3": {
+      "en": "Be careful.<PARA>#mon are your<LINE>friends. You need<CONT>to work as a team.<PARA>Now, go on!<DONE>",
+      "zh": "要小心哦。<PARA>宝可梦是<LINE>你的朋友。<CONT>要齐心协力才好。<PARA>那么，出发吧！<DONE>"
+    },
+    "_MomIsThisAboutYourMoneyText": {
+      "en": "Hi! Welcome home!<LINE>You're trying very<CONT>hard, I see.<PARA>I've kept your<LINE>room tidy.<PARA>Or is this about<LINE>your money?<DONE>",
+      "zh": "嗨！欢迎回家！<LINE>看来你<CONT>非常努力呢。<PARA>你的房间<LINE>我打扫干净了。<PARA>还是说，你是<LINE>为了钱来的？<DONE>"
+    },
+    "_MomBankWhatDoYouWantToDoText": {
+      "en": "What do you want<LINE>to do?<DONE>",
+      "zh": "你想要<LINE>做什么呢？<DONE>"
+    },
+    "_MomStoreMoneyText": {
+      "en": "How much do you<LINE>want to save?<DONE>",
+      "zh": "你想存<LINE>多少钱呢？<DONE>"
+    },
+    "_MomTakeMoneyText": {
+      "en": "How much do you<LINE>want to take?<DONE>",
+      "zh": "你想取<LINE>多少钱呢？<DONE>"
+    },
+    "_MomSaveMoneyText": {
+      "en": "Do you want to<LINE>save some money?<DONE>",
+      "zh": "要我帮你<LINE>存钱吗？<DONE>"
+    },
+    "_MomHaventSavedThatMuchText": {
+      "en": "You haven't saved<LINE>that much.<PROMPT>",
+      "zh": "你存的钱<LINE>不多。<PROMPT>"
+    },
+    "_MomNotEnoughRoomInWalletText": {
+      "en": "You can't take<LINE>that much.<PROMPT>",
+      "zh": "你无法携带<LINE>那么多。<PROMPT>"
+    },
+    "_MomInsufficientFundsInWalletText": {
+      "en": "You don't have<LINE>that much.<PROMPT>",
+      "zh": "你没有<LINE>那么多钱。<PROMPT>"
+    },
+    "_MomNotEnoughRoomInBankText": {
+      "en": "You can't save<LINE>that much.<PROMPT>",
+      "zh": "你无法存入<LINE>那么多。<PROMPT>"
+    },
+    "_MomStartSavingMoneyText": {
+      "en": "OK, I'll save your<LINE>money. Trust me!<PARA><PLAYER>, stick<LINE>with it!<DONE>",
+      "zh": "好的，我会帮你<LINE>存钱。放心！<PARA><PLAYER>，要<LINE>坚持下去哦！<DONE>"
+    },
+    "_MomStoredMoneyText": {
+      "en": "Your money's safe<LINE>here! Get going!<DONE>",
+      "zh": "你的钱在我<LINE>这儿，出发吧！<DONE>"
+    },
+    "_MomTakenMoneyText": {
+      "en": "<PLAYER>, don't<LINE>give up!<DONE>",
+      "zh": "<PLAYER>，不要<LINE>放弃哦！<DONE>"
+    },
+    "_MomJustDoWhatYouCanText": {
+      "en": "Just do what<LINE>you can.<DONE>",
+      "zh": "只要<LINE>尽力就好。<DONE>"
+    },
+    "_DayCareManIntroText": {
+      "en": "I'm the Day-Care<LINE>Man. Want me to<CONT>raise a #mon?<DONE>",
+      "zh": "我是饲育屋<LINE>的老爷爷，<CONT>要照顾宝可梦吗？<DONE>"
+    },
+    "_DayCareManIntroEggText": {
+      "en": "I'm the Day-Care<LINE>Man. Do you know<CONT>about Eggs?<PARA>I was raising<LINE>#mon with my<CONT>wife, you see.<PARA>We were shocked to<LINE>find an Egg!<PARA>How incredible is<LINE>that?<PARA>So, want me to<LINE>raise a #mon?<DONE>",
+      "zh": "我是饲育屋<LINE>的老爷爷。<PARA>你知道<CONT>蛋的事吗？<PARA>我和老伴<LINE>一起照顾<CONT>宝可梦，结果<PARA>竟然发现了<LINE>一个蛋！<PARA>真是<LINE>不可思议！<PARA>那么，要我<LINE>照顾宝可梦吗？<DONE>"
+    },
+    "_DayCareLadyIntroText": {
+      "en": "I'm the Day-Care<LINE>Lady.<PARA>Should I raise a<LINE>#mon for you?<DONE>",
+      "zh": "我是饲育屋<LINE>的老奶奶。<PARA>要我帮你<LINE>照顾宝可梦吗？<DONE>"
+    },
+    "_DayCareLadyIntroEggText": {
+      "en": "I'm the Day-Care<LINE>Lady. Do you know<CONT>about Eggs?<PARA>My husband and I<LINE>were raising some<CONT>#mon, you see.<PARA>We were shocked to<LINE>find an Egg!<PARA>How incredible<LINE>could that be?<PARA>Should I raise a<LINE>#mon for you?<DONE>",
+      "zh": "我是饲育屋<LINE>的老奶奶。<PARA>你知道<CONT>蛋的事吗？<PARA>我和老伴<LINE>一起照顾<CONT>宝可梦，结果<PARA>竟然发现了<LINE>一个蛋！<PARA>怎么会有<LINE>这种事呢？<PARA>要我帮你<LINE>照顾宝可梦吗？<DONE>"
+    },
+    "_WhatShouldIRaiseText": {
+      "en": "What should I<LINE>raise for you?<PROMPT>",
+      "zh": "要我帮你<LINE>照顾什么呢？<PROMPT>"
+    },
+    "_OnlyOneMonText": {
+      "en": "Oh? But you have<LINE>just one #mon.<PROMPT>",
+      "zh": "咦？你只有<LINE>一只宝可梦。<PROMPT>"
+    },
+    "_CantAcceptEggText": {
+      "en": "Sorry, but I can't<LINE>accept an Egg.<PROMPT>",
+      "zh": "抱歉，我<LINE>不能收蛋。<PROMPT>"
+    },
+    "_RemoveMailText": {
+      "en": "Remove Mail before<LINE>you come see me.<PROMPT>",
+      "zh": "请先取走邮件<LINE>再来找我。<PROMPT>"
+    },
+    "_LastHealthyMonText": {
+      "en": "If you give me<LINE>that, what will<CONT>you battle with?<PROMPT>",
+      "zh": "如果把它<LINE>交给我，你要<CONT>拿什么来战斗？<PROMPT>"
+    },
+    "_IllRaiseYourMonText": {
+      "en": "OK. I'll raise<LINE>your {{0}}.<PROMPT>",
+      "zh": "好的。我来<LINE>照顾你的{{0}}。<PROMPT>"
+    },
+    "_ComeBackLaterText": {
+      "en": "Come back for it<LINE>later.<DONE>",
+      "zh": "请稍后<LINE>再来取。<DONE>"
+    },
+    "_AreWeGeniusesText": {
+      "en": "Are we geniuses or<LINE>what? Want to see<CONT>your {{0}}?<DONE>",
+      "zh": "我们是不是<LINE>天才？想看看<CONT>你的{{0}}吗？<DONE>"
+    },
+    "_YourMonHasGrownText": {
+      "en": "Your {{0}}<LINE>has grown a lot.<PARA>Its level grew<LINE>by {{1}}.<PARA>If you want your<LINE>#mon back, it<CONT>will cost ¥{{2}}.<DONE>",
+      "zh": "你的{{0}}<LINE>成长了很多。<PARA>等级提升了<LINE>{{1}}。<PARA>如果要领回<LINE>宝可梦，需要<CONT>¥{{2}}。<DONE>"
+    },
+    "_PerfectHeresYourMonText": {
+      "en": "Perfect! Here's<LINE>your #mon.<PROMPT>",
+      "zh": "太好了！这是<LINE>你的宝可梦。<PROMPT>"
+    },
+    "_GotBackMonText": {
+      "en": "<PLAYER> got back<LINE>{{0}}.<PROMPT>",
+      "zh": "<PLAYER>取回了<LINE>{{0}}。<PROMPT>"
+    },
+    "_BackAlreadyText": {
+      "en": "Huh? Back already?<LINE>Your {{0}}<PARA>needs a little<LINE>more time with us.<PARA>If you want your<LINE>#mon back, it<CONT>will cost ¥100.<DONE>",
+      "zh": "咦？已经回来了？<LINE>你的{{0}}<PARA>还需要再<LINE>待一会儿。<PARA>如果想要回<LINE>宝可梦，需要<CONT>¥100。<DONE>"
+    },
+    "_HaveNoRoomText": {
+      "en": "You have no room<LINE>for it.<PROMPT>",
+      "zh": "你<LINE>没有空位。<PROMPT>"
+    },
+    "_NotEnoughMoneyText": {
+      "en": "You don't have<LINE>enough money.<PROMPT>",
+      "zh": "你的钱<LINE>不够。<PROMPT>"
+    },
+    "_OhFineThenText": {
+      "en": "Oh, fine then.<PROMPT>",
+      "zh": "哦，好吧。<PROMPT>"
+    },
+    "_ComeAgainText": {
+      "en": "Come again.<DONE>",
+      "zh": "欢迎再来。<DONE>"
+    },
+    "_NotYetText": {
+      "en": "Not yet…<DONE>",
+      "zh": "还没有…<DONE>"
+    },
+    "_FoundAnEggAgainText": {
+      "en": "Ah, it's you!<PARA>Your #mon had<LINE>another Egg!<PARA>You want it?<DONE>",
+      "zh": "啊，是你！<PARA>你的宝可梦<LINE>又生了一个蛋！<PARA>你要吗？<DONE>"
+    },
+    "_FoundAnEggText": {
+      "en": "Ah, it's you!<PARA>We were raising<LINE>your #mon, and<PARA>my goodness, were<LINE>we surprised!<PARA>Your #mon had<LINE>an Egg!<PARA>We don't know how<LINE>it got there, but<PARA>your #mon had<LINE>it. You want it?<DONE>",
+      "zh": "啊，是你！<PARA>我们在照顾<LINE>你的宝可梦，<PARA>哎呀，真是<LINE>吓了一跳！<PARA>你的宝可梦<LINE>生了一个蛋！<PARA>不知道是<LINE>怎么回事，<PARA>总之你的宝可梦<LINE>生了。你要吗？<DONE>"
+    },
+    "_ReceivedEggText": {
+      "en": "<PLAYER> received<LINE>the Egg!<DONE>",
+      "zh": "<PLAYER>收到了<LINE>蛋！<DONE>"
+    },
+    "_TakeGoodCareOfEggText": {
+      "en": "Take good care of<LINE>it.<DONE>",
+      "zh": "要好好<LINE>照顾它。<DONE>"
+    },
+    "_IllKeepItThanksText": {
+      "en": "Well then, I'll<LINE>keep it. Thanks!<DONE>",
+      "zh": "那么，我就<LINE>收下了。谢谢！<DONE>"
+    },
+    "_NoRoomForEggText": {
+      "en": "You have no room<LINE>in your party<CONT>or your Box.<CONT>Come back later.<DONE>",
+      "zh": "你的队伍<LINE>和箱子都<CONT>没有空位。<CONT>请稍后再来。<DONE>"
+    },
+    "_NameRaterHelloText": {
+      "en": "Hello, hello! I'm<LINE>the Name Rater.<PARA>I rate the names<LINE>of #mon.<PARA>Would you like me<LINE>to rate names?<DONE>",
+      "zh": "你好，你好！<LINE>我是名字鉴定师。<PARA>专门评价<LINE>宝可梦的名字。<PARA>要我帮你<LINE>评价名字吗？<DONE>"
+    },
+    "_NameRaterWhichMonText": {
+      "en": "Which #mon's<LINE>nickname should I<CONT>rate for you?<PROMPT>",
+      "zh": "要我评价<LINE>哪只宝可梦的<CONT>名字呢？<PROMPT>"
+    },
+    "_NameRaterBetterNameText": {
+      "en": "Hm… {{0}}…<LINE>That's a fairly<CONT>decent name.<PARA>But, how about a<LINE>slightly better<CONT>nickname?<PARA>Want me to give it<LINE>a better name?<DONE>",
+      "zh": "嗯…{{0}}…<LINE>这个名字<CONT>还算不错。<PARA>不过，要不要<LINE>改成更好的<CONT>名字呢？<PARA>要我帮它<LINE>取更好的名字吗？<DONE>"
+    },
+    "_NameRaterWhatNameText": {
+      "en": "All right. What<LINE>name should we<CONT>give it, then?<PROMPT>",
+      "zh": "好的。那么<LINE>要给它取<CONT>什么名字呢？<PROMPT>"
+    },
+    "_NameRaterFinishedText": {
+      "en": "That's a better<LINE>name than before!<PARA>Well done!<DONE>",
+      "zh": "这名字比<LINE>之前好多了！<PARA>做得好！<DONE>"
+    },
+    "_NameRaterComeAgainText": {
+      "en": "OK, then. Come<LINE>again sometime.<DONE>",
+      "zh": "好的，那么<LINE>下次再来。<DONE>"
+    },
+    "_NameRaterPerfectNameText": {
+      "en": "Hm… {{0}}?<LINE>What a great name!<CONT>It's perfect.<PARA>Treat {{1}}<LINE>with loving care.<DONE>",
+      "zh": "嗯…{{0}}？<LINE>真是个好名字！<CONT>非常完美。<PARA>要好好<LINE>爱护{{1}}。<DONE>"
+    },
+    "_NameRaterEggText": {
+      "en": "Whoa… That's just<LINE>an Egg.<DONE>",
+      "zh": "哇…这只是<LINE>一颗蛋。<DONE>"
+    },
+    "_NameRaterSameNameText": {
+      "en": "It might look the<LINE>same as before,<PARA>but this new name<LINE>is much better!<PARA>Well done!<DONE>",
+      "zh": "看起来<LINE>和之前一样，<PARA>不过这个新名字<LINE>好多了！<PARA>做得好！<DONE>"
+    },
+    "_NameRaterNamedText": {
+      "en": "All right. This<LINE>#mon is now<CONT>named {{0}}.<PROMPT>",
+      "zh": "好的。这只<LINE>宝可梦现在<CONT>叫{{0}}。<PROMPT>"
+    },
+    "Text_Gained": {
+      "en": "{{0}} gained@@",
+      "zh": "{{0}}获得了@@"
+    },
+    "Text_ABoostedStringBuffer2ExpPoints": {
+      "en": "<LINE>a boosted<CONT>{{0}} Exp.Points!<PROMPT>",
+      "zh": "<LINE>加成后的<CONT>{{0}}点经验值！<PROMPT>"
+    },
+    "Text_StringBuffer2ExpPoints": {
+      "en": "<LINE>{{0}} Exp.Points!<PROMPT>",
+      "zh": "<LINE>{{0}}点经验值！<PROMPT>"
+    },
+    "Text_GoPkmn": {
+      "en": "Go! @@",
+      "zh": "去吧！@@"
+    },
+    "Text_DoItPkmn": {
+      "en": "Do it! @@",
+      "zh": "拜托你了！@@"
+    },
+    "Text_GoForItPkmn": {
+      "en": "Go for it,<LINE>@@",
+      "zh": "就靠你了，<LINE>@@"
+    },
+    "Text_YourFoesWeakGetmPkmn": {
+      "en": "Your foe's weak!<LINE>Get'm, @@",
+      "zh": "对手很弱！<LINE>上吧，@@"
+    },
+    "Text_BattleMonNick01": {
+      "en": "{{0}}!<DONE>",
+      "zh": "{{0}}！<DONE>"
+    },
+    "Text_BattleMonNickComma": {
+      "en": "{{0}},@@",
+      "zh": "{{0}}，@@"
+    },
+    "Text_ThatsEnoughComeBack": {
+      "en": " that's<LINE>enough! Come back!@@",
+      "zh": "，够了！<LINE>回来吧！@@"
+    },
+    "Text_OKComeBack": {
+      "en": " OK!<LINE>Come back!@@",
+      "zh": "，好！<LINE>回来吧！@@"
+    },
+    "Text_GoodComeBack": {
+      "en": " good!<LINE>Come back!@@",
+      "zh": "，很好！<LINE>回来吧！@@"
+    },
+    "Text_ComeBack": {
+      "en": " come<LINE>back!<DONE>",
+      "zh": "，回来<LINE>吧！<DONE>"
+    },
+    "_BootedTMText": {
+      "en": "Booted up a TM.<DONE>",
+      "zh": "启动了TM。<DONE>"
+    },
+    "_BootedHMText": {
+      "en": "Booted up an HM.<DONE>",
+      "zh": "启动了HM。<DONE>"
+    },
+    "_ContainedMoveText": {
+      "en": "It contained<LINE>{{0}}.<PARA>Teach {{1}}<LINE>to a #mon?<DONE>",
+      "zh": "里面是<LINE>{{0}}。<PARA>要让{{1}}<LINE>学会吗？<DONE>"
+    },
+    "_TMHMNotCompatibleText": {
+      "en": "{{0}} is<LINE>not compatible<CONT>with {{1}}.<PARA>It can't learn<LINE>{{2}}.<PROMPT>",
+      "zh": "{{0}}无法<LINE>和{{1}}<CONT>兼容。<PARA>它学不会<LINE>{{2}}。<PROMPT>"
+    },
+    "_BadgeRequiredText": {
+      "en": "Sorry! A new Badge<LINE>is required.<PROMPT>",
+      "zh": "抱歉！需要<LINE>新的徽章。<PROMPT>"
+    },
+    "_CantUseItemText": {
+      "en": "Can't use that<LINE>here.<PROMPT>",
+      "zh": "这里<LINE>不能使用。<PROMPT>"
+    },
+    "_UseCutText": {
+      "en": "{{0}} used<LINE>Cut!<PROMPT>",
+      "zh": "{{0}}使用了<LINE>居合斩！<PROMPT>"
+    },
+    "_CutNothingText": {
+      "en": "There's nothing to<LINE>Cut here.<PROMPT>",
+      "zh": "这里没有<LINE>可砍的东西。<PROMPT>"
+    },
+    "_AskFlashText": {
+      "en": "It's pitch black.<LINE>Want to use Flash?<DONE>",
+      "zh": "一片漆黑。<LINE>要使用闪光吗？<DONE>"
+    },
+    "_BlindingFlashText": {
+      "en": "A blinding Flash<LINE>lights the area!<WAIT>@",
+      "zh": "耀眼的闪光<LINE>照亮了四周！<WAIT>@"
+    },
+    "_UsedSurfText": {
+      "en": "{{0}} used<LINE>Surf!<DONE>",
+      "zh": "{{0}}使用了<LINE>冲浪！<DONE>"
+    },
+    "_CantSurfText": {
+      "en": "You can't Surf<LINE>here.<PROMPT>",
+      "zh": "这里<LINE>不能冲浪。<PROMPT>"
+    },
+    "_AlreadySurfingText": {
+      "en": "You're already<LINE>Surfing.<PROMPT>",
+      "zh": "你已经在<LINE>冲浪了。<PROMPT>"
+    },
+    "_AskSurfText": {
+      "en": "The water is calm.<LINE>Want to Surf?<DONE>",
+      "zh": "水面很平静。<LINE>要冲浪吗？<DONE>"
+    },
+    "_UseWaterfallText": {
+      "en": "{{0}} used<LINE>Waterfall!<DONE>",
+      "zh": "{{0}}使用了<LINE>攀瀑！<DONE>"
+    },
+    "_HugeWaterfallText": {
+      "en": "Wow, it's a huge<LINE>waterfall.<DONE>",
+      "zh": "哇，好大的<LINE>瀑布！<DONE>"
+    },
+    "_AskWaterfallText": {
+      "en": "Do you want to use<LINE>Waterfall?<DONE>",
+      "zh": "要使用<LINE>攀瀑吗？<DONE>"
+    },
+    "_UseDigText": {
+      "en": "{{0}} used<LINE>Dig!<DONE>",
+      "zh": "{{0}}使用了<LINE>挖洞！<DONE>"
+    },
+    "_UseEscapeRopeText": {
+      "en": "<PLAYER> used an<LINE>Escape Rope.<DONE>",
+      "zh": "<PLAYER>使用了<LINE>离洞绳。<DONE>"
+    },
+    "_CantUseDigText": {
+      "en": "Can't use that<LINE>here.<DONE>",
+      "zh": "这里<LINE>不能使用。<DONE>"
+    },
+    "_CantUseTeleportText": {
+      "en": "Can't use that<LINE>here.<PARA><DONE>",
+      "zh": "这里<LINE>不能使用。<PARA><DONE>"
+    },
+    "_UseStrengthText": {
+      "en": "{{0}} used<LINE>Strength!<DONE>",
+      "zh": "{{0}}使用了<LINE>怪力！<DONE>"
+    },
+    "_MoveBoulderText": {
+      "en": "{{0}} can<LINE>move boulders.<PROMPT>",
+      "zh": "{{0}}可以<LINE>推动岩石。<PROMPT>"
+    },
+    "_AskStrengthText": {
+      "en": "A #mon may be<LINE>able to move this.<PARA>Want to use<LINE>Strength?<DONE>",
+      "zh": "宝可梦也许<LINE>能推动它。<PARA>要使用<LINE>怪力吗？<DONE>"
+    },
+    "_BouldersMoveText": {
+      "en": "Boulders may now<LINE>be moved!<DONE>",
+      "zh": "现在可以<LINE>推动岩石了！<DONE>"
+    },
+    "_BouldersMayMoveText": {
+      "en": "A #mon may be<LINE>able to move this.<DONE>",
+      "zh": "宝可梦也许<LINE>能移动它。<DONE>"
+    },
+    "_UseWhirlpoolText": {
+      "en": "{{0}} used<LINE>Whirlpool!<PROMPT>",
+      "zh": "{{0}}使用了<LINE>潮旋！<PROMPT>"
+    },
+    "_MayPassWhirlpoolText": {
+      "en": "It's a vicious<LINE>whirlpool!<PARA>A #mon may be<LINE>able to pass it.<DONE>",
+      "zh": "好凶险的<LINE>漩涡！<PARA>宝可梦也许<LINE>能通过。<DONE>"
+    },
+    "_AskWhirlpoolText": {
+      "en": "A whirlpool is in<LINE>the way.<PARA>Want to use<LINE>Whirlpool?<DONE>",
+      "zh": "前方有<LINE>漩涡挡路。<PARA>要使用<LINE>潮旋吗？<DONE>"
+    },
+    "_UseHeadbuttText": {
+      "en": "{{0}} did a<LINE>Headbutt!<PROMPT>",
+      "zh": "{{0}}使出了<LINE>头锤！<PROMPT>"
+    },
+    "_HeadbuttNothingText": {
+      "en": "Nope. Nothing…<DONE>",
+      "zh": "什么都没有…<DONE>"
+    },
+    "_AskHeadbuttText": {
+      "en": "A #mon could be<LINE>in this tree.<PARA>Want to Headbutt<LINE>it?<DONE>",
+      "zh": "树上也许<LINE>有宝可梦。<PARA>要用头锤<LINE>撞它吗？<DONE>"
+    },
+    "_UseRockSmashText": {
+      "en": "{{0}} used<LINE>Brick Break!<PROMPT>",
+      "zh": "{{0}}使用了<LINE>劈瓦！<PROMPT>"
+    },
+    "_MaySmashText": {
+      "en": "Maybe a #mon<LINE>can break this.<DONE>",
+      "zh": "宝可梦也许<LINE>能打碎它。<DONE>"
+    },
+    "_AskRockSmashText": {
+      "en": "This rock looks<LINE>breakable.<PARA>Want to use Brick<LINE>Break?<DONE>",
+      "zh": "这块岩石<LINE>看起来能打碎。<PARA>要使用<LINE>劈瓦吗？<DONE>"
+    },
+    "_RodBiteText": {
+      "en": "Oh!<LINE>A bite!<PROMPT>",
+      "zh": "哦！<LINE>有鱼上钩了！<PROMPT>"
+    },
+    "_RodNothingText": {
+      "en": "Not even a nibble!<PARA>Keep fishing?<DONE>",
+      "zh": "完全没有动静！<PARA>要继续钓吗？<DONE>"
+    },
+    "_CantGetOffBikeText": {
+      "en": "You can't get off<LINE>here!<DONE>",
+      "zh": "这里<LINE>不能下车！<DONE>"
+    },
+    "_GotOnBikeText": {
+      "en": "<PLAYER> got on the<LINE>{{0}}.<DONE>",
+      "zh": "<PLAYER>骑上了<LINE>{{0}}。<DONE>"
+    },
+    "_GotOffBikeText": {
+      "en": "<PLAYER> got off<LINE>the {{0}}.<DONE>",
+      "zh": "<PLAYER>从{{0}}<LINE>上下来了。<DONE>"
+    },
+    "_AskCutText": {
+      "en": "This tree can be<LINE>Cut!<PARA>Want to use Cut?<DONE>",
+      "zh": "这棵树<LINE>可以斩断！<PARA>要使用<LINE>居合斩吗？<DONE>"
+    },
+    "_CanCutText": {
+      "en": "This tree can be<LINE>Cut!<DONE>",
+      "zh": "这棵树<LINE>可以斩断！<DONE>"
+    },
+    "_FoundItemText": {
+      "en": "<PLAYER> found<LINE>{{0}}!<DONE>",
+      "zh": "<PLAYER>发现了<LINE>{{0}}！<DONE>"
+    },
+    "_GotTheItemText": {
+      "en": "<PLAYER> got<LINE>the {{0}}.<DONE>",
+      "zh": "<PLAYER>得到了<LINE>{{0}}。<DONE>"
+    },
+    "_ReceivedTheBadgeText": {
+      "en": "<PLAYER> received<LINE>the {{0}} Badge.<DONE>",
+      "zh": "<PLAYER>获得了<LINE>{{0}}徽章。<DONE>"
+    },
+    "WhiteoutText": {
+      "en": "<PLAYER> is out of<LINE>useable #mon!<PARA><PLAYER> blacked<LINE>out!<DONE>",
+      "zh": "<PLAYER>已经没有<LINE>能战斗的宝可梦！<PARA><PLAYER><LINE>眼前一黑！<DONE>"
+    },
+    "WhiteoutToWildText": {
+      "en": "<PLAYER> is out of<LINE>useable #mon!<PARA><PLAYER> panicked<LINE>and dropped<CONT>¥{{0}}…<PARA>………………<LINE>………………<PARA><PLAYER> blacked<LINE>out!<DONE>",
+      "zh": "<PLAYER>已经没有<LINE>能战斗的宝可梦！<PARA><PLAYER>慌张地<LINE>丢下了<CONT>¥{{0}}…<PARA>………………<LINE>………………<PARA><PLAYER><LINE>眼前一黑！<DONE>"
+    },
+    "WhiteoutToTrainerText": {
+      "en": "<PLAYER> is out of<LINE>useable #mon!<PARA><PLAYER> paid<LINE>¥{{0}} to the<CONT>winner…<PARA>………………<LINE>………………<PARA><PLAYER> blacked<LINE>out!<DONE>",
+      "zh": "<PLAYER>已经没有<LINE>能战斗的宝可梦！<PARA><PLAYER>向胜利者<LINE>支付了<CONT>¥{{0}}…<PARA>………………<LINE>………………<PARA><PLAYER><LINE>眼前一黑！<DONE>"
+    },
+    "ForfeitToTrainerText": {
+      "en": "<PLAYER> forfeit-<LINE>ed the battle…<PARA><PLAYER> paid<LINE>¥{{0}} to the<CONT>winner…<PARA>………………<LINE>………………<PARA><PLAYER> blacked<LINE>out!<DONE>",
+      "zh": "<PLAYER>放弃了<LINE>这场对战…<PARA><PLAYER>向胜利者<LINE>支付了<CONT>¥{{0}}…<PARA>………………<LINE>………………<PARA><PLAYER><LINE>眼前一黑！<DONE>"
+    },
+    "_PoisonFaintText": {
+      "en": "{{0}}<LINE>recovered from<CONT>its poisoning!<PROMPT>",
+      "zh": "{{0}}<LINE>从中毒中<CONT>恢复了！<PROMPT>"
+    },
+    "_UseSweetHoneyText": {
+      "en": "<PLAYER> spread<LINE>the Sweet Honey!<DONE>",
+      "zh": "<PLAYER>涂抹了<LINE>甜甜蜜！<DONE>"
+    },
+    "_SweetHoneyNothingText": {
+      "en": "Looks like there's<LINE>nothing here…<DONE>",
+      "zh": "看起来这里<LINE>什么都没有…<DONE>"
+    },
+    "_SquirtbottleNothingText": {
+      "en": "<PLAYER> sprinkled<LINE>water.<PARA>But nothing<LINE>happened…<DONE>",
+      "zh": "<PLAYER>洒了<LINE>一些水。<PARA>但是<LINE>什么都没发生…<DONE>"
+    },
+    "_UseSacredAshText": {
+      "en": "<PLAYER>'s #mon<LINE>were all healed!<DONE>",
+      "zh": "<PLAYER>的宝可梦<LINE>全部恢复了！<DONE>"
+    },
+    "Text_AnEGGCantHoldAnItem": {
+      "en": "An Egg can't hold<LINE>an item.<PROMPT>",
+      "zh": "蛋无法<LINE>携带道具。<PROMPT>"
+    },
+    "_AskThrowAwayText": {
+      "en": "Throw away how<LINE>many?<DONE>",
+      "zh": "要丢弃<LINE>几个？<DONE>"
+    },
+    "_AskQuantityThrowAwayText": {
+      "en": "Throw away {{0}}<LINE>{{1}}<PLURAL>?<DONE>",
+      "zh": "要丢弃{{0}}个<LINE>{{1}}<PLURAL>吗？<DONE>"
+    },
+    "_ThrewAwayText": {
+      "en": "Threw away<LINE>{{0}}<PLURAL>.<PROMPT>",
+      "zh": "丢掉了<LINE>{{0}}<PLURAL>。<PROMPT>"
+    },
+    "_OakThisIsntTheTimeText": {
+      "en": "Oak: <PLAYER>!<LINE>This isn't the<CONT>time to use that!<PROMPT>",
+      "zh": "大木：<PLAYER>！<LINE>现在还不是<CONT>用它的时候！<PROMPT>"
+    },
+    "Text_YouDontHaveAPkmn": {
+      "en": "You don't have a<LINE>#mon!<PROMPT>",
+      "zh": "你还没有<LINE>宝可梦！<PROMPT>"
+    },
+    "_RegisteredItemText": {
+      "en": "Registered the<LINE>{{0}}.<PROMPT>",
+      "zh": "已登录<LINE>{{0}}。<PROMPT>"
+    },
+    "UnregisteredItemText": {
+      "en": "Unregistered the<LINE>{{0}}.<PROMPT>",
+      "zh": "已取消登录<LINE>{{0}}。<PROMPT>"
+    },
+    "_CantRegisterText": {
+      "en": "You can't register<LINE>that item.<PROMPT>",
+      "zh": "那个道具<LINE>无法登录。<PROMPT>"
+    },
+    "_AskItemMoveText": {
+      "en": "Where should this<LINE>be moved to?<DONE>",
+      "zh": "要把它<LINE>移动到哪里？<DONE>"
+    },
+    "Text_AreYouABoyOrAreYouAGirl": {
+      "en": "Which photo is on<LINE>your Trainer Card?<DONE>",
+      "zh": "训练家卡片上<LINE>要用哪张照片？<DONE>"
+    },
+    "Text_SoThisIsYou": {
+      "en": "So this is you?<DONE>",
+      "zh": "这就是你吗？<DONE>"
+    },
+    "Text_BattleUser": {
+      "en": "<USER>@@",
+      "zh": "<USER>@@"
+    },
+    "_BattleTookSunlightText": {
+      "en": "<LINE>took in sunlight!<PROMPT>",
+      "zh": "<LINE>吸收了阳光！<PROMPT>"
+    },
+    "_BattleFlewText": {
+      "en": "<LINE>flew up high!<PROMPT>",
+      "zh": "<LINE>飞上了高空！<PROMPT>"
+    },
+    "_BattleDugText": {
+      "en": "<LINE>dug a hole!<PROMPT>",
+      "zh": "<LINE>挖了个洞！<PROMPT>"
+    },
+    "Text_BreedHuh": {
+      "en": "Huh?<PARA>@@",
+      "zh": "咦？<PARA>@@"
+    },
+    "_BreedEggHatchText": {
+      "en": "{{0}} came<LINE>out of its Egg!{{1}}<WAIT>@",
+      "zh": "{{0}}从蛋里<LINE>孵化出来了！{{1}}<WAIT>@"
+    },
+    "_BreedAskNicknameText": {
+      "en": "Give a nickname to<LINE>{{0}}?<DONE>",
+      "zh": "要给{{0}}<LINE>取昵称吗？<DONE>"
+    },
+    "_LeftWithDayCareLadyText": {
+      "en": "It's {{0}}<LINE>that was left with<CONT>the Day-Care Lady.<DONE>",
+      "zh": "寄放在饲育屋<LINE>老奶奶那里的<CONT>是{{0}}。<DONE>"
+    },
+    "_LeftWithDayCareManText": {
+      "en": "It's {{0}}<LINE>that was left with<CONT>the Day-Care Man.<DONE>",
+      "zh": "寄放在饲育屋<LINE>老爷爷那里的<CONT>是{{0}}。<DONE>"
+    },
+    "_BreedNoInterestText": {
+      "en": "It has no interest<LINE>in {{0}}.<PROMPT>",
+      "zh": "它对{{0}}<LINE>没有兴趣。<PROMPT>"
+    },
+    "_BreedAppearsToCareForText": {
+      "en": "It appears to care<LINE>for {{0}}.<PROMPT>",
+      "zh": "它似乎很<LINE>喜欢{{0}}。<PROMPT>"
+    },
+    "_BreedFriendlyText": {
+      "en": "It's friendly with<LINE>{{0}}.<PROMPT>",
+      "zh": "它和{{0}}<LINE>很要好。<PROMPT>"
+    },
+    "_BreedShowsInterestText": {
+      "en": "It shows interest<LINE>in {{0}}.<PROMPT>",
+      "zh": "它对{{0}}<LINE>很感兴趣。<PROMPT>"
+    },
+    "_EmptyMailboxText": {
+      "en": "There's no Mail<LINE>here.<PROMPT>",
+      "zh": "这里并没有<LINE>邮件。<PROMPT>"
+    },
+    "ClearedMailPutAwayText": {
+      "en": "The cleared Mail<LINE>was put away.<PROMPT>",
+      "zh": "清空的邮件<LINE>已收好。<PROMPT>"
+    },
+    "MailPackFullText": {
+      "en": "The Bag is full.<PROMPT>",
+      "zh": "背包已满。<PROMPT>"
+    },
+    "MailMessageLostText": {
+      "en": "The Mail's message<LINE>will be lost. OK?<DONE>",
+      "zh": "邮件的内容<LINE>会丢失，可以吗？<DONE>"
+    },
+    "MailAlreadyHoldingItemText": {
+      "en": "It's already hold-<LINE>ing an item.<PROMPT>",
+      "zh": "它已经携带了<LINE>某个道具。<PROMPT>"
+    },
+    "MailEggText": {
+      "en": "An Egg can't hold<LINE>any Mail.<PROMPT>",
+      "zh": "蛋无法<LINE>携带邮件。<PROMPT>"
+    },
+    "MailMovedFromBoxText": {
+      "en": "The Mail was moved<LINE>from the Mailbox.<PROMPT>",
+      "zh": "邮件已从<LINE>邮箱里取出。<PROMPT>"
+    },
+    "_ReceivedGiftMonText": {
+      "en": "<PLAYER> received<LINE>{{0}}!<DONE>",
+      "zh": "<PLAYER>收到了<LINE>{{0}}！<DONE>"
+    },
+    "_EggSentToPCText": {
+      "en": "The Egg was sent<LINE>to {{0}}.<PROMPT>",
+      "zh": "蛋被送到了<LINE>{{0}}。<PROMPT>"
+    },
+    "_PCGottaHavePokemonText": {
+      "en": "You gotta have<LINE>#mon to call!<PROMPT>",
+      "zh": "必须有宝可梦<LINE>才能打电话！<PROMPT>"
+    },
+    "_ContestCaughtMonText": {
+      "en": "Caught {{0}}!<PROMPT>",
+      "zh": "收服了{{0}}！<PROMPT>"
+    },
+    "_ContestAskSwitchText": {
+      "en": "Switch #mon?<DONE>",
+      "zh": "要交换宝可梦吗？<DONE>"
+    },
+    "_ContestAlreadyCaughtText": {
+      "en": "You already caught<LINE>a {{0}}.<PROMPT>",
+      "zh": "你已经收服了<LINE>{{0}}。<PROMPT>"
+    },
+    "ContestJudging_FirstPlaceText": {
+      "en": "This Bug-Catching<LINE>Contest winner is<PAUSE>…<PARA>{{0}},<LINE>who caught a<CONT>{{1}}!@@",
+      "zh": "本次捕虫大赛的<LINE>冠军是<PAUSE>…<PARA>{{0}}，<LINE>他抓到了<CONT>{{1}}！@@"
+    },
+    "ContestJudging_FirstPlaceScoreText": {
+      "en": "<PARA>The winning score<LINE>was {{0}} points!<PROMPT>",
+      "zh": "<PARA>获胜的分数<LINE>是{{0}}分！<PROMPT>"
+    },
+    "ContestJudging_SecondPlaceText": {
+      "en": "Placing second was<LINE>{{0}},<PARA>who caught a<LINE>{{1}}!@@",
+      "zh": "第二名是<LINE>{{0}}，<PARA>他抓到了<LINE>{{1}}！@@"
+    },
+    "ContestJudging_SecondPlaceScoreText": {
+      "en": "<PARA>The score was<LINE>{{0}} points!<PROMPT>",
+      "zh": "<PARA>分数是<LINE>{{0}}分！<PROMPT>"
+    },
+    "ContestJudging_ThirdPlaceText": {
+      "en": "Placing third was<LINE>{{0}},<PARA>who caught a<LINE>{{1}}!@@",
+      "zh": "第三名是<LINE>{{0}}，<PARA>他抓到了<LINE>{{1}}！@@"
+    },
+    "ContestJudging_ThirdPlaceScoreText": {
+      "en": "<PARA>The score was<LINE>{{0}} points!<PROMPT>",
+      "zh": "<PARA>分数是<LINE>{{0}}分！<PROMPT>"
+    },
+    "_MagikarpGuruMeasureText": {
+      "en": "Let me measure<LINE>that Magikarp.<PARA>…Hm, it measures<LINE>{{0}}.<PROMPT>",
+      "zh": "让我来测量<LINE>这只鲤鱼王。<PARA>…嗯，尺寸<LINE>是{{0}}。<PROMPT>"
+    },
+    "_KarpGuruRecordText": {
+      "en": "Current Record<PARA>{{0}} caught by<LINE>{{1}}<WAIT>@",
+      "zh": "目前的记录<PARA>{{0}}，<LINE>由{{1}}钓到<WAIT>@"
+    },
+    "_LuckyNumberMatchPartyText": {
+      "en": "Congratulations!<PARA>We have a match<LINE>with the ID number<PARA>of {{0}} in<LINE>your party.<PROMPT>",
+      "zh": "恭喜你！<PARA>找到了和<LINE>ID编号一致的<PARA>{{0}}，在<LINE>你的队伍里。<PROMPT>"
+    },
+    "_LuckyNumberMatchPCText": {
+      "en": "Congratulations!<PARA>We have a match<LINE>with the ID number<PARA>of {{0}} in Box<LINE>“{{1}}”.<PROMPT>",
+      "zh": "恭喜你！<PARA>找到了和<LINE>ID编号一致的<PARA>{{0}}，在<LINE>“{{1}}”箱子里。<PROMPT>"
+    },
+    "_CaughtAskNicknameText": {
+      "en": "Give a nickname to<LINE>the {{0}} you<CONT>received?<DONE>",
+      "zh": "要给得到的<LINE>{{0}}<CONT>取昵称吗？<DONE>"
+    },
+    "_PokecenterPCCantUseText": {
+      "en": "Bzzzzt! You must<LINE>have a #mon to<CONT>use this!<PROMPT>",
+      "zh": "哔哔！必须有<LINE>宝可梦才能<CONT>使用它！<PROMPT>"
+    },
+    "_PlayersPCTurnOnText": {
+      "en": "<PLAYER> turned on<LINE>the PC.<PROMPT>",
+      "zh": "<PLAYER>打开了<LINE>电脑。<PROMPT>"
+    },
+    "_PlayersPCAskWhatDoText": {
+      "en": "What do you want<LINE>to do?<DONE>",
+      "zh": "你想<LINE>做什么呢？<DONE>"
+    },
+    "_PlayersPCHowManyWithdrawText": {
+      "en": "How many do you<LINE>want to withdraw?<DONE>",
+      "zh": "你想取出<LINE>多少个呢？<DONE>"
+    },
+    "_PlayersPCWithdrewItemsText": {
+      "en": "Withdrew {{0}}<LINE>{{1}}<PLURAL>.<PROMPT>",
+      "zh": "取出了<LINE>{{0}}{{1}}<PLURAL>。<PROMPT>"
+    },
+    "_PlayersPCNoRoomWithdrawText": {
+      "en": "There's no room<LINE>for more items.<PROMPT>",
+      "zh": "没有空间<LINE>放更多道具。<PROMPT>"
+    },
+    "_PlayersPCNoItemsText": {
+      "en": "No items here!<PROMPT>",
+      "zh": "这里没有道具。<PROMPT>"
+    },
+    "_PlayersPCCantDepositItemText": {
+      "en": "That item can't<LINE>be deposited.<PROMPT>",
+      "zh": "那个道具<LINE>无法存放。<PROMPT>"
+    },
+    "_PlayersPCHowManyDepositText": {
+      "en": "How many do you<LINE>want to deposit?<DONE>",
+      "zh": "你想存入<LINE>多少个呢？<DONE>"
+    },
+    "_PlayersPCDepositItemsText": {
+      "en": "Deposited {{0}}<LINE>{{1}}<PLURAL>.<PROMPT>",
+      "zh": "存放了<LINE>{{0}}{{1}}<PLURAL>。<PROMPT>"
+    },
+    "_PlayersPCNoRoomDepositText": {
+      "en": "There's no room to<LINE>store items.<PROMPT>",
+      "zh": "没有空间<LINE>存放道具。<PROMPT>"
+    },
+    "_PokecenterPCTurnOnText": {
+      "en": "<PLAYER> turned on<LINE>the PC.<PROMPT>",
+      "zh": "<PLAYER>打开了<LINE>电脑。<PROMPT>"
+    },
+    "_PokecenterPCWhoseText": {
+      "en": "Access whose PC?<DONE>",
+      "zh": "要打开谁的电脑？<DONE>"
+    },
+    "_PokecenterBillsPCText": {
+      "en": "Bill's PC<LINE>accessed.<PARA>#mon Storage<LINE>System opened.<PROMPT>",
+      "zh": "正辉的电脑<LINE>已启动。<PARA>宝可梦存放<LINE>系统已打开。<PROMPT>"
+    },
+    "_PokecenterPlayersPCText": {
+      "en": "Accessed own PC.<PARA>Item Storage<LINE>System opened.<PROMPT>",
+      "zh": "自己电脑已启动。<PARA>道具存放<LINE>系统已打开。<PROMPT>"
+    },
+    "_PokecenterOaksPCText": {
+      "en": "Prof.Oak's PC<LINE>accessed.<PARA>#dex Rating<LINE>System opened.<PROMPT>",
+      "zh": "大木博士的<LINE>电脑已启动。<PARA>图鉴评级<LINE>系统已打开。<PROMPT>"
+    },
+    "_PokecenterPCOaksClosedText": {
+      "en": "…<LINE>Link closed…<DONE>",
+      "zh": "…<LINE>连接已断开…<DONE>"
+    },
+    "_OakPCText1": {
+      "en": "Want to get your<LINE>#dex rated?<DONE>",
+      "zh": "要给图鉴<LINE>做评价吗？<DONE>"
+    },
+    "_OakPCText2": {
+      "en": "Current #dex<LINE>completion level:<PROMPT>",
+      "zh": "目前的图鉴<LINE>完成度：<PROMPT>"
+    },
+    "_OakPCText3": {
+      "en": "{{0}} #mon seen<LINE>{{1}} #mon owned<PARA>Prof.Oak's<LINE>Rating:<DONE>",
+      "zh": "已见{{0}}只<LINE>已捕获{{1}}只<PARA>大木博士<LINE>的评价：<DONE>"
+    },
+    "_OakRating01": {
+      "en": "Look for #mon<LINE>in grassy areas!<DONE>",
+      "zh": "去草丛里<LINE>寻找宝可梦吧！<DONE>"
+    },
+    "_OakRating02": {
+      "en": "Good. I see you<LINE>understand how to<CONT>use # Balls.<DONE>",
+      "zh": "不错。看来你<LINE>已经会用<CONT>精灵球了。<DONE>"
+    },
+    "_OakRating03": {
+      "en": "You're getting<LINE>good at this.<PARA>But you have a<LINE>long way to go.<DONE>",
+      "zh": "你已经<LINE>渐入佳境。<PARA>不过要走的路<LINE>还很长。<DONE>"
+    },
+    "_OakRating04": {
+      "en": "You need to fill<LINE>up the #dex.<PARA>Catch different<LINE>kinds of #mon!<DONE>",
+      "zh": "你要把图鉴<LINE>填满才行。<PARA>去捕捉各种<LINE>宝可梦吧！<DONE>"
+    },
+    "_OakRating05": {
+      "en": "You're trying--I<LINE>can see that.<PARA>Your #dex is<LINE>coming together.<DONE>",
+      "zh": "你在努力，<LINE>这我看得出来。<PARA>你的图鉴<LINE>正在成形。<DONE>"
+    },
+    "_OakRating06": {
+      "en": "To evolve, some<LINE>#mon grow,<PARA>others use the<LINE>effects of Stones.<DONE>",
+      "zh": "要进化，有的<LINE>宝可梦会成长，<PARA>有的则要靠<LINE>石头的效果。<DONE>"
+    },
+    "_OakRating07": {
+      "en": "Have you gotten a<LINE>fishing Rod? You<PARA>can catch #mon<LINE>by fishing.<DONE>",
+      "zh": "你已经拿到<LINE>钓竿了吧？<PARA>可以靠钓鱼<LINE>捕捉宝可梦。<DONE>"
+    },
+    "_OakRating08": {
+      "en": "Excellent! You<LINE>seem to like col-<CONT>lecting things!<DONE>",
+      "zh": "太棒了！你<LINE>似乎很喜欢<CONT>收集东西！<DONE>"
+    },
+    "_OakRating09": {
+      "en": "Some #mon only<LINE>appear during<PARA>certain times of<LINE>the day.<DONE>",
+      "zh": "有些宝可梦<LINE>只会在<PARA>一天中的<LINE>特定时段出现。<DONE>"
+    },
+    "_OakRating10": {
+      "en": "Your #dex is<LINE>filling up. Keep<CONT>up the good work!<DONE>",
+      "zh": "你的图鉴<LINE>正在充实。<CONT>继续努力吧！<DONE>"
+    },
+    "_OakRating11": {
+      "en": "I'm impressed.<LINE>You're evolving<PARA>#mon, not just<LINE>catching them.<DONE>",
+      "zh": "我很佩服。<LINE>你不只是<PARA>捕捉宝可梦，<LINE>还会让它们进化。<DONE>"
+    },
+    "_OakRating12": {
+      "en": "Have you met Kurt?<LINE>His custom Balls<CONT>should help.<DONE>",
+      "zh": "你见过钢铁吗？<LINE>他做的特制球<CONT>应该能帮上忙。<DONE>"
+    },
+    "_OakRating13": {
+      "en": "Wow. You've found<LINE>more #mon than<PARA>the last #dex<LINE>research project.<DONE>",
+      "zh": "哇。你发现的<LINE>宝可梦，比上<PARA>一次图鉴研究<LINE>项目还多。<DONE>"
+    },
+    "_OakRating14": {
+      "en": "Are you trading<LINE>your #mon?<PARA>It's tough to do<LINE>this alone!<DONE>",
+      "zh": "你是在<LINE>交换宝可梦吗？<PARA>独自完成<LINE>可不容易！<DONE>"
+    },
+    "_OakRating15": {
+      "en": "Wow! You've hit<LINE>200! Your #dex<CONT>is looking great!<DONE>",
+      "zh": "哇！你已经<LINE>达到200了！<CONT>图鉴相当精彩！<DONE>"
+    },
+    "_OakRating16": {
+      "en": "You've found so<LINE>many #mon!<PARA>You've really<LINE>helped my studies!<DONE>",
+      "zh": "你发现了<LINE>这么多宝可梦！<PARA>真是帮了<LINE>我的研究大忙！<DONE>"
+    },
+    "_OakRating17": {
+      "en": "Magnificent! You<LINE>could become a<PARA>#mon professor<LINE>right now!<DONE>",
+      "zh": "了不起！你<LINE>现在就能成为<PARA>一名宝可梦<LINE>博士！<DONE>"
+    },
+    "_OakRating18": {
+      "en": "Your #dex is<LINE>amazing! You're<PARA>ready to turn<LINE>professional!<DONE>",
+      "zh": "你的图鉴<LINE>太惊人了！<PARA>已经够资格<LINE>成为专家了！<DONE>"
+    },
+    "_OakRating19": {
+      "en": "Whoa! A perfect<LINE>#dex! I've<PARA>dreamt about this!<LINE>Congratulations!<DONE>",
+      "zh": "哇！完美的<LINE>图鉴！这可是<PARA>我梦寐以求的！<LINE>恭喜你！<DONE>"
+    },
+    "_OakPCText4": {
+      "en": "The link to Prof.<LINE>Oak's PC closed.<DONE>",
+      "zh": "大木博士的电脑<LINE>连接已断开。<DONE>"
+    },
+    "_StartMenuContestEndText": {
+      "en": "Would you like to<LINE>end the Contest?<DONE>",
+      "zh": "要结束<LINE>这场大赛吗？<DONE>"
+    },
+    "_ItemsTossOutHowManyText": {
+      "en": "Toss out how many<LINE>{{0}}<PLURAL>?<DONE>",
+      "zh": "要丢弃<LINE>几个{{0}}<PLURAL>？<DONE>"
+    },
+    "_ItemsDiscardedText": {
+      "en": "Discarded<LINE>{{0}}<PLURAL>.<PROMPT>",
+      "zh": "丢弃了<LINE>{{0}}<PLURAL>。<PROMPT>"
+    },
+    "_ItemsOakWarningText": {
+      "en": "Oak: <PLAYER>!<LINE>This isn't the<CONT>time to use that!<DONE>",
+      "zh": "大木：<PLAYER>！<LINE>现在还不是<CONT>用它的时候！<DONE>"
+    },
+    "_PokemonSwapItemText": {
+      "en": "Took {{0}}'s<LINE>{{1}} and<PARA>made it hold<LINE>{{2}}.<PROMPT>",
+      "zh": "从{{0}}身上<LINE>取下{{1}}，<PARA>并让它<LINE>携带{{2}}。<PROMPT>"
+    },
+    "_PokemonHoldItemText": {
+      "en": "Made {{0}}<LINE>hold {{1}}.<PROMPT>",
+      "zh": "让{{0}}<LINE>携带{{1}}。<PROMPT>"
+    },
+    "_PokemonRemoveMailText": {
+      "en": "Please remove the<LINE>Mail first.<PROMPT>",
+      "zh": "请先<LINE>取下邮件。<PROMPT>"
+    },
+    "_PokemonNotHoldingText": {
+      "en": "{{0}} isn't<LINE>holding anything.<PROMPT>",
+      "zh": "{{0}}并没有<LINE>携带任何道具。<PROMPT>"
+    },
+    "_ItemStorageFullText": {
+      "en": "Item storage space<LINE>full.<PROMPT>",
+      "zh": "道具存放空间<LINE>已满。<PROMPT>"
+    },
+    "_PokemonTookItemText": {
+      "en": "Took {{0}}<LINE>from {{1}}.<PROMPT>",
+      "zh": "取下{{0}}，<LINE>来自{{1}}。<PROMPT>"
+    },
+    "_PokemonAskSwapItemText": {
+      "en": "{{0}} is<LINE>already holding<PARA>{{1}}.<LINE>Switch items?<DONE>",
+      "zh": "{{0}}<LINE>已经携带了<PARA>{{1}}。<LINE>要交换道具吗？<DONE>"
+    },
+    "_ItemCantHeldText": {
+      "en": "That item can't be<LINE>held.<PROMPT>",
+      "zh": "那个道具<LINE>无法携带。<PROMPT>"
+    },
+    "_MailLoseMessageText": {
+      "en": "The Mail will lose<LINE>its message. OK?<DONE>",
+      "zh": "邮件的内容<LINE>会丢失，可以吗？<DONE>"
+    },
+    "_MailDetachedText": {
+      "en": "Mail detached from<LINE>{{0}}.<PROMPT>",
+      "zh": "已从{{0}}<LINE>取下邮件。<PROMPT>"
+    },
+    "_MailNoSpaceText": {
+      "en": "There's no space<LINE>for removing Mail.<PROMPT>",
+      "zh": "没有空间<LINE>存放邮件。<PROMPT>"
+    },
+    "_MailAskSendToPCText": {
+      "en": "Send the removed<LINE>Mail to your PC?<DONE>",
+      "zh": "把取下的邮件<LINE>送到电脑里吗？<DONE>"
+    },
+    "_MailboxFullText": {
+      "en": "Your PC's Mailbox<LINE>is full.<PROMPT>",
+      "zh": "电脑的邮箱<LINE>已满。<PROMPT>"
+    },
+    "_MailSentToPCText": {
+      "en": "The Mail was sent<LINE>to your PC.<PROMPT>",
+      "zh": "邮件已送到<LINE>电脑里。<PROMPT>"
+    },
+    "_PokemonNotEnoughHPText": {
+      "en": "Not enough HP!<PROMPT>",
+      "zh": "HP不足！<PROMPT>"
+    },
+    "_MayRegisterItemText": {
+      "en": "An item in your<LINE>Bag may be<PARA>registered for use<LINE>on Select Button.<DONE>",
+      "zh": "背包里的道具<LINE>可以登录，<PARA>用选择键<LINE>就能使用。<DONE>"
+    },
+    "_InitialOptionsText": {
+      "en": "Please choose how<LINE>you want to play<CONT>Polished Crystal.<PROMPT>",
+      "zh": "请选择你想<LINE>怎么游玩<CONT>Polished Crystal<PROMPT>"
+    },
+    "_ElmText1": {
+      "en": "Hello! Sorry to<LINE>keep you waiting!<PARA>Welcome to the<LINE>world of #mon!<PARA>My name is Elm.<PARA>People call me the<LINE>#mon Prof.<PROMPT>",
+      "zh": "你好！抱歉<LINE>让你久等了！<PARA>欢迎来到<LINE>宝可梦的世界！<PARA>我的名字是空木。<PARA>大家都叫我<LINE>宝可梦博士。<PROMPT>"
+    },
+    "_ElmText2": {
+      "en": "This world is in-<LINE>habited by crea-<CONT>tures that we call<CONT>#mon.@@",
+      "zh": "这个世界<LINE>生活着一种<CONT>被称为宝可梦的<CONT>生物。@@"
+    },
+    "_ElmText4": {
+      "en": "People and #mon<LINE>live together by<PARA>supporting each<LINE>other.<PARA>Some people play<LINE>with #mon, some<CONT>battle with them.<PROMPT>",
+      "zh": "人类与宝可梦<LINE>互相扶持，<PARA>共同生活。<PARA>有人和宝可梦<LINE>玩耍，<LINE>也有人<CONT>和它们对战。<PROMPT>"
+    },
+    "_ElmText5": {
+      "en": "But we don't know<LINE>everything about<CONT>#mon yet.<PARA>There are still<LINE>many mysteries to<CONT>solve.<PARA>That's why I study<LINE>#mon every day.<PROMPT>",
+      "zh": "但我们对<LINE>宝可梦<CONT>还并不了解。<PARA>还有许多<LINE>谜团<CONT>等着解开。<PARA>所以我每天<LINE>都在研究宝可梦。<PROMPT>"
+    },
+    "_ElmText6": {
+      "en": "Please tell me<LINE>your name.<PROMPT>",
+      "zh": "请告诉我<LINE>你的名字。<PROMPT>"
+    },
+    "_ElmText7": {
+      "en": "<PLAYER>, are you<LINE>ready?<PARA>Your very own<LINE>#mon story is<CONT>about to unfold.<PARA>You'll face fun<LINE>times and tough<CONT>challenges.<PARA>A world of dreams<LINE>and adventures<PARA>with #mon<LINE>awaits! Let's go!<PARA>I'll be seeing you<LINE>later!<DONE>",
+      "zh": "<PLAYER>，你<LINE>准备好了吗？<PARA>只属于你的<LINE>宝可梦故事<CONT>即将展开。<PARA>你会遇到开心的<LINE>事，也会遇到<CONT>艰难的挑战。<PARA>梦想与冒险的<LINE>世界，<PARA>正和宝可梦<LINE>等着你！出发吧！<PARA>那么，<LINE>我们回头见！<DONE>"
+    },
+    "_WarnVBAText": {
+      "en": "Warning!<PARA>This Game Boy<LINE>emulator has bugs<PARA>that may crash<LINE>Polished Crystal.<PARA>Please use a more<LINE>accurate emulator,<PARA>such as BGB, mGBA,<LINE>or Gambatte.<PROMPT>",
+      "zh": "警告！<PARA>这个Game Boy<LINE>模拟器有缺陷，<PARA>可能导致<LINE>Polished Crystal<PARA>崩溃。请使用<LINE>更准确的模拟器，<PARA>例如BGB、mGBA<LINE>或Gambatte。<PROMPT>"
+    },
+    "_ClockTimeMayBeWrongText": {
+      "en": "The clock's time<LINE>may be wrong.<PARA>Please reset the<LINE>time.<PROMPT>",
+      "zh": "时钟的时间<LINE>可能不准。<PARA>请重新<LINE>设置时间。<PROMPT>"
+    },
+    "_ClockSetWithControlPadText": {
+      "en": "Set with the<LINE>Control Pad.<PARA>Confirm: A Button<LINE>Cancel:  B Button<DONE>",
+      "zh": "用十字键<LINE>进行设置。<PARA>确定：A键<LINE>取消：B键<DONE>"
+    },
+    "_ClockIsThisOKText": {
+      "en": "Is this OK?<DONE>",
+      "zh": "这样可以吗？<DONE>"
+    },
+    "_ClockHasResetText": {
+      "en": "The clock has been<LINE>reset.<DONE>",
+      "zh": "时钟已<LINE>重新设置。<DONE>"
+    },
+    "_LinkTimeoutText": {
+      "en": "Too much time has<LINE>elapsed. Please<CONT>try again.<PROMPT>",
+      "zh": "时间<LINE>超时了。<CONT>请再试一次。<PROMPT>"
+    },
+    "_LinkTradeCantBattleText": {
+      "en": "If you trade that<LINE>#mon, you won't<CONT>be able to battle.<PROMPT>",
+      "zh": "如果交换那只<LINE>宝可梦，就无法<CONT>进行对战。<PROMPT>"
+    },
+    "_LinkAbnormalMonText": {
+      "en": "Your friend's<LINE>{{0}} appears<CONT>to be abnormal!<PROMPT>",
+      "zh": "朋友的<LINE>{{0}}<CONT>似乎有问题！<PROMPT>"
+    },
+    "_LinkAskTradeForText": {
+      "en": "Trade {{0}}<LINE>for {{1}}?<DONE>",
+      "zh": "用{{0}}<LINE>交换{{1}}吗？<DONE>"
+    },
+    "_WouldYouLikeToSaveTheGameText": {
+      "en": "Would you like to<LINE>save the game?<DONE>",
+      "zh": "要保存<LINE>游戏进度吗？<DONE>"
+    },
+    "_SavedTheGameText": {
+      "en": "<PLAYER> saved<LINE>the game.<DONE>",
+      "zh": "<PLAYER>保存了<LINE>游戏进度。<DONE>"
+    },
+    "_AnotherSaveFileText": {
+      "en": "Warning! There is<LINE>a save file from<CONT>another game.<PARA>Is it OK to over-<LINE>write the other<CONT>save file?<DONE>",
+      "zh": "注意！已经<LINE>有另一款游戏的<CONT>存档了。<PARA>覆盖<LINE>那个存档，<CONT>可以吗？<DONE>"
+    },
+    "_SaveFileCorruptedText": {
+      "en": "The save file is<LINE>corrupted!<PROMPT>",
+      "zh": "存档文件<LINE>已损坏！<PROMPT>"
+    },
+    "_GainedItemText": {
+      "en": "<PLAYER> gained<LINE>{{0}}.<DONE>",
+      "zh": "<PLAYER>获得了<LINE>{{0}}。<DONE>"
+    },
+    "_GainedMultipleItemsText": {
+      "en": "<PLAYER> gained<LINE>{{0}} {{1}}.<DONE>",
+      "zh": "<PLAYER>获得了<LINE>{{0}}{{1}}。<DONE>"
+    },
+    "_PutItemInPocketText": {
+      "en": "<PLAYER> put the<LINE>{{0}} in<CONT>the {{1}}.<PROMPT>",
+      "zh": "<PLAYER>把<LINE>{{0}}放进<CONT>了{{1}}。<PROMPT>"
+    },
+    "_PocketIsFullText": {
+      "en": "The {{0}}<LINE>is full…<PROMPT>",
+      "zh": "{{0}}<LINE>已经满了…<PROMPT>"
+    },
+    "_FoundWingsText": {
+      "en": "<PLAYER> got {{0}}<LINE>{{1}}.<DONE>",
+      "zh": "<PLAYER>得到了<LINE>{{0}}{{1}}。<DONE>"
+    },
+    "_CongratulationsYourPokemonText": {
+      "en": "Congratulations!<LINE>Your {{0}}@",
+      "zh": "恭喜！<LINE>你的{{0}}@"
+    },
+    "_EvolvedIntoText": {
+      "en": "<PARA>evolved into<LINE>{{0}}!<DONE>",
+      "zh": "<PARA>进化成了<LINE>{{0}}！<DONE>"
+    },
+    "_StoppedEvolvingText": {
+      "en": "Huh? {{0}}<LINE>stopped evolving!<PROMPT>",
+      "zh": "咦？{{0}}<LINE>停止进化了！<PROMPT>"
+    },
+    "_EvolvingText": {
+      "en": "What? {{0}}<LINE>is evolving!<DONE>",
+      "zh": "什么？{{0}}<LINE>正在进化！<DONE>"
+    },
+    "_MartHowManyText": {
+      "en": "How many?<DONE>",
+      "zh": "要买几个？<DONE>"
+    },
+    "_MartFinalPriceText": {
+      "en": "{{0}} {{1}}<PLURAL><LINE>will be ¥{{2}}.<DONE>",
+      "zh": "{{0}}{{1}}<PLURAL><LINE>共¥{{2}}。<DONE>"
+    },
+    "_HerbShopLadyIntroText": {
+      "en": "Hello, dear.<PARA>I sell inexpensive<LINE>herbal medicine.<PARA>They're good, but<LINE>a trifle bitter.<PARA>Your #mon may<LINE>not like them.<PARA>Hehehehe…<DONE>",
+      "zh": "你好啊，孩子。<PARA>我卖的是便宜的<LINE>草药。<PARA>药效不错，就是<LINE>有点苦。<PARA>你的宝可梦<LINE>可能不喜欢。<PARA>嘿嘿嘿……<DONE>"
+    },
+    "_HerbalLadyFinalPriceText": {
+      "en": "{{0}} {{1}}<PLURAL><LINE>will be ¥{{2}}.<DONE>",
+      "zh": "{{0}}{{1}}<PLURAL><LINE>需要¥{{2}}。<DONE>"
+    },
+    "_HerbalLadyThanksText": {
+      "en": "Thank you, dear.<LINE>Hehehehe…<DONE>",
+      "zh": "谢谢你，孩子。<LINE>嘿嘿嘿……<DONE>"
+    },
+    "_HerbalLadyPackFullText": {
+      "en": "Oh? Your Bag is<LINE>full, dear.<DONE>",
+      "zh": "哎呀？背包<LINE>满了呢，孩子。<DONE>"
+    },
+    "_HerbalLadyNoMoneyText": {
+      "en": "Hehehe… You don't<LINE>have the money.<DONE>",
+      "zh": "嘿嘿嘿…你的钱<LINE>不够呢。<DONE>"
+    },
+    "_HerbalLadyComeAgainText": {
+      "en": "Come again, dear.<LINE>Hehehehe…<DONE>",
+      "zh": "再来啊，孩子。<LINE>嘿嘿嘿……<DONE>"
+    },
+    "_BargainShopIntroText": {
+      "en": "Hiya! Care to see<LINE>some bargains?<PARA>I sell rare items<LINE>that nobody else<PARA>carries--but only<LINE>one of each item.<DONE>",
+      "zh": "嗨！想看看<LINE>便宜货吗？<PARA>我卖的是别处<LINE>买不到的珍品，<PARA>不过每种<LINE>只有一件。<DONE>"
+    },
+    "_BargainShopFinalPriceText": {
+      "en": "{{0}} costs<LINE>¥{{1}}. Want it?<DONE>",
+      "zh": "{{0}}要<LINE>¥{{1}}。要买吗？<DONE>"
+    },
+    "_BargainShopThanksText": {
+      "en": "Thanks.<DONE>",
+      "zh": "谢谢。<DONE>"
+    },
+    "_BargainShopPackFullText": {
+      "en": "Uh-oh, your Bag<LINE>is chock-full.<DONE>",
+      "zh": "哎呀，背包<LINE>塞满了。<DONE>"
+    },
+    "_BargainShopSoldOutText": {
+      "en": "You bought that<LINE>already. I'm all<CONT>sold out of it.<DONE>",
+      "zh": "那个你已经<LINE>买过了，<CONT>已经卖完了。<DONE>"
+    },
+    "_BargainShopNoFundsText": {
+      "en": "Uh-oh, you're<LINE>short on funds.<DONE>",
+      "zh": "哎呀，你的钱<LINE>不够呢。<DONE>"
+    },
+    "_BargainShopComeAgainText": {
+      "en": "Come by again<LINE>sometime.<DONE>",
+      "zh": "欢迎<LINE>下次再来。<DONE>"
+    },
+    "_PharmacyIntroText": {
+      "en": "What's up? Need<LINE>some medicine?<DONE>",
+      "zh": "你好啊，需要<LINE>药品吗？<DONE>"
+    },
+    "_HowManyText": {
+      "en": "How many?<DONE>",
+      "zh": "要买几个？<DONE>"
+    },
+    "_PharmacyFinalPriceText": {
+      "en": "{{0}} {{1}}<PLURAL><LINE>will cost ¥{{2}}.<DONE>",
+      "zh": "{{0}}{{1}}<PLURAL><LINE>共¥{{2}}。<DONE>"
+    },
+    "_PharmacyThanksText": {
+      "en": "Thanks much!<DONE>",
+      "zh": "非常感谢！<DONE>"
+    },
+    "_PharmacyPackFullText": {
+      "en": "You don't have any<LINE>more space.<DONE>",
+      "zh": "你<LINE>没有空间了。<DONE>"
+    },
+    "_PharmacyNoMoneyText": {
+      "en": "Huh? That's not<LINE>enough money.<DONE>",
+      "zh": "咦？这些钱<LINE>不够呢。<DONE>"
+    },
+    "_PharmacyComeAgainText": {
+      "en": "All right.<LINE>See you around.<DONE>",
+      "zh": "好的。<LINE>下次见。<DONE>"
+    },
+    "_MartSellHowManyText": {
+      "en": "How many?<DONE>",
+      "zh": "要卖几个？<DONE>"
+    },
+    "_MartSellPriceText": {
+      "en": "I can pay you<LINE>¥{{0}}.<PARA>Is that OK?<DONE>",
+      "zh": "我可以付你<LINE>¥{{0}}。<PARA>这样可以吗？<DONE>"
+    },
+    "_MartWelcomeText": {
+      "en": "Welcome! How may I<LINE>help you?<DONE>",
+      "zh": "欢迎！需要<LINE>什么服务吗？<DONE>"
+    },
+    "_MartThanksText": {
+      "en": "Here you are.<LINE>Thank you!<DONE>",
+      "zh": "给您。<LINE>谢谢惠顾！<DONE>"
+    },
+    "_MartNoMoneyText": {
+      "en": "You don't have<LINE>enough money.<DONE>",
+      "zh": "你的钱<LINE>不够。<DONE>"
+    },
+    "_MartPackFullText": {
+      "en": "You can't carry<LINE>any more items.<DONE>",
+      "zh": "你无法携带<LINE>更多道具了。<DONE>"
+    },
+    "_MartCantBuyText": {
+      "en": "Sorry, I can't buy<LINE>that from you.<PROMPT>",
+      "zh": "抱歉，那个<LINE>我不能收购。<PROMPT>"
+    },
+    "_MartComeAgainText": {
+      "en": "Please come again!<DONE>",
+      "zh": "欢迎再次光临！<DONE>"
+    },
+    "_MartAskMoreText": {
+      "en": "Can I do anything<LINE>else for you?<DONE>",
+      "zh": "还需要<LINE>别的服务吗？<DONE>"
+    },
+    "_MartBoughtText": {
+      "en": "Got ¥{{0}} for<LINE>{{1}}<PLURAL>.<DONE>",
+      "zh": "得到¥{{0}}<LINE>卖出{{1}}<PLURAL>。<DONE>"
+    },
+    "_SlotsBetHowManyCoinsText": {
+      "en": "Bet how many<LINE>coins?<DONE>",
+      "zh": "要押注<LINE>几个代币？<DONE>"
+    },
+    "TMMartCostsThisMuchText": {
+      "en": "{{0}} {{1}}<LINE>will be ¥{{2}}.<DONE>",
+      "zh": "{{0}}{{1}}<LINE>共¥{{2}}。<DONE>"
+    },
+    "BTMartHowMayIHelpYouText": {
+      "en": "Welcome to the<LINE>Exchange Service<CONT>Corner!<PARA>You can trade your<LINE>BP for prizes.<DONE>",
+      "zh": "欢迎来到<LINE>交换服务<CONT>角！<PARA>可以用BP<LINE>兑换奖品。<DONE>"
+    },
+    "BTMartCostsThisMuchText": {
+      "en": "{{0}} {{1}}<PLURAL><LINE>will cost {{2}} BP.<DONE>",
+      "zh": "{{0}}{{1}}<PLURAL><LINE>需要{{2}}BP。<DONE>"
+    },
+    "BTMartInsufficientFundsText": {
+      "en": "I'm sorry, but you<LINE>don't have enough<CONT>BP.<DONE>",
+      "zh": "抱歉，你的<LINE>BP<CONT>不够。<DONE>"
+    },
+    "BTMartBagFullText": {
+      "en": "I'm sorry, but your<LINE>Bag is full.<DONE>",
+      "zh": "抱歉，你的<LINE>背包满了。<DONE>"
+    },
+    "BTMartComeAgainText": {
+      "en": "Please come back<LINE>any time you want!<DONE>",
+      "zh": "随时欢迎<LINE>再次光临！<DONE>"
+    },
+    "_SlotsStartText": {
+      "en": "Start!<DONE>",
+      "zh": "开始！<DONE>"
+    },
+    "_SlotsNotEnoughCoinsText": {
+      "en": "Not enough<LINE>coins.<PROMPT>",
+      "zh": "代币<LINE>不够。<PROMPT>"
+    },
+    "_SlotsRanOutOfCoinsText": {
+      "en": "Darn… Ran out of<LINE>coins…<DONE>",
+      "zh": "可恶…代币<LINE>用完了…<DONE>"
+    },
+    "_SlotsPlayAgainText": {
+      "en": "Play again?<DONE>",
+      "zh": "要再玩一次吗？<DONE>"
+    },
+    "_SlotsLinedUpText": {
+      "en": "lined up!<LINE>Won {{0}} coins!<DONE>",
+      "zh": "连成一线！<LINE>赢得{{0}}枚代币！<DONE>"
+    },
+    "_SlotsDarnText": {
+      "en": "Darn!<DONE>",
+      "zh": "可恶！<DONE>"
+    },
+    "_PhoneWrongNumberText": {
+      "en": "Huh? Sorry, wrong<LINE>number!<DONE>",
+      "zh": "咦？抱歉，<LINE>打错了！<DONE>"
+    },
+    "_PhoneClickText": {
+      "en": "Click!<DONE>",
+      "zh": "咔嗒！<DONE>"
+    },
+    "_PhoneEllipseText": {
+      "en": "……<DONE>",
+      "zh": "……<DONE>"
+    },
+    "_PhoneOutOfAreaText": {
+      "en": "That number is out<LINE>of the area.<DONE>",
+      "zh": "那个号码<LINE>不在服务区。<DONE>"
+    },
+    "_PhoneJustTalkToThemText": {
+      "en": "Just go talk to<LINE>that person!<DONE>",
+      "zh": "直接去找<LINE>那个人说话吧！<DONE>"
+    },
+    "_PasswordAskResetText": {
+      "en": "Select Continue to<LINE>set the time.<PROMPT>",
+      "zh": "选择继续，<LINE>即可设置时间。<PROMPT>"
+    },
+    "_PasswordAskResetClockText": {
+      "en": "Reset the clock?<DONE>",
+      "zh": "要重置时钟吗？<DONE>"
+    },
+    "_ClearAllSaveDataText": {
+      "en": "Clear all save<LINE>data?<DONE>",
+      "zh": "要清除所有<LINE>存档数据吗？<DONE>"
+    },
+    "ResetInitialOptionsText": {
+      "en": "Reset the initial<LINE>game options?<DONE>",
+      "zh": "要重置初始<LINE>游戏选项吗？<DONE>"
+    },
+    "_LearnedMoveText": {
+      "en": "{{0}} learned<LINE>{{1}}!{{2}}<WAIT>@",
+      "zh": "{{0}}学会了<LINE>{{1}}！{{2}}<WAIT>@"
+    },
+    "_MoveAskForgetText": {
+      "en": "Which move should<NEXT>be forgotten?<PARA><DONE>",
+      "zh": "要忘记<NEXT>哪个招式？<PARA><DONE>"
+    },
+    "_StopLearningMoveText": {
+      "en": "Stop learning<LINE>{{0}}?<DONE>",
+      "zh": "不学习<LINE>{{0}}吗？<DONE>"
+    },
+    "_DidNotLearnMoveText": {
+      "en": "{{0}}<LINE>did not learn<CONT>{{1}}.<PROMPT>",
+      "zh": "{{0}}<LINE>没有学会<CONT>{{1}}。<PROMPT>"
+    },
+    "_AskForgetMoveText": {
+      "en": "{{0}}<LINE>wants to learn<CONT>{{1}}!<PARA>Should it forget<LINE>an old move for<CONT>{{2}}?<DONE>",
+      "zh": "{{0}}<LINE>想要学会<CONT>{{1}}！<PARA>要忘记<LINE>一个旧招式<CONT>来学{{2}}吗？<DONE>"
+    },
+    "Text_MoveForgetCount": {
+      "en": "1, 2 and…<PAUSE>@",
+      "zh": "1、2和…<PAUSE>@"
+    },
+    "_MoveForgotText": {
+      "en": " Poof!<PAUSE><PARA>{{0}} forgot<LINE>{{1}}.<PARA>And…<PROMPT>",
+      "zh": "噗！<PAUSE><PARA>{{0}}忘记了<LINE>{{1}}。<PARA>然后……<PROMPT>"
+    },
+    "_MoveCantForgetHMText": {
+      "en": "HM moves can't be<LINE>forgotten now.<PROMPT>",
+      "zh": "秘传招式<LINE>现在无法忘记。<PROMPT>"
+    },
+    "_CardFlipPlayWithThreeCoinsText": {
+      "en": "Play with three<LINE>coins?<DONE>",
+      "zh": "要用三个代币<LINE>来玩吗？<DONE>"
+    },
+    "_CardFlipNotEnoughCoinsText": {
+      "en": "Not enough coins…<PROMPT>",
+      "zh": "代币不够…<PROMPT>"
+    },
+    "_CardFlipChooseACardText": {
+      "en": "Choose a card.<DONE>",
+      "zh": "请选择一张卡。<DONE>"
+    },
+    "_CardFlipPlaceYourBetText": {
+      "en": "Place your bet.<DONE>",
+      "zh": "请下注。<DONE>"
+    },
+    "_CardFlipPlayAgainText": {
+      "en": "Want to play<LINE>again?<DONE>",
+      "zh": "要再<LINE>玩一次吗？<DONE>"
+    },
+    "_CardFlipShuffledText": {
+      "en": "The cards have<LINE>been shuffled.<PROMPT>",
+      "zh": "卡牌已经<LINE>重新洗过了。<PROMPT>"
+    },
+    "_CardFlipYeahText": {
+      "en": "Yeah!<DONE>",
+      "zh": "太好了！<DONE>"
+    },
+    "_CardFlipDarnText": {
+      "en": "Darn…<DONE>",
+      "zh": "可恶…<DONE>"
+    },
+    "_GearTodayText": {
+      "en": "<DAY>@",
+      "zh": "<DAY>@"
+    },
+    "_GearEllipseText": {
+      "en": "……<DONE>",
+      "zh": "……<DONE>"
+    },
+    "_GearOutOfServiceText": {
+      "en": "You're out of the<LINE>service area.<PROMPT>",
+      "zh": "你在<LINE>服务区之外。<PROMPT>"
+    },
+    "_PokegearAskWhoCallText": {
+      "en": "Whom do you want<LINE>to call?<DONE>",
+      "zh": "你想打给<LINE>谁呢？<DONE>"
+    },
+    "_PokegearPressButtonText": {
+      "en": "Press any button<LINE>to exit.<DONE>",
+      "zh": "按任意键<LINE>退出。<DONE>"
+    },
+    "_PokegearAskDeleteText": {
+      "en": "Delete this stored<LINE>phone number?<DONE>",
+      "zh": "要删除这个<LINE>已存的号码吗？<DONE>"
+    },
+    "_BuenaAskWhichPrizeText": {
+      "en": "You can cash in<LINE>your saved points<PARA>for a lovely prize<LINE>of your choice!<PARA>Which prize would<LINE>you like?<DONE>",
+      "zh": "可以用<LINE>累计的点数<PARA>兑换你喜欢的<LINE>精美奖品！<PARA>你想要<LINE>哪个奖品呢？<DONE>"
+    },
+    "_BuenaIsThatRightText": {
+      "en": "{{0}}?<LINE>Is that right?<DONE>",
+      "zh": "{{0}}？<LINE>可以吗？<DONE>"
+    },
+    "_BuenaHereYouGoText": {
+      "en": "Here you go!<DONE>",
+      "zh": "给你！<DONE>"
+    },
+    "_BuenaNotEnoughPointsText": {
+      "en": "You don't have<LINE>enough points.<DONE>",
+      "zh": "你的点数<LINE>不够。<DONE>"
+    },
+    "_BuenaNoRoomText": {
+      "en": "You have no room<LINE>for it.<DONE>",
+      "zh": "你<LINE>没有空间。<DONE>"
+    },
+    "_BuenaComeAgainText": {
+      "en": "Oh. Please come<LINE>back again!<DONE>",
+      "zh": "哦。请<LINE>再来哦！<DONE>"
+    },
+    "_BallBrokeFreeText": {
+      "en": "Oh no! The #mon<LINE>broke free!<PROMPT>",
+      "zh": "不好！宝可梦<LINE>挣脱了！<PROMPT>"
+    },
+    "_BallAppearedCaughtText": {
+      "en": "Aww! It appeared<LINE>to be caught!<PROMPT>",
+      "zh": "哎呀！看起来<LINE>收服成功了！<PROMPT>"
+    },
+    "_BallAlmostHadItText": {
+      "en": "Aargh!<LINE>Almost had it!<PROMPT>",
+      "zh": "啊！<LINE>差一点就抓到了！<PROMPT>"
+    },
+    "_BallSoCloseText": {
+      "en": "Shoot! It was so<LINE>close too!<PROMPT>",
+      "zh": "可恶！就差<LINE>那么一点！<PROMPT>"
+    },
+    "Text_BallCaught": {
+      "en": "Gotcha! {{0}}<LINE>was caught!{{1}}@",
+      "zh": "太好了！{{0}}<LINE>被收服了！{{1}}@"
+    },
+    "Text_Waitbutton_2": {
+      "en": "<WAIT>@",
+      "zh": "<WAIT>@"
+    },
+    "_CurBoxFullText": {
+      "en": "{{0}} is full.<PROMPT>",
+      "zh": "{{0}}已满。<PROMPT>"
+    },
+    "_MonSentToPCText": {
+      "en": "{{0}} was<LINE>sent to {{1}}.<PROMPT>",
+      "zh": "{{0}}被<LINE>送到了{{1}}。<PROMPT>"
+    },
+    "_NewDexDataText": {
+      "en": "{{0}}'s data<LINE>was newly added to<CONT>the #dex.{{1}}<WAIT>@",
+      "zh": "{{0}}的数据<LINE>被新添加<CONT>到图鉴里。{{1}}<WAIT>@"
+    },
+    "_AskGiveNicknameText": {
+      "en": "Give a nickname to<LINE>{{0}}?<DONE>",
+      "zh": "要给{{0}}<LINE>取昵称吗？<DONE>"
+    },
+    "_ItemHappinessRoseButStatFellText": {
+      "en": "{{0}} became<LINE>more friendly.<PARA>{{1}}'s base<LINE>{{2}} fell!<PROMPT>",
+      "zh": "{{0}}变得<LINE>更亲近了。<PARA>{{1}}的基础<LINE>{{2}}下降了！<PROMPT>"
+    },
+    "_ItemStatRoseText": {
+      "en": "{{0}}'s<LINE>{{1}} rose.<PROMPT>",
+      "zh": "{{0}}的<LINE>{{1}}提升了。<PROMPT>"
+    },
+    "_ItemCantUseOnMonText": {
+      "en": "That can't be used<LINE>on this #mon.<PROMPT>",
+      "zh": "不能对这只<LINE>宝可梦使用。<PROMPT>"
+    },
+    "Text_RepelUsedEarlierIsStillInEffect": {
+      "en": "The Repel used<LINE>earlier is still<CONT>in effect.<PROMPT>",
+      "zh": "之前使用的<LINE>除虫喷雾<CONT>还在生效。<PROMPT>"
+    },
+    "_BlueCardBalanceText": {
+      "en": "You now have<LINE>{{0}} points.<DONE>",
+      "zh": "你目前有<LINE>{{0}}点。<DONE>"
+    },
+    "_CoinCaseCountText": {
+      "en": "Coins:<LINE>{{0}}@",
+      "zh": "代币：<LINE>{{0}}@"
+    },
+    "Text_RaiseThePPOfWhichMove": {
+      "en": "Raise the PP of<LINE>which move?<DONE>",
+      "zh": "要提升<LINE>哪个招式的PP？<DONE>"
+    },
+    "Text_RestoreThePPOfWhichMove": {
+      "en": "Restore the PP of<LINE>which move?<DONE>",
+      "zh": "要恢复<LINE>哪个招式的PP？<DONE>"
+    },
+    "Text_PPIsMaxedOut": {
+      "en": "{{0}}'s PP<LINE>is maxed out.<PROMPT>",
+      "zh": "{{0}}的PP<LINE>已经满了。<PROMPT>"
+    },
+    "Text_PPsIncreased": {
+      "en": "{{0}}'s PP<LINE>increased.<PROMPT>",
+      "zh": "{{0}}的PP<LINE>提升了。<PROMPT>"
+    },
+    "Text_PPsMaximized": {
+      "en": "{{0}}'s PP<LINE>maximized.<PROMPT>",
+      "zh": "{{0}}的PP<LINE>已加满。<PROMPT>"
+    },
+    "_PPRestoredText": {
+      "en": "PP was restored.<PROMPT>",
+      "zh": "PP已恢复。<PROMPT>"
+    },
+    "_ItemLooksBitterText": {
+      "en": "It looks bitter…<PROMPT>",
+      "zh": "看起来很苦…<PROMPT>"
+    },
+    "_ItemCantUseOnEggText": {
+      "en": "That can't be used<LINE>on an Egg.<PROMPT>",
+      "zh": "那个不能<LINE>用在蛋上。<PROMPT>"
+    },
+    "_ItemOakWarningText": {
+      "en": "Oak: <PLAYER>!<LINE>This isn't the<CONT>time to use that!<PROMPT>",
+      "zh": "大木：<PLAYER>！<LINE>现在还不是<CONT>用它的时候！<PROMPT>"
+    },
+    "_ItemWontHaveEffectText": {
+      "en": "It won't have any<LINE>effect.<PROMPT>",
+      "zh": "不会<LINE>有任何效果。<PROMPT>"
+    },
+    "_BallBlockedText": {
+      "en": "The trainer<LINE>blocked the Ball!<PROMPT>",
+      "zh": "训练家<LINE>挡住了球！<PROMPT>"
+    },
+    "_BallDontBeAThiefText": {
+      "en": "Don't be a thief!<PROMPT>",
+      "zh": "不要做小偷！<PROMPT>"
+    },
+    "_BallStorageFullText": {
+      "en": "The storage system<LINE>is full. That<CONT>can't be used now.<PROMPT>",
+      "zh": "存放系统<LINE>已满，现在<CONT>无法使用。<PROMPT>"
+    },
+    "_BallDatabaseFullText": {
+      "en": "The PC database is<LINE>overtaxed. Please<CONT>save the game.<PROMPT>",
+      "zh": "电脑数据库<LINE>负荷过重，请<CONT>保存游戏。<PROMPT>"
+    },
+    "Text_MonIsHiddenFromBall": {
+      "en": "The #mon can't<LINE>be seen!<PROMPT>",
+      "zh": "看不见<LINE>宝可梦！<PROMPT>"
+    },
+    "Text_MonCantBeCaught": {
+      "en": "The #mon can't<LINE>be caught!<PROMPT>",
+      "zh": "无法收服<LINE>宝可梦！<PROMPT>"
+    },
+    "_ItemUsedText": {
+      "en": "<PLAYER> used the<LINE>{{0}}.<DONE>",
+      "zh": "<PLAYER>使用了<LINE>{{0}}。<DONE>"
+    },
+    "_KnowsMoveText": {
+      "en": "{{0}} knows<LINE>{{1}}.<PROMPT>",
+      "zh": "{{0}}已经<LINE>会{{1}}。<PROMPT>"
+    },
+    "_MoveKnowsOneText": {
+      "en": "That #mon knows<LINE>only one move.<DONE>",
+      "zh": "那只宝可梦<LINE>只会一个招式。<DONE>"
+    },
+    "_AskDeleteMoveText": {
+      "en": "Oh, make it forget<LINE>{{0}}?<DONE>",
+      "zh": "哦，要让它<LINE>忘记{{0}}吗？<DONE>"
+    },
+    "_DeleterForgotMoveText": {
+      "en": "Done! Your #mon<LINE>forgot the move.<DONE>",
+      "zh": "好了！宝可梦<LINE>忘记了招式。<DONE>"
+    },
+    "_DeleterEggText": {
+      "en": "An Egg doesn't<LINE>know any moves!<DONE>",
+      "zh": "蛋<LINE>不会任何招式！<DONE>"
+    },
+    "_DeleterNoComeAgainText": {
+      "en": "No? Come visit me<LINE>again.<DONE>",
+      "zh": "不要吗？<LINE>欢迎再来。<DONE>"
+    },
+    "_DeleterAskWhichMoveText": {
+      "en": "Which move should<LINE>it forget, then?<PROMPT>",
+      "zh": "那么，要忘记<LINE>哪个招式呢？<PROMPT>"
+    },
+    "_DeleterIntroText": {
+      "en": "Um… Oh, yes, I'm<LINE>the Move Deleter.<PARA>I can make #mon<LINE>forget moves.<PARA>Shall I make a<LINE>#mon forget?<DONE>",
+      "zh": "嗯…哦，对了，<LINE>我是招式遗忘者。<PARA>我可以让<LINE>宝可梦忘记招式。<PARA>要我让<LINE>宝可梦忘记吗？<DONE>"
+    },
+    "_DeleterAskWhichMonText": {
+      "en": "Which #mon?<PROMPT>",
+      "zh": "哪只宝可梦？<PROMPT>"
+    },
+    "Text_DSTIsThatOK": {
+      "en": " DST,<LINE>is that OK?<DONE>",
+      "zh": "夏令时，<LINE>可以吗？<DONE>"
+    },
+    "_TimeAskOkayText": {
+      "en": ",<LINE>is that OK?<DONE>",
+      "zh": "，<LINE>可以吗？<DONE>"
+    },
+    "_TimesetAskDSTText": {
+      "en": "Do you want to<LINE>switch to Daylight<CONT>Saving Time?<DONE>",
+      "zh": "要切换<LINE>到夏令时<CONT>吗？<DONE>"
+    },
+    "_TimesetDSTText": {
+      "en": "I set the clock<LINE>forward by one<CONT>hour.<PROMPT>",
+      "zh": "我把时钟<LINE>调快了<CONT>一个小时。<PROMPT>"
+    },
+    "_TimesetAskNotDSTText": {
+      "en": "Is Daylight Saving<LINE>Time over?<DONE>",
+      "zh": "夏令时<LINE>结束了吗？<DONE>"
+    },
+    "_TimesetNotDSTText": {
+      "en": "I put the clock<LINE>back one hour.<PROMPT>",
+      "zh": "我把时钟<LINE>调慢了一小时。<PROMPT>"
+    },
+    "_TimesetAskAdjustDSTText": {
+      "en": "Do you want to<LINE>adjust your clock<PARA>for Daylight<LINE>Saving Time?<DONE>",
+      "zh": "要调整<LINE>时钟，<PARA>以适应<LINE>夏令时吗？<DONE>"
+    },
+    "_MomLostGearBookletText": {
+      "en": "I lost the in-<LINE>struction booklet<CONT>for the #gear.<PARA>Come back again in<LINE>a while.<PROMPT>",
+      "zh": "我把宝可梦齿轮的<LINE>说明书<CONT>弄丢了。<PARA>过一会儿<LINE>再来吧。<PROMPT>"
+    },
+    "WonderTradeQuestionText": {
+      "en": "Would you like to<LINE>trade?<DONE>",
+      "zh": "要进行<LINE>交换吗？<DONE>"
+    },
+    "WonderTradePromptText": {
+      "en": "Which #mon do<LINE>you want to trade?<PROMPT>",
+      "zh": "你想交换<LINE>哪只宝可梦？<PROMPT>"
+    },
+    "WonderTradeCantTradeSpikyEaredPichuText": {
+      "en": "This Pichu appears<LINE>to have traveled<CONT>through time.<PARA>It would be risky<LINE>to transfer it,<PARA>so it's best for<LINE>Pichu to stay<CONT>where it is.<PROMPT>",
+      "zh": "这只皮丘似乎<LINE>穿越过<CONT>时空。<PARA>传送它会<LINE>有风险，<PARA>所以最好让<LINE>皮丘留在<CONT>原处。<PROMPT>"
+    },
+    "WonderTradeConfirmText": {
+      "en": "Offer to trade<LINE>{{0}}?<DONE>",
+      "zh": "要用{{0}}<LINE>进行交换吗？<DONE>"
+    },
+    "WonderTradeSetupText": {
+      "en": "Searching for a<LINE>trade partner…<PROMPT>",
+      "zh": "正在寻找<LINE>交换对象…<PROMPT>"
+    },
+    "WonderTradeReadyText": {
+      "en": "A trade partner<LINE>has been found.<PROMPT>",
+      "zh": "已找到<LINE>交换对象。<PROMPT>"
+    },
+    "SilphMartIntroText": {
+      "en": "Employees like me<LINE>have access to<CONT>company swag!<PARA>Want to buy some?<DONE>",
+      "zh": "像我这样的<LINE>员工可以<CONT>拿到公司福利！<PARA>要买一些吗？<DONE>"
+    },
+    "SilphMartComeAgainText": {
+      "en": "Come again! I<LINE>could use the<CONT>side income.<DONE>",
+      "zh": "欢迎再来！<LINE>我需要<CONT>这点外快。<DONE>"
+    },
+    "AdventurerMartIntroText": {
+      "en": "I picked up some<LINE>rare items abroad!<DONE>",
+      "zh": "我在海外<LINE>淘到了稀有道具！<DONE>"
+    },
+    "AdventurerMartComeAgainText": {
+      "en": "Come by again!<DONE>",
+      "zh": "欢迎再来！<DONE>"
+    },
+    "InformalMartIntroText": {
+      "en": "What's up? Need<LINE>some supplies?<DONE>",
+      "zh": "你好啊，需要<LINE>补给品吗？<DONE>"
+    },
+    "BazaarMartIntroText": {
+      "en": "Come take a look<LINE>at my wares!<DONE>",
+      "zh": "来看看我的<LINE>商品吧！<DONE>"
+    },
+    "AlreadyHaveTMText": {
+      "en": "You already have<LINE>that TM.<DONE>",
+      "zh": "你已经<LINE>有那个TM了。<DONE>"
+    },
+    "MartPremierBallText": {
+      "en": "You also get a<LINE>Premier Ball as{{0}}<CONT>an added bonus.<DONE>",
+      "zh": "另外还{{0}}<LINE>附赠一个<CONT>纪念球。<DONE>"
+    },
+    "ItemCantBeSelectedText": {
+      "en": "That item can't be<LINE>selected.<PROMPT>",
+      "zh": "那个道具<LINE>无法选择。<PROMPT>"
+    },
+    "AlreadyInThatBallTextData": {
+      "en": "Your #mon is in<LINE>that Ball already.<PROMPT>",
+      "zh": "宝可梦已经<LINE>在那个球里。<PROMPT>"
+    },
+    "CantChangeTradedMonBallTextData": {
+      "en": "You can't change<LINE>the Ball a traded<CONT>#mon is in.<PROMPT>",
+      "zh": "交换来的<LINE>宝可梦的球<CONT>无法更换。<PROMPT>"
+    }
+  }
+}

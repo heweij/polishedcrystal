@@ -1,0 +1,38 @@
+{
+  "_comment": "由 tools/zh/zh.py text-extract 生成；zh 为空表示未翻译（回退原文）。控制码沿用 <LINE>/<DONE>/<PLAYER> 等写法，{{n}} 为不可翻译的占位命令，必须原样保留。",
+  "source": "maps\\GoldenrodPokecomCenterOffice.asm",
+  "blocks": {
+    "AdminRangiText": {
+      "en": "Rangi: I hope<LINE>you're enjoying<PARA>your journey<LINE>through this game!<PARA>We had trouble<LINE>fitting all the<CONT>data in for it.<PARA>There was barely<LINE>even enough room<CONT>for my sprite!<DONE>",
+      "zh": "兰吉：希望你<LINE>喜欢这次<CONT>游戏旅程！<PARA>我们为了<LINE>塞下所有数据<PARA>费了好大劲。<PARA>连我的<LINE>形象都<PARA>差点<LINE>放不下！<DONE>"
+    },
+    "AdminLunaText": {
+      "en": "Luna: When you<LINE>Wonder Traded<PARA>with someone in<LINE>another region<PARA>for the first<LINE>time, weren't you<CONT>impressed?<PARA>I built the orig-<LINE>inal system right<CONT>here in Goldenrod!<DONE>",
+      "zh": "露娜：你第一次<LINE>和别的地区的人<CONT>奇迹交换时，<PARA>是不是很<CONT>惊讶？<PARA>最初的系统<LINE>就是我在<CONT>满金市<PARA>建起来的！<DONE>"
+    },
+    "AdminFredrikText": {
+      "en": "Fredrik: Bill's PC<LINE>Storage System<CONT>is open-source,<PARA>so I was able to<LINE>completely re-<PARA>write and upgrade<LINE>his database!<DONE>",
+      "zh": "弗雷德里克：<PARA>正辉的电脑<LINE>储存系统是<CONT>开源的，<PARA>所以我能<LINE>彻底重写<PARA>并升级<LINE>他的数据库！<DONE>"
+    },
+    "AdminEmiText": {
+      "en": "Emi: Have you<LINE>seen the Summary<CONT>of your #mon?<PARA>I'm visiting from<LINE>the Beria region<PARA>to bring UI like<LINE>that to Johto!<PARA>Come say hello if<LINE>you're ever in<CONT>Amethyst Town!<DONE>",
+      "zh": "艾美：你看过<LINE>宝可梦的<CONT>能力界面吗？<PARA>我从贝里亚地区<CONT>来，<PARA>要把那样的<LINE>界面<CONT>带到城都！<PARA>有机会<LINE>来紫水晶镇，<PARA>记得<LINE>找我！<DONE>"
+    },
+    "AdminAizawaText": {
+      "en": "Aizawa: Dialog,<LINE>map designs,<CONT>character sprites,<CONT>trainer parties…<PARA>Game Freak over<LINE>in Kanto is lucky<PARA>to have a whole<LINE>company for this!<DONE>",
+      "zh": "相泽：对话、<LINE>地图设计、<CONT>角色形象、<PARA>训练家队伍……<PARA>关都的<LINE>Game Freak<PARA>有一整家公司<CONT>做这些，<PARA>真是幸福！<DONE>"
+    },
+    "AdminVulcanText": {
+      "en": "Vulcan: How's the<LINE>weather?<PARA>That's no small<LINE>talk… I actually<CONT>implemented it!<PARA>We thought it<LINE>couldn't be done…<PARA>I proved myself<LINE>wrong!<DONE>",
+      "zh": "伏尔甘：<LINE>天气如何？<PARA>这可不是<LINE>闲聊……<PARA>天气系统<LINE>就是我实现的！<PARA>大家都说<LINE>做不到……<PARA>结果我<LINE>推翻了自己！<DONE>"
+    },
+    "AdminSourText": {
+      "en": "Sour: How do you<LINE>like the move<PARA>animations in<LINE>battles?<PARA>I really like to<LINE>make every move<CONT>a joy to use!<DONE>",
+      "zh": "索尔：对战中的<CONT>招式动画<PARA>你喜欢吗？<PARA>我想让<LINE>每个招式<PARA>用起来<LINE>都充满乐趣！<DONE>"
+    },
+    "AdminMeowthText": {
+      "en": "Eldred: Miaou!<DONE>",
+      "zh": "埃尔德雷德：喵！<DONE>"
+    }
+  }
+}

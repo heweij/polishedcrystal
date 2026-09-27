@@ -1,0 +1,22 @@
+{
+  "_comment": "由 tools/zh/zh.py text-extract 生成；zh 为空表示未翻译（回退原文）。控制码沿用 <LINE>/<DONE>/<PLAYER> 等写法，{{n}} 为不可翻译的占位命令，必须原样保留。",
+  "source": "engine\\menus\\initial_options_menu.asm",
+  "blocks": {
+    "InitialOptions_EVs.AllString#0": {
+      "en": "All@",
+      "zh": "全部@"
+    },
+    "InitialOptions_EVs.ModernString#0": {
+      "en": "{-3d:MODERN_EV_LIMIT}@",
+      "zh": ""
+    },
+    "InitialOptions_ExpScaling.Old#0": {
+      "en": "Old@",
+      "zh": "旧版@"
+    },
+    "InitialOptions_ExpScaling.New#0": {
+      "en": "New@",
+      "zh": "新版@"
+    }
+  }
+}

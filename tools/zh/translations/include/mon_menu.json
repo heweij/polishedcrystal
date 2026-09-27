@@ -1,0 +1,90 @@
+{
+  "_comment": "由 tools/zh/zh.py text-extract 生成；zh 为空表示未翻译（回退原文）。控制码沿用 <LINE>/<DONE>/<PLAYER> 等写法，{{n}} 为不可翻译的占位命令，必须原样保留。",
+  "source": "engine\\pokemon\\mon_menu.asm",
+  "blocks": {
+    "CantUseItemText": {
+      "en": "{{0}}",
+      "zh": ""
+    },
+    "GiveTakePartyMonItem#0": {
+      "en": "No held item@",
+      "zh": "未携带道具@"
+    },
+    "GiveTakeItemMenuData.Items#0": {
+      "en": "Give@",
+      "zh": "给予@"
+    },
+    "GiveTakeItemMenuData.Items#1": {
+      "en": "Take@",
+      "zh": "拿取@"
+    },
+    "GiveTakeItemMenuData.Items#2": {
+      "en": "Swap@",
+      "zh": "交换@"
+    },
+    "TookAndMadeHoldText": {
+      "en": "{{0}}",
+      "zh": ""
+    },
+    "MadeHoldText": {
+      "en": "{{0}}",
+      "zh": ""
+    },
+    "PleaseRemoveMailText": {
+      "en": "{{0}}",
+      "zh": ""
+    },
+    "IsntHoldingAnythingText": {
+      "en": "{{0}}",
+      "zh": ""
+    },
+    "ItemStorageIsFullText": {
+      "en": "{{0}}",
+      "zh": ""
+    },
+    "TookFromText": {
+      "en": "{{0}}",
+      "zh": ""
+    },
+    "SwitchAlreadyHoldingText": {
+      "en": "{{0}}",
+      "zh": ""
+    },
+    "CantBeHeldText": {
+      "en": "{{0}}",
+      "zh": ""
+    },
+    "CantPlaceMailInStorageText": {
+      "en": "Can't place Mail in<LINE>storage.<PROMPT>",
+      "zh": "无法把邮件<LINE>放进存储系统。<PROMPT>"
+    },
+    "MonMailAction.MenuData2#0": {
+      "en": "Read@",
+      "zh": "阅读@"
+    },
+    "MonMailAction.MenuData2#1": {
+      "en": "Take@",
+      "zh": "拿取@"
+    },
+    "MonMailAction.MenuData2#2": {
+      "en": "Quit@",
+      "zh": "退出@"
+    },
+    "String_MoveSwap#0": {
+      "en": "Switch with?@",
+      "zh": "与谁交换？@"
+    },
+    "String_na#0": {
+      "en": "---@",
+      "zh": ""
+    },
+    "String_PowAcc#0": {
+      "en": "   <BOLDP>/   %@",
+      "zh": ""
+    },
+    "Text_CantForgetHM": {
+      "en": "{{0}}",
+      "zh": ""
+    }
+  }
+}

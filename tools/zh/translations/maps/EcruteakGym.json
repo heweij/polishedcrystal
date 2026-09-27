@@ -1,0 +1,62 @@
+{
+  "_comment": "由 tools/zh/zh.py text-extract 生成；zh 为空表示未翻译（回退原文）。控制码沿用 <LINE>/<DONE>/<PLAYER> 等写法，{{n}} 为不可翻译的占位命令，必须原样保留。",
+  "source": "maps\\EcruteakGym.asm",
+  "blocks": {
+    "MortyIntroText": {
+      "en": "Good of you to<LINE>have come.<PARA>Here in Ecruteak,<LINE>#mon have been<CONT>revered.<PARA>It's said that a<LINE>rainbow-colored<PARA>#mon will come<LINE>down to appear<PARA>before a truly<LINE>powerful trainer.<PARA>I believed that<LINE>tale, so I have<PARA>secretly trained<LINE>here all my life.<PARA>As a result, I can<LINE>now see what<CONT>others cannot.<PARA>Just a bit more…<PARA>With a little<LINE>more, I could see<PARA>a future in which<LINE>I meet the #mon<CONT>of rainbow colors.<PARA>You're going to<LINE>help me reach that<CONT>level!<DONE>",
+      "zh": "你能来<LINE>真好。<PARA>在圆朱市，<LINE>宝可梦<CONT>一直被<CONT>敬仰。<PARA>传说中，<LINE>彩虹色的<CONT>宝可梦<PARA>会降临在<LINE>真正强大的<CONT>训练家面前。<PARA>我<LINE>相信这个传说，<PARA>所以一直<LINE>在这里<CONT>秘密修行。<PARA>因此，<LINE>我能看见<CONT>他人<CONT>看不见的东西。<PARA>就差<LINE>一点点了……<PARA>再<LINE>前进一点，<PARA>我就能<LINE>预见<PARA>与彩虹色<CONT>宝可梦<CONT>相遇的未来。<PARA>你，<LINE>就助我<CONT>达到那个<CONT>境界吧！<DONE>"
+    },
+    "MortyWinLossText": {
+      "en": "I'm not good<LINE>enough yet…<PARA>All right. This<LINE>Badge is yours.<DONE>",
+      "zh": "我还<LINE>不够成熟……<PARA>好吧。<LINE>这枚徽章<PARA>归你了。<DONE>"
+    },
+    "MortyText_FogBadgeSpeech": {
+      "en": "By having the Fog<LINE>Badge, #mon up<PARA>to <LV>50 will obey<LINE>you.<PARA>Also, #mon that<LINE>know Surf will be<PARA>able to use that<LINE>move anytime.<PARA>I want you to have<LINE>this too.<DONE>",
+      "zh": "拥有<LINE>雾之徽章，<PARA>等级50以下的<CONT>宝可梦<PARA>都会<LINE>听你指挥。<PARA>而且<LINE>学会冲浪的<CONT>宝可梦<PARA>随时<LINE>都能使用。<PARA>这个也<LINE>送给你。<DONE>"
+    },
+    "MortyFightDoneText": {
+      "en": "I see…<PARA>Your journey has<LINE>taken you to far-<CONT>away places.<PARA>And you have wit-<LINE>nessed much more<CONT>than I.<PARA>I envy you for<LINE>that…<DONE>",
+      "zh": "原来如此……<PARA>你的旅程<LINE>带你去了<CONT>很远的地方。<PARA>你目睹的<LINE>比我<CONT>多得多。<PARA>我<LINE>好羡慕你……<DONE>"
+    },
+    "SageJeffreySeenText": {
+      "en": "I spent the spring<LINE>with my #mon.<PARA>Then summer, fall<LINE>and winter…<PARA>Then spring came<LINE>again. We have<PARA>lived together<LINE>for a long time.<DONE>",
+      "zh": "我和宝可梦<CONT>共度了春天。<PARA>然后是<LINE>夏、秋、冬……<PARA>春天<LINE>又来了。<PARA>我们<LINE>相伴了<CONT>很久很久。<DONE>"
+    },
+    "SageJeffreyBeatenText": {
+      "en": "Wins and losses, I<LINE>experienced both.<DONE>",
+      "zh": "胜也好，<LINE>负也好，<PARA>我都<LINE>经历过。<DONE>"
+    },
+    "SagePingSeenText": {
+      "en": "Can you inflict<LINE>any damage on our<CONT>#mon?<DONE>",
+      "zh": "你能<LINE>伤到<PARA>我们的<LINE>宝可梦吗？<DONE>"
+    },
+    "SagePingBeatenText": {
+      "en": "Ah! Well done!<DONE>",
+      "zh": "啊！<LINE>干得漂亮！<DONE>"
+    },
+    "MediumMarthaSeenText": {
+      "en": "I shall win!<DONE>",
+      "zh": "我一定会赢！<DONE>"
+    },
+    "MediumMarthaBeatenText": {
+      "en": "I, I, I lost!<DONE>",
+      "zh": "我、我、我输了！<DONE>"
+    },
+    "MediumGraceSeenText": {
+      "en": "Stumped by our in-<LINE>visible floor?<PARA>Defeat me if you<LINE>want a hint!<DONE>",
+      "zh": "被我们<LINE>看不见的地板<CONT>难住了？<PARA>想要提示，<LINE>先打赢我！<DONE>"
+    },
+    "MediumGraceBeatenText": {
+      "en": "Wha-what?<DONE>",
+      "zh": "什、什么？<DONE>"
+    },
+    "EcruteakGymGuyWinText": {
+      "en": "Whew, <PLAYER>.<LINE>You did great!<PARA>I was cowering in<LINE>the corner out of<CONT>pure terror!<DONE>",
+      "zh": "呼，<PLAYER>。<LINE>你太棒了！<PARA>我吓得<LINE>一直<CONT>缩在角落里！<DONE>"
+    },
+    "EcruteakGymClosedText": {
+      "en": "Morty, the Gym<LINE>Leader, is absent.<PARA>Sorry, but you'll<LINE>have to leave.<PARA>Hohohoho.<DONE>",
+      "zh": "馆主松叶<LINE>不在。<PARA>抱歉，<LINE>请你先回吧。<PARA>呵呵呵呵。<DONE>"
+    }
+  }
+}

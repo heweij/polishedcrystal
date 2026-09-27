@@ -1,0 +1,154 @@
+{
+  "_comment": "由 tools/zh/zh.py text-extract 生成；zh 为空表示未翻译（回退原文）。控制码沿用 <LINE>/<DONE>/<PLAYER> 等写法，{{n}} 为不可翻译的占位命令，必须原样保留。",
+  "source": "maps\\GoldenrodHarbor.asm",
+  "blocks": {
+    "GoldenrodHarborPokefanmScript.MenuData2#0": {
+      "en": "Magikarp    ¥1400@",
+      "zh": "鲤鱼王      ¥1400@"
+    },
+    "GoldenrodHarborPokefanmScript.MenuData2#1": {
+      "en": "Marill      ¥5600@",
+      "zh": "玛力露      ¥5600@"
+    },
+    "GoldenrodHarborPokefanmScript.MenuData2#2": {
+      "en": "Octillery  ¥11200@",
+      "zh": "章鱼桶     ¥11200@"
+    },
+    "GoldenrodHarborPokefanmScript.MenuData2#3": {
+      "en": "Cancel@",
+      "zh": "取消@"
+    },
+    "GoldenrodHarborYoungsterScript.MenuData2#0": {
+      "en": "Magna P.    ¥6400@",
+      "zh": "岩浆P.      ¥6400@"
+    },
+    "GoldenrodHarborYoungsterScript.MenuData2#1": {
+      "en": "Tropic P.   ¥9600@",
+      "zh": "热带P.      ¥9600@"
+    },
+    "GoldenrodHarborYoungsterScript.MenuData2#2": {
+      "en": "Jumbo P.   ¥12800@",
+      "zh": "巨型P.     ¥12800@"
+    },
+    "GoldenrodHarborYoungsterScript.MenuData2#3": {
+      "en": "Cancel@",
+      "zh": "取消@"
+    },
+    "GoldenrodHarborFisherText": {
+      "en": "If you're fishing,<LINE>you have to be<PARA>quiet so you don't<LINE>scare the #mon.<PARA>But to be heard<LINE>over the waves,<PARA>you have to say<LINE>things LOUD!<DONE>",
+      "zh": "钓鱼时要<LINE>保持安静，<PARA>才不会<LINE>吓跑宝可梦。<PARA>可要盖过<LINE>海浪声，<PARA>就得<LINE>大声说话！<DONE>"
+    },
+    "Text_GoldenrodHarborTutorHyperVoice": {
+      "en": "I can teach your<LINE>#mon how to<PARA>use Hyper Voice<LINE>for a Silver Leaf.<DONE>",
+      "zh": "我可以教你的<LINE>宝可梦<CONT>使用巨声，<PARA>只要<LINE>一片银色叶子。<DONE>"
+    },
+    "Text_GoldenrodHarborTutorQuestion": {
+      "en": "Should I teach<LINE>your #mon<CONT>Hyper Voice?<DONE>",
+      "zh": "要我教你的<LINE>宝可梦<CONT>巨声吗？<DONE>"
+    },
+    "FisherPatonSeenText": {
+      "en": "The fish I caught<LINE>was attached to<CONT>another #mon!<DONE>",
+      "zh": "我钓到的鱼<LINE>竟然<CONT>缠上了<CONT>另一只宝可梦！<DONE>"
+    },
+    "FisherPatonBeatenText": {
+      "en": "Aren't #mon<LINE>interesting?<DONE>",
+      "zh": "宝可梦<LINE>很有趣吧？<DONE>"
+    },
+    "SwimmerfKatieSeenText": {
+      "en": "Swimming in the<LINE>deep blue sea<CONT>feels wonderful!<DONE>",
+      "zh": "在深蓝的<LINE>大海里游泳，<PARA>感觉<LINE>太棒了！<DONE>"
+    },
+    "SwimmerfKatieBeatenText": {
+      "en": "I lost…<LINE>Now I feel blue…<DONE>",
+      "zh": "我输了……<LINE>心情<CONT>好忧郁……<DONE>"
+    },
+    "SwimmermJamesSeenText": {
+      "en": "I can swim, but<LINE>I can also row!<DONE>",
+      "zh": "我会游泳，<LINE>也会划船！<DONE>"
+    },
+    "SwimmermJamesBeatenText": {
+      "en": "Maybe I can't<LINE>battle…<DONE>",
+      "zh": "也许我<LINE>不会对战……<DONE>"
+    },
+    "GoldenrodHarborDollVendorText": {
+      "en": "Welcome! I have<LINE>adorable aquatic<CONT>dolls for sale.<DONE>",
+      "zh": "欢迎光临！<PARA>我这里有<LINE>可爱的<CONT>海洋玩偶<CONT>出售。<DONE>"
+    },
+    "GoldenrodHarborMagikarpDollText": {
+      "en": "<PLAYER> bought<LINE>Magikarp Doll.<DONE>",
+      "zh": "<PLAYER>买了<LINE>鲤鱼王玩偶。<DONE>"
+    },
+    "GoldenrodHarborMagikarpDollSentText": {
+      "en": "Magikarp Doll<LINE>was sent home.<DONE>",
+      "zh": "鲤鱼王玩偶<LINE>已送回家。<DONE>"
+    },
+    "GoldenrodHarborMarillDollText": {
+      "en": "<PLAYER> bought<LINE>Marill Doll.<DONE>",
+      "zh": "<PLAYER>买了<LINE>玛力露玩偶。<DONE>"
+    },
+    "GoldenrodHarborMarillDollSentText": {
+      "en": "Marill Doll<LINE>was sent home.<DONE>",
+      "zh": "玛力露玩偶<LINE>已送回家。<DONE>"
+    },
+    "GoldenrodHarborOctilleryDollText": {
+      "en": "<PLAYER> bought<LINE>Octillery Doll.<DONE>",
+      "zh": "<PLAYER>买了<LINE>章鱼桶玩偶。<DONE>"
+    },
+    "GoldenrodHarborOctilleryDollSentText": {
+      "en": "Octillery Doll<LINE>was sent home.<DONE>",
+      "zh": "章鱼桶玩偶<LINE>已送回家。<DONE>"
+    },
+    "GoldenrodHarborNoMoneyText": {
+      "en": "You can't afford<LINE>that!<DONE>",
+      "zh": "你买不起<LINE>那个！<DONE>"
+    },
+    "GoldenrodHarborAlreadyBoughtText": {
+      "en": "You already have<LINE>that!<DONE>",
+      "zh": "你已经<LINE>有了！<DONE>"
+    },
+    "GoldenrodHarborPlantVendorText": {
+      "en": "Welcome! I have<LINE>a selection of<PARA>exotic plants to<LINE>adorn your home.<DONE>",
+      "zh": "欢迎光临！<PARA>我这里有<LINE>各种<CONT>珍奇植物，<PARA>可以<LINE>装饰你家。<DONE>"
+    },
+    "GoldenrodHarborMagnaPlantText": {
+      "en": "<PLAYER> bought<LINE>Magna Plant.<DONE>",
+      "zh": "<PLAYER>买了<LINE>岩浆盆栽。<DONE>"
+    },
+    "GoldenrodHarborMagnaPlantSentText": {
+      "en": "Magna Plant<LINE>was sent home.<DONE>",
+      "zh": "岩浆盆栽<LINE>已送回家。<DONE>"
+    },
+    "GoldenrodHarborTropicPlantText": {
+      "en": "<PLAYER> bought<LINE>Tropic Plant.<DONE>",
+      "zh": "<PLAYER>买了<LINE>热带盆栽。<DONE>"
+    },
+    "GoldenrodHarborTropicPlantSentText": {
+      "en": "Tropic Plant<LINE>was sent home.<DONE>",
+      "zh": "热带盆栽<LINE>已送回家。<DONE>"
+    },
+    "GoldenrodHarborJumboPlantText": {
+      "en": "<PLAYER> bought<LINE>Jumbo Plant.<DONE>",
+      "zh": "<PLAYER>买了<LINE>巨型盆栽。<DONE>"
+    },
+    "GoldenrodHarborJumboPlantSentText": {
+      "en": "Jumbo Plant<LINE>was sent home.<DONE>",
+      "zh": "巨型盆栽<LINE>已送回家。<DONE>"
+    },
+    "GoldenrodHarborLass2Text": {
+      "en": "All this water,<LINE>it's totally…<PARA>bloop-bloop,<LINE>splish-splish.<PARA>Don't you agree?<DONE>",
+      "zh": "这么多水，<LINE>真是……<PARA>咕噜咕噜，<LINE>哗啦哗啦。<PARA>你说呢？<DONE>"
+    },
+    "GoldenrodHarborSignText": {
+      "en": "Goldenrod Harbor<DONE>",
+      "zh": "满金港口<DONE>"
+    },
+    "GoldenrodHarborAdvancedTipsSignText": {
+      "en": "Advanced Tips!<PARA>Sometimes you'll<LINE>get lucky with a<PARA>vending machine<LINE>and get two drinks<PARA>for the price of<LINE>one!<DONE>",
+      "zh": "进阶提示！<PARA>有时在<LINE>自动贩卖机<PARA>会走运，<PARA>花一份钱<LINE>买到<CONT>两瓶饮料！<DONE>"
+    },
+    "GoldenrodHarborCrateSignText": {
+      "en": "A crate full of<LINE>rare items!<DONE>",
+      "zh": "装满<LINE>稀有道具的<CONT>木箱！<DONE>"
+    }
+  }
+}

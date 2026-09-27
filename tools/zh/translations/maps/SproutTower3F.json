@@ -1,0 +1,66 @@
+{
+  "_comment": "由 tools/zh/zh.py text-extract 生成；zh 为空表示未翻译（回退原文）。控制码沿用 <LINE>/<DONE>/<PLAYER> 等写法，{{n}} 为不可翻译的占位命令，必须原样保留。",
+  "source": "maps\\SproutTower3F.asm",
+  "blocks": {
+    "SproutTowerElderLecturesRivalText": {
+      "en": "Elder: You are in-<LINE>deed skilled as a<CONT>trainer.<PARA>As promised, here<LINE>is your TM.<PARA>But let me say<LINE>this: You should<PARA>treat your<LINE>#mon better.<PARA>The way you battle<LINE>is far too harsh.<PARA>#mon are not<LINE>tools of war…<DONE>",
+      "zh": "长老：你作为<LINE>训练家，<CONT>确实有本事。<PARA>如约<LINE>把招式学习器<CONT>给你。<PARA>但我有话<LINE>要说：<PARA>你该<LINE>更善待<CONT>宝可梦。<PARA>你的战斗方式<LINE>太过严酷。<PARA>宝可梦<LINE>并非战争的<CONT>工具……<DONE>"
+    },
+    "SproutTowerRivalOnlyCareAboutStrongText": {
+      "en": "…<LINE>…Humph!<PARA>He claims to be<LINE>the Elder but<CONT>he's weak.<PARA>It stands to<LINE>reason.<PARA>I'd never lose to<LINE>fools who babble<PARA>about being nice<LINE>to #mon.<PARA>I only care about<LINE>strong #mon<CONT>that can win.<PARA>I really couldn't<LINE>care less about<CONT>weak #mon.<DONE>",
+      "zh": "……<LINE>……哼！<PARA>他自称长老，<LINE>却这么弱。<PARA>理所当然。<PARA>我绝不会输给<LINE>那些<PARA>满口<LINE>善待宝可梦的<CONT>蠢货。<PARA>我只在乎<LINE>能取胜的<CONT>强大宝可梦。<PARA>弱小的宝可梦<LINE>我根本<CONT>不在乎。<DONE>"
+    },
+    "SproutTowerRivalUsedEscapeRopeText": {
+      "en": "<RIVAL> used an<LINE>Escape Rope!<DONE>",
+      "zh": "<RIVAL>使用了<LINE>离洞绳！<DONE>"
+    },
+    "SageLiSeenText": {
+      "en": "So good of you to<LINE>come here!<PARA>Sprout Tower is a<LINE>place of training.<PARA>People and #mon<LINE>test their bonds<PARA>to build a bright<LINE>future together.<PARA>I am the final<LINE>test.<PARA>Allow me to check<LINE>the ties between<PARA>your #mon and<LINE>you!<DONE>",
+      "zh": "你能来<LINE>太好了！<PARA>喇叭芽之塔<LINE>是修行之地。<PARA>人与宝可梦<LINE>在此<CONT>试炼羁绊，<PARA>共同开创<LINE>光明的未来。<PARA>我是<LINE>最后的考验。<PARA>让我看看<LINE>你和宝可梦<PARA>之间的<LINE>羁绊吧！<DONE>"
+    },
+    "SageLiBeatenText": {
+      "en": "Ah, excellent!<DONE>",
+      "zh": "啊，太出色了！<DONE>"
+    },
+    "SageLiTakeThisFlashText": {
+      "en": "You and your #-<LINE>mon should have<PARA>no problem using<LINE>this move.<PARA>Take this Flash<LINE>TM.<DONE>",
+      "zh": "你和<LINE>宝可梦<PARA>用这招<LINE>应该没问题。<PARA>收下这个<LINE>招式学习器<CONT>——闪光。<DONE>"
+    },
+    "SageLiAfterBattleText": {
+      "en": "I hope you learn<LINE>and grow from your<CONT>journey.<DONE>",
+      "zh": "希望你在这段<LINE>旅程中<CONT>学习与成长。<DONE>"
+    },
+    "SageJinSeenText": {
+      "en": "I train to find<LINE>enlightenment in<CONT>#mon!<DONE>",
+      "zh": "我修行，<LINE>是为了<CONT>在宝可梦中<CONT>悟道！<DONE>"
+    },
+    "SageJinBeatenText": {
+      "en": "My training is<LINE>incomplete…<DONE>",
+      "zh": "我的修行<LINE>还不到家……<DONE>"
+    },
+    "SageTroySeenText": {
+      "en": "Let me see how<LINE>much you trust<CONT>your #mon.<DONE>",
+      "zh": "让我看看<LINE>你有多<CONT>信任宝可梦。<DONE>"
+    },
+    "SageTroyBeatenText": {
+      "en": "Yes, your trust is<LINE>real!<DONE>",
+      "zh": "没错，<LINE>你的信任<CONT>是真的！<DONE>"
+    },
+    "SageNealSeenText": {
+      "en": "The Elder's TM<LINE>lights even pitch-<CONT>black darkness.<DONE>",
+      "zh": "长老的<LINE>招式学习器<CONT>能照亮<CONT>漆黑的黑暗。<DONE>"
+    },
+    "SageNealBeatenText": {
+      "en": "It is my head that<LINE>is bright!<DONE>",
+      "zh": "我的脑袋<LINE>才是亮的！<DONE>"
+    },
+    "SproutTower3FPaintingText": {
+      "en": "It's a powerful<LINE>painting of a<CONT>Bellsprout.<DONE>",
+      "zh": "这是一幅<LINE>气势十足的<CONT>喇叭芽画。<DONE>"
+    },
+    "SproutTower3FStatueText": {
+      "en": "A #mon statue…<PARA>It looks very<LINE>distinguished.<DONE>",
+      "zh": "一座宝可梦<LINE>雕像……<PARA>看起来<LINE>气派非凡。<DONE>"
+    }
+  }
+}

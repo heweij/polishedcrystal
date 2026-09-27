@@ -1,0 +1,150 @@
+{
+  "_comment": "由 tools/zh/zh.py text-extract 生成；zh 为空表示未翻译（回退原文）。控制码沿用 <LINE>/<DONE>/<PLAYER> 等写法，{{n}} 为不可翻译的占位命令，必须原样保留。",
+  "source": "maps\\GoldenrodUnderground.asm",
+  "blocks": {
+    "PiersAfterText": {
+      "en": "If you want to be-<LINE>come the Champion,<PARA>you better get<LINE>goin'!<PARA>I'll send some sup-<LINE>port your way with<CONT>a yell!<DONE>",
+      "zh": "想成为冠军，<LINE>就加把劲！<PARA>我会用<LINE>呐喊<CONT>为你加油！<DONE>"
+    },
+    "PiersRematchAfterText": {
+      "en": "I have a little<LINE>sister.<CONT>Her name's Marnie.<PARA>She's about as<LINE>cute as they come.<PARA>When she's older,<LINE>I don't know if<PARA>she'll want to<LINE>sing, play music,<PARA>battle with #-<LINE>mon, or something<CONT>totally new.<PARA>But whatever she<LINE>chooses, I hope<PARA>she has as much<LINE>passion as you<CONT>do, <PLAYER>!<DONE>",
+      "zh": "我有一个<LINE>妹妹。<PARA>她叫玛俐。<PARA>可爱得<LINE>不得了。<PARA>她长大后<LINE>会想唱歌、<CONT>玩音乐、<PARA>还是用宝可梦<CONT>对战，<PARA>或是做<LINE>全新的事，<PARA>我不知道。<PARA>但无论她<LINE>选什么，<PARA>我都希望她<LINE>能像你一样<CONT>充满热情，<CONT><PLAYER>！<DONE>"
+    },
+    "PiersIntroText": {
+      "en": "Piers: The only<LINE>thing a humble<CONT>singer can do<CONT>is sing a humble<CONT>song… ♪<PARA>My name's Piers.<LINE>I'm not from Johto,<PARA>but I came here<LINE>to sing on the<PARA>radio and make<LINE>everyone smile<CONT>in my hometown.<DONE>",
+      "zh": "皮尔斯：一个<LINE>不起眼的歌手<CONT>能做的，<PARA>就是唱<LINE>不起眼的歌……♪<PARA>我叫皮尔斯。<PARA>我不是城都人，<PARA>但我想<LINE>在广播里唱歌，<PARA>让家乡的<LINE>每个人<CONT>露出笑容。<DONE>"
+    },
+    "PiersAfterIntroText": {
+      "en": "Some of my best<LINE>riffs have come<PARA>from winning a<LINE>good battle.<PARA>How 'bout we have<LINE>one here and now?<DONE>",
+      "zh": "我最棒的<LINE>几个旋律，<PARA>都来自打赢的<CONT>精彩对战。<PARA>不如现在<LINE>就来一场？<DONE>"
+    },
+    "PiersNoBattleText": {
+      "en": "Sigh… I feel like<LINE>my soul's weeping.<DONE>",
+      "zh": "唉……<LINE>我的心<CONT>在哭泣。<DONE>"
+    },
+    "PiersSeenText": {
+      "en": "I make dark music<LINE>and use Dark-type<CONT>#mon!<PARA>It's time to rock!<DONE>",
+      "zh": "我做<LINE>暗黑音乐，<PARA>用恶属性<CONT>宝可梦！<PARA>摇滚时间到！<DONE>"
+    },
+    "PiersBeatenText": {
+      "en": "Me an' my team<LINE>gave it our best.<DONE>",
+      "zh": "我和我的队伍<LINE>已经<CONT>拼尽全力。<DONE>"
+    },
+    "PiersRewardText": {
+      "en": "I'm glad we were<LINE>able to battle.<PARA>Seems like my<LINE>#mon feel the<CONT>same way.<PARA>Here's something<LINE>to help rock out<PARA>even harder next<LINE>time!<DONE>",
+      "zh": "很高兴能<LINE>和你对战。<PARA>我的宝可梦<LINE>似乎也<CONT>这么想。<PARA>这个给你，<PARA>下次<LINE>摇滚得更<CONT>起劲吧！<DONE>"
+    },
+    "PiersRematchIntroAgainText": {
+      "en": "Piers: Hey there,<LINE><PLAYER>.<DONE>",
+      "zh": "皮尔斯：嗨，<LINE><PLAYER>。<DONE>"
+    },
+    "PiersRematchSeenText": {
+      "en": "Hah! So you're the<LINE>new Champion.<PARA>You're a big deal<LINE>now!<PARA>And I'm still just<LINE>singing my humble<CONT>songs…<PARA>So you want an<LINE>encore?<PARA>I'll make an ex-<LINE>ception for you,<CONT>just this once!<DONE>",
+      "zh": "哈！你就是<LINE>新任冠军。<PARA>现在<LINE>成大人物了！<PARA>而我还在唱<LINE>那些<CONT>不起眼的歌……<PARA>想听<LINE>安可曲？<PARA>就为你<LINE>破例一次！<DONE>"
+    },
+    "PiersRematchBeatenText": {
+      "en": "That's it?!<LINE>No way!<DONE>",
+      "zh": "就这样？！<LINE>不可能！<DONE>"
+    },
+    "SupernerdEricSeenText": {
+      "en": "I got booted out<LINE>of the Game Cor-<CONT>ner.<PARA>I was trying to<LINE>cheat using my<CONT>#mon…<DONE>",
+      "zh": "我被<LINE>游戏城<CONT>赶出来了。<PARA>我本来想<LINE>用宝可梦<CONT>作弊……<DONE>"
+    },
+    "SupernerdEricBeatenText": {
+      "en": "…Grumble…<DONE>",
+      "zh": "……哼……<DONE>"
+    },
+    "SupernerdTeruSeenText": {
+      "en": "Do you consider<LINE>type alignments in<CONT>battle?<PARA>If you know your<LINE>type advantages,<PARA>you'll do better<LINE>in battle.<DONE>",
+      "zh": "对战时你<LINE>会考虑<CONT>属性相克吗？<PARA>只要懂得<LINE>属性优势，<PARA>对战就会<LINE>更顺利。<DONE>"
+    },
+    "SupernerdTeruBeatenText": {
+      "en": "Ow, ow, ow!<DONE>",
+      "zh": "痛痛痛！<DONE>"
+    },
+    "PokemaniacIssacSeenText": {
+      "en": "My #mon just<LINE>got a haircut!<PARA>I'll show you how<LINE>strong it is!<DONE>",
+      "zh": "我的宝可梦<LINE>刚理完发！<PARA>让你见识<LINE>它的实力！<DONE>"
+    },
+    "PokemaniacIssacBeatenText": {
+      "en": "Aiyeeee!<DONE>",
+      "zh": "哎呀呀！<DONE>"
+    },
+    "PokemaniacDonaldSeenText": {
+      "en": "I think you have<LINE>some rare #mon<CONT>with you.<PARA>Let me see them!<DONE>",
+      "zh": "你身上<LINE>好像有<CONT>稀有的宝可梦。<PARA>让我看看！<DONE>"
+    },
+    "PokemaniacDonaldBeatenText": {
+      "en": "Gaah! I lost!<LINE>That makes me mad!<DONE>",
+      "zh": "啊！我输了！<LINE>气死我了！<DONE>"
+    },
+    "CosplayerClaraSeenText": {
+      "en": "Pix! Vul, pix! ♥<DONE>",
+      "zh": "皮！布尔，皮！♥<DONE>"
+    },
+    "CosplayerClaraBeatenText": {
+      "en": "You thought I was<LINE>a #mon?<PARA>Nope! It's just<LINE>quality cosplay.<DONE>",
+      "zh": "你以为<LINE>我是宝可梦？<PARA>才不是！<LINE>这是高品质的<CONT>角色扮演。<DONE>"
+    },
+    "GoldenrodUndergroundTheDoorsLockedText": {
+      "en": "The door's locked…<DONE>",
+      "zh": "门锁着……<DONE>"
+    },
+    "GoldenrodUndergroundTheDoorIsOpenText": {
+      "en": "The door is open.<DONE>",
+      "zh": "门开了。<DONE>"
+    },
+    "GoldenrodUndergroundBasementKeyOpenedDoorText": {
+      "en": "The Basement Key<LINE>opened the door.<DONE>",
+      "zh": "用地下钥匙<LINE>打开了门。<DONE>"
+    },
+    "GoldenrodUndergroundOlderHaircutBrotherOfferHaircutText": {
+      "en": "Welcome!<PARA>I run the #mon<LINE>Salon!<PARA>I'm the older and<LINE>better of the two<CONT>Haircut Brothers.<PARA>I can make your<LINE>#mon beautiful<CONT>for just ¥500.<PARA>Would you like me<LINE>to do that?<DONE>",
+      "zh": "欢迎光临！<PARA>我经营<LINE>宝可梦沙龙！<PARA>我是理发兄弟中<LINE>年长又<CONT>手艺更好的<CONT>那位。<PARA>只要500元，<PARA>我就能让你的<CONT>宝可梦<CONT>变得漂亮。<PARA>要我<LINE>试试吗？<DONE>"
+    },
+    "GoldenrodUndergroundOlderHaircutBrotherAskWhichMonText": {
+      "en": "Which #mon<LINE>should I work on?<DONE>",
+      "zh": "要我<LINE>服务哪只<CONT>宝可梦？<DONE>"
+    },
+    "GoldenrodUndergroundOlderHaircutBrotherWatchItBecomeBeautifulText": {
+      "en": "OK! Watch it<LINE>become beautiful!<DONE>",
+      "zh": "好！看着它<LINE>变漂亮吧！<DONE>"
+    },
+    "GoldenrodUndergroundOlderHaircutBrotherAllDoneText": {
+      "en": "There! All done!<DONE>",
+      "zh": "好了！<LINE>完成了！<DONE>"
+    },
+    "GoldenrodUndergroundYoungerHaircutBrotherOfferHaircutText": {
+      "en": "Welcome to the<LINE>#mon Salon!<PARA>I'm the younger<LINE>and less expen-<CONT>sive of the two<CONT>Haircut Brothers.<PARA>I'll spiff up your<LINE>#mon for just<CONT>¥300.<PARA>So? How about it?<DONE>",
+      "zh": "欢迎来到<LINE>宝可梦沙龙！<PARA>我是理发兄弟中<LINE>年纪较轻、<CONT>也比较便宜的<CONT>那位。<PARA>只要300元，<PARA>我就能让你的<CONT>宝可梦<CONT>焕然一新。<PARA>怎么样？<DONE>"
+    },
+    "GoldenrodUndergroundYoungerHaircutBrotherAskWhichMonText": {
+      "en": "OK, which #mon<LINE>should I do?<DONE>",
+      "zh": "好，要我<LINE>服务哪只？<DONE>"
+    },
+    "GoldenrodUndergroundYoungerHaircutBrotherIllMakeItLookCoolText": {
+      "en": "OK! I'll make it<LINE>look cool!<DONE>",
+      "zh": "好！<LINE>我会让它<CONT>变帅气！<DONE>"
+    },
+    "GoldenrodUndergroundYoungerHaircutBrotherAllDoneText": {
+      "en": "There we go!<LINE>All done!<DONE>",
+      "zh": "搞定！<LINE>完成了！<DONE>"
+    },
+    "HaircutBrosText_SlightlyHappier": {
+      "en": "{{0}} looks a<LINE>little happier.<DONE>",
+      "zh": "{{0}}看起来<LINE>开心了一点。<DONE>"
+    },
+    "HaircutBrosText_Happier": {
+      "en": "{{0}} looks<LINE>happy.<DONE>",
+      "zh": "{{0}}看起来<LINE>很开心。<DONE>"
+    },
+    "HaircutBrosText_MuchHappier": {
+      "en": "{{0}} looks<LINE>delighted!<DONE>",
+      "zh": "{{0}}看起来<LINE>非常开心！<DONE>"
+    },
+    "PiersMicrophoneText": {
+      "en": "It's a microphone.<DONE>",
+      "zh": "是麦克风。<DONE>"
+    }
+  }
+}

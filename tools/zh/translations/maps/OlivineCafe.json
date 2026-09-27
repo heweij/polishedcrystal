@@ -1,0 +1,54 @@
+{
+  "_comment": "由 tools/zh/zh.py text-extract 生成；zh 为空表示未翻译（回退原文）。控制码沿用 <LINE>/<DONE>/<PLAYER> 等写法，{{n}} 为不可翻译的占位命令，必须原样保留。",
+  "source": "maps\\OlivineCafe.asm",
+  "blocks": {
+    "BakerChelsieAfterText": {
+      "en": "I always add vita-<LINE>mins to my bread.<PARA>They make my #-<LINE>mon stronger.<DONE>",
+      "zh": "我总在<LINE>面包里<CONT>加营养品。<PARA>宝可梦<LINE>吃了<CONT>会变强。<DONE>"
+    },
+    "OlivineCafeFishingGuruText": {
+      "en": "Olivine Café's<LINE>menu is chock full<PARA>of hearty fare for<LINE>beefy sailors!<DONE>",
+      "zh": "浅葱咖啡馆的<CONT>菜单<PARA>全是<LINE>给强壮水手<CONT>准备的<CONT>实在料理！<DONE>"
+    },
+    "OlivineCafeSailorText": {
+      "en": "Whenever I roll<LINE>into this town, I<PARA>always visit the<LINE>Olivine Café.<PARA>Everything on the<LINE>menu makes me feel<PARA>stronger. I can't<LINE>stop eating!<DONE>",
+      "zh": "每次<LINE>来到这座城市，<PARA>我都<LINE>会去<CONT>浅葱咖啡馆。<PARA>菜单上的<LINE>每道菜<PARA>都让我<LINE>更有力气。<PARA>根本<LINE>停不下来！<DONE>"
+    },
+    "BakerChelsieGreetingText": {
+      "en": "My #mon are on<LINE>the rise!<PARA>I raised them with<LINE>my special yeast<CONT>bread!<PARA>Want to battle<LINE>them?<DONE>",
+      "zh": "我的<LINE>宝可梦<CONT>越来越强了！<PARA>我用<LINE>特制<CONT>酵母面包<CONT>培育它们！<PARA>要<LINE>对战吗？<DONE>"
+    },
+    "BakerChelsieSeenText": {
+      "en": "You'll see what my<LINE>bread can do!<DONE>",
+      "zh": "让你见识<LINE>我的面包<CONT>的厉害！<DONE>"
+    },
+    "BakerChelsieBeatenText": {
+      "en": "You are strong.<LINE>Are you eating my<CONT>special bread?<DONE>",
+      "zh": "你很强。<LINE>你也<PARA>吃了我的<CONT>特制面包？<DONE>"
+    },
+    "BakerChelsieNoBattleText": {
+      "en": "My bread-raised<LINE>#mon are un-<CONT>beatable!<DONE>",
+      "zh": "我的面包<CONT>培育出的<CONT>宝可梦<PARA>无人能敌！<DONE>"
+    },
+    "OlivineCafeLyraText1": {
+      "en": "Lyra: Hi, <PLAYER>!<LINE>You should try the<PARA>food here. It's<LINE>really good!<PARA>Although I don't<LINE>want to eat too<CONT>much…<PARA>Oh, that's right!<LINE>I found an item<PARA>that you might<LINE>like. Here!<DONE>",
+      "zh": "琴音：<LINE>嗨，<PLAYER>！<PARA>你应该<LINE>尝尝<CONT>这里的菜。<PARA>真的<LINE>很好吃！<PARA>虽然<LINE>我也不想<CONT>吃太多……<PARA>啊，<LINE>对了！<PARA>我找到了<LINE>一个<PARA>你可能会<CONT>喜欢的道具。<PARA>给你！<DONE>"
+    },
+    "OlivineCafeLyraText2": {
+      "en": "Isn't it pretty?<LINE>And useful, too.<PARA>Well, I should<LINE>get going.<PARA>I want to see the<LINE>Yellow Forest in<PARA>Cianwood before I<LINE>go back home.<PARA>See you,<LINE><PLAYER>!<DONE>",
+      "zh": "很漂亮吧？<PARA>而且<LINE>很实用。<PARA>好，<LINE>我该走了。<PARA>回家之前，<PARA>我想去<LINE>湛蓝市的<CONT>黄色森林<CONT>看看。<PARA>再见，<PLAYER>！<DONE>"
+    },
+    "OlivineCafeOfficerText": {
+      "en": "I know it's cli-<LINE>ché, but I always<PARA>come to this place<LINE>for doughnuts.<PARA>I can't get enough!<DONE>",
+      "zh": "虽然<LINE>有点老套，<PARA>但我<LINE>总是<CONT>来这里<CONT>买甜甜圈。<PARA>怎么吃<LINE>都不腻！<DONE>"
+    },
+    "OlivineCafeYoungsterText": {
+      "en": "These doughnuts<LINE>are great.<PARA>Jelly-filled ones<LINE>are my favorite!<PARA>Nothing beats a<LINE>jelly-filled<CONT>doughnut.<DONE>",
+      "zh": "这些<LINE>甜甜圈<CONT>真好吃。<PARA>我最爱<LINE>果酱夹心的！<PARA>果酱夹心的<CONT>甜甜圈<PARA>天下第一！<DONE>"
+    },
+    "OlivineCafeFisherText": {
+      "en": "I'd go for a run,<LINE>but I wouldn't<PARA>want to ruin my<LINE>physique.<DONE>",
+      "zh": "我想去<LINE>跑步，<PARA>但不想<LINE>破坏<CONT>我的体型。<DONE>"
+    }
+  }
+}

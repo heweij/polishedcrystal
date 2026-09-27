@@ -1,0 +1,54 @@
+{
+  "_comment": "由 tools/zh/zh.py text-extract 生成；zh 为空表示未翻译（回退原文）。控制码沿用 <LINE>/<DONE>/<PLAYER> 等写法，{{n}} 为不可翻译的占位命令，必须原样保留。",
+  "source": "maps\\UnionCave1F.asm",
+  "blocks": {
+    "HikerRussellSeenText": {
+      "en": "You're headed to<LINE>Azalea, are you?<PARA>Let my #mon see<LINE>if you are good<CONT>enough to battle.<DONE>",
+      "zh": "你要去<LINE>桧皮镇吗？<PARA>让我的宝可梦<LINE>看看你<CONT>够不够格对战。<DONE>"
+    },
+    "HikerRussellBeatenText": {
+      "en": "Oh, oh, oh!<DONE>",
+      "zh": "哦哦哦！<DONE>"
+    },
+    "PokemaniacLarrySeenText": {
+      "en": "I roam far and<LINE>wide in search of<CONT>#mon.<PARA>Are you looking<LINE>for #mon too?<PARA>Then you're my<LINE>collecting rival!<DONE>",
+      "zh": "我到处<LINE>奔波，<CONT>寻找宝可梦。<PARA>你也在<LINE>找宝可梦吗？<PARA>那你就是我的<LINE>收集对手！<DONE>"
+    },
+    "PokemaniacLarryBeatenText": {
+      "en": "Ugh. My poor #-<LINE>mon…<DONE>",
+      "zh": "呜……<LINE>我可怜的<CONT>宝可梦……<DONE>"
+    },
+    "HikerDanielSeenText": {
+      "en": "Whoa! What a<LINE>surprise!<PARA>I didn't expect to<LINE>see anyone here!<DONE>",
+      "zh": "哇！真是<LINE>意外！<PARA>没想到<LINE>这里有人！<DONE>"
+    },
+    "HikerDanielBeatenText": {
+      "en": "Whoa! I'm beaten<LINE>big time!<DONE>",
+      "zh": "哇！我输得<LINE>一塌糊涂！<DONE>"
+    },
+    "FirebreatherBillSeenText": {
+      "en": "Zubat's Supersonic<LINE>keeps confusing<CONT>my #mon.<PARA>I'm seriously<LINE>upset about that!<DONE>",
+      "zh": "超音蝠的<LINE>超音波<PARA>总是让我的<LINE>宝可梦<CONT>陷入混乱。<PARA>我真是<LINE>火大了！<DONE>"
+    },
+    "FirebreatherBillBeatenText": {
+      "en": "I flamed out!<DONE>",
+      "zh": "我熄火了！<DONE>"
+    },
+    "FirebreatherRaySeenText": {
+      "en": "If it's light, a<LINE>cave isn't scary.<PARA>If you're strong,<LINE>#mon aren't<CONT>scary.<DONE>",
+      "zh": "只要有光，<LINE>洞里就不可怕。<PARA>只要够强，<LINE>宝可梦<CONT>也不可怕。<DONE>"
+    },
+    "FirebreatherRayBeatenText": {
+      "en": "Flash!<DONE>",
+      "zh": "闪光！<DONE>"
+    },
+    "Ruin_maniacJonesSeenText": {
+      "en": "Have you explored<LINE>the Ruins of Alph?<DONE>",
+      "zh": "你探索过<LINE>阿尔夫遗迹吗？<DONE>"
+    },
+    "Ruin_maniacJonesBeatenText": {
+      "en": "Gahahah!<DONE>",
+      "zh": "哈哈哈！<DONE>"
+    }
+  }
+}

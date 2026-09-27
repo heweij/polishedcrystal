@@ -1,0 +1,70 @@
+{
+  "_comment": "由 tools/zh/zh.py text-extract 生成；zh 为空表示未翻译（回退原文）。控制码沿用 <LINE>/<DONE>/<PLAYER> 等写法，{{n}} 为不可翻译的占位命令，必须原样保留。",
+  "source": "maps\\Route40.asm",
+  "blocks": {
+    "SwimmermSimonSeenText": {
+      "en": "You have to warm<LINE>up before going<CONT>into the water.<PARA>That's basic.<DONE>",
+      "zh": "下水前<LINE>必须<CONT>热身。<PARA>这是<LINE>基本。<DONE>"
+    },
+    "SwimmermSimonBeatenText": {
+      "en": "OK! Uncle! I give!<DONE>",
+      "zh": "好！<LINE>大叔！<CONT>我认输！<DONE>"
+    },
+    "SwimmermRandallSeenText": {
+      "en": "Hey, you're young<LINE>and fit!<PARA>Don't ride your<LINE>#mon! Swim!<DONE>",
+      "zh": "嘿，你<LINE>年轻<CONT>又结实！<PARA>别骑<LINE>宝可梦！<CONT>自己游！<DONE>"
+    },
+    "SwimmermRandallBeatenText": {
+      "en": "Uh-oh. I lost…<DONE>",
+      "zh": "啊呀。<LINE>我输了……<DONE>"
+    },
+    "SwimmerfElaineSeenText": {
+      "en": "Are you going to<LINE>Cianwood?<PARA>How about a quick<LINE>battle first?<DONE>",
+      "zh": "你要去<LINE>湛蓝市吗？<PARA>先来一场<CONT>快速对战？<DONE>"
+    },
+    "SwimmerfElaineBeatenText": {
+      "en": "I lost that one!<DONE>",
+      "zh": "这局<LINE>我输了！<DONE>"
+    },
+    "SwimmerfPaulaSeenText": {
+      "en": "No inner tube for<LINE>me.<PARA>I'm hanging on to<LINE>a sea #mon!<DONE>",
+      "zh": "我不用<LINE>游泳圈。<PARA>我<LINE>抱着<CONT>海里的<CONT>宝可梦！<DONE>"
+    },
+    "SwimmerfPaulaBeatenText": {
+      "en": "Ooh, I'm feeling<LINE>dizzy!<DONE>",
+      "zh": "呜，<LINE>好晕！<DONE>"
+    },
+    "Route40BeachGirlText": {
+      "en": "I just ate at the<LINE>Olivine Café, so<PARA>I'm taking a break<LINE>before swimming.<DONE>",
+      "zh": "我刚在<LINE>浅葱咖啡馆<CONT>吃过，<PARA>所以<LINE>先休息<CONT>再游泳。<DONE>"
+    },
+    "Route40PokefanMText2": {
+      "en": "Hm! Look at all<LINE>those serious-<CONT>looking trainers<CONT>streaming in.<PARA>What? What?<DONE>",
+      "zh": "嗯！<LINE>你看<PARA>那些表情<CONT>严肃的<CONT>训练家<PARA>不断涌来。<PARA>什么？<LINE>什么？<DONE>"
+    },
+    "Route40PicnickerText": {
+      "en": "I came to Olivine<LINE>by ship to see the<PARA>sights and soak up<LINE>the atmosphere.<PARA>Being a port, it<LINE>feels so different<CONT>from a big city.<DONE>",
+      "zh": "我坐船<LINE>来浅葱市<PARA>观光，<LINE>感受<CONT>这里的<CONT>氛围。<PARA>作为<LINE>港口，<PARA>和大城市<CONT>感觉<CONT>完全不同。<DONE>"
+    },
+    "Route40BeachGuyText2": {
+      "en": "Have you gone to<LINE>the Battle Tower?<PARA>I think a lot of<LINE>tough trainers<PARA>have gathered<LINE>there already.<PARA>But since you have<LINE>so many Badges,<PARA>you shouldn't do<LINE>badly at all.<DONE>",
+      "zh": "你去过<LINE>对战塔了吗？<PARA>我想<LINE>已经聚集了<PARA>很多<LINE>厉害的<CONT>训练家。<PARA>不过你有<LINE>这么多徽章，<PARA>应该<LINE>不会太差。<DONE>"
+    },
+    "MeetMonicaText": {
+      "en": "Monica: Glad to<LINE>meet you. I'm<PARA>Monica of Monday.<DONE>",
+      "zh": "莫妮卡：<LINE>很高兴<CONT>见到你。<PARA>我是<LINE>周一<CONT>莫妮卡。<DONE>"
+    },
+    "MonicaGivesGiftText": {
+      "en": "As a token of our<LINE>friendship, I have<CONT>a gift for you!<DONE>",
+      "zh": "作为我们<CONT>友谊的<CONT>见证，<PARA>我有<LINE>礼物<CONT>送给你！<DONE>"
+    },
+    "MonicaMondayText": {
+      "en": "Monica: My broth-<LINE>ers and sisters<PARA>are all over the<LINE>place.<PARA>See if you could<LINE>find them all!<DONE>",
+      "zh": "莫妮卡：<LINE>我的<CONT>兄弟姐妹<PARA>散落在<LINE>各地。<PARA>你能<LINE>找到<CONT>他们吗！<DONE>"
+    },
+    "Route40SignText": {
+      "en": "Route 40<PARA>Cianwood City -<LINE>Olivine City<DONE>",
+      "zh": "40号道路<PARA>湛蓝市—<LINE>浅葱市<DONE>"
+    }
+  }
+}

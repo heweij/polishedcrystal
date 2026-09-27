@@ -1,0 +1,30 @@
+{
+  "_comment": "由 tools/zh/zh.py text-extract 生成；zh 为空表示未翻译（回退原文）。控制码沿用 <LINE>/<DONE>/<PLAYER> 等写法，{{n}} 为不可翻译的占位命令，必须原样保留。",
+  "source": "maps\\GoldenrodMagnetTrainStation.asm",
+  "blocks": {
+    "GoldenrodMagnetTrainStationOfficerAreYouComingAboardText": {
+      "en": "We'll soon depart<LINE>for Saffron.<PARA>Are you coming<LINE>aboard?<DONE>",
+      "zh": "我们<LINE>马上要<PARA>开往金黄市。<PARA>你要<LINE>上车吗？<DONE>"
+    },
+    "GoldenrodMagnetTrainStationOfficerRightThisWayText": {
+      "en": "May I see your<LINE>rail pass, please?<PARA>OK. Right this<LINE>way, please.<DONE>",
+      "zh": "请出示<LINE>您的<CONT>乘车券。<PARA>好的。<LINE>这边请。<DONE>"
+    },
+    "GoldenrodMagnetTrainStationOfficerYouDontHaveARailPassText": {
+      "en": "Sorry. You don't<LINE>have a rail pass.<DONE>",
+      "zh": "抱歉。<LINE>你没有<CONT>乘车券。<DONE>"
+    },
+    "GoldenrodMagnetTrainStationOfficerHopeToSeeYouAgainText": {
+      "en": "We hope to see you<LINE>again!<DONE>",
+      "zh": "期待<LINE>再次<CONT>为您服务！<DONE>"
+    },
+    "GoldenrodMagnetTrainStationOfficerArrivedInGoldenrodText": {
+      "en": "We have arrived in<LINE>Goldenrod.<PARA>We hope to see you<LINE>again.<DONE>",
+      "zh": "我们已经<LINE>抵达满金市。<PARA>期待<LINE>再次<CONT>为您服务。<DONE>"
+    },
+    "GoldenrodMagnetTrainStationGentlemanText": {
+      "en": "I'm the President.<PARA>My dream was to<LINE>build a train that<PARA>is faster than any<LINE>#mon.<PARA>It really brings<LINE>Johto much closer<CONT>to Kanto.<DONE>",
+      "zh": "我是社长。<PARA>我的梦想<LINE>是造出比任何<CONT>宝可梦<PARA>都快的列车。<PARA>这让城都<LINE>和关都<CONT>近了许多。<DONE>"
+    }
+  }
+}

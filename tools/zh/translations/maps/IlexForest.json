@@ -1,0 +1,114 @@
+{
+  "_comment": "由 tools/zh/zh.py text-extract 生成；zh 为空表示未翻译（回退原文）。控制码沿用 <LINE>/<DONE>/<PLAYER> 等写法，{{n}} 为不可翻译的占位命令，必须原样保留。",
+  "source": "maps\\IlexForest.asm",
+  "blocks": {
+    "IlexForestApprenticeAfterText": {
+      "en": "Wow! Thanks a<LINE>whole bunch!<PARA>My boss's #mon<LINE>won't obey me be-<CONT>cause I don't have<CONT>a Badge.<DONE>",
+      "zh": "哇！太<LINE>感谢你了！<PARA>老板的宝可梦<LINE>不听我的，<PARA>因为我没有<CONT>徽章。<DONE>"
+    },
+    "Text_ItsTheMissingPokemon": {
+      "en": "It's the missing<LINE>#mon!<DONE>",
+      "zh": "这就是那只<LINE>失踪的宝可梦！<DONE>"
+    },
+    "Text_Kwaaaa": {
+      "en": "Farfetch'd: Kwaa!<DONE>",
+      "zh": "大葱鸭：呱！<DONE>"
+    },
+    "Text_CharcoalMasterIntro": {
+      "en": "Ah! My Farfetch'd!<PARA>You found it for<LINE>us, kid?<PARA>Without it, we<LINE>wouldn't be able<PARA>to Cut trees for<LINE>charcoal.<PARA>Thanks, kid!<PARA>Now, how can I<LINE>thank you…<PARA>I know! Here, take<LINE>this.<DONE>",
+      "zh": "啊！我的大葱鸭！<PARA>孩子，你<LINE>帮我们找到了？<PARA>没有它，<LINE>我们就没法<PARA>砍树<LINE>烧炭了。<PARA>谢谢你，孩子！<PARA>那么，<LINE>该怎么谢你……<PARA>有了！<LINE>这个给你。<DONE>"
+    },
+    "Text_CharcoalMasterOutro": {
+      "en": "That's the Cut HM.<LINE>Any #mon you<PARA>have that's compat-<LINE>ible with it can<PARA>use Cut to clear<LINE>small trees.<PARA>You don't have to<LINE>teach it to them<PARA>unless you want<LINE>them to use Cut<CONT>in a battle.<PARA>Of course, you<LINE>have to have the<PARA>Gym Badge from<LINE>Azalea to use it<CONT>outside of battle.<DONE>",
+      "zh": "那是秘传学习器<LINE>居合斩。<PARA>你手上的<LINE>宝可梦只要<CONT>能学它，<PARA>就能用居合斩<LINE>砍倒小树。<PARA>不必<LINE>特意教给它们，<PARA>除非你想<LINE>在对战中<CONT>使用居合斩。<PARA>当然，想在<LINE>对战之外使用，<PARA>得有桧皮镇的<LINE>道馆徽章。<DONE>"
+    },
+    "Text_CharcoalMasterTalkAfter": {
+      "en": "Do you want to<LINE>apprentice as a<PARA>charcoal maker<LINE>with me?<PARA>You'll be first-<LINE>rate in ten years!<DONE>",
+      "zh": "要不要<LINE>拜我为师，<PARA>一起<LINE>烧炭？<PARA>十年后你<LINE>就是一等好手！<DONE>"
+    },
+    "Text_HeadbuttIntro": {
+      "en": "What am I doing?<PARA>I'm shaking trees<LINE>using Headbutt.<PARA>Sometimes I flush<LINE>out a #mon,<PARA>sometimes just<LINE>their feathers.<PARA>But even those<LINE>are useful!<PARA>They seem to make<LINE>my own #mon<CONT>a little stronger.<PARA>It's fun. Here,<LINE>you try it too!<PARA>You'll just need a<LINE>Case to hold any<CONT>delicate Wings…<DONE>",
+      "zh": "我在干什么？<PARA>我在用头锤<LINE>摇树。<PARA>有时会<LINE>赶出宝可梦，<PARA>有时只有<LINE>羽毛。<PARA>但那些<LINE>也有用！<PARA>似乎能让我的<LINE>宝可梦<CONT>变强一点。<PARA>很有趣。<LINE>你也试试！<PARA>不过你需要<LINE>一个盒子<CONT>来装那些<CONT>易碎的翅膀……<DONE>"
+    },
+    "Text_HeadbuttIntro2": {
+      "en": "Oh, and if none<LINE>of your #mon<CONT>know Headbutt?<PARA>No problem!<DONE>",
+      "zh": "哦，如果你的<LINE>宝可梦<CONT>都不会头锤？<PARA>没问题！<DONE>"
+    },
+    "Text_IlexForestTutorHeadbutt": {
+      "en": "I can teach your<LINE>#mon to use<PARA>Headbutt in ex-<LINE>change for a<CONT>Silver Leaf.<DONE>",
+      "zh": "我可以教你的<LINE>宝可梦<CONT>使出头锤，<PARA>只要给我<LINE>一片银色叶子。<DONE>"
+    },
+    "Text_IlexForestTutorQuestion": {
+      "en": "Should I teach<LINE>your #mon<CONT>Headbutt?<DONE>",
+      "zh": "要我教你的<LINE>宝可梦<CONT>头锤吗？<DONE>"
+    },
+    "Text_IlexForestLass": {
+      "en": "Did something<LINE>happen to the<CONT>forest's guardian?<DONE>",
+      "zh": "森林的<LINE>守护神<CONT>出事了吗？<DONE>"
+    },
+    "Text_IlexForestMossRock": {
+      "en": "The rock is cover-<LINE>ed in moss.<PARA>It feels pleasant-<LINE>ly cool.<DONE>",
+      "zh": "岩石<LINE>长满了青苔。<PARA>摸起来<LINE>凉爽宜人。<DONE>"
+    },
+    "IlexForestSignpost": {
+      "en": "Ilex Forest is<LINE>so overgrown with<PARA>trees that you<LINE>can't see the sky.<PARA>Please watch out<LINE>for items that may<CONT>have been dropped.<DONE>",
+      "zh": "桐树林<LINE>树木茂盛，<PARA>连天空<LINE>都看不见。<PARA>请留意<LINE>可能<CONT>掉落的道具。<DONE>"
+    },
+    "IlexForestTrainerTips": {
+      "en": "Trainer Tips<PARA>As long as you<LINE>have an HM in<CONT>your Bag,<PARA>and a #mon in<LINE>your party that's<PARA>compatible with<LINE>it, you can use<PARA>the move outside<LINE>of battle.<PARA>You don't even<LINE>have to teach it!<DONE>",
+      "zh": "训练家提示<PARA>只要背包里<LINE>有秘传学习器，<PARA>队伍里又有<LINE>能学它的<PARA>宝可梦，<PARA>就能在<LINE>战斗之外<CONT>使用那个招式。<PARA>甚至<LINE>不必教给它！<DONE>"
+    },
+    "Text_IlexForestShrine": {
+      "en": "Ilex Forest<LINE>Shrine…<PARA>It's in honor of<LINE>the forest's<CONT>protector…<DONE>",
+      "zh": "桐树林<LINE>的祠堂……<PARA>用来供奉<LINE>森林的<CONT>守护神……<DONE>"
+    },
+    "Text_ShrineCelebiEvent": {
+      "en": "Ilex Forest<LINE>Shrine…<PARA>It's in honor of<LINE>the forest's<CONT>protector…<PARA>Oh? What is this?<PARA>It's a hole.<LINE>It looks like the<PARA>GS Ball would fit<LINE>inside it.<PARA>Want to put the GS<LINE>Ball here?<DONE>",
+      "zh": "桐树林<LINE>的祠堂……<PARA>用来供奉<LINE>森林的<CONT>守护神……<PARA>嗯？这是<LINE>什么？<PARA>有个洞。<LINE>看起来<PARA>GS球<CONT>正好放得进去。<PARA>要把GS球<LINE>放进去吗？<DONE>"
+    },
+    "Text_InsertGSBall": {
+      "en": "<PLAYER> put in the<LINE>GS Ball.<DONE>",
+      "zh": "<PLAYER>放入了<LINE>GS球。<DONE>"
+    },
+    "Text_KurtCaughtCelebi": {
+      "en": "Whew, wasn't that<LINE>something!<PARA><PLAYER>, that was<LINE>fantastic. Thanks!<PARA>The legends about<LINE>that Shrine were<CONT>real after all.<PARA>Maybe the legend<LINE>that people who<CONT>tamper with it<PARA>disappear is<LINE>true, too…<PARA>I feel inspired by<LINE>what I just saw.<PARA>It motivates me to<LINE>make better Balls!<PARA>I'm going!<DONE>",
+      "zh": "呼，真是<LINE>不得了！<PARA><PLAYER>，<LINE>太棒了。<PARA>谢谢你！<PARA>那座祠堂的<LINE>传说是真的。<PARA>说不定<LINE>乱动祠堂的人<CONT>会消失<LINE>也是真的……<PARA>刚才看到的<LINE>让我<CONT>深受触动。<PARA>我要做出<LINE>更好的球！<PARA>我走啦！<DONE>"
+    },
+    "Text_CelebiDancedBeautifully": {
+      "en": "Celebi danced<LINE>beautifully!<DONE>",
+      "zh": "时拉比<LINE>跳起了<CONT>优美的舞蹈！<DONE>"
+    },
+    "Text_IlexForestLyraHello": {
+      "en": "Lyra: Hi, <PLAYER>.<LINE>Have you heard of<PARA>the legend of the<LINE>shrine?<PARA>They say that<LINE>people disappear<PARA>when they tamper<LINE>with it.<DONE>",
+      "zh": "琴音：你好，<LINE><PLAYER>。<PARA>你听说过<LINE>祠堂的传说吗？<PARA>据说乱动<LINE>它的人<PARA>都会<LINE>消失。<DONE>"
+    },
+    "Text_IlexForestLyraWhatWasThat": {
+      "en": "Lyra: …<LINE>What was that?<DONE>",
+      "zh": "琴音：……<LINE>那是什么？<DONE>"
+    },
+    "Text_IlexForestLyraWorried": {
+      "en": "Lyra: …<PLAYER>?<LINE>You're really back?<PARA>I missed you so<LINE>much! Celebi sent<PARA>me here and you<LINE>were missing…<PARA>I thought you'd be<LINE>stuck in the past<CONT>forever!<PARA>…<PARA>At least now we're<LINE>both safely back<CONT>to our time.<DONE>",
+      "zh": "琴音：……<LINE><PLAYER>？<LINE>你真的回来了？<PARA>我好想你！<PARA>时拉比把我<LINE>送到这里，<PARA>你却<LINE>不见了……<PARA>我以为你<LINE>会永远<CONT>困在过去！<PARA>……<PARA>至少现在<LINE>我们俩都<CONT>平安回来了。<DONE>"
+    },
+    "Text_IlexForestLyraArmorSuit": {
+      "en": "Lyra: What strange<LINE>adventure did you<CONT>have by yourself?<PARA>You dropped this…<LINE>thing when Celebi<CONT>brought you back…<DONE>",
+      "zh": "琴音：你一个人<LINE>经历了什么<CONT>奇怪的冒险？<PARA>时拉比<LINE>带你回来时，<PARA>你掉了<LINE>这个东西……<DONE>"
+    },
+    "Text_IlexForestLyraGoodbye": {
+      "en": "Lyra: This sure<LINE>was a bizarre day.<PARA>I'm exhausted, I<LINE>had better get<CONT>going.<PARA>You should rest<LINE>too, <PLAYER>.<PARA>See you!<DONE>",
+      "zh": "琴音：今天<LINE>真是<CONT>不可思议的一天。<PARA>我累了，<LINE>该回去了。<PARA>你也<LINE>好好休息，<PARA><PLAYER>。<PARA>再见！<DONE>"
+    },
+    "BugCatcherWayneSeenText": {
+      "en": "Don't sneak up on<LINE>me like that!<PARA>You frightened a<LINE>#mon away!<DONE>",
+      "zh": "别这样<LINE>偷偷靠近我！<PARA>你把<LINE>宝可梦<CONT>吓跑了！<DONE>"
+    },
+    "BugCatcherWayneBeatenText": {
+      "en": "I hadn't seen that<LINE>#mon before…<DONE>",
+      "zh": "那只宝可梦<LINE>我没见过……<DONE>"
+    },
+    "IlexForestHoneyBoyText": {
+      "en": "I'm slathering<LINE>Sweet Honey<CONT>on the ground.<PARA>My sister's #-<LINE>mon collects it.<PARA>It helps attract<LINE>#mon at the<PARA>same level as my<LINE>own, so they're<CONT>a fair fight.<DONE>",
+      "zh": "我在地上<LINE>涂香甜蜂蜜。<PARA>我姐姐的<LINE>宝可梦<CONT>会来采集。<PARA>它能吸引<LINE>和我同等级的<CONT>宝可梦，<PARA>这样<LINE>才算公平。<DONE>"
+    }
+  }
+}

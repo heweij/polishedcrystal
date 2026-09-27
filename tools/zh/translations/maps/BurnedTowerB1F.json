@@ -1,0 +1,10 @@
+{
+  "_comment": "由 tools/zh/zh.py text-extract 生成；zh 为空表示未翻译（回退原文）。控制码沿用 <LINE>/<DONE>/<PLAYER> 等写法，{{n}} 为不可翻译的占位命令，必须原样保留。",
+  "source": "maps\\BurnedTowerB1F.asm",
+  "blocks": {
+    "BurnedTowerB1FEusineText": {
+      "en": "Eusine: I dug a<LINE>hole here, too…<PARA>I was shocked!<PARA>Suicune raced by<LINE>like a blur, right<PARA>in front of my<LINE>eyes!<PARA>For ten years I<LINE>chased Suicune,<PARA>and I finally got<LINE>to see it.<PARA>I'm all choked up!<PARA><PLAYER>, I owe<LINE>this all to you!<PARA>Thank you!<PARA>I heard that the<LINE>legendary #mon<PARA>of Ecruteak test<LINE>chosen humans by<PARA>allowing them to<LINE>get close.<PARA>I'm going to track<LINE>Suicune.<PARA><PLAYER>, let's<LINE>meet again!<PARA>Farewell!<DONE>",
+      "zh": "米那君：<LINE>我也在这里<PARA>挖了个洞……<PARA>我<LINE>大吃一惊！<PARA>水君<LINE>像一阵风<PARA>从眼前<CONT>掠过！<PARA>追了<LINE>水君十年，<PARA>终于<LINE>见到了它。<PARA>我<LINE>太激动了！<PARA><PLAYER>，<LINE>这一切<CONT>都多亏了你！<PARA>谢谢你！<PARA>听说圆朱市<LINE>传说的<CONT>宝可梦<PARA>会让<LINE>被选中的人<CONT>接近自己。<PARA>我要去<LINE>追踪水君了。<PARA><PLAYER>，<LINE>后会有期！<PARA>再见！<DONE>"
+    }
+  }
+}

@@ -1,0 +1,27 @@
+if DEF(FAITHFUL)
+	bst 430,  60,  50, 120,  90,  80,  30
+	;   bst   hp  atk  def  sat  sdf  spe
+else
+	bst 500,  60,  50, 140, 110, 110,  30
+	;   bst   hp  atk  def  sat  sdf  spe
+endc
+
+	db FIRE, ROCK ; type
+	db 75 ; catch rate
+if DEF(FAITHFUL)
+	db 154 ; base exp
+else
+	db 171 ; base exp
+endc
+	db NO_ITEM, NO_ITEM ; held items
+	dn GENDER_F50, HATCH_MEDIUM_FAST ; gender ratio, step cycles to hatch
+
+	abilities_for MAGCARGO, MAGMA_ARMOR, FLAME_BODY, WEAK_ARMOR
+	db GROWTH_MEDIUM_FAST ; growth rate
+	dn EGG_INDETERMINATE, EGG_INDETERMINATE ; egg groups
+
+	ev_yield 2 Def
+
+	; tm/hm learnset
+	tmhm CURSE, CALM_MIND, TOXIC, HIDDEN_POWER, SUNNY_DAY, HYPER_BEAM, LIGHT_SCREEN, PROTECT, BULLDOZE, SOLAR_BEAM, EARTHQUAKE, RETURN, ROCK_SMASH, DOUBLE_TEAM, REFLECT, FLAMETHROWER, SANDSTORM, FIRE_BLAST, SUBSTITUTE, FACADE, FLAME_CHARGE, REST, ATTRACT, ROCK_SLIDE, WILL_O_WISP, EXPLOSION, GIGA_IMPACT, STONE_EDGE, GYRO_BALL, STRENGTH, BODY_SLAM, DEFENSE_CURL, DOUBLE_EDGE, EARTH_POWER, ENDURE, ROLLOUT, SLEEP_TALK, SWAGGER
+	; end

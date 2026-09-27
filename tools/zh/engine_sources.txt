@@ -1,0 +1,2 @@
+已改名：本文件的功能由 tools/zh/include_sources.txt 承担（因为清单里现在也包含
+engine/ 之外的 data/options/*.asm）。这个旧文件可以删除。

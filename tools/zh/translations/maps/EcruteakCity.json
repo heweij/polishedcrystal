@@ -1,0 +1,74 @@
+{
+  "_comment": "由 tools/zh/zh.py text-extract 生成；zh 为空表示未翻译（回退原文）。控制码沿用 <LINE>/<DONE>/<PLAYER> 等写法，{{n}} 为不可翻译的占位命令，必须原样保留。",
+  "source": "maps\\EcruteakCity.asm",
+  "blocks": {
+    "EcruteakCityGramps1Text": {
+      "en": "Ecruteak used to<LINE>have two towers:<PARA>one each in the<LINE>east and west.<DONE>",
+      "zh": "圆朱市以前<LINE>有两座塔：<PARA>东西<LINE>各一座。<DONE>"
+    },
+    "EcruteakCityGramps2Text": {
+      "en": "Ah, child.<LINE>Have you learned<PARA>to dance like the<LINE>Kimono Girls?<PARA>If you go to their<LINE>Dance Theater, an<PARA>odd old man will<LINE>give you something<CONT>nice, I hear.<DONE>",
+      "zh": "啊，孩子。<LINE>你学会<PARA>和服女孩的<CONT>舞步了吗？<PARA>听说去<LINE>她们的<CONT>舞蹈剧场，<PARA>会有个<LINE>古怪的老爷爷<CONT>送你<CONT>好东西。<DONE>"
+    },
+    "EcruteakCityLass1Text": {
+      "en": "I'm going to get<LINE>my #mon blessed<PARA>at the shrine.<LINE>Care to join me?<DONE>",
+      "zh": "我要去神社<LINE>给宝可梦<CONT>祈福。<PARA>你要<LINE>一起吗？<DONE>"
+    },
+    "EcruteakCityHexManiacText": {
+      "en": "Spirits of #mon<LINE>haunt this place…<DONE>",
+      "zh": "宝可梦的<LINE>魂灵<CONT>在此游荡……<DONE>"
+    },
+    "EcruteakCitySightseerMText": {
+      "en": "Ecruteak has such<LINE>an incredible<CONT>history.<PARA>Smeargle and I<LINE>traveled here to<CONT>draw it.<DONE>",
+      "zh": "圆朱市有着<LINE>惊人的历史。<PARA>我和图图犬<LINE>专程来<CONT>把它画下来。<DONE>"
+    },
+    "EcruteakCitySmeargleText": {
+      "en": "Smeargle: Smeer!<DONE>",
+      "zh": "图图犬：图图！<DONE>"
+    },
+    "EcruteakCityLass2Text_ReleasedBeasts": {
+      "en": "Three big #mon<LINE>ran off in differ-<CONT>ent directions.<CONT>What were they?<DONE>",
+      "zh": "三只巨大的<CONT>宝可梦<PARA>朝不同方向<CONT>跑掉了。<PARA>它们<LINE>到底是什么？<DONE>"
+    },
+    "EcruteakCityFisherText_JasmineReturned": {
+      "en": "The #mon at<LINE>Olivine Lighthouse<CONT>has been cured.<PARA>Boats can safely<LINE>sail out to sea at<CONT>night again.<DONE>",
+      "zh": "浅葱市<LINE>灯塔上的<CONT>宝可梦<PARA>已经痊愈了。<PARA>夜晚船只<LINE>又能<CONT>安全出海了。<DONE>"
+    },
+    "EcruteakCityYoungsterText": {
+      "en": "I hear #mon are<LINE>rampaging at the<PARA>Lake of Rage. I'd<LINE>like to see that.<DONE>",
+      "zh": "听说愤怒之湖<CONT>有宝可梦<CONT>在闹腾。<PARA>我真想<LINE>去看看。<DONE>"
+    },
+    "EcruteakCityGramps3Text": {
+      "en": "In the distant<LINE>past…<PARA>This tower burned<LINE>in a fire. Three<PARA>nameless #mon<LINE>perished in it.<PARA>A rainbow-colored<LINE>#mon descended<PARA>from the sky and<LINE>resurrected them…<PARA>It's a legend that<LINE>has been passed<PARA>down by Ecruteak<LINE>Gym Leaders.<PARA>Me?<PARA>I was a trainer<LINE>way back when.<CONT>Hohoho!<DONE>",
+      "zh": "在遥远的<LINE>过去……<PARA>这座塔<LINE>曾被<CONT>大火烧毁。<PARA>三只<LINE>无名的宝可梦<PARA>在火中<LINE>丧生。<PARA>一只<LINE>彩虹色的<CONT>宝可梦<PARA>从天而降，<PARA>让它们<LINE>复活了……<PARA>这是圆朱市<LINE>历任馆主<CONT>相传的传说。<PARA>我吗？<PARA>我年轻时<LINE>也是<CONT>训练家。<PARA>呵呵呵！<DONE>"
+    },
+    "EcruteakCitySign": {
+      "en": "Ecruteak City<LINE>A Historical City<PARA>Where the Past<LINE>Meets the Present<DONE>",
+      "zh": "圆朱市<PARA>过去与<LINE>现在<CONT>交汇的<CONT>历史之城<DONE>"
+    },
+    "EcruteakGymSign": {
+      "en": "Ecruteak City<LINE>#mon Gym<CONT>Leader: Morty<PARA>The Mystic Seer of<LINE>the Future<DONE>",
+      "zh": "圆朱市<LINE>宝可梦道馆<PARA>馆主：松叶<PARA>预见未来的<CONT>通灵者<DONE>"
+    },
+    "EcruteakCityAdvancedTips": {
+      "en": "Advanced Tips!<PARA>Some #mon you<LINE>encounter may<PARA>have a rare<LINE>ability, also<PARA>known as a<LINE>hidden Ability!<PARA>A hatched #mon<LINE>also has a low<PARA>chance to have<LINE>a hidden Ability.<DONE>",
+      "zh": "进阶小提示！<PARA>遇到的<LINE>宝可梦<PARA>有时拥有<LINE>稀有的特性，<PARA>也就是<LINE>隐藏特性！<PARA>孵出的<LINE>宝可梦<PARA>也有<LINE>很低的概率<CONT>拥有<CONT>隐藏特性。<DONE>"
+    },
+    "EcruteakDanceTheaterSign": {
+      "en": "Ecruteak Dance<LINE>Theater<DONE>",
+      "zh": "圆朱市<LINE>舞蹈剧场<DONE>"
+    },
+    "BurnedTowerSign": {
+      "en": "Burned Tower<PARA>It was destroyed<LINE>by a mysterious<CONT>fire.<PARA>Please stay away,<LINE>as it is unsafe.<DONE>",
+      "zh": "烧焦塔<PARA>被一场<LINE>神秘大火<CONT>烧毁。<PARA>十分危险，<LINE>请勿靠近。<DONE>"
+    },
+    "EcruteakShrineSign": {
+      "en": "Ecruteak Shrine<PARA>“Life is a lamp-<LINE>flame before a<CONT>wind.”<DONE>",
+      "zh": "圆朱神社<PARA>“生命<LINE>如风前之烛。”<DONE>"
+    },
+    "EcruteakBarrierStationSign": {
+      "en": "Barrier Station<LINE>to Bell Tower<PARA>No Trespassing by<LINE>the Unworthy<DONE>",
+      "zh": "通往铃铛塔的<CONT>结界所<PARA>无资格者<LINE>禁止入内<DONE>"
+    }
+  }
+}

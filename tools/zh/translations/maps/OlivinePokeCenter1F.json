@@ -1,0 +1,14 @@
+{
+  "_comment": "由 tools/zh/zh.py text-extract 生成；zh 为空表示未翻译（回退原文）。控制码沿用 <LINE>/<DONE>/<PLAYER> 等写法，{{n}} 为不可翻译的占位命令，必须原样保留。",
+  "source": "maps\\OlivinePokeCenter1F.asm",
+  "blocks": {
+    "OlivinePokeCenter1FFisherText": {
+      "en": "There's this guy in<LINE>Cianwood City who<CONT>looks weak, but he<PARA>taught my #-<LINE>mon Strength.<PARA>Now it can move<LINE>big boulders.<DONE>",
+      "zh": "湛蓝市有<LINE>个看起来<CONT>很弱的人，<PARA>却教会了<CONT>我的宝可梦<CONT>怪力。<PARA>现在它能<LINE>推动<CONT>大岩石。<DONE>"
+    },
+    "OlivinePokeCenter1FTeacherText": {
+      "en": "There's a person<LINE>in Cianwood City<CONT>across the sea.<PARA>I heard him brag-<LINE>ging about his<CONT>rare #mon.<DONE>",
+      "zh": "海对岸的<LINE>湛蓝市<PARA>有个人。<PARA>我听他<LINE>炫耀过<CONT>稀有的<CONT>宝可梦。<DONE>"
+    }
+  }
+}

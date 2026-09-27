@@ -1,0 +1,110 @@
+{
+  "_comment": "由 tools/zh/zh.py text-extract 生成；zh 为空表示未翻译（回退原文）。控制码沿用 <LINE>/<DONE>/<PLAYER> 等写法，{{n}} 为不可翻译的占位命令，必须原样保留。",
+  "source": "maps\\GoldenrodGameCorner.asm",
+  "blocks": {
+    "GoldenrodGameCornerTMVendorMenuData.MenuData2#0": {
+      "en": "TM35    {d:GOLDENRODGAMECORNER_TM35_COINS}@",
+      "zh": "TM35    {d:GOLDENRODGAMECORNER_TM35_COINS}@"
+    },
+    "GoldenrodGameCornerTMVendorMenuData.MenuData2#1": {
+      "en": "TM24    {d:GOLDENRODGAMECORNER_TM24_COINS}@",
+      "zh": "TM24    {d:GOLDENRODGAMECORNER_TM24_COINS}@"
+    },
+    "GoldenrodGameCornerTMVendorMenuData.MenuData2#2": {
+      "en": "TM13    {d:GOLDENRODGAMECORNER_TM13_COINS}@",
+      "zh": "TM13    {d:GOLDENRODGAMECORNER_TM13_COINS}@"
+    },
+    "GoldenrodGameCornerTMVendorMenuData.MenuData2#3": {
+      "en": "Cancel@",
+      "zh": "取消@"
+    },
+    "GoldenrodGameCornerPrizeMonVendorScript.MenuData2#0": {
+      "en": "Abra        {d:GOLDENRODGAMECORNER_ABRA_COINS}@",
+      "zh": "凯西        {d:GOLDENRODGAMECORNER_ABRA_COINS}@"
+    },
+    "GoldenrodGameCornerPrizeMonVendorScript.MenuData2#1": {
+      "en": "Cubone      {d:GOLDENRODGAMECORNER_CUBONE_COINS}@",
+      "zh": "卡拉卡拉    {d:GOLDENRODGAMECORNER_CUBONE_COINS}@"
+    },
+    "GoldenrodGameCornerPrizeMonVendorScript.MenuData2#2": {
+      "en": "Clefairy   {d:GOLDENRODGAMECORNER_CLEFAIRY_COINS}@",
+      "zh": "皮皮       {d:GOLDENRODGAMECORNER_CLEFAIRY_COINS}@"
+    },
+    "GoldenrodGameCornerPrizeMonVendorScript.MenuData2#3": {
+      "en": "Cancel@",
+      "zh": "取消@"
+    },
+    "GoldenrodGameCornerPrizeVendorIntroText": {
+      "en": "Welcome!<PARA>We exchange your<LINE>game coins for<CONT>fabulous prizes!<DONE>",
+      "zh": "欢迎光临！<PARA>我们这里<LINE>可以用<CONT>游戏币<CONT>兑换<CONT>精美的奖品！<DONE>"
+    },
+    "GoldenrodGameCornerPrizeVendorWhichPrizeText": {
+      "en": "Which prize would<LINE>you like?<DONE>",
+      "zh": "你想要<LINE>哪个奖品？<DONE>"
+    },
+    "GoldenrodGameCornerPrizeVendorConfirmPrizeText": {
+      "en": "{{0}}.<LINE>Is that right?<DONE>",
+      "zh": "{{0}}。<LINE>就要这个吗？<DONE>"
+    },
+    "GoldenrodGameCornerPrizeVendorHereYouGoText": {
+      "en": "Here you go!<DONE>",
+      "zh": "给你！<DONE>"
+    },
+    "GoldenrodGameCornerPrizeVendorAlreadyHaveTMText": {
+      "en": "But you already<LINE>have that TM!<DONE>",
+      "zh": "可你已经<LINE>有那个<CONT>招式学习器了！<DONE>"
+    },
+    "GoldenrodGameCornerPrizeVendorNoMoreRoomText": {
+      "en": "Oh, no. You can't<LINE>carry any more and<CONT>your Box is full.<PARA>I'll return your<LINE>coins to you.<DONE>",
+      "zh": "哎呀，<LINE>你身上<CONT>放不下了，<PARA>电脑里的箱子<LINE>也满了。<PARA>那把游戏币<LINE>还给你。<DONE>"
+    },
+    "GoldenrodGameCornerPrizeVendorQuitText": {
+      "en": "OK. Please save<LINE>your coins and<CONT>come again!<DONE>",
+      "zh": "好的。<LINE>请存好<CONT>游戏币，<PARA>下次再来！<DONE>"
+    },
+    "GoldenrodGameCornerPrizeVendorNoCoinCaseText": {
+      "en": "Oh? You don't have<LINE>a Coin Case.<DONE>",
+      "zh": "咦？你没有<LINE>代币盒。<DONE>"
+    },
+    "GoldenrodGameCornerFisherText": {
+      "en": "Today's my pay day!<LINE>Time to celebrate<CONT>with some slots!<PARA>…You know, #mon<LINE>get a Pay Day too.<DONE>",
+      "zh": "今天发工资！<LINE>来玩<CONT>老虎机庆祝！<PARA>……你知道吗，<LINE>宝可梦也有<CONT>聚宝功。<DONE>"
+    },
+    "Text_GoldenrodGameCornerTutorPayDayQuestion": {
+      "en": "If you give me a<LINE>Silver Leaf, I'll<PARA>teach Pay Day to<LINE>your #mon.<DONE>",
+      "zh": "给我一片<LINE>银色叶子，<PARA>我就教你的<CONT>宝可梦<CONT>聚宝功。<DONE>"
+    },
+    "GoldenrodGameCornerPharmacistText": {
+      "en": "I always play this<LINE>slot machine. It<PARA>pays out more than<LINE>others, I think.<DONE>",
+      "zh": "我一直玩<LINE>这台老虎机。<PARA>它好像<LINE>比别台<CONT>更容易中奖。<DONE>"
+    },
+    "GoldenrodGameCornerPokefanM1Text": {
+      "en": "I just love this<LINE>new slot machine.<PARA>It's more of a<LINE>challenge than the<CONT>ones in Celadon.<DONE>",
+      "zh": "我最喜欢<LINE>这台新老虎机。<PARA>它比玉虹市的<LINE>更有挑战性。<DONE>"
+    },
+    "GoldenrodGameCornerCooltrainerMText": {
+      "en": "Life is a gamble.<LINE>I'm going to flip<CONT>cards till I drop!<DONE>",
+      "zh": "人生就是<LINE>一场赌博。<PARA>我要翻牌<LINE>翻到倒下为止！<DONE>"
+    },
+    "GoldenrodGameCornerPokefanFText": {
+      "en": "Card flip…<PARA>I prefer it over<LINE>the slots because<PARA>it's easier to<LINE>figure the odds.<PARA>But the payout is<LINE>much lower.<DONE>",
+      "zh": "翻牌游戏……<PARA>我更喜欢它<LINE>而不是老虎机，<PARA>因为<LINE>更容易<CONT>算清赔率。<PARA>不过奖金<LINE>低多了。<DONE>"
+    },
+    "GoldenrodGameCornerCooltrainerFText": {
+      "en": "I won't quit until<LINE>I win!<DONE>",
+      "zh": "不赢<LINE>我绝不罢手！<DONE>"
+    },
+    "GoldenrodGameCornerGentlemanText": {
+      "en": "I taught Ice Beam<LINE>to my #mon.<PARA>It was hard to get<LINE>enough coins for<PARA>it, but it was<LINE>worth it.<DONE>",
+      "zh": "我让宝可梦<LINE>学了冰冻光束。<PARA>凑够游戏币<LINE>很不容易，<PARA>但很值得。<DONE>"
+    },
+    "GoldenrodGameCornerPokefanM2Text": {
+      "en": "I couldn't win at<LINE>the slots, and I<PARA>blew it on card<LINE>flipping…<PARA>I got so furious,<LINE>I tossed out my<PARA>Coin Case in the<LINE>Underground.<DONE>",
+      "zh": "老虎机赢不了，<LINE>翻牌也<PARA>输光了……<PARA>我气得<LINE>把代币盒<PARA>扔在了<LINE>地下通道。<DONE>"
+    },
+    "GoldenrodGameCornerPokefanM3Text": {
+      "en": "Wahahah! The coins<LINE>keep rolling in!<DONE>",
+      "zh": "哇哈哈！<LINE>游戏币<CONT>滚滚而来！<DONE>"
+    }
+  }
+}

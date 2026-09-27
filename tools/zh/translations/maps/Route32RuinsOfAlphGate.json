@@ -1,0 +1,18 @@
+{
+  "_comment": "由 tools/zh/zh.py text-extract 生成；zh 为空表示未翻译（回退原文）。控制码沿用 <LINE>/<DONE>/<PLAYER> 等写法，{{n}} 为不可翻译的占位命令，必须原样保留。",
+  "source": "maps\\Route32RuinsOfAlphGate.asm",
+  "blocks": {
+    "Route32RuinsOfAlphGateOfficerText": {
+      "en": "Ruins of Alph<PARA>A Look-and-Touch<LINE>Tourist Site<PARA>Try the sliding<LINE>stone panels!<DONE>",
+      "zh": "阿尔夫遗迹<PARA>可看可摸的<LINE>观光景点<PARA>来试试<LINE>滑动石板！<DONE>"
+    },
+    "Route32RuinsOfAlphGatePokefanMText": {
+      "en": "You're studying<LINE>the ruins?<PARA>I see a scientist<LINE>in the making.<DONE>",
+      "zh": "你在研究<LINE>遗迹吗？<PARA>我看你<LINE>有学者潜质。<DONE>"
+    },
+    "Route32RuinsOfAlphGateYoungsterText": {
+      "en": "There are drawings<LINE>on stone panels.<PARA>I tried moving<LINE>them. I wonder<CONT>what they are.<DONE>",
+      "zh": "石板上有<LINE>图案。<PARA>我试着<LINE>移动过它们。<PARA>不知道<LINE>是什么东西。<DONE>"
+    }
+  }
+}

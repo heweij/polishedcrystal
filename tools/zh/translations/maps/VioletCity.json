@@ -1,0 +1,66 @@
+{
+  "_comment": "由 tools/zh/zh.py text-extract 生成；zh 为空表示未翻译（回退原文）。控制码沿用 <LINE>/<DONE>/<PLAYER> 等写法，{{n}} 为不可翻译的占位命令，必须原样保留。",
+  "source": "maps\\VioletCity.asm",
+  "blocks": {
+    "Text_EarlAsksIfYouBeatFalkner": {
+      "en": "Hello!<LINE>You are trainer?<PARA>Battle Gym Leader,<LINE>win you did?<DONE>",
+      "zh": "你好！<LINE>你是训练家？<PARA>和道馆馆主<LINE>交手，赢了，你？<DONE>"
+    },
+    "Text_FollowEarl": {
+      "en": "Is that so? Then<LINE>study shall you!<CONT>Follow me!<DONE>",
+      "zh": "原来如此。<LINE>学习，你必须！<CONT>跟我来！<DONE>"
+    },
+    "Text_HereTeacherIAm": {
+      "en": "Here, teacher I<LINE>am. Good it is<CONT>you study here!<PARA>Take this and<LINE>learn you will!<DONE>",
+      "zh": "这里，老师我<LINE>就是。很好，<CONT>你在此修行！<PARA>收下这个，<LINE>学到本领，你会！<DONE>"
+    },
+    "Text_EarlsTypeChart": {
+      "en": "In battle, type<LINE>advantages you<CONT>must know!<PARA>At any time, con-<LINE>sult this chart<CONT>you may!<DONE>",
+      "zh": "对战之时，<LINE>属性克制，<CONT>你必须明白！<PARA>随时查阅<LINE>这张图表，<CONT>皆可！<DONE>"
+    },
+    "VioletCityLassText": {
+      "en": "Ghosts are rumored<LINE>to appear in<CONT>Sprout Tower.<PARA>They said Normal-<LINE>type #mon moves<PARA>had no effect on<LINE>ghosts.<DONE>",
+      "zh": "传说幽灵<LINE>会出现在<CONT>喇叭芽之塔。<PARA>听说一般属性<LINE>的招式<PARA>对幽灵<LINE>完全无效。<DONE>"
+    },
+    "VioletCityCooltrainerM1Text": {
+      "en": "Hey, you're a<LINE>#mon trainer?<PARA>If you beat the<LINE>Gym Leader here,<PARA>you'll be ready<LINE>for prime time!<DONE>",
+      "zh": "嘿，你是<LINE>宝可梦训练家？<PARA>如果打赢这里的<LINE>道馆馆主，<PARA>你就有<LINE>真本事了！<DONE>"
+    },
+    "VioletCityCooltrainerFText": {
+      "en": "Bellsprout is a<LINE>popular #mon<CONT>in this town.<PARA>It doesn't do well<LINE>against our Gym<CONT>Leader, though…<DONE>",
+      "zh": "喇叭芽在<LINE>这座小镇<CONT>很受欢迎。<PARA>不过对上<LINE>我们道馆馆主，<CONT>它就吃亏了……<DONE>"
+    },
+    "VioletCityGrampsText": {
+      "en": "Falkner, from the<LINE>Violet #mon<PARA>Gym, is a fine<LINE>trainer!<PARA>He inherited his<LINE>father's gym and<PARA>has done a great<LINE>job with it.<DONE>",
+      "zh": "桔梗市道馆的<LINE>阿速，是位<PARA>出色的训练家！<PARA>他从父亲手中<LINE>继承了道馆，<PARA>而且经营得<LINE>非常好。<DONE>"
+    },
+    "VioletCityYoungsterText": {
+      "en": "I saw a wiggly<LINE>tree up ahead!<PARA>If you touch it,<LINE>it squirms and<CONT>dances! Cool!<DONE>",
+      "zh": "我看到前面<LINE>有棵摇动的树！<PARA>只要一碰它，<LINE>它就扭来扭去<CONT>跳起舞来！<PARA>太酷了！<DONE>"
+    },
+    "VioletCityFisherText": {
+      "en": "How does such a<LINE>wobbly building<PARA>survive an earth-<LINE>quake? I must be<CONT>missing something.<DONE>",
+      "zh": "这么摇摇晃晃<LINE>的建筑，<PARA>怎么挺得过<LINE>地震？我肯定<CONT>漏想了什么。<DONE>"
+    },
+    "VioletCityCooltrainerM2Text": {
+      "en": "We care about the<LINE>traditional build-<CONT>ings around here.<PARA>Even the # Mart<LINE>and #mon Center<PARA>are painted som-<LINE>berly to blend in.<DONE>",
+      "zh": "我们很爱惜<LINE>这一带的<CONT>传统建筑。<PARA>连宝可梦商店<LINE>和宝可梦中心，<PARA>都涂得<LINE>古朴素雅，<CONT>好融入其中。<DONE>"
+    },
+    "VioletCitySignText": {
+      "en": "Violet City<PARA>The City of<LINE>Nostalgic Scents<DONE>",
+      "zh": "桔梗市<PARA>令人怀念<LINE>的香气之城<DONE>"
+    },
+    "VioletGymSignText": {
+      "en": "Violet City<LINE>#mon Gym<CONT>Leader: Falkner<PARA>The Elegant Master<LINE>of Flying #mon<DONE>",
+      "zh": "桔梗市<LINE>宝可梦道馆<CONT>馆主：阿速<PARA>优雅的<LINE>飞行宝可梦大师<DONE>"
+    },
+    "SproutTowerSignText": {
+      "en": "Sprout Tower<PARA>Experience the<LINE>Way of #mon<DONE>",
+      "zh": "喇叭芽之塔<PARA>在此感悟<LINE>宝可梦之道<DONE>"
+    },
+    "EarlsPokemonAcademySignText": {
+      "en": "Earl's #mon<LINE>Academy<DONE>",
+      "zh": "爱尔的宝可梦学园<DONE>"
+    }
+  }
+}

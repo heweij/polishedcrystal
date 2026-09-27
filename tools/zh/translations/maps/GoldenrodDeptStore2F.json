@@ -1,0 +1,22 @@
+{
+  "_comment": "由 tools/zh/zh.py text-extract 生成；zh 为空表示未翻译（回退原文）。控制码沿用 <LINE>/<DONE>/<PLAYER> 等写法，{{n}} 为不可翻译的占位命令，必须原样保留。",
+  "source": "maps\\GoldenrodDeptStore2F.asm",
+  "blocks": {
+    "GoldenrodDeptStore2FYoungsterText": {
+      "en": "#gear has no<LINE>storage limit.<PARA>But getting too<LINE>many phone calls<CONT>can be annoying.<DONE>",
+      "zh": "宝可梦装置<LINE>没有<CONT>存储上限。<PARA>但电话<LINE>太多<PARA>也挺烦的。<DONE>"
+    },
+    "GoldenrodDeptStore2FCooltrainerFText": {
+      "en": "I got my Abra at<LINE>the Game Corner.<PARA>Now it's my best<LINE>partner.<DONE>",
+      "zh": "我的凯西<LINE>是在游戏城<CONT>换的。<PARA>现在它是我<LINE>最好的伙伴。<DONE>"
+    },
+    "GoldenrodDeptStore2FGentlemanText": {
+      "en": "This Dept.Store<LINE>makes me realize<PARA>that Goldenrod is<LINE>a big city.<PARA>The selection here<LINE>is unmatched any-<CONT>where else.<DONE>",
+      "zh": "这家百货<LINE>让我<PARA>真切感受到<LINE>满金是大都市。<PARA>这里的<LINE>商品种类<PARA>别处<LINE>比不了。<DONE>"
+    },
+    "GoldenrodDeptStore2FDirectoryText": {
+      "en": "Your Travel<LINE>Companion<PARA>2F Trainer's<LINE>   Market<DONE>",
+      "zh": "旅行的<LINE>好伙伴<PARA>2F 训练家<LINE>   市场<DONE>"
+    }
+  }
+}

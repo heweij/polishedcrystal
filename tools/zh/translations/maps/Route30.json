@@ -1,0 +1,78 @@
+{
+  "_comment": "由 tools/zh/zh.py text-extract 生成；zh 为空表示未翻译（回退原文）。控制码沿用 <LINE>/<DONE>/<PLAYER> 等写法，{{n}} 为不可翻译的占位命令，必须原样保留。",
+  "source": "maps\\Route30.asm",
+  "blocks": {
+    "Text_UseTackle": {
+      "en": "Go, Rattata!<PARA>Tackle!<DONE>",
+      "zh": "去吧，小拉达！<PARA>用撞击！<DONE>"
+    },
+    "Text_ThisIsABigBattle": {
+      "en": "What? This is a<LINE>big battle!<CONT>Leave me alone!<DONE>",
+      "zh": "咦？这是一场<LINE>大对战！<CONT>别来烦我！<DONE>"
+    },
+    "YoungsterJoey1SeenText": {
+      "en": "I just lost, so<LINE>I'm trying to find<CONT>more #mon.<PARA>Wait! You look<LINE>weak! Come on,<CONT>let's battle!<DONE>",
+      "zh": "我刚输了，<LINE>正想去找<CONT>更多宝可梦。<PARA>等等！你看起来<LINE>很弱！来吧，<CONT>对战一场！<DONE>"
+    },
+    "YoungsterJoey1BeatenText": {
+      "en": "Ack! I lost again!<LINE>Doggone it!<DONE>",
+      "zh": "哎呀！我又输了！<LINE>可恶！<DONE>"
+    },
+    "YoungsterJoey1AfterText": {
+      "en": "Do I have to have<LINE>more #mon in<PARA>order to battle<LINE>better?<PARA>No! I'm sticking<LINE>with this one no<CONT>matter what!<DONE>",
+      "zh": "难道要变得<LINE>更强，<PARA>就得拥有<LINE>更多宝可梦吗？<PARA>不！我就是要<LINE>带着这一只，<CONT>无论如何！<DONE>"
+    },
+    "YoungsterMikeySeenText": {
+      "en": "You're a #mon<LINE>trainer, right?<PARA>Then you have to<LINE>battle!<DONE>",
+      "zh": "你是宝可梦<LINE>训练家吧？<PARA>那我们一起<LINE>对战吧！<DONE>"
+    },
+    "YoungsterMikeyBeatenText": {
+      "en": "That's strange.<LINE>I won before.<DONE>",
+      "zh": "真奇怪。<LINE>我以前赢过的。<DONE>"
+    },
+    "Bug_catcherDonSeenText": {
+      "en": "Instead of a bug<LINE>#mon, I found<CONT>a trainer!<DONE>",
+      "zh": "没逮到虫子，<LINE>反倒找到<CONT>一个训练家！<DONE>"
+    },
+    "Bug_catcherDonBeatenText": {
+      "en": "Argh! You're too<LINE>strong!<DONE>",
+      "zh": "啊！你太<LINE>强了！<DONE>"
+    },
+    "Route30YoungsterText": {
+      "en": "These train tracks<LINE>lead all the way<CONT>to Goldenrod City!<PARA>I'm having fun<LINE>balancing on them.<DONE>",
+      "zh": "这条铁轨<LINE>一直通到<CONT>满金市呢！<PARA>我在上面<LINE>走平衡，<CONT>可好玩了。<DONE>"
+    },
+    "Route30CooltrainerFText": {
+      "en": "I'm not a trainer.<PARA>But if you look<LINE>one in the eyes,<CONT>prepare to battle.<DONE>",
+      "zh": "我不是训练家。<PARA>不过，和训练家<LINE>目光相接的话，<CONT>就该准备对战。<DONE>"
+    },
+    "Route30SignText": {
+      "en": "Route 30<PARA>Cherrygrove City -<LINE>Violet City<DONE>",
+      "zh": "30号道路<PARA>吉野市<LINE>——桔梗市<DONE>"
+    },
+    "MrPokemonsHouseDirectionsSignText": {
+      "en": "Mr.#mon's House<LINE>Straight Ahead!<DONE>",
+      "zh": "宝可梦<LINE>老爷爷的家，<CONT>往前走就到！<DONE>"
+    },
+    "MrPokemonsHouseSignText": {
+      "en": "Mr.#mon's House<DONE>",
+      "zh": "宝可梦老爷爷的家<DONE>"
+    },
+    "BerryMastersHouseSignText": {
+      "en": "Berry Master's<LINE>House<DONE>",
+      "zh": "树果达人的家<DONE>"
+    },
+    "Route30TrainerTipsText": {
+      "en": "Trainer Tips<PARA>No stealing other<LINE>people's #mon!<PARA># Balls are to<LINE>be thrown only at<CONT>wild #mon!<DONE>",
+      "zh": "训练家提示<PARA>不许偷别人的<LINE>宝可梦！<PARA>精灵球只能<LINE>扔向野生的<CONT>宝可梦！<DONE>"
+    },
+    "Route30AdvancedTipsText": {
+      "en": "Advanced Tips!<PARA>During a battle,<LINE>press Select to<CONT>switch #mon!<PARA>Press Start to<LINE>reuse an item!<PARA>Or press B to<LINE>run away or<CONT>forfeit!<PARA>When you're choos-<LINE>ing a move to use,<PARA>press Select to<LINE>swap it with an-<CONT>other one, or<PARA>press Start to see<LINE>its description!<DONE>",
+      "zh": "进阶提示！<PARA>对战中按<LINE>选择键，<CONT>就能换宝可梦！<PARA>按开始键<LINE>可再次使用<CONT>道具！<PARA>或者按B键<LINE>逃跑、<CONT>认输！<PARA>在选择招式时，<LINE>按下选择键<PARA>就能和其他<LINE>招式对调，<CONT>或者按开始键<PARA>看招式说明！<DONE>"
+    },
+    "YoungsterJoeyText_GiveHPUpAfterBattle": {
+      "en": "I lost again…<LINE>Gee, you're tough!<PARA>Oh yeah, I almost<LINE>forgot that I had<CONT>to give you this.<PARA>Use it to get even<LINE>tougher, OK?<PARA>I'm going to get<LINE>tougher too.<DONE>",
+      "zh": "我又输了……<LINE>哇，你真厉害！<PARA>啊，差点忘了<LINE>有东西<CONT>要交给你。<PARA>用它变得<LINE>更强吧！<PARA>我也会<LINE>变强的。<DONE>"
+    }
+  }
+}

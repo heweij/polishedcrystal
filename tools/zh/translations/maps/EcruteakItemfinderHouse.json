@@ -1,0 +1,30 @@
+{
+  "_comment": "由 tools/zh/zh.py text-extract 生成；zh 为空表示未翻译（回退原文）。控制码沿用 <LINE>/<DONE>/<PLAYER> 等写法，{{n}} 为不可翻译的占位命令，必须原样保留。",
+  "source": "maps\\EcruteakItemfinderHouse.asm",
+  "blocks": {
+    "ItemfinderExplanationText": {
+      "en": "There are many<LINE>items lying about<PARA>that aren't ob-<LINE>vious.<PARA>Use Itemfinder to<LINE>check if there is<PARA>an item on the<LINE>ground near you.<PARA>It doesn't show<LINE>the exact spot,<PARA>so you'll have to<LINE>look yourself.<PARA>Oh yeah--I heard<LINE>there are items<PARA>in Ecruteak's<LINE>Burned Tower.<DONE>",
+      "zh": "有很多<LINE>道具<PARA>就掉在<LINE>不起眼的<CONT>地方。<PARA>用探测器<LINE>可以确认<PARA>附近<LINE>是否<CONT>有道具。<PARA>它不会<LINE>指出<CONT>具体位置，<PARA>所以你还得<CONT>自己找。<PARA>对了——<LINE>听说<PARA>圆朱市的<CONT>烧焦塔里<PARA>也藏着道具。<DONE>"
+    },
+    "EcruteakItemfinderAdventureText": {
+      "en": "Ah. You're on an<LINE>adventure with<CONT>your #mon?<PARA>Well, what's an<LINE>adventure without<CONT>treasure hunting?<PARA>Am I right, or am<LINE>I right?<DONE>",
+      "zh": "啊，<LINE>你正和<CONT>宝可梦<PARA>一起冒险？<PARA>冒险<LINE>怎么能<CONT>少了<CONT>寻宝呢？<PARA>我说得<LINE>对吧？<DONE>"
+    },
+    "EcruteakItemfinderTrueSpiritText": {
+      "en": "Good! You under-<LINE>stand the true<PARA>spirit of adven-<LINE>ture.<PARA>I like that! Take<LINE>this with you.<DONE>",
+      "zh": "很好！<LINE>你懂得<PARA>冒险的<LINE>真谛。<PARA>我喜欢！<LINE>这个<CONT>拿去吧。<DONE>"
+    },
+    "EcruteakItemfinderToEachHisOwnText": {
+      "en": "Oh… To each his<LINE>own, I suppose…<DONE>",
+      "zh": "哦……<LINE>人各有志，<PARA>也是……<DONE>"
+    },
+    "EcruteakHistoryBookText": {
+      "en": "History of<LINE>Ecruteak<PARA>Want to read it?<DONE>",
+      "zh": "圆朱市史<PARA>要读吗？<DONE>"
+    },
+    "EcruteakTwoTowersText": {
+      "en": "In Ecruteak, there<LINE>were two towers.<PARA>Each tower was the<LINE>roost of powerful<CONT>flying #mon.<PARA>But one of the<LINE>towers burned to<CONT>the ground.<PARA>The two #mon<LINE>haven't been seen<CONT>since…<PARA>Keep reading?<DONE>",
+      "zh": "圆朱市<LINE>曾有两座塔。<PARA>每座塔<LINE>都栖息着<CONT>强大的<CONT>飞行宝可梦。<PARA>但其中<LINE>一座塔<PARA>被大火<LINE>烧毁了。<PARA>那两只<LINE>宝可梦<PARA>从此<LINE>再未出现……<PARA>要继续读吗？<DONE>"
+    }
+  }
+}

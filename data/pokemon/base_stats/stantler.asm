@@ -1,0 +1,27 @@
+if DEF(FAITHFUL)
+	bst 465,  73,  95,  62,  85,  65,  85
+	;   bst   hp  atk  def  sat  sdf  spe
+else
+	bst 470,  73, 100,  62,  85,  65,  85
+	;   bst   hp  atk  def  sat  sdf  spe
+endc
+
+if DEF(FAITHFUL)
+	db NORMAL, NORMAL ; type
+else
+	db NORMAL, PSYCHIC ; type
+endc
+	db 45 ; catch rate
+	db 165 ; base exp
+	db NO_ITEM, NO_ITEM ; held items
+	dn GENDER_F50, HATCH_MEDIUM_FAST ; gender ratio, step cycles to hatch
+
+	abilities_for STANTLER, INTIMIDATE, FRISK, SAP_SIPPER
+	db GROWTH_SLOW ; growth rate
+	dn EGG_GROUND, EGG_GROUND ; egg groups
+
+	ev_yield 1 Atk
+
+	; tm/hm learnset
+	tmhm CURSE, CALM_MIND, ROAR, TOXIC, HAIL, HIDDEN_POWER, SUNNY_DAY, LIGHT_SCREEN, PROTECT, RAIN_DANCE, BULLDOZE, SOLAR_BEAM, IRON_TAIL, THUNDERBOLT, THUNDER, EARTHQUAKE, RETURN, PSYCHIC, SHADOW_BALL, DOUBLE_TEAM, REFLECT, SWIFT, SUBSTITUTE, FACADE, REST, ATTRACT, THIEF, ENERGY_BALL, WILD_CHARGE, GIGA_IMPACT, FLASH, THUNDER_WAVE, AGILITY, BODY_SLAM, DOUBLE_EDGE, DREAM_EATER, ENDURE, HEADBUTT, ROLLOUT, SKILL_SWAP, SLEEP_TALK, SUCKER_PUNCH, SWAGGER, TRICK_ROOM, ZEN_HEADBUTT
+	; end

@@ -1,0 +1,82 @@
+{
+  "_comment": "由 tools/zh/zh.py text-extract 生成；zh 为空表示未翻译（回退原文）。控制码沿用 <LINE>/<DONE>/<PLAYER> 等写法，{{n}} 为不可翻译的占位命令，必须原样保留。",
+  "source": "maps\\GoldenrodUndergroundSwitchRoom.asm",
+  "blocks": {
+    "UndergroundRivalBeforeText": {
+      "en": "Hold it!<PARA>I saw you, so I<LINE>tailed you.<PARA>I don't need you<LINE>underfoot while I<PARA>take care of Team<LINE>Rocket.<PARA>…Wait a second.<LINE>You beat me be-<CONT>fore, didn't you?<PARA>That was just a<LINE>fluke.<PARA>But I repay my<LINE>debts!<DONE>",
+      "zh": "站住！<PARA>我看到你，<LINE>就跟来了。<PARA>我要收拾<LINE>火箭队，<PARA>不想你<LINE>碍手碍脚。<PARA>……等等。<LINE>你以前<CONT>赢过我吧？<PARA>那只是<LINE>侥幸。<PARA>但欠的<LINE>我会还！<DONE>"
+    },
+    "UndergroundRivalWinText": {
+      "en": "…Why…<LINE>Why do I lose?<PARA>I've assembled the<LINE>toughest #mon.<PARA>I didn't ease up<LINE>on the gas.<PARA>So why do I lose?<DONE>",
+      "zh": "……为什么……<LINE>我为什么会输？<PARA>我集结了<LINE>最强的宝可梦。<PARA>我也<LINE>毫不松懈。<PARA>那为什么<LINE>会输？<DONE>"
+    },
+    "UndergroundRivalLossText": {
+      "en": "Humph. This is my<LINE>real power, wimp.<PARA>I'll make Team<LINE>Rocket history.<PARA>And I'm going to<LINE>grind that Lance<CONT>under my heels.<DONE>",
+      "zh": "哼。这才是<LINE>我真正的实力，<CONT>弱者。<PARA>我要让<LINE>火箭队<CONT>成为历史。<PARA>还要把阿渡<LINE>踩在脚下。<DONE>"
+    },
+    "GruntM11SeenText": {
+      "en": "Open one shutter,<LINE>another closes.<PARA>Bet you can't get<LINE>where you want!<DONE>",
+      "zh": "打开一道闸门，<LINE>另一道就关上。<PARA>你肯定<LINE>到不了<CONT>想去的地方！<DONE>"
+    },
+    "GruntM11BeatenText": {
+      "en": "Drat! I was sunk<LINE>by indecision!<DONE>",
+      "zh": "可恶！<LINE>我输在<CONT>犹豫不决！<DONE>"
+    },
+    "GruntM25SeenText": {
+      "en": "Kwahaha!<PARA>Confounded by the<LINE>shutters, are we?<PARA>I'll let you in on<LINE>a secret if you<CONT>can beat me!<DONE>",
+      "zh": "哇哈哈！<PARA>被闸门<LINE>搞晕了吗？<PARA>你要能<LINE>打赢我，<PARA>我就告诉你<CONT>一个秘密！<DONE>"
+    },
+    "GruntM25BeatenText": {
+      "en": "Uwww…<LINE>I blew it.<DONE>",
+      "zh": "呜……<LINE>我搞砸了。<DONE>"
+    },
+    "BurglarDuncanSeenText": {
+      "en": "Fork over your<LINE>goodies!<DONE>",
+      "zh": "把好东西<LINE>交出来！<DONE>"
+    },
+    "BurglarDuncanBeatenText": {
+      "en": "Mercy!<DONE>",
+      "zh": "饶命！<DONE>"
+    },
+    "BurglarOrsonSeenText": {
+      "en": "They ditched this<LINE>project before<CONT>they finished.<PARA>I'm searching for<LINE>leftover loot.<DONE>",
+      "zh": "他们半途而废，<LINE>丢下了<CONT>这个工程。<PARA>我在找<LINE>剩下的<CONT>值钱东西。<DONE>"
+    },
+    "BurglarOrsonBeatenText": {
+      "en": "Over the top!<DONE>",
+      "zh": "太过分了！<DONE>"
+    },
+    "GruntM13SeenText": {
+      "en": "I don't care if<LINE>you're lost.<PARA>You show up here,<LINE>you're nothing but<CONT>a victim!<DONE>",
+      "zh": "我管你<LINE>是不是迷路。<PARA>敢来这里，<LINE>就只能是<CONT>受害者！<DONE>"
+    },
+    "GruntM13BeatenText": {
+      "en": "Urk! Yeah, think<LINE>you're cool, huh?<DONE>",
+      "zh": "呃！<LINE>你很嚣张嘛？<DONE>"
+    },
+    "GruntF3SeenText": {
+      "en": "Are you lost? No,<LINE>you can't be.<PARA>You don't have<LINE>that scared look.<PARA>I'll give you<LINE>something to be<CONT>scared about!<DONE>",
+      "zh": "你迷路了？<LINE>不，不可能。<PARA>你脸上<LINE>没有害怕。<PARA>那就让我<LINE>给你点<CONT>值得怕的！<DONE>"
+    },
+    "GruntF3BeatenText": {
+      "en": "How could you?<DONE>",
+      "zh": "你怎么能这样！<DONE>"
+    },
+    "SwitchRoomText_RedSwitch": {
+      "en": "Press the red<LINE>switch?<DONE>",
+      "zh": "按下<LINE>红色开关吗？<DONE>"
+    },
+    "SwitchRoomText_GreenSwitch": {
+      "en": "Press the green<LINE>switch?<DONE>",
+      "zh": "按下<LINE>绿色开关吗？<DONE>"
+    },
+    "SwitchRoomText_BlueSwitch": {
+      "en": "Press the blue<LINE>switch?<DONE>",
+      "zh": "按下<LINE>蓝色开关吗？<DONE>"
+    },
+    "SwitchRoomText_EmergencySwitch": {
+      "en": "Press the emer-<LINE>gency switch?<DONE>",
+      "zh": "按下<LINE>紧急开关吗？<DONE>"
+    }
+  }
+}

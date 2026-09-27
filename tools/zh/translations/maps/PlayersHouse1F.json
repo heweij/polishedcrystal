@@ -1,0 +1,50 @@
+{
+  "_comment": "由 tools/zh/zh.py text-extract 生成；zh 为空表示未翻译（回退原文）。控制码沿用 <LINE>/<DONE>/<PLAYER> 等写法，{{n}} 为不可翻译的占位命令，必须原样保留。",
+  "source": "maps\\PlayersHouse1F.asm",
+  "blocks": {
+    "PlayersHouse1FFridgeText": {
+      "en": "Let's see what's<LINE>in the fridge…<PARA>Fresh Water and<LINE>tasty Lemonade!<DONE>",
+      "zh": "看看冰箱里<LINE>有什么……<PARA>有美味之水<LINE>和柠檬水！<DONE>"
+    },
+    "PlayersHouse1FSinkText": {
+      "en": "The sink is spot-<LINE>less. Mom likes it<CONT>clean.<DONE>",
+      "zh": "水槽擦得<LINE>一尘不染。<CONT>妈妈最爱干净。<DONE>"
+    },
+    "PlayersHouse1FStoveText": {
+      "en": "Mom's specialty!<PARA>Cinnabar Volcano<LINE>Burger!<DONE>",
+      "zh": "妈妈的拿手菜！<PARA>红莲火山<LINE>汉堡！<DONE>"
+    },
+    "MomIntroText": {
+      "en": "Oh, <PLAYER>!<LINE>You're awake.<PARA>Your friend Lyra<LINE>was just here.<PARA>She said that our<LINE>neighbor, Prof.<PARA>Elm, was looking<LINE>for you.<PARA>Oh! I almost for-<LINE>got! Your #mon<PARA>Gear is back from<LINE>the repair shop.<PARA>Here you go!<DONE>",
+      "zh": "哎呀，<PLAYER>！<LINE>你醒啦。<PARA>你的朋友琴音<LINE>刚刚来过。<PARA>她说我们的<LINE>邻居空木博士<PARA>正在四处<LINE>找你呢。<PARA>对了！你送去<LINE>修理的宝可梦<PARA>齿轮已经<LINE>修好送回来了。<PARA>来，拿着吧！<DONE>"
+    },
+    "MomPokegearText": {
+      "en": "#mon Gear, or<LINE>just #gear.<PARA>It's essential if<LINE>you want to be a<CONT>good trainer.<PARA>Oh, the day of the<LINE>week isn't set.<PARA>You mustn't forget<LINE>that!<DONE>",
+      "zh": "宝可梦齿轮，<LINE>简称宝可齿轮。<PARA>想成为优秀的<LINE>训练家，<CONT>它必不可少。<PARA>对了，星期<LINE>还没设置好。<PARA>你可别忘啦！<DONE>"
+    },
+    "MomDSTText": {
+      "en": "Is it Daylight<LINE>Saving Time now?<DONE>",
+      "zh": "现在是<LINE>夏令时吗？<DONE>"
+    },
+    "MomRunningShoesText": {
+      "en": "Come home to<LINE>adjust your clock<PARA>for Daylight<LINE>Saving Time.<PARA>By the way, do<LINE>you know how to<PARA>use your new<LINE>Running Shoes?<DONE>",
+      "zh": "记得回来<LINE>调夏令时哦。<PARA>顺便问一句，<LINE>你会用新的<PARA>跑步鞋了吗？<DONE>"
+    },
+    "MomInstructionsText": {
+      "en": "I'll read the<LINE>instructions.<PARA>Just hold down the<LINE>B Button to run,<CONT>indoors or out.<PARA>Or use the Option<LINE>to always run, and<CONT>hold B to walk.<DONE>",
+      "zh": "我来念念<LINE>说明书。<PARA>只要按住<LINE>B键就能跑步，<CONT>室内也一样。<PARA>或者在设置里<LINE>选成总是跑，<CONT>按住B再走路。<DONE>"
+    },
+    "MomOutroText": {
+      "en": "Gee, aren't they<LINE>convenient?<DONE>",
+      "zh": "哎呀，是不是<LINE>很方便？<DONE>"
+    },
+    "MomErrandText": {
+      "en": "So, what was Prof.<LINE>Elm's errand?<PARA>…<PARA>That does sound<LINE>challenging.<PARA>But, you should be<LINE>proud that people<CONT>rely on you.<DONE>",
+      "zh": "那么，空木博士<LINE>找你有什么事？<PARA>……<PARA>听起来<LINE>确实不容易。<PARA>不过，能被别人<LINE>信赖，你应该<CONT>感到自豪。<DONE>"
+    },
+    "MomDoItText": {
+      "en": "<PLAYER>, do it!<PARA>I'm behind you all<LINE>the way!<DONE>",
+      "zh": "<PLAYER>，加油！<PARA>妈妈会一直<LINE>支持你！<DONE>"
+    }
+  }
+}

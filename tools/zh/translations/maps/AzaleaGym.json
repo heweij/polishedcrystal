@@ -1,0 +1,10 @@
+{
+  "_comment": "由 tools/zh/zh.py text-extract 生成；zh 为空表示未翻译（回退原文）。控制码沿用 <LINE>/<DONE>/<PLAYER> 等写法，{{n}} 为不可翻译的占位命令，必须原样保留。",
+  "source": "maps\\AzaleaGym.asm",
+  "blocks": {
+    "TrainerTwinsAmyandmimiBeatenText": {
+      "en": "Amy & Mimi: Oh,<LINE>double goodness!<DONE>",
+      "zh": "艾美与咪咪：<LINE>哎呀，<CONT>双倍的厉害！<DONE>"
+    }
+  }
+}

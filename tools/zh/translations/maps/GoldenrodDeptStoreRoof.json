@@ -1,0 +1,106 @@
+{
+  "_comment": "由 tools/zh/zh.py text-extract 生成；zh 为空表示未翻译（回退原文）。控制码沿用 <LINE>/<DONE>/<PLAYER> 等写法，{{n}} 为不可翻译的占位命令，必须原样保留。",
+  "source": "maps\\GoldenrodDeptStoreRoof.asm",
+  "blocks": {
+    "PokeDollVendingMachine.MenuData2#0": {
+      "en": "Jigglypuff  ¥2400@",
+      "zh": "胖丁        ¥2400@"
+    },
+    "PokeDollVendingMachine.MenuData2#1": {
+      "en": "Ditto       ¥2400@",
+      "zh": "百变怪      ¥2400@"
+    },
+    "PokeDollVendingMachine.MenuData2#2": {
+      "en": "Meowth      ¥2400@",
+      "zh": "喵喵        ¥2400@"
+    },
+    "PokeDollVendingMachine.MenuData2#3": {
+      "en": "Cancel@",
+      "zh": "取消@"
+    },
+    "GoldenrodDeptStoreRoofPokefanFText": {
+      "en": "Whew, I'm tired.<PARA>I sometimes come<LINE>up to the rooftop<PARA>to take a break<LINE>from shopping.<DONE>",
+      "zh": "呼，好累。<PARA>我有时会<LINE>来屋顶，<PARA>购物<LINE>歇口气。<DONE>"
+    },
+    "GoldenrodDeptStoreRoofFisherText": {
+      "en": "Pardon? Who says<LINE>an adult can't get<CONT>into this?<PARA>I'm going to be<LINE>back every day to<PARA>collect all the<LINE>dolls!<DONE>",
+      "zh": "什么？谁说<LINE>大人<CONT>不能玩这个？<PARA>我每天都来，<PARA>要把玩偶<LINE>全收齐！<DONE>"
+    },
+    "GoldenrodDeptStoreRoofFisherDuplicateText": {
+      "en": "This one is a<LINE>duplicate. Here,<CONT>you can have it.<DONE>",
+      "zh": "这个是<LINE>重复的。<PARA>给你吧。<DONE>"
+    },
+    "GotVoltorbDollText": {
+      "en": "<PLAYER> received<LINE>Voltorb Doll.<DONE>",
+      "zh": "<PLAYER>得到了<LINE>霹雳电球玩偶。<DONE>"
+    },
+    "VoltorbDollSentText": {
+      "en": "Voltorb Doll<LINE>was sent home.<DONE>",
+      "zh": "霹雳电球玩偶<LINE>已送回家。<DONE>"
+    },
+    "GoldenrodDeptStoreRoofFisherCatchEmAllText": {
+      "en": "I heard there are<LINE>30 kinds of dolls.<DONE>",
+      "zh": "听说玩偶<LINE>有30种。<DONE>"
+    },
+    "GoldenrodDeptStoreRoofTwinText": {
+      "en": "They have bargain<LINE>sales here every<CONT>so often.<DONE>",
+      "zh": "这里<LINE>常常<CONT>有特卖。<DONE>"
+    },
+    "GoldenrodDeptStoreRoofSuperNerdOhWowText": {
+      "en": "Oh, wow!<DONE>",
+      "zh": "哇，好厉害！<DONE>"
+    },
+    "GoldenrodDeptStoreRoofSuperNerdQuitBotheringMeText": {
+      "en": "Will you quit<LINE>bothering me?<DONE>",
+      "zh": "你能不能<LINE>别烦我？<DONE>"
+    },
+    "GoldenrodDeptStoreRoofPokefanMText": {
+      "en": "There's something<LINE>I really want, but<PARA>I don't have the<LINE>necessary cash…<PARA>Maybe I'll sell<LINE>off the Berries<CONT>I've collected…<DONE>",
+      "zh": "我有很想要的<LINE>东西，<PARA>可钱<LINE>不够……<PARA>也许把<LINE>收集的树果<CONT>卖掉……<DONE>"
+    },
+    "GoldenrodDeptStoreRoofTeacherText": {
+      "en": "Oh, everything is<LINE>so cheap!<PARA>I bought so much,<LINE>my Bag's crammed!<DONE>",
+      "zh": "啊，<LINE>全都好便宜！<PARA>我买太多了，<PARA>背包<LINE>都塞满了！<DONE>"
+    },
+    "GoldenrodDeptStoreRoofBugCatcherText": {
+      "en": "My #mon always<LINE>get paralyzed or<PARA>poisoned when the<LINE>chips are down…<PARA>So I came to buy<LINE>some Full Heal.<PARA>I wonder if<LINE>there's any left?<DONE>",
+      "zh": "我的宝可梦<LINE>总在<PARA>关键时刻<CONT>麻痹或中毒……<PARA>所以来买<LINE>万灵药。<PARA>不知道<LINE>还有没有？<DONE>"
+    },
+    "PokeDollVendingMachineText": {
+      "en": "A vending machine<LINE>for #mon dolls!<DONE>",
+      "zh": "宝可梦玩偶<LINE>自动贩卖机！<DONE>"
+    },
+    "PokeDollVendingMachineNoMoneyText": {
+      "en": "It costs too much!<DONE>",
+      "zh": "太贵了！<DONE>"
+    },
+    "PokeDollVendingMachineAlreadyBoughtText": {
+      "en": "It's a duplicate!<DONE>",
+      "zh": "已经<LINE>有了！<DONE>"
+    },
+    "BoughtJigglypuffDollText": {
+      "en": "<PLAYER> bought<LINE>Jigglypuff Doll.<DONE>",
+      "zh": "<PLAYER>买了<LINE>胖丁玩偶。<DONE>"
+    },
+    "JigglypuffDollSentText": {
+      "en": "Jigglypuff Doll<LINE>was sent home.<DONE>",
+      "zh": "胖丁玩偶<LINE>已送回家。<DONE>"
+    },
+    "BoughtDittoDollText": {
+      "en": "<PLAYER> bought<LINE>Ditto Doll.<DONE>",
+      "zh": "<PLAYER>买了<LINE>百变怪玩偶。<DONE>"
+    },
+    "DittoDollSentText": {
+      "en": "Ditto Doll<LINE>was sent home.<DONE>",
+      "zh": "百变怪玩偶<LINE>已送回家。<DONE>"
+    },
+    "BoughtMeowthDollText": {
+      "en": "<PLAYER> bought<LINE>Meowth Doll.<DONE>",
+      "zh": "<PLAYER>买了<LINE>喵喵玩偶。<DONE>"
+    },
+    "MeowthDollSentText": {
+      "en": "Meowth Doll<LINE>was sent home.<DONE>",
+      "zh": "喵喵玩偶<LINE>已送回家。<DONE>"
+    }
+  }
+}

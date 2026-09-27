@@ -1,0 +1,58 @@
+{
+  "_comment": "由 tools/zh/zh.py text-extract 生成；zh 为空表示未翻译（回退原文）。控制码沿用 <LINE>/<DONE>/<PLAYER> 等写法，{{n}} 为不可翻译的占位命令，必须原样保留。",
+  "source": "maps\\OlivinePort.asm",
+  "blocks": {
+    "OlivinePortSailorGetOnBoardText": {
+      "en": "We're departing<LINE>soon. Please get<CONT>on board.<DONE>",
+      "zh": "快要<LINE>启航了。<PARA>请上船吧。<DONE>"
+    },
+    "OlivinePortAskBoardText": {
+      "en": "Welcome to Fast<LINE>Ship S.S.Aqua.<PARA>Will you be board-<LINE>ing today?<DONE>",
+      "zh": "欢迎<LINE>搭乘<CONT>高速船<CONT>阿库亚号。<PARA>今天<LINE>要登船吗？<DONE>"
+    },
+    "OlivinePortAskTicketText": {
+      "en": "May I see your<LINE>S.S.Ticket?<DONE>",
+      "zh": "能让我看看<CONT>船票吗？<DONE>"
+    },
+    "OlivinePortComeAgainText": {
+      "en": "We hope to see you<LINE>again!<DONE>",
+      "zh": "期待<LINE>再次<CONT>光临！<DONE>"
+    },
+    "OlivinePortFlashTicketText": {
+      "en": "<PLAYER> flashed<LINE>the S.S.Ticket.<PARA>That's it.<LINE>Thank you!<DONE>",
+      "zh": "<PLAYER>出示了<CONT>船票。<PARA>就是这个。<LINE>谢谢！<DONE>"
+    },
+    "OlivinePortNoTicketText": {
+      "en": "<PLAYER> tried to<LINE>show the S.S.<CONT>Ticket…<PARA>…But no Ticket!<PARA>Sorry!<LINE>You may board only<PARA>if you have an<LINE>S.S.Ticket.<DONE>",
+      "zh": "<PLAYER>想<LINE>出示船票……<PARA>…可是<LINE>没有船票！<PARA>抱歉！<PARA>只有<LINE>持有船票<PARA>才能登船。<DONE>"
+    },
+    "OlivinePortMondayShipText": {
+      "en": "The Fast Ship will<LINE>sail next Monday.<DONE>",
+      "zh": "高速船<LINE>下周一<CONT>启航。<DONE>"
+    },
+    "OlivinePortFridayShipText": {
+      "en": "The Fast Ship will<LINE>sail next Friday.<DONE>",
+      "zh": "高速船<LINE>下周五<CONT>启航。<DONE>"
+    },
+    "OlivinePortFishingGuru1Text": {
+      "en": "Shellder are easy<LINE>to catch here.<PARA>They're kind of<LINE>rare elsewhere.<DONE>",
+      "zh": "这里<LINE>很容易<CONT>钓到大舌贝。<PARA>别处<LINE>倒挺<CONT>少见。<DONE>"
+    },
+    "OlivinePortFishingGuru2Text": {
+      "en": "How many Rods do<LINE>you have?<PARA>Different Rods<LINE>catch different<CONT>#mon.<DONE>",
+      "zh": "你有<LINE>几根<CONT>钓竿？<PARA>不同的<LINE>钓竿<PARA>能钓到<CONT>不同的<CONT>宝可梦。<DONE>"
+    },
+    "OlivinePortYoungsterText": {
+      "en": "S.S.Aqua uses jets<LINE>to skim over the<CONT>waves!<DONE>",
+      "zh": "阿库亚号<LINE>用喷射<CONT>装置<PARA>掠过海面！<DONE>"
+    },
+    "OlivinePortCooltrainerFText": {
+      "en": "There are lots of<LINE>#mon in Kanto.<PARA>I wish I could go…<DONE>",
+      "zh": "关都<LINE>有很多<CONT>宝可梦。<PARA>真想去……<DONE>"
+    },
+    "OlivinePortSailorBeforeHOFText": {
+      "en": "We don't want you<LINE>to fall into the<PARA>sea, so you're not<LINE>allowed in.<DONE>",
+      "zh": "我们不想<LINE>让你<CONT>掉进海里，<PARA>所以<LINE>不能<CONT>让你进去。<DONE>"
+    }
+  }
+}

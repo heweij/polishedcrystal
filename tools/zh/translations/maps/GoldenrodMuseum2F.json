@@ -1,0 +1,38 @@
+{
+  "_comment": "由 tools/zh/zh.py text-extract 生成；zh 为空表示未翻译（回退原文）。控制码沿用 <LINE>/<DONE>/<PLAYER> 等写法，{{n}} 为不可翻译的占位命令，必须原样保留。",
+  "source": "maps\\GoldenrodMuseum2F.asm",
+  "blocks": {
+    "EmptyPuzzleText": {
+      "en": "Ruins of Alph<LINE>panel replica<PARA>(restoration<LINE>in progress)<DONE>",
+      "zh": "阿尔夫遗迹<LINE>石板<CONT>复制品<PARA>（修复中）<DONE>"
+    },
+    "TowerRelicText": {
+      "en": "An ancient mural<LINE>depicting a mys-<CONT>terious #mon.<DONE>",
+      "zh": "描绘<LINE>神秘宝可梦的<CONT>古代壁画。<DONE>"
+    },
+    "GoldenrodMuseum2FSightseerMText": {
+      "en": "These paintings<LINE>are beautiful!<PARA>One day, I hope my<LINE>art is hung in a<PARA>museum for all to<LINE>see too.<DONE>",
+      "zh": "这些画<LINE>真美！<PARA>希望有一天<LINE>我的作品<PARA>也能挂在<LINE>博物馆里，<PARA>让大家<LINE>欣赏。<DONE>"
+    },
+    "GoldenrodMuseum2FSmeargleText": {
+      "en": "Smeargle: Smeer!<DONE>",
+      "zh": "图图犬：图图！<DONE>"
+    },
+    "GoldenrodMuseum2FScientistSomeArtifactsText": {
+      "en": "These artifacts<LINE>are fascinating!<PARA>Its a shame they're<LINE>just replicas…<PARA>I'd love to study<LINE>the real thing<CONT>up close.<DONE>",
+      "zh": "这些文物<LINE>真迷人！<PARA>可惜<LINE>只是复制品……<PARA>我好想<LINE>近距离研究<CONT>真品。<DONE>"
+    },
+    "GoldenrodMuseum2FTutorIntroText": {
+      "en": "Before the con-<LINE>struction of the<PARA>new Radio Tower,<LINE>there once stood<PARA>an ancient wooden<LINE>tower.<PARA>This mural was<LINE>originally in<CONT>that tower.<PARA>Moving it here<LINE>was necessary<PARA>to preserve a<LINE>piece of Johto's<CONT>history.<PARA>Even #mon<LINE>can understand<PARA>the value of<LINE>preservation!<DONE>",
+      "zh": "在建造<LINE>新广播塔之前，<PARA>这里曾<LINE>有一座<CONT>古老的木塔。<PARA>这幅壁画<LINE>原本<PARA>就在那座塔里。<PARA>把它<LINE>搬来这里，<PARA>是为了保存<LINE>城都的<CONT>一段历史。<PARA>就连宝可梦<LINE>也懂得<CONT>保存的价值！<DONE>"
+    },
+    "GoldenrodMuseum2FTutorBatonPassText": {
+      "en": "I can teach your<LINE>#mon to use<PARA>Baton Pass for one<LINE>Silver Leaf.<DONE>",
+      "zh": "我可以教你的<LINE>宝可梦<CONT>使用接力棒，<PARA>只要<LINE>一片银色叶子。<DONE>"
+    },
+    "GoldenrodMuseum2FTutorQuestion": {
+      "en": "Should I teach<LINE>your #mon<CONT>Baton Pass?<DONE>",
+      "zh": "要我教你的<LINE>宝可梦<CONT>接力棒吗？<DONE>"
+    }
+  }
+}

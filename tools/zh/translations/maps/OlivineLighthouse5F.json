@@ -1,0 +1,22 @@
+{
+  "_comment": "由 tools/zh/zh.py text-extract 生成；zh 为空表示未翻译（回退原文）。控制码沿用 <LINE>/<DONE>/<PLAYER> 等写法，{{n}} 为不可翻译的占位命令，必须原样保留。",
+  "source": "maps\\OlivineLighthouse5F.asm",
+  "blocks": {
+    "SailorErnestSeenText": {
+      "en": "I wanted to battle<LINE>Jasmine, but she's<PARA>not up to it now.<LINE>So, how about you?<DONE>",
+      "zh": "我本想<LINE>和阿蜜对战，<PARA>可她现在<LINE>没这个<CONT>心情。<PARA>那么，<LINE>你怎么样？<DONE>"
+    },
+    "SailorErnestBeatenText": {
+      "en": "Whoa, whoa. You're<LINE>overwhelming!<DONE>",
+      "zh": "哇，哇。<LINE>你太强了！<DONE>"
+    },
+    "Bird_keeperDenisSeenText": {
+      "en": "We're pretty high<LINE>up here. My bird<PARA>#mon are in<LINE>prime form.<DONE>",
+      "zh": "这里的<LINE>高度<CONT>相当高。<PARA>我的<LINE>鸟宝可梦<PARA>状态<LINE>绝佳。<DONE>"
+    },
+    "Bird_keeperDenisBeatenText": {
+      "en": "Oops…They crashed…<DONE>",
+      "zh": "哎呀……<LINE>它们<CONT>摔了……<DONE>"
+    }
+  }
+}

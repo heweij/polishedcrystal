@@ -1,0 +1,94 @@
+{
+  "_comment": "由 tools/zh/zh.py text-extract 生成；zh 为空表示未翻译（回退原文）。控制码沿用 <LINE>/<DONE>/<PLAYER> 等写法，{{n}} 为不可翻译的占位命令，必须原样保留。",
+  "source": "maps\\Route35.asm",
+  "blocks": {
+    "CamperIvanSeenText": {
+      "en": "I've been getting<LINE>#mon data off<PARA>my radio. I think<LINE>I'm good.<DONE>",
+      "zh": "我从收音机里<LINE>听宝可梦情报，<PARA>我觉得<LINE>自己挺强。<DONE>"
+    },
+    "CamperIvanBeatenText": {
+      "en": "I give!<DONE>",
+      "zh": "我认输！<DONE>"
+    },
+    "CoupleGailandeli1SeenText": {
+      "en": "Eli: I'm gonna<LINE>show my girlfriend<CONT>I'm hot stuff!<DONE>",
+      "zh": "艾力：我要让<LINE>女朋友看看<CONT>我的厉害！<DONE>"
+    },
+    "CoupleGailandeli1BeatenText": {
+      "en": "Eli: I wish you'd<LINE>have lost for me…<DONE>",
+      "zh": "艾力：你要是<LINE>能输给我<CONT>就好了……<DONE>"
+    },
+    "CoupleGailandeli2SeenText": {
+      "en": "Gail: My boy-<LINE>friend's weak, so I<CONT>can't rely on him.<DONE>",
+      "zh": "盖儿：我男朋友<LINE>太弱了，<CONT>靠不住。<DONE>"
+    },
+    "CoupleGailandeli2BeatenText": {
+      "en": "Gail: Oh, my!<LINE>You're so strong!<DONE>",
+      "zh": "盖儿：哎呀！<LINE>你好强！<DONE>"
+    },
+    "PicnickerKimSeenText": {
+      "en": "Are you going to<LINE>the Gym? Me too!<DONE>",
+      "zh": "你要去道馆？<LINE>我也要去！<DONE>"
+    },
+    "PicnickerKimBeatenText": {
+      "en": "Oh. I couldn't<LINE>win…<DONE>",
+      "zh": "啊。我<LINE>赢不了……<DONE>"
+    },
+    "BreederTheresaSeenText": {
+      "en": "How do you care<LINE>for your #mon?<DONE>",
+      "zh": "你怎么<LINE>照顾宝可梦？<DONE>"
+    },
+    "BreederTheresaBeatenText": {
+      "en": "Ah! You take good<LINE>care of them!<DONE>",
+      "zh": "啊！你把它们<LINE>照顾得很好！<DONE>"
+    },
+    "JugglerIrwin1SeenText": {
+      "en": "Behold my graceful<LINE>Ball dexterity!<DONE>",
+      "zh": "看我<LINE>优雅的玩球绝技！<DONE>"
+    },
+    "JugglerIrwin1BeatenText": {
+      "en": "Whew! That was a<LINE>jolt!<DONE>",
+      "zh": "呼！真<LINE>令人震惊！<DONE>"
+    },
+    "JugglerIrwinAfterBattleText": {
+      "en": "I was going to<LINE>dazzle you with my<CONT>prize #mon.<PARA>But your prowess<LINE>electrified me!<DONE>",
+      "zh": "我本想用<LINE>得意的那只<CONT>宝可梦<CONT>让你大开眼界。<PARA>可你的实力<LINE>让我大吃一惊！<DONE>"
+    },
+    "Bug_catcherArnie1SeenText": {
+      "en": "I'll go anywhere<LINE>if bug #mon<CONT>appear there.<DONE>",
+      "zh": "只要有<LINE>虫属性宝可梦，<PARA>我哪儿都去。<DONE>"
+    },
+    "Bug_catcherArnie1BeatenText": {
+      "en": "Huh? I shouldn't<LINE>have lost that…<DONE>",
+      "zh": "咦？我不该<LINE>输的啊……<DONE>"
+    },
+    "BugCatcherArnieAfterBattleText": {
+      "en": "My Venonat won me<LINE>the Bug-Catching<PARA>Contest at the<LINE>National Park.<DONE>",
+      "zh": "我的毛球<LINE>帮我赢下了<PARA>自然公园的<LINE>捕虫大赛。<DONE>"
+    },
+    "FirebreatherWaltSeenText": {
+      "en": "I'm practicing my<LINE>fire breathing.<DONE>",
+      "zh": "我在练习<LINE>喷火。<DONE>"
+    },
+    "FirebreatherWaltBeatenText": {
+      "en": "Ow! I scorched the<LINE>tip of my nose!<DONE>",
+      "zh": "哎哟！<LINE>鼻尖被<CONT>烧到了！<DONE>"
+    },
+    "OfficerDirkSeenText": {
+      "en": "Danger lurks in<LINE>the night!<DONE>",
+      "zh": "夜里<LINE>危机四伏！<DONE>"
+    },
+    "OfficerDirkBeatenText": {
+      "en": "Whoops!<DONE>",
+      "zh": "哎呀！<DONE>"
+    },
+    "Route35SignText": {
+      "en": "Route 35<DONE>",
+      "zh": "35号道路<DONE>"
+    },
+    "Route35AdvancedTipsSignText": {
+      "en": "Advanced Tips!<PARA>You can register<LINE>up to four Key<PARA>Items for quick<LINE>use via the<CONT>Select button!<DONE>",
+      "zh": "进阶提示！<PARA>最多可以<LINE>登记四件重要<CONT>道具，<PARA>用选择键<LINE>就能<CONT>快速使用！<DONE>"
+    }
+  }
+}

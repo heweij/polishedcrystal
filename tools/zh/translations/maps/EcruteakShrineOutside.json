@@ -1,0 +1,22 @@
+{
+  "_comment": "由 tools/zh/zh.py text-extract 生成；zh 为空表示未翻译（回退原文）。控制码沿用 <LINE>/<DONE>/<PLAYER> 等写法，{{n}} 为不可翻译的占位命令，必须原样保留。",
+  "source": "maps\\EcruteakShrineOutside.asm",
+  "blocks": {
+    "EcruteakShrineOutsideTwinText": {
+      "en": "My Hoothoot's<LINE>Foresight helps<CONT>shoo away ghosts.<DONE>",
+      "zh": "我的咕咕<LINE>用看穿<PARA>能把幽灵<LINE>赶走。<DONE>"
+    },
+    "EcruteakShrineOutsideHoothootText": {
+      "en": "Hoothoot: Hoot!<DONE>",
+      "zh": "咕咕：咕咕！<DONE>"
+    },
+    "EcruteakShrineOutsideSageText": {
+      "en": "On New Year's Eve,<LINE>people visit this<PARA>shrine and make<LINE>wishes for their<CONT>future.<DONE>",
+      "zh": "除夕之夜，<LINE>人们会来<CONT>这座神社<PARA>祈求<LINE>新的一年。<DONE>"
+    },
+    "EcruteakShrineOutsideStatueText": {
+      "en": "A #mon statue…<PARA>It looks very<LINE>serene.<DONE>",
+      "zh": "宝可梦<LINE>的石像……<PARA>看起来<LINE>十分安详。<DONE>"
+    }
+  }
+}

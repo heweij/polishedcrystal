@@ -1,0 +1,22 @@
+	bst 350,  55,  70,  45,  70,  50,  60
+	;   bst   hp  atk  def  sat  sdf  spe
+
+if DEF(FAITHFUL)
+	db FIRE, FIRE ; type
+else
+	db FIRE, NORMAL ; type
+endc
+	db 190 ; catch rate
+	db 91 ; base exp
+	db ALWAYS_ITEM_2, ASPEAR_BERRY ; held items
+	dn GENDER_F25, HATCH_MEDIUM_FAST ; gender ratio, step cycles to hatch
+
+	abilities_for GROWLITHE, INTIMIDATE, FLASH_FIRE, JUSTIFIED
+	db GROWTH_SLOW ; growth rate
+	dn EGG_GROUND, EGG_GROUND ; egg groups
+
+	ev_yield 1 Atk
+
+	; tm/hm learnset
+	tmhm CURSE, ROAR, TOXIC, HIDDEN_POWER, SUNNY_DAY, PROTECT, SAFEGUARD, IRON_TAIL, RETURN, DIG, ROCK_SMASH, DOUBLE_TEAM, FLAMETHROWER, FIRE_BLAST, SWIFT, AERIAL_ACE, SUBSTITUTE, FACADE, FLAME_CHARGE, REST, ATTRACT, THIEF, WILD_CHARGE, WILL_O_WISP, STRENGTH, AGILITY, BODY_SLAM, CHARM, DOUBLE_EDGE, ENDURE, HEADBUTT, SLEEP_TALK, SWAGGER
+	; end

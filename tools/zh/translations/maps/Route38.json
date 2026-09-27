@@ -1,0 +1,74 @@
+{
+  "_comment": "由 tools/zh/zh.py text-extract 生成；zh 为空表示未翻译（回退原文）。控制码沿用 <LINE>/<DONE>/<PLAYER> 等写法，{{n}} 为不可翻译的占位命令，必须原样保留。",
+  "source": "maps\\Route38.asm",
+  "blocks": {
+    "Bird_keeperTobySeenText": {
+      "en": "Fly high into the<LINE>sky, my beloved<CONT>bird #mon!<DONE>",
+      "zh": "我心爱的<CONT>鸟宝可梦，<PARA>飞向高空吧！<DONE>"
+    },
+    "Bird_keeperTobyBeatenText": {
+      "en": "I feel like just<LINE>flying away now.<DONE>",
+      "zh": "我真想<LINE>就这样<CONT>飞走。<DONE>"
+    },
+    "SchoolboyChad1SeenText": {
+      "en": "Let me try some-<LINE>thing I learned<CONT>today.<DONE>",
+      "zh": "让我<LINE>试试<PARA>今天学的<CONT>东西。<DONE>"
+    },
+    "SchoolboyChad1BeatenText": {
+      "en": "I didn't study<LINE>enough, I guess.<DONE>",
+      "zh": "看来我<LINE>还没<CONT>学好。<DONE>"
+    },
+    "SchoolboyChadSoManyTestsText": {
+      "en": "I have to take so<LINE>many tests, I<PARA>don't have much<LINE>time for #mon.<PARA>So when I do get<LINE>to play, I really<CONT>concentrate.<DONE>",
+      "zh": "考试<LINE>太多了，<PARA>没多少时间<CONT>陪宝可梦。<PARA>所以<LINE>能玩的时候，<PARA>我都<LINE>特别专注。<DONE>"
+    },
+    "LassDana1SeenText": {
+      "en": "You seem to be<LINE>good at #mon.<PARA>If you are, how<LINE>about giving me<CONT>some advice?<DONE>",
+      "zh": "你看起来<LINE>很擅长<CONT>宝可梦。<PARA>能给我<LINE>一点<CONT>建议吗？<DONE>"
+    },
+    "LassDana1BeatenText": {
+      "en": "I see. So you can<LINE>battle that way.<DONE>",
+      "zh": "原来如此。<LINE>还能<PARA>这样战斗。<DONE>"
+    },
+    "LassDanaMoomooMilkText": {
+      "en": "I know something<LINE>good!<PARA>Moomoo Farm's milk<LINE>is famous for its<CONT>flavor.<DONE>",
+      "zh": "我知道<LINE>一个好东西！<PARA>哞哞农场的<CONT>牛奶<PARA>以美味<LINE>闻名。<DONE>"
+    },
+    "BeautyValenciaSeenText": {
+      "en": "Hi! Aren't you a<LINE>cute trainer!<PARA>May I see your<LINE>#mon?<DONE>",
+      "zh": "你好！<LINE>你真是个<CONT>可爱的训练家！<PARA>能让我看看<CONT>你的宝可梦吗？<DONE>"
+    },
+    "BeautyValenciaBeatenText": {
+      "en": "I'm glad I got to<LINE>see your #mon!<DONE>",
+      "zh": "能看到<LINE>你的宝可梦，<PARA>真开心！<DONE>"
+    },
+    "SailorHarrySeenText": {
+      "en": "I've been over-<LINE>seas, so I know<PARA>about all sorts of<LINE>#mon!<DONE>",
+      "zh": "我出过国，<PARA>所以<LINE>认识<CONT>各种各样的<CONT>宝可梦！<DONE>"
+    },
+    "SailorHarryBeatenText": {
+      "en": "Your skill is<LINE>world class!<DONE>",
+      "zh": "你的实力<LINE>世界级！<DONE>"
+    },
+    "BeautyOliviaSeenText": {
+      "en": "Don't you think my<LINE>#mon and I are<CONT>beautiful?<DONE>",
+      "zh": "我和我的<CONT>宝可梦<PARA>很美吧？<DONE>"
+    },
+    "BeautyOliviaBeatenText": {
+      "en": "We drink Moomoo<LINE>Milk every day.<DONE>",
+      "zh": "我们<LINE>每天都喝<CONT>哞哞牛奶。<DONE>"
+    },
+    "Route38SignText": {
+      "en": "Route 38<PARA>Olivine City -<LINE>Ecruteak City<DONE>",
+      "zh": "38号道路<PARA>浅葱市—<LINE>圆朱市<DONE>"
+    },
+    "Route38TrainerTipsText": {
+      "en": "Trainer Tips<PARA>If a #mon is<LINE>trying to evolve,<CONT>you can stop it.<PARA>Press the B But-<LINE>ton during evolu-<CONT>tion.<PARA>That startles the<LINE>#mon and stops<CONT>its evolution.<DONE>",
+      "zh": "训练家提示<PARA>宝可梦<LINE>要进化时，<PARA>你可以<LINE>中止它。<PARA>进化时<LINE>按下B键。<PARA>会让<LINE>宝可梦<CONT>受惊，<PARA>从而<LINE>中止进化。<DONE>"
+    },
+    "Route38AdvancedTipsText": {
+      "en": "Advanced Tips!<PARA>Press Start in the<LINE>PC Storage System<PARA>to quickly focus<LINE>on the Box name!<PARA>You can change the<LINE>name and theme of<CONT>each Box!<PARA>Press Select to<LINE>change what the<PARA>A button does<LINE>for #mon!<DONE>",
+      "zh": "进阶小提示！<PARA>在电脑<LINE>存放系统里<PARA>按START键<PARA>可快速<LINE>选中<CONT>盒子名称！<PARA>你能<LINE>更改<PARA>每个盒子的<CONT>名称与主题！<PARA>按SELECT键<PARA>可更改<LINE>A键<PARA>对宝可梦的<CONT>作用！<DONE>"
+    }
+  }
+}

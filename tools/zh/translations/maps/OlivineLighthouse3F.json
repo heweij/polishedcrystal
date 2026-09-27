@@ -1,0 +1,34 @@
+{
+  "_comment": "由 tools/zh/zh.py text-extract 生成；zh 为空表示未翻译（回退原文）。控制码沿用 <LINE>/<DONE>/<PLAYER> 等写法，{{n}} 为不可翻译的占位命令，必须原样保留。",
+  "source": "maps\\OlivineLighthouse3F.asm",
+  "blocks": {
+    "Bird_keeperTheoSeenText": {
+      "en": "Why are you here?<LINE>Are you just going<PARA>to gawk? I suggest<LINE>that you leave!<DONE>",
+      "zh": "你为什么<LINE>在这里？<PARA>只是<LINE>来围观的？<PARA>我劝你<LINE>快离开！<DONE>"
+    },
+    "Bird_keeperTheoBeatenText": {
+      "en": "You really are<LINE>concerned…<DONE>",
+      "zh": "你真的<LINE>很担心……<DONE>"
+    },
+    "Bird_keeperTheoFinalText": {
+      "en": "How the heck do<LINE>you go up?<PARA>I heard the sick<LINE>#mon is better<CONT>now, but I can't<CONT>get up there…<DONE>",
+      "zh": "到底<LINE>怎么上去？<PARA>听说那只<CONT>生病的<CONT>宝可梦<PARA>已经好了，<PARA>可我<LINE>上不去……<DONE>"
+    },
+    "SailorTerrellSeenText": {
+      "en": "Sailors are both<LINE>kind and strong.<CONT>How about you?<DONE>",
+      "zh": "水手<LINE>既温柔<CONT>又强大。<PARA>你呢？<DONE>"
+    },
+    "SailorTerrellBeatenText": {
+      "en": "You are both kind<LINE>and strong…<DONE>",
+      "zh": "你<LINE>既温柔<CONT>又强大……<DONE>"
+    },
+    "GentlemanPrestonSeenText": {
+      "en": "I travel the world<LINE>to train my #-<CONT>mon. I wish to<CONT>battle with you.<DONE>",
+      "zh": "我周游<LINE>世界<CONT>训练宝可梦。<PARA>希望能<LINE>和你对战。<DONE>"
+    },
+    "GentlemanPrestonBeatenText": {
+      "en": "…sigh… I must<LINE>train some more…<DONE>",
+      "zh": "…唉……<PARA>我还得<LINE>继续<CONT>修行……<DONE>"
+    }
+  }
+}

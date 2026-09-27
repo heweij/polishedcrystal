@@ -1,0 +1,58 @@
+{
+  "_comment": "由 tools/zh/zh.py text-extract 生成；zh 为空表示未翻译（回退原文）。控制码沿用 <LINE>/<DONE>/<PLAYER> 等写法，{{n}} 为不可翻译的占位命令，必须原样保留。",
+  "source": "maps\\Route37.asm",
+  "blocks": {
+    "TwinsToriandtil1SeenText": {
+      "en": "Til: Tori and I<LINE>are in this to-<CONT>gether!<DONE>",
+      "zh": "蒂尔：我和多莉<LINE>是<CONT>一起的！<DONE>"
+    },
+    "TwinsToriandtil2BeatenText": {
+      "en": "Til & Tori: Nnn… A<LINE>little too strong.<DONE>",
+      "zh": "蒂尔和多莉：<LINE>嗯……<CONT>有点太强了。<DONE>"
+    },
+    "TwinsToriandtil2SeenText": {
+      "en": "Tori: Til and I<LINE>are in this to-<CONT>gether!<DONE>",
+      "zh": "多莉：我和蒂尔<LINE>是<CONT>一起的！<DONE>"
+    },
+    "PsychicGregSeenText": {
+      "en": "#mon can't do a<LINE>thing if they are<CONT>asleep.<PARA>I'll show you how<LINE>scary that is!<DONE>",
+      "zh": "宝可梦<LINE>一旦睡着<PARA>就什么都<LINE>做不了。<PARA>让你见识<LINE>有多可怕！<DONE>"
+    },
+    "PsychicGregBeatenText": {
+      "en": "I lost. That's<LINE>pretty sad…<DONE>",
+      "zh": "我输了。<LINE>真让人难过……<DONE>"
+    },
+    "MeetSunnyText": {
+      "en": "Sunny: Hi!<PARA>I'm Sunny of Sun-<LINE>day, meaning it's<CONT>Sunday today!<DONE>",
+      "zh": "桑妮：你好！<PARA>我是<LINE>星期日的桑妮，<PARA>也就是说<LINE>今天是星期日！<DONE>"
+    },
+    "SunnyGivesGiftText": {
+      "en": "I was told to give<LINE>you this if I saw<CONT>you!<DONE>",
+      "zh": "有人跟我说，<LINE>见到你就<CONT>把这个给你！<DONE>"
+    },
+    "SunnySundayText": {
+      "en": "Sunny: My sisters<LINE>and brothers are<CONT>Monica, Tuscany,<CONT>Wesley, Arthur,<CONT>Frieda and Santos.<PARA>They're all older<LINE>than me!<DONE>",
+      "zh": "桑妮：我的<LINE>哥哥姐姐是<CONT>莫妮卡、<CONT>图丝卡妮、<PARA>威斯利、亚瑟、<PARA>弗里达和桑托斯。<PARA>他们都<LINE>比我大！<DONE>"
+    },
+    "BeautyCallieSeenText": {
+      "en": "Oh, you're a cute<LINE>little trainer!<PARA>Why don't you<LINE>battle me?<DONE>",
+      "zh": "哎呀，你真是<LINE>可爱的训练家！<PARA>要不要<LINE>和我<CONT>对战一场？<DONE>"
+    },
+    "BeautyCallieBeatenText": {
+      "en": "You're good…<DONE>",
+      "zh": "你很厉害……<DONE>"
+    },
+    "BeautyCassandraSeenText": {
+      "en": "Hey hey there,<LINE>you young trainer!<PARA>Won't you battle<LINE>with me?<DONE>",
+      "zh": "嘿，那边那位<LINE>年轻的训练家！<PARA>要不要<LINE>和我<CONT>对战？<DONE>"
+    },
+    "BeautyCassandraBeatenText": {
+      "en": "Wow, you're strong…<DONE>",
+      "zh": "哇，你好强……<DONE>"
+    },
+    "Route37SignText": {
+      "en": "Route 37<DONE>",
+      "zh": "37号道路<DONE>"
+    }
+  }
+}

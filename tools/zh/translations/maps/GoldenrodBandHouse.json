@@ -1,0 +1,18 @@
+{
+  "_comment": "由 tools/zh/zh.py text-extract 生成；zh 为空表示未翻译（回退原文）。控制码沿用 <LINE>/<DONE>/<PLAYER> 等写法，{{n}} 为不可翻译的占位命令，必须原样保留。",
+  "source": "maps\\GoldenrodBandHouse.asm",
+  "blocks": {
+    "GoldenrodBandHouseRocker1Text": {
+      "en": "I play guitar in<LINE>our cover band.<PARA>Give us a listen<LINE>on the Variety<CONT>Channel!<DONE>",
+      "zh": "我在<LINE>翻唱乐队里<CONT>弹吉他。<PARA>请在<LINE>综合频道<CONT>听我们的歌！<DONE>"
+    },
+    "GoldenrodBandHouseRocker2Text": {
+      "en": "Music and passion<LINE>are always in<PARA>fashion. Don't<LINE>you forget it!<DONE>",
+      "zh": "音乐与热情<LINE>永不退流行。<PARA>你可别<LINE>忘了！<DONE>"
+    },
+    "GoldenrodBandHouseCooltrainerFText": {
+      "en": "People like diff-<LINE>erent types of<CONT>music, but every-<PARA>one's entitled to<LINE>their own opinion.<PARA>Don't be a hater!<DONE>",
+      "zh": "每个人<LINE>喜欢的音乐<CONT>都不一样，<PARA>但都有<LINE>发表意见的<CONT>权利。<PARA>别当<LINE>黑子！<DONE>"
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "_comment": "由 tools/zh/zh.py text-extract 生成；zh 为空表示未翻译（回退原文）。控制码沿用 <LINE>/<DONE>/<PLAYER> 等写法，{{n}} 为不可翻译的占位命令，必须原样保留。",
+  "source": "engine\\menus\\main_menu.asm",
+  "blocks": {
+    "MainMenu.Strings#0": {
+      "en": "Continue@",
+      "zh": "继续@"
+    },
+    "MainMenu.Strings#1": {
+      "en": "New Game@",
+      "zh": "新游戏@"
+    },
+    "MainMenu.Strings#2": {
+      "en": "New Game+@",
+      "zh": "新游戏+@"
+    },
+    "MainMenu.Strings#3": {
+      "en": "Options@",
+      "zh": "设置@"
+    },
+    "MainMenu.Strings#4": {
+      "en": "Music Player@",
+      "zh": "音乐播放器@"
+    },
+    "MainMenu_PrintCurrentTimeAndDay.TimeNotSet#0": {
+      "en": "Time not set@",
+      "zh": "时间未设置@"
+    }
+  }
+}

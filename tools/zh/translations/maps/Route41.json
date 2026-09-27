@@ -1,0 +1,94 @@
+{
+  "_comment": "由 tools/zh/zh.py text-extract 生成；zh 为空表示未翻译（回退原文）。控制码沿用 <LINE>/<DONE>/<PLAYER> 等写法，{{n}} 为不可翻译的占位命令，必须原样保留。",
+  "source": "maps\\Route41.asm",
+  "blocks": {
+    "SwimmermCharlieSeenText": {
+      "en": "The water's warm<LINE>here. I'm loose<CONT>and limber.<PARA>Sure, I'll take<LINE>you on!<DONE>",
+      "zh": "这里<LINE>水很暖，<PARA>我<LINE>活动自如。<PARA>好，<LINE>我接受<CONT>挑战！<DONE>"
+    },
+    "SwimmermCharlieBeatenText": {
+      "en": "Yikes! I've got<LINE>prune skin!<DONE>",
+      "zh": "呀！<LINE>我都<CONT>泡皱了！<DONE>"
+    },
+    "SwimmermGeorgeSeenText": {
+      "en": "I'm a bit tired.<LINE>If I win, lend me<CONT>your #mon.<DONE>",
+      "zh": "我有点累。<PARA>如果我赢，<PARA>把你的<LINE>宝可梦<CONT>借我。<DONE>"
+    },
+    "SwimmermGeorgeBeatenText": {
+      "en": "Pant, pant…<DONE>",
+      "zh": "呼，呼……<DONE>"
+    },
+    "SwimmermBerkeSeenText": {
+      "en": "See those islands<LINE>that are blocked<CONT>by whirlpools?<PARA>There just has to<LINE>be a secret!<DONE>",
+      "zh": "看到那些<CONT>被漩涡<CONT>挡住的岛了吗？<PARA>一定有<LINE>什么秘密！<DONE>"
+    },
+    "SwimmermBerkeBeatenText": {
+      "en": "What's the secret<LINE>to your strength?<DONE>",
+      "zh": "你强大的<CONT>秘密<LINE>是什么？<DONE>"
+    },
+    "SwimmermKirkSeenText": {
+      "en": "The waves are wild<LINE>here.<PARA>They tire you out<LINE>while you swim.<DONE>",
+      "zh": "这里的浪<LINE>很凶。<PARA>游着游着<CONT>就累了。<DONE>"
+    },
+    "SwimmermKirkBeatenText": {
+      "en": "I'm beat!<DONE>",
+      "zh": "我<LINE>累瘫了！<DONE>"
+    },
+    "SwimmermMathewSeenText": {
+      "en": "Are you seeking<LINE>the secrets of<CONT>Whirl Islands?<DONE>",
+      "zh": "你在<LINE>寻找<CONT>漩涡列岛的<CONT>秘密吗？<DONE>"
+    },
+    "SwimmermMathewBeatenText": {
+      "en": "Ooh, you've got<LINE>great endurance!<DONE>",
+      "zh": "哦，<LINE>你的<CONT>耐力<CONT>真好！<DONE>"
+    },
+    "SwimmermLewisSeenText": {
+      "en": "I feel right at<LINE>home in the sea!<DONE>",
+      "zh": "大海<LINE>就像<CONT>我的家！<DONE>"
+    },
+    "SwimmermLewisBeatenText": {
+      "en": "Beaten in my own<LINE>home?<DONE>",
+      "zh": "在自家<LINE>被打败？<DONE>"
+    },
+    "SwimmerfKayleeSeenText": {
+      "en": "I'm on my way to<LINE>Whirl Islands.<PARA>I'm going explor-<LINE>ing with friends.<DONE>",
+      "zh": "我正在<LINE>去漩涡列岛。<PARA>要和朋友<CONT>一起去<CONT>探险。<DONE>"
+    },
+    "SwimmerfKayleeBeatenText": {
+      "en": "Is that how you do<LINE>it?<DONE>",
+      "zh": "原来<LINE>是这么<CONT>做的？<DONE>"
+    },
+    "SwimmerfSusieSeenText": {
+      "en": "You look so ele-<LINE>gant, riding your<CONT>#mon.<DONE>",
+      "zh": "你骑着<LINE>宝可梦<PARA>看起来<LINE>好优雅。<DONE>"
+    },
+    "SwimmerfSusieBeatenText": {
+      "en": "I'm crushed…<DONE>",
+      "zh": "我<LINE>心碎了……<DONE>"
+    },
+    "SwimmerfDeniseSeenText": {
+      "en": "The weather is so<LINE>beautiful, I'm in<CONT>a daze!<DONE>",
+      "zh": "天气<LINE>太好了，<PARA>我都有点<CONT>恍惚！<DONE>"
+    },
+    "SwimmerfDeniseBeatenText": {
+      "en": "Ohhh!<DONE>",
+      "zh": "哦哦哦！<DONE>"
+    },
+    "SwimmerfKaraSeenText": {
+      "en": "If you need to<LINE>rest, just tread<CONT>water.<PARA>You'll get your<LINE>wind back, so you<PARA>can keep on going<LINE>strong.<DONE>",
+      "zh": "要休息<LINE>就<CONT>踩水。<PARA>喘匀了气，<PARA>就能<LINE>继续<CONT>前进。<DONE>"
+    },
+    "SwimmerfKaraBeatenText": {
+      "en": "Oh! You have more<LINE>energy than I do.<DONE>",
+      "zh": "哦！<LINE>你比我<CONT>更有<CONT>体力。<DONE>"
+    },
+    "SwimmerfWendySeenText": {
+      "en": "At night, Staryu<LINE>gather near the<CONT>water's surface.<DONE>",
+      "zh": "夜晚，<LINE>海星星<PARA>会<LINE>聚在<CONT>水面附近。<DONE>"
+    },
+    "SwimmerfWendyBeatenText": {
+      "en": "Oh, dear…<DONE>",
+      "zh": "哎呀……<DONE>"
+    }
+  }
+}
