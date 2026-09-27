@@ -1,5 +1,34 @@
 # Pokémon Polished Crystal
 
+> ## 简体中文汉化版 / Chinese Translation
+>
+> 本仓库是 [Rangi42/polishedcrystal](https://github.com/Rangi42/polishedcrystal) 的**简体中文汉化版**，
+> 基于上游提交 `79db6f5` 制作。原作者为 **Rangi42**，原始项目基于
+> [pret/pokecrystal](https://github.com/pret/pokecrystal) 反汇编工程。
+> 本仓库仅在其之上添加中文支持，原作者的版权与授权保持不变。
+>
+> **构建**
+>
+> ```bash
+> make zh     # 中文 ROM：polishedcrystal-zh-3.2.3.gbc
+> make        # 英文原版（汉化改动完全隔离，不影响英文构建）
+> ```
+>
+> 需要 Python 3 与 RGBDS；中文字库由系统字体生成（`python tools/zh/zh.py gen-font`）。
+>
+> **翻译进度**：可译文本 **2016 条已全部译完** —— 地图剧本 1164、界面文本 237、
+> 通用文本 615。另有 48 条为占位符 / 界面格式串，没有自然语言内容，保持英文原样。
+>
+> **已知限制**：招式名、道具名、宝可梦名仍是英文。引擎采用 per-block 动态槽位字库
+> （VRAM 池仅 114 tile、24 槽），列表界面一屏显示多个中文名会超出槽位容量。
+> 技术路线与验证记录见 `docs/TRANSLATION_TOOLING.md` 的「已知缺口」。
+>
+> 汉化工具链与流程说明：`docs/TRANSLATION_TOOLING.md`、`docs/TRANSLATION_STYLE.md`。
+>
+> ---
+>
+> 以下是原作者 Rangi42 的 README 原文：
+
 This is a custom Pokémon game based on [the Pokémon Crystal disassembly](https://github.com/pret/pokecrystal).
 
 My goal is to create what the title says: an improved, polished version of Pokémon Crystal. It fixes bugs, takes into account the official game changes since 2001, and adds some new ideas of my own. Many features restore what was removed from R/B/Y, or original to HG/SS.
